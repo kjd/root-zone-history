@@ -1,11 +1,11 @@
-;File start: 9938
+;File start: 317
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005032301 ;serial
+				  2005033001 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -247,7 +247,6 @@ CD. NS DNS.DNSAFRICA.NET.
 CD. NS DNS.PRINCETON.EDU.
 CF. NS BOW.RAIN.FR.
 CF. NS BOW.INTNET.CF.
-CF. NS NS.RIPE.NET.
 CG. NS MUNNARI.OZ.AU.
 CG. NS SUNIC.SUNET.SE.
 CG. NS DNS.DNSAFRICA.NET.
@@ -1523,7 +1522,7 @@ CA06.CIRA.CA. A 192.228.30.9
 CA04.CIRA.CA. A 192.228.28.9
 CA01.CIRA.CA. A 192.228.21.9
 DNS.DNSAFRICA.NET. A 213.193.157.30
-BOW.INTNET.CF. A 194.206.73.253
+BOW.INTNET.CF. A 193.251.149.10
 DOMREG.NIC.CH. A 130.59.1.80
 DOMREG.NIC.CH. AAAA 2001:620:0:0:0:0:0:4
 TULKU.NIC.AR. A 200.16.97.77
@@ -2174,5 +2173,5 @@ F.GTLD.BIZ. A 209.173.58.66
 G.GTLD.BIZ. A 199.7.64.126
 H.GTLD.BIZ. A 199.7.77.126
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -9938
-;End of file: 2005032301
+;File end: -317
+;End of file: 2005033001
