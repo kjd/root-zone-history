@@ -1,11 +1,11 @@
-;File start: 43130
+;File start: 9938
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005031901 ;serial
+				  2005032301 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1296,6 +1296,11 @@ DK. NS LYNGBY.NS.DK-HOSTMASTER.DK.
 DK. NS AALBORG.NS.DK-HOSTMASTER.DK.
 BD. NS DNS.BD.
 BD. NS SLAVE.BTTB.NET.
+TL. NS PHLOEM.UOREGON.EDU.
+TL. NS SEC3.APNIC.NET.
+TL. NS NS-EXT.ISC.ORG.
+TL. NS SOA.NIC.TL.
+TL. NS NS.TP.TIMOR-LESTE.NET.NZ.
 ZM. NS HIPPO.RU.AC.ZA.
 ZM. NS NS1.ZAMNET.ZM.
 ZM. NS NS2.ZAMNET.ZM.
@@ -2143,6 +2148,8 @@ LYNGBY.NS.DK-HOSTMASTER.DK. A 192.38.7.242
 AALBORG.NS.DK-HOSTMASTER.DK. A 212.88.78.122
 DNS.BD. A 209.58.24.3
 SLAVE.BTTB.NET. A 203.112.194.243
+SOA.NIC.TL. A 202.72.107.142
+NS.TP.TIMOR-LESTE.NET.NZ. A 202.72.107.165
 NS1.ZAMNET.ZM. A 196.46.192.26
 NS2.ZAMNET.ZM. A 196.46.192.21
 NS1.MICROLINK.ZM. A 193.220.20.30
@@ -2167,5 +2174,5 @@ F.GTLD.BIZ. A 209.173.58.66
 G.GTLD.BIZ. A 199.7.64.126
 H.GTLD.BIZ. A 199.7.77.126
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -43130
-;End of file: 2005031901
+;File end: -9938
+;End of file: 2005032301
