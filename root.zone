@@ -1,11 +1,11 @@
-;File start: 30433
+;File start: 76710
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005040301 ;serial
+				  2005040901 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -330,9 +330,9 @@ CY. NS DNS.CIT.CORNELL.EDU.
 CY. NS ESTIA.ICS.FORTH.GR.
 CY. NS NIC.GRNET.GR.
 CY. NS FOO.GRNET.GR.
+CY. NS NS02.SAVVIS.NET.
 CY. NS CYNIC.DNS.CY.
 CY. NS NS2.CC.UCY.AC.CY.
-CY. NS NS2.CW.NET.
 CZ. NS NS2.NIC.FR.
 CZ. NS NS.RIPE.NET.
 CZ. NS SUNIC.SUNET.SE.
@@ -1583,9 +1583,9 @@ ZEUS.CC.UCY.AC.CY. A 194.42.1.1
 DNS.CIT.CORNELL.EDU. A 192.35.82.50
 NIC.GRNET.GR. A 194.177.210.210
 FOO.GRNET.GR. A 194.177.210.211
+NS02.SAVVIS.NET. A 204.70.57.242
 CYNIC.DNS.CY. A 194.42.29.1
 NS2.CC.UCY.AC.CY. A 194.42.1.5
-NS2.CW.NET. A 204.70.57.242
 NS2.NIC.FR. A 192.93.0.4
 NS.TLD.CZ. A 217.31.196.10
 NSS.TLD.CZ. A 217.31.200.10
@@ -2167,5 +2167,5 @@ F.GTLD.BIZ. A 209.173.58.66
 G.GTLD.BIZ. A 199.7.64.126
 H.GTLD.BIZ. A 199.7.77.126
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -30433
-;End of file: 2005040301
+;File end: -76710
+;End of file: 2005040901
