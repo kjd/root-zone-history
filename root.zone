@@ -1,11 +1,11 @@
-;File start: 60042
+;File start: 17050
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005042901 ;serial
+				  2005050501 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -411,8 +411,10 @@ FJ. NS RIP.PSG.COM.
 FJ. NS TERI.USP.AC.FJ.
 FJ. NS NS1.BERKELEY.EDU.
 FJ. NS MANU.USP.AC.FJ.
-FK. NS NS0.U-NET.NET.
-FK. NS NS1.U-NET.NET.
+FK. NS EURO-NS2.CW.NET.
+FK. NS EURO-NS1.CW.NET.
+FK. NS EURO-NS3.CW.NET.
+FK. NS NS.HORIZON.NET.FK.
 FM. NS NS2.GIP.NET.
 FM. NS NS3.GIP.NET.
 FM. NS NS1.GIP.NET.
@@ -1644,8 +1646,10 @@ TERI.USP.AC.FJ. A 144.120.8.1
 NS1.BERKELEY.EDU. A 128.32.136.9
 NS1.BERKELEY.EDU. A 128.32.206.9
 MANU.USP.AC.FJ. A 144.120.8.10
-NS0.U-NET.NET. A 194.119.128.65
-NS1.U-NET.NET. A 194.119.128.66
+EURO-NS2.CW.NET. A 212.80.175.2
+EURO-NS1.CW.NET. A 141.1.27.248
+EURO-NS3.CW.NET. A 141.1.27.251
+NS.HORIZON.NET.FK. A 195.248.193.250
 FM01.FM. A 206.49.89.2
 FM03.FM. A 206.49.89.4
 AUTH110.NS.UU.NET. A 198.6.1.114
@@ -2172,5 +2176,5 @@ F.GTLD.BIZ. A 209.173.58.66
 G.GTLD.BIZ. A 199.7.64.126
 H.GTLD.BIZ. A 199.7.77.126
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -60042
-;End of file: 2005042901
+;File end: -17050
+;End of file: 2005050501
