@@ -1,11 +1,11 @@
-;File start: 33373
+;File start: 98083
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005052001 ;serial
+				  2005052601 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -911,10 +911,10 @@ PE. NS ICHU.RCP.NET.PE.
 PE. NS NS.RIPE.NET.
 PF. NS NS1.MANA.PF.
 PF. NS NS2.MANA.PF.
-PG. NS JATZ.AARNET.EDU.AU.
 PG. NS MUNNARI.OZ.AU.
-PG. NS NS.EU.NET.
 PG. NS NS.UU.NET.
+PG. NS NS1.TIARE.NET.PG.
+PG. NS NS2.TIARE.NET.PG.
 PH. NS AUTH50.NS.UU.NET.
 PH. NS NS.RIPE.NET.
 PH. NS SEC3.APNIC.NET.
@@ -1949,7 +1949,8 @@ EKEKO.RCPIP.NET. A 209.45.127.2
 ICHU.RCP.NET.PE. A 161.132.5.14
 NS1.MANA.PF. A 202.3.225.10
 NS2.MANA.PF. A 202.3.225.20
-JATZ.AARNET.EDU.AU. A 139.130.204.4
+NS1.TIARE.NET.PG. A 202.165.192.23
+NS2.TIARE.NET.PG. A 202.165.192.24
 AUTH50.NS.UU.NET. A 198.6.1.161
 AUTH51.NS.UU.NET. A 198.6.1.162
 AUTH101.NS.UU.NET. A 198.6.1.210
@@ -2190,5 +2191,5 @@ F.GTLD.BIZ. A 209.173.58.66
 G.GTLD.BIZ. A 199.7.64.126
 H.GTLD.BIZ. A 199.7.77.126
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -33373
-;End of file: 2005052001
+;File end: -98083
+;End of file: 2005052601
