@@ -1,11 +1,11 @@
-;File start: 80390
+;File start: 33480
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005062301 ;serial
+				  2005062401 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1266,6 +1266,8 @@ NAME. NS M3.NSTLD.COM.
 NAME. NS K3.NSTLD.COM.
 COOP. NS NS1.NIC.COOP.
 COOP. NS NS2.NIC.COOP.
+COOP. NS NS3.NIC.COOP.
+COOP. NS NS4.NIC.COOP.
 AERO. NS MERAPI.SWITCH.CH.
 AERO. NS NS3.KNIPP.DE.
 AERO. NS DNS7.DENIC.DE.
@@ -2155,6 +2157,9 @@ F3.NSTLD.COM. A 192.35.51.32
 K3.NSTLD.COM. A 192.52.178.32
 NS1.NIC.COOP. A 198.133.199.106
 NS2.NIC.COOP. A 192.100.59.106
+NS3.NIC.COOP. A 199.7.66.106
+NS4.NIC.COOP. A 199.7.67.106
+NS4.NIC.COOP. AAAA 2001:502:100E:0:0:0:0:106
 NS3.KNIPP.DE. A 194.64.105.66
 DNS7.DENIC.DE. A 81.91.161.68
 TLD1.AERODNS.AERO. A 204.74.112.252
@@ -2204,5 +2209,5 @@ F.GTLD.BIZ. A 209.173.58.66
 G.GTLD.BIZ. A 199.7.64.126
 H.GTLD.BIZ. A 199.7.77.126
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -80390
-;End of file: 2005062301
+;File end: -33480
+;End of file: 2005062401
