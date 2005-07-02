@@ -1,11 +1,11 @@
-;File start: 49836
+;File start: 22402
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005070101 ;serial
+				  2005070201 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1175,10 +1175,11 @@ UY. NS SECIU.EDU.UY.
 UY. NS NS.UU.NET.
 UY. NS UUCP-GW-1.PA.DEC.COM.
 UY. NS UUCP-GW-2.PA.DEC.COM.
-UZ. NS NS.SPB.SU.
-UZ. NS NS.BCC.COM.UZ.
 UZ. NS NS.UZ.
 UZ. NS NS2.UZ.
+UZ. NS NS3.UZ.
+UZ. NS NS4.UZ.
+UZ. NS NS5.UZ.
 VA. NS DNS.NIC.IT.
 VA. NS DNS2.IT.NET.
 VA. NS DXMON.CERN.CH.
@@ -2115,10 +2116,11 @@ A.GTLD.BIZ. A 209.173.53.162
 B.GTLD.BIZ. A 209.173.57.162
 C.GTLD.BIZ. A 209.173.60.65
 SECIU.EDU.UY. A 164.73.128.5
-NS.BCC.COM.UZ. A 217.12.81.129
-NS.BCC.COM.UZ. A 62.16.68.1
-NS.UZ. A 217.9.39.82
-NS2.UZ. A 195.158.1.22
+NS.UZ. A 195.158.1.25
+NS2.UZ. A 81.95.224.158
+NS3.UZ. A 195.158.1.22
+NS4.UZ. A 62.40.9.242
+NS5.UZ. A 217.12.81.129
 DXMON.CERN.CH. A 192.65.185.10
 MICHAEL.VATICAN.VA. A 212.77.0.2
 JOHN.VATICAN.VA. A 212.77.0.110
@@ -2213,5 +2215,5 @@ F.GTLD.BIZ. A 209.173.58.66
 G.GTLD.BIZ. A 199.7.64.126
 H.GTLD.BIZ. A 199.7.77.126
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -49836
-;End of file: 2005070101
+;File end: -22402
+;End of file: 2005070201
