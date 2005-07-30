@@ -1,11 +1,11 @@
-;File start: 26440
+;File start: 9857
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005072901 ;serial
+				  2005073000 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -577,6 +577,8 @@ IN. NS UUCP-GW-2.PA.DEC.COM.
 IN. NS NS-EXT.VIX.COM.
 IN. NS SS585.NCST.ERNET.IN.
 IN. NS NAAMAK.NCST.ERNET.IN.
+IN. NS TLD1.ULTRADNS.NET.
+IN. NS TLD2.ULTRADNS.NET.
 INT. NS NS.ISI.EDU.
 INT. NS NS0.JA.NET.
 INT. NS NS1.CS.UCL.AC.UK.
@@ -1787,8 +1789,8 @@ ILDNS.HUJI.AC.IL. A 128.139.6.66
 NS-IL.RIPE.NET. A 193.0.12.108
 BARNEY.ADVSYS.CO.UK. A 217.23.160.50
 PEBBLES.IOM.COM. A 80.168.83.242
-SS585.NCST.ERNET.IN. A 202.141.150.18
-NAAMAK.NCST.ERNET.IN. A 202.41.110.66
+SS585.NCST.ERNET.IN. A 203.190.137.202
+NAAMAK.NCST.ERNET.IN. A 203.190.137.201
 NS.ISI.EDU. A 128.9.128.127
 NS.ICANN.ORG. A 192.0.34.126
 NS-SEC.RIPE.NET. A 193.0.0.196
@@ -2253,5 +2255,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -26440
-;End of file: 2005072901
+;File end: -9857
+;End of file: 2005073000
