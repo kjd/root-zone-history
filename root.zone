@@ -1,11 +1,11 @@
-;File start: 83807
+;File start: 22563
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005080901 ;serial
+				  2005081101 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -2018,7 +2018,6 @@ NS-PH.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:174
 AUTH51.NS.UU.NET. A 198.6.1.162
 AUTH101.NS.UU.NET. A 198.6.1.210
 NMS.CYF-KR.EDU.PL. A 149.156.1.3
-NMS.CYF-KR.EDU.PL. A 149.156.2.101
 NS3.IKP.PL. A 157.25.5.30
 DNS3.ATMAN.PL. A 217.17.34.50
 NS-PL.TPNET.PL. A 80.50.50.10
@@ -2277,5 +2276,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -83807
-;End of file: 2005080901
+;File end: -22563
+;End of file: 2005081101
