@@ -1,11 +1,11 @@
-;File start: 79008
+;File start: 41226
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005081701 ;serial
+				  2005081801 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1190,11 +1190,11 @@ UM. NS NS.UU.NET.
 US. NS A.GTLD.BIZ.
 US. NS B.GTLD.BIZ.
 US. NS C.GTLD.BIZ.
-UY. NS NS.RIPE.NET.
+UY. NS NS.DNS.BR.
 UY. NS SECIU.EDU.UY.
-UY. NS NS.UU.NET.
-UY. NS UUCP-GW-1.PA.DEC.COM.
-UY. NS UUCP-GW-2.PA.DEC.COM.
+UY. NS NS-EXT.ISC.ORG.
+UY. NS NS3.NIC.MX.
+UY. NS NS-UY.RIPE.NET.
 UZ. NS NS.UZ.
 UZ. NS NS2.UZ.
 UZ. NS NS3.UZ.
@@ -2190,6 +2190,7 @@ A.GTLD.BIZ. A 209.173.53.162
 B.GTLD.BIZ. A 209.173.57.162
 C.GTLD.BIZ. A 209.173.60.65
 SECIU.EDU.UY. A 164.73.128.5
+NS-UY.RIPE.NET. A 193.0.12.237
 NS.UZ. A 195.158.1.25
 NS2.UZ. A 81.95.224.158
 NS3.UZ. A 195.158.1.22
@@ -2298,5 +2299,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -79008
-;End of file: 2005081701
+;File end: -41226
+;End of file: 2005081801
