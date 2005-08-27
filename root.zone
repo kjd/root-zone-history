@@ -1,11 +1,11 @@
-;File start: 5455
+;File start: 77191
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005082601 ;serial
+				  2005082700 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -714,9 +714,11 @@ LU. NS MERAPI.SWITCH.CH.
 LU. NS SUNIC.SUNET.SE.
 LU. NS NS1.DNS.LU.
 LU. NS NS5.DNS.LU.
-LU. NS TLD1.ULTRADNS.NET.
-LU. NS TLD2.ULTRADNS.NET.
 LU. NS DNS.PRINCETON.EDU.
+LU. NS A.DNS.LU.
+LU. NS B.DNS.LU.
+LU. NS C.DNS.LU.
+LU. NS D.DNS.LU.
 LY. NS AUTH02.NS.UU.NET.
 LY. NS PHLOEM.UOREGON.EDU.
 LY. NS DNS.LTTNET.NET.
@@ -1917,6 +1919,12 @@ NS-LT.RIPE.NET. A 193.0.12.127
 NS3.OMNITEL.NET. A 194.176.32.147
 NS1.DNS.LU. A 158.64.229.2
 NS5.DNS.LU. A 81.91.161.74
+A.DNS.LU. AAAA 2001:502:D399:0:0:0:0:251
+A.DNS.LU. A 204.74.112.251
+B.DNS.LU. A 204.74.113.251
+C.DNS.LU. A 199.7.66.251
+D.DNS.LU. A 199.7.67.251
+D.DNS.LU. AAAA 2001:502:100E:0:0:0:0:251
 DNS.LTTNET.NET. A 62.240.36.9
 DNS1.LTTNET.NET. A 62.68.42.9
 NS-LY.RIPE.NET. A 193.0.12.125
@@ -2310,5 +2318,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -5455
-;End of file: 2005082601
+;File end: -77191
+;End of file: 2005082700
