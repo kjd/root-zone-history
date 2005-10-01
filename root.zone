@@ -1,11 +1,11 @@
-;File start: 5210
+;File start: 54026
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005093001 ;serial
+				  2005100100 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1148,8 +1148,6 @@ TT. NS DNS.NIC.TT.
 TT. NS UPR1.UPR.CLU.EDU.
 TT. NS NS1.PCH.NET.
 TT. NS ANYNS.PCH.NET.
-TV. NS NS1.NIC.TV.
-TV. NS NS2.NIC.TV.
 TV. NS L3.NSTLD.COM.
 TV. NS D3.NSTLD.COM.
 TV. NS A3.NSTLD.COM.
@@ -1157,8 +1155,6 @@ TV. NS E3.NSTLD.COM.
 TV. NS C3.NSTLD.COM.
 TV. NS G3.NSTLD.COM.
 TV. NS M3.NSTLD.COM.
-TV. NS J3.NSTLD.COM.
-TV. NS I3.NSTLD.COM.
 TV. NS H3.NSTLD.COM.
 TW. NS NS.TWNIC.NET.
 TW. NS B.DNS.TW.
@@ -2195,10 +2191,6 @@ NS2.NIC.TR. A 144.122.95.52
 NS4.NIC.TR. A 193.140.100.200
 DNS.NIC.TT. A 66.27.54.138
 NS1.PCH.NET. A 206.220.231.1
-NS1.NIC.TV. A 65.201.175.136
-NS2.NIC.TV. A 65.205.248.136
-J3.NSTLD.COM. A 192.48.79.32
-I3.NSTLD.COM. A 192.43.172.32
 NS.TWNIC.NET. A 192.83.166.11
 A.DNS.TW. AAAA 2001:CD8:800:0:0:0:0:8
 A.DNS.TW. A 203.73.24.8
@@ -2348,5 +2340,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -5210
-;End of file: 2005093001
+;File end: -54026
+;End of file: 2005100100
