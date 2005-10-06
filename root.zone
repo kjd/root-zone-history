@@ -1,11 +1,11 @@
-;File start: 57002
+;File start: 7033
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005100501 ;serial
+				  2005100600 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1216,6 +1216,12 @@ VA. NS JOHN.VATICAN.VA.
 VA. NS NS.URBE.IT.
 VC. NS NS1.VC.TUCOWS.NET.
 VC. NS NS2.VC.TUCOWS.NET.
+VC. NS TLD1.ULTRADNS.NET.
+VC. NS TLD2.ULTRADNS.NET.
+VC. NS TLD3.ULTRADNS.ORG.
+VC. NS TLD4.ULTRADNS.ORG.
+VC. NS TLD5.ULTRADNS.INFO.
+VC. NS TLD6.ULTRADNS.CO.UK.
 VE. NS DNS2.REACCIUN.VE.
 VE. NS AZMODAN.ULA.VE.
 VE. NS DNS.REACCIUN.VE.
@@ -2341,5 +2347,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -57002
-;End of file: 2005100501
+;File end: -7033
+;End of file: 2005100600
