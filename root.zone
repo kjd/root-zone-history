@@ -1,11 +1,11 @@
-;File start: 77355
+;File start: 43390
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005101300 ;serial
+				  2005101301 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1041,10 +1041,6 @@ SK. NS NS.INTERNET.SK.
 SK. NS NS1.SK-NIC.SK.
 SK. NS NS.SK-NIC.SK.
 SK. NS NS-SK.RIPE.NET.
-SL. NS NS1-AUTH.SPRINTLINK.NET.
-SL. NS NS3-AUTH.SPRINTLINK.NET.
-SL. NS NS2-AUTH.SPRINTLINK.NET.
-SL. NS SLNS0.SIERRATEL.SL.
 SL. NS FALCON.AFCOMNETWORK.NET.
 SL. NS CONDOR.AFCOMNETWORK.NET.
 SL. NS CROW.AFCOMNETWORK.NET.
@@ -2140,8 +2136,6 @@ NS.INTERNET.SK. A 192.108.130.34
 NS1.SK-NIC.SK. A 195.12.159.3
 NS.SK-NIC.SK. A 195.12.159.2
 NS-SK.RIPE.NET. A 193.0.12.200
-NS2-AUTH.SPRINTLINK.NET. A 144.228.254.10
-SLNS0.SIERRATEL.SL. A 199.0.92.5
 FALCON.AFCOMNETWORK.NET. A 64.110.3.5
 CONDOR.AFCOMNETWORK.NET. A 64.110.3.8
 CROW.AFCOMNETWORK.NET. A 209.190.16.226
@@ -2343,5 +2337,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -77355
-;End of file: 2005101300
+;File end: -43390
+;End of file: 2005101301
