@@ -1,11 +1,11 @@
-;File start: 90808
+;File start: 48725
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005102001 ;serial
+				  2005102100 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1332,8 +1332,8 @@ KW. NS NCC.MOC.KW.
 KW. NS DNS2.KW.
 AQ. NS FLAG.EP.NET.
 AQ. NS SLAVE1.STH.NETNOD.SE.
-AQ. NS NS1.2DAY.CO.NZ.
 AQ. NS NS-EXT.ISC.ORG.
+AQ. NS NS1.DNS.AQ.
 CK. NS CIRCA.MCS.VUW.AC.NZ.
 CK. NS DOWNSTAGE.MCS.VUW.AC.NZ.
 CK. NS PARAU.OYSTER.NET.CK.
@@ -2303,7 +2303,6 @@ H.GTLD.BIZ. A 199.7.77.126
 DNS1.KW. A 161.252.48.140
 NCC.MOC.KW. A 196.1.69.98
 DNS2.KW. A 161.252.48.150
-NS1.2DAY.CO.NZ. A 198.32.66.12
 CIRCA.MCS.VUW.AC.NZ. A 130.195.5.12
 DOWNSTAGE.MCS.VUW.AC.NZ. A 130.195.6.10
 PARAU.OYSTER.NET.CK. A 202.65.32.128
@@ -2343,5 +2342,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -90808
-;End of file: 2005102001
+;File end: -48725
+;End of file: 2005102100
