@@ -1,11 +1,11 @@
-;File start: 88492
+;File start: 27831
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005110400 ;serial
+				  2005110401 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1226,6 +1226,8 @@ VA. NS MICHAEL.VATICAN.VA.
 VA. NS NS.RIPE.NET.
 VA. NS JOHN.VATICAN.VA.
 VA. NS NS.URBE.IT.
+VA. NS SETH.NAMEX.IT.
+VA. NS OSIRIS.NAMEX.IT.
 VC. NS TLD1.ULTRADNS.NET.
 VC. NS TLD2.ULTRADNS.NET.
 VC. NS TLD3.ULTRADNS.ORG.
@@ -2263,6 +2265,8 @@ DXMON.CERN.CH. A 192.65.185.10
 MICHAEL.VATICAN.VA. A 212.77.0.2
 JOHN.VATICAN.VA. A 212.77.0.110
 NS.URBE.IT. A 193.43.128.2
+SETH.NAMEX.IT. A 193.201.40.7
+OSIRIS.NAMEX.IT. A 193.201.40.6
 DNS2.REACCIUN.VE. A 150.188.4.212
 AZMODAN.ULA.VE. A 150.185.130.16
 DNS.REACCIUN.VE. A 150.188.4.210
@@ -2362,5 +2366,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -88492
-;End of file: 2005110400
+;File end: -27831
+;End of file: 2005110401
