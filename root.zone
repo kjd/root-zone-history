@@ -1,11 +1,11 @@
-;File start: 91780
+;File start: 45594
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005112800 ;serial
+				  2005112801 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -707,7 +707,6 @@ LK. NS NS-LK.RIPE.NET.
 LR. NS HIPPO.RU.AC.ZA.
 LR. NS NS.RIPE.NET.
 LR. NS RIP.PSG.COM.
-LS. NS DAISY.EE.UND.AC.ZA.
 LS. NS HIPPO.RU.AC.ZA.
 LS. NS RAIN.PSG.COM.
 LT. NS HYDRA.HELSINKI.FI.
@@ -2364,5 +2363,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -91780
-;End of file: 2005112800
+;File end: -45594
+;End of file: 2005112801
