@@ -1,11 +1,11 @@
-;File start: 45594
+;File start: 35015
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005112801 ;serial
+				  2005112900 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1175,15 +1175,15 @@ TW. NS E.DNS.TW.
 TZ. NS RIP.PSG.COM.
 TZ. NS SUNIC.SUNET.SE.
 UA. NS NS2.NIC.FR.
-UA. NS MUNNARI.OZ.AU.
 UA. NS NS.LUCKY.NET.
-UA. NS NS.RIPE.NET.
 UA. NS SUNIC.SUNET.SE.
 UA. NS NS.UU.NET.
 UA. NS HE1.NS.NET.UA.
 UA. NS HO1.NS.NET.UA.
+UA. NS AUNIC.AUNIC.NET.
 UA. NS UD1.NS.NET.UA.
 UA. NS PCH.NS.NET.UA.
+UA. NS NS-UA.RIPE.NET.
 UG. NS NS.RIPE.NET.
 UG. NS NS.ICANN.ORG.
 UG. NS WEB.EAHD.OR.UG.
@@ -2229,6 +2229,7 @@ HE1.NS.NET.UA. A 216.218.215.27
 HO1.NS.NET.UA. A 195.47.253.1
 UD1.NS.NET.UA. A 204.74.112.1
 PCH.NS.NET.UA. A 204.61.216.12
+NS-UA.RIPE.NET. A 193.0.12.232
 WEB.EAHD.OR.UG. A 216.104.202.101
 DEMON.MTN.CO.UG. A 212.88.97.20
 NS.ONE2NET.CO.UG. A 81.199.88.10
@@ -2363,5 +2364,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -45594
-;End of file: 2005112801
+;File end: -35015
+;End of file: 2005112900
