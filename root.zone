@@ -1,11 +1,11 @@
-;File start: 23322
+;File start: 68098
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2005120200 ;serial
+				  2005120201 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -491,7 +491,6 @@ GOV. NS D.GOV.ZONEEDIT.COM.
 GOV. NS C.GOV.ZONEEDIT.COM.
 GOV. NS B.GOV.ZONEEDIT.COM.
 GOV. NS A.GOV.ZONEEDIT.COM.
-GP. NS MANTA.OUTREMER.COM.
 GP. NS MERAPI.SWITCH.CH.
 GP. NS NS.PIXAR.ES.
 GP. NS NS.RIPE.NET.
@@ -1802,7 +1801,6 @@ D.GOV.ZONEEDIT.COM. A 209.97.207.48
 C.GOV.ZONEEDIT.COM. A 69.72.142.35
 B.GOV.ZONEEDIT.COM. A 206.51.224.229
 A.GOV.ZONEEDIT.COM. A 216.55.155.29
-MANTA.OUTREMER.COM. A 213.16.1.106
 NS.PIXAR.ES. A 194.143.196.3
 NS1.NIC.GP. A 193.218.114.2
 NS1.ORANGECARAIBE.COM. A 193.251.160.222
@@ -2010,6 +2008,7 @@ UMACSN1.UMAC.MO. A 161.64.3.1
 NS3.UMAC.MO. A 161.64.7.3
 NS1.NIC.MP. A 202.128.29.2
 NS2.NIC.MP. A 202.128.29.135
+MANTA.OUTREMER.COM. A 213.16.1.106
 NS.UNIV-NKC.MR. A 82.151.64.1
 BOW.MAURITEL.MR. A 82.151.90.1
 NS-MS.RIPE.NET. A 193.0.12.148
@@ -2364,5 +2363,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -23322
-;End of file: 2005120200
+;File end: -68098
+;End of file: 2005120201
