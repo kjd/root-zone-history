@@ -1,11 +1,11 @@
-;File start: 58964
+;File start: 97667
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006010401 ;serial
+				  2006010500 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -181,7 +181,6 @@ BB. NS COL1.CARIBSURF.COM.
 BB. NS COL2.CARIBSURF.COM.
 BE. NS A.NS.DNS.BE.
 BE. NS BRUSSELS.NS.DNS.BE.
-BE. NS PARIS.NS.DNS.BE.
 BE. NS AMSTERDAM.NS.DNS.BE.
 BE. NS C.NS.DNS.BE.
 BE. NS LONDON.NS.DNS.BE.
@@ -1564,7 +1563,6 @@ COL2.CARIBSURF.COM. A 205.214.192.202
 A.NS.DNS.BE. A 193.109.126.140
 BRUSSELS.NS.DNS.BE. A 193.190.135.4
 BRUSSELS.NS.DNS.BE. AAAA 2001:6A8:3C60:0:0:0:0:BE
-PARIS.NS.DNS.BE. A 192.134.1.1
 AMSTERDAM.NS.DNS.BE. A 193.194.136.30
 C.NS.DNS.BE. A 195.22.139.135
 LONDON.NS.DNS.BE. A 195.66.241.90
@@ -2384,5 +2382,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -58964
-;End of file: 2006010401
+;File end: -97667
+;End of file: 2006010500
