@@ -1,11 +1,11 @@
-;File start: 5950
+;File start: 10398
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006020900 ;serial
+				  2006020901 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -186,6 +186,7 @@ BE. NS C.NS.DNS.BE.
 BE. NS LONDON.NS.DNS.BE.
 BE. NS MILANO.NS.DNS.BE.
 BE. NS B.NS.DNS.BE.
+BE. NS PRAGUE.NS.DNS.BE.
 BF. NS CASTOR.TELEGLOBE.NET.
 BF. NS NAHOURI.ONATEL.BF.
 BF. NS NS.IRD.FR.
@@ -352,6 +353,7 @@ CZ. NS NS-EXT.VIX.COM.
 CZ. NS NS.TLD.CZ.
 CZ. NS NSS.TLD.CZ.
 CZ. NS NS-CZ.RIPE.NET.
+CZ. NS NSL.TLD.CZ.
 DE. NS A.NIC.DE.
 DE. NS F.NIC.DE.
 DE. NS C.DE.NET.
@@ -1569,6 +1571,7 @@ C.NS.DNS.BE. A 195.22.139.135
 LONDON.NS.DNS.BE. A 195.66.241.90
 MILANO.NS.DNS.BE. A 217.29.76.10
 B.NS.DNS.BE. A 193.109.126.12
+PRAGUE.NS.DNS.BE. A 195.47.235.138
 CASTOR.TELEGLOBE.NET. A 199.202.55.2
 NAHOURI.ONATEL.BF. A 206.82.130.195
 NS.IRD.FR. A 195.83.14.1
@@ -1710,6 +1713,7 @@ NS.TLD.CZ. A 217.31.196.10
 NSS.TLD.CZ. A 217.31.200.10
 NS-CZ.RIPE.NET. A 193.0.12.60
 NS-CZ.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:60
+NSL.TLD.CZ. A 195.66.241.202
 A.NIC.DE. A 193.0.7.3
 F.NIC.DE. AAAA 2001:608:6:0:0:0:0:5
 F.NIC.DE. A 81.91.164.5
@@ -2387,5 +2391,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -5950
-;End of file: 2006020900
+;File end: -10398
+;End of file: 2006020901
