@@ -1,11 +1,11 @@
-;File start: 32030
+;File start: 75504
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006030601 ;serial
+				  2006030700 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1269,6 +1269,7 @@ VN. NS DNS-HCM02.VNNIC.NET.VN.
 VU. NS EFATE.VANUATU.COM.VU.
 VU. NS FUTUNA.VANUATU.COM.VU.
 VU. NS SANTO.VANUATU.COM.VU.
+VU. NS HAVANNAH.HARBOURMSP.COM.
 WF. NS A.EXT.NIC.FR.
 WF. NS C.NIC.FR.
 WF. NS A.NIC.FR.
@@ -2309,6 +2310,7 @@ DNS-HCM02.VNNIC.NET.VN. A 203.119.38.105
 EFATE.VANUATU.COM.VU. A 202.80.32.5
 FUTUNA.VANUATU.COM.VU. A 202.80.32.3
 SANTO.VANUATU.COM.VU. A 202.80.32.7
+HAVANNAH.HARBOURMSP.COM. A 203.111.102.146
 NS2.DNS.WS. A 216.35.187.250
 NS3.DNS.WS. A 216.52.234.99
 NS4.DNS.WS. A 216.52.234.102
@@ -2386,5 +2388,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -32030
-;End of file: 2006030601
+;File end: -75504
+;End of file: 2006030700
