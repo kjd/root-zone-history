@@ -1,11 +1,11 @@
-;File start: 11751
+;File start: 34555
 ; The use of the Data contained in Verisign Inc.' aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN	SOA	A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006032701 ;serial
+				  2006032800 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -824,6 +824,7 @@ MU. NS UDNS1.TLD.MU.
 MU. NS NS-MU.RIPE.NET.
 MV. NS NS.DHIVEHINET.NET.MV.
 MV. NS NS2.DHIVEHINET.NET.MV.
+MV. NS MV-NS.ANYCAST.PCH.NET.
 MW. NS RIP.PSG.COM.
 MW. NS SDNHQ.UNDP.ORG.
 MW. NS DOMWE.LELAND-MW.ORG.
@@ -2050,6 +2051,7 @@ UDNS1.TLD.MU. A 204.61.216.10
 NS-MU.RIPE.NET. A 193.0.12.140
 NS.DHIVEHINET.NET.MV. A 202.1.192.196
 NS2.DHIVEHINET.NET.MV. A 202.1.201.201
+MV-NS.ANYCAST.PCH.NET. A 204.61.216.24
 SDNHQ.UNDP.ORG. A 192.124.42.79
 DOMWE.LELAND-MW.ORG. A 62.192.142.226
 CHAMBO.SDNP.ORG.MW. A 196.45.188.5
@@ -2389,5 +2391,5 @@ A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
 C.GTLD.PRO. A 192.149.64.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. IN TXT "plenus"
-;File end: -11751
-;End of file: 2006032701
+;File end: -34555
+;End of file: 2006032800
