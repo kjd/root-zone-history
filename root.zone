@@ -1,11 +1,11 @@
-;File start: 75733
+;File start: 41593
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006041401 ;serial
+				  2006041501 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -264,11 +264,11 @@ CH. NS SEC3.APNIC.NET.
 CH. NS DNS.PRINCETON.EDU.
 CH. NS CH1.DNSNODE.NET.
 CI. NS PHLOEM.UOREGON.EDU.
-CI. NS NS.IRD.FR.
 CI. NS C.NIC.FR.
 CI. NS NS.NIC.CI.
 CI. NS NS1.NIC.CI.
 CI. NS NS-CI.RIPE.NET.
+CI. NS NS1.IRD.FR.
 CL. NS NS3.NIC.FR.
 CL. NS NS.NIC.CL.
 CL. NS SEC3.APNIC.NET.
@@ -751,10 +751,10 @@ MD. NS PRIMARY.ROTLD.RO.
 MD. NS NS-EXT.ISC.ORG.
 MD. NS CENTRAL.DNS.MD.
 MD. NS NS-MD.RIPE.NET.
-MG. NS NS.IRD.FR.
 MG. NS NS.NIC.MG.
 MG. NS ANTANA.IRD.MG.
 MG. NS NS-MG.RIPE.NET.
+MG. NS NS1.IRD.FR.
 MH. NS NS1.TOSA.TWTELECOM.NET.
 MH. NS INS2.TOSA.TWTELECOM.NET.
 MIL. NS A.ROOT-SERVERS.NET.
@@ -2394,8 +2394,9 @@ C.FI. A 128.214.4.29
 D.FI. A 192.36.144.116
 D.FI. AAAA 2001:698:9:302:0:0:0:53
 HAVANNAH.HARBOURMSP.COM. A 203.111.102.146
+NS1.IRD.FR. A 193.50.53.3
 MV-NS.ANYCAST.PCH.NET. A 204.61.216.24
 ENGINE3.UNA.AN. A 200.26.199.102
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD. TXT plenus
-;File end: -75733
-;End of file: 2006041401
+;File end: -41593
+;End of file: 2006041501
