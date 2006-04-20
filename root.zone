@@ -1,11 +1,11 @@
-;File start: 2046
+;File start: 24509
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006041901 ;serial
+				  2006042000 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1410,6 +1410,8 @@ EU. NS B.EU.DNS.BE.
 EU. NS A.EU.DNS.BE.
 EU. NS L.NIC.EU.
 EU. NS M.NIC.EU.
+EU. NS L.EU.DNS.BE.
+EU. NS P.NIC.EU.
 TRAVEL. NS A.GTLD.BIZ.
 TRAVEL. NS B.GTLD.BIZ.
 TRAVEL. NS C.GTLD.BIZ.
@@ -1891,7 +1893,7 @@ DNS.LTTNET.NET. A 62.240.36.9
 A.NS.DNS.BE. A 193.109.126.140
 EURO-NS3.CW.NET. A 141.1.27.251
 NEDNS1.NETEKA.NET. A 216.220.34.99
-NEDNS2.NETEKA.NET. A 216.220.62.165
+NEDNS2.NETEKA.NET. A 69.46.107.151
 NS1.SK-NIC.SK. A 195.12.159.3
 NS.SK-NIC.SK. A 195.12.159.2
 M3.NSTLD.COM. A 192.55.83.32
@@ -2397,6 +2399,8 @@ HAVANNAH.HARBOURMSP.COM. A 203.111.102.146
 NS1.IRD.FR. A 193.50.53.3
 MV-NS.ANYCAST.PCH.NET. A 204.61.216.24
 ENGINE3.UNA.AN. A 200.26.199.102
+L.EU.DNS.BE. A 193.2.221.60
+P.NIC.EU. A 195.47.235.130
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD. TXT plenus
-;File end: -2046
-;End of file: 2006041901
+;File end: -24509
+;End of file: 2006042000
