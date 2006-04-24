@@ -1,11 +1,11 @@
-;File start: 18977
+;File start: 19353
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006042400 ;serial
+				  2006042401 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -805,11 +805,11 @@ MS. NS SEC1.DNS.UK.PSI.NET.
 MS. NS SEC2.DNS.UK.PSI.NET.
 MS. NS EUTERPE.WILLIAM.ORG.
 MS. NS NS-MS.RIPE.NET.
-MT. NS NS.IUNET.IT.
 MT. NS NS.MT.
 MT. NS SUNIC.SUNET.SE.
 MT. NS NS.UU.NET.
 MT. NS NS1.MT.
+MT. NS NS-EXT.ISC.ORG.
 MT. NS NS-MT.RIPE.NET.
 MT. NS B.HOSTING.NIC.FR.
 MU. NS NS3.IAFRICA.COM.
@@ -1601,7 +1601,6 @@ A.DNS.KR. AAAA 2001:2B8:682:8:0:0:0:1
 NS1.GRANITECANYON.COM. A 205.166.226.38
 NS2.GRANITECANYON.COM. A 69.67.108.10
 NS.UNINET.EE. A 194.204.0.1
-NS.IUNET.IT. A 192.106.1.1
 NS1.NIC.IR. A 194.225.70.83
 NS.RIPE.NET. A 193.0.0.193
 NS.TWNIC.NET. A 192.83.166.11
@@ -2402,5 +2401,5 @@ ENGINE3.UNA.AN. A 200.26.199.102
 L.EU.DNS.BE. A 193.2.221.60
 P.NIC.EU. A 195.47.235.130
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD. TXT plenus
-;File end: -18977
-;End of file: 2006042400
+;File end: -19353
+;End of file: 2006042401
