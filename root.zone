@@ -1,11 +1,11 @@
-;File start: 13979
+;File start: 37563
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006042501 ;serial
+				  2006042600 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -534,13 +534,13 @@ HK. NS NS2.CUHK.EDU.HK.
 HK. NS B.DNS.TW.
 HK. NS SEC3.APNIC.NET.
 HK. NS TLD1.ULTRADNS.NET.
+HK. NS TLD2.ULTRADNS.NET.
 HK. NS ADNS1.BERKELEY.EDU.
 HK. NS ADNS2.BERKELEY.EDU.
 HK. NS NS1.HKIRC.NET.HK.
 HK. NS NS2.HKIRC.NET.HK.
-HK. NS TLD3.ULTRADNS.ORG.
+HK. NS TLD4.ULTRADNS.ORG.
 HK. NS TLD5.ULTRADNS.INFO.
-HK. NS TLD6.ULTRADNS.CO.UK.
 HK. NS NS-HK.RIPE.NET.
 HM. NS NS1.REGISTRY.HM.
 HM. NS NS2.REGISTRY.HM.
@@ -2401,5 +2401,5 @@ ENGINE3.UNA.AN. A 200.26.199.102
 L.EU.DNS.BE. A 193.2.221.60
 P.NIC.EU. A 195.47.235.130
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD. TXT plenus
-;File end: -13979
-;End of file: 2006042501
+;File end: -37563
+;End of file: 2006042600
