@@ -1,11 +1,11 @@
-;File start: 71515
+;File start: 19527
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006051700 ;serial
+				  2006051701 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -2027,8 +2027,8 @@ NS4.NIC.UK. AAAA 2001:630:181:35:0:0:0:83
 NS3.NIC.UK. A 213.219.13.131
 F.NS.SE. A 192.36.125.53
 F.NS.SE. AAAA 2001:6B0:7:0:0:0:0:53
-G.NS.SE. A 130.242.94.18
-G.NS.SE. AAAA 2001:6B0:8:1:0:0:0:53
+G.NS.SE. A 130.242.94.19
+G.NS.SE. AAAA 2001:6B0:7:53:0:0:0:53
 H.NS.SE. A 199.7.49.30
 D.NS.SE. A 81.228.11.57
 E.NS.SE. A 81.228.10.57
@@ -2172,6 +2172,7 @@ DNS.INRIA.FR. A 193.51.208.13
 LYNGBY.NS.DK-HOSTMASTER.DK. A 192.38.7.242
 AALBORG.NS.DK-HOSTMASTER.DK. A 212.88.78.122
 GOLOMB.UPRR.PR. A 196.42.6.11
+GOLOMB.UPRR.PR. AAAA 2001:468:1300:101:0:0:0:20
 NS.NIC.CI. A 213.136.100.81
 NS1.NIC.CI. A 213.136.106.214
 L.DE.NET. A 217.51.137.213
@@ -2406,5 +2407,5 @@ L.EU.DNS.BE. A 193.2.221.60
 P.NIC.EU. A 195.47.235.130
 TRITON.OPT.NC. A 202.87.129.60
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -71515
-;End of file: 2006051700
+;File end: -19527
+;End of file: 2006051701
