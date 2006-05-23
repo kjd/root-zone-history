@@ -1,11 +1,11 @@
-;File start: 36646
+;File start: 96858
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006052300 ;serial
+				  2006052301 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -157,9 +157,11 @@ AU. NS NS.UU.NET.
 AU. NS MUWAYA.UCS.UNIMELB.EDU.AU.
 AU. NS SEC1.APNIC.NET.
 AU. NS SEC3.APNIC.NET.
+AU. NS DNS1.TELSTRA.NET.
 AU. NS ADNS1.BERKELEY.EDU.
 AU. NS ADNS2.BERKELEY.EDU.
 AU. NS AUNIC.AUNIC.NET.
+AU. NS AUDNS.OPTUS.NET.
 AW. NS NS1.SETARNET.AW.
 AW. NS NS2.SETARNET.AW.
 AW. NS NS3.DOMAIN-REGISTRY.NL.
@@ -1963,6 +1965,7 @@ SECONDARY.ROTLD.RO. A 193.230.31.225
 DNS-RO.DENIC.DE. A 81.91.161.76
 M.DNS.IT. A 217.29.76.4
 C.NS.SE. A 192.36.135.107
+DNS1.TELSTRA.NET. A 203.50.5.200
 NS7.DNS.NET.NZ. A 202.27.158.34
 NS6.DNS.NET.NZ. A 204.74.113.253
 NS5.DNS.NET.NZ. A 204.74.112.253
@@ -2406,6 +2409,7 @@ ENGINE3.UNA.AN. A 200.26.199.102
 L.EU.DNS.BE. A 193.2.221.60
 P.NIC.EU. A 195.47.235.130
 TRITON.OPT.NC. A 202.87.129.60
+AUDNS.OPTUS.NET. A 211.29.133.32
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -36646
-;End of file: 2006052300
+;File end: -96858
+;End of file: 2006052301
