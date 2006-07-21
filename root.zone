@@ -1,11 +1,11 @@
-;File start: 42214
+;File start: 47758
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006072001 ;serial
+				  2006072100 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1118,9 +1118,9 @@ SV. NS AUTH02.NS.UU.NET.
 SV. NS NS.DNS.BR.
 SV. NS CIR.RED.SV.
 SV. NS NS.CR.
-SV. NS NS.RIPE.NET.
 SV. NS NS.UU.NET.
 SV. NS NS.TELEFONICA-CA.NET.
+SV. NS NS-SV.RIPE.NET.
 SY. NS CASTOR.TELEGLOBE.NET.
 SY. NS POLLUX.TELEGLOBE.NET.
 SY. NS DNS1.NET.SY.
@@ -2448,6 +2448,7 @@ TLD.CAFE.TG. A 80.248.64.20
 NS1.AUTH.IANA.ORG. A 192.0.34.126
 NS3.AALNET.NET. A 82.199.186.130
 NS1.IPGRADE.COM. A 66.162.64.184
+NS-SV.RIPE.NET. A 193.0.12.67
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -42214
-;End of file: 2006072001
+;File end: -47758
+;End of file: 2006072100
