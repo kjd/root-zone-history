@@ -1,11 +1,11 @@
-;File start: 21071
+;File start: 65492
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006091901 ;serial
+				  2006092000 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -837,7 +837,7 @@ MT. NS NS-EXT.ISC.ORG.
 MT. NS NS-MT.RIPE.NET.
 MT. NS B.HOSTING.NIC.FR.
 MU. NS NS3.IAFRICA.COM.
-MU. NS NS1.TLD.MU.
+MU. NS NS1.CX-NIC.ORG.
 MU. NS UDNS1.TLD.MU.
 MU. NS NS-MU.RIPE.NET.
 MV. NS NS.DHIVEHINET.NET.MV.
@@ -2038,7 +2038,6 @@ SSS-US2.NIC.AT. A 206.65.170.101
 SSS-JP.NIC.AT. A 210.81.13.181
 ADNS1.BERKELEY.EDU. A 128.32.136.3
 ADNS2.BERKELEY.EDU. A 128.32.136.14
-NS1.TLD.MU. A 65.39.144.110
 NASANS4.NASA.GOV. A 198.116.144.33
 NS1.HKIRC.NET.HK. A 203.119.2.18
 NS1.GTT.CO.GY. A 208.130.114.18
@@ -2482,5 +2481,5 @@ NS-JM.RIPE.NET. A 193.0.12.110
 NS-VI.RIPE.NET. A 193.0.12.243
 HOPPY.IOM.COM. A 217.23.163.140
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -21071
-;End of file: 2006091901
+;File end: -65492
+;End of file: 2006092000
