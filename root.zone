@@ -1,11 +1,11 @@
-;File start: 28362
+;File start: 58503
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006092701 ;serial
+				  2006092800 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -2044,7 +2044,7 @@ ADNS2.BERKELEY.EDU. A 128.32.136.14
 NASANS4.NASA.GOV. A 198.116.144.33
 NS1.HKIRC.NET.HK. A 203.119.2.18
 NS1.GTT.CO.GY. A 190.80.0.41
-NS2.GTT.CO.GY. A 208.130.114.17
+NS2.GTT.CO.GY. A 190.80.0.42
 UDNS1.TLD.MU. A 204.61.216.10
 NS4.NIC.UK. A 194.83.244.131
 NS4.NIC.UK. AAAA 2001:630:181:35:0:0:0:83
@@ -2200,7 +2200,7 @@ GOLOMB.UPRR.PR. A 196.42.6.11
 GOLOMB.UPRR.PR. AAAA 2001:468:1300:101:0:0:0:20
 NS.NIC.CI. A 213.136.100.81
 NS1.NIC.CI. A 213.136.106.214
-L.DE.NET. A 217.51.137.213
+L.DE.NET. A 89.213.253.189
 S.DE.NET. A 193.159.170.149
 NS.ANYCAST.NIC.AF. A 204.61.216.13
 NS-LY.RIPE.NET. A 193.0.12.125
@@ -2485,5 +2485,5 @@ NS-JM.RIPE.NET. A 193.0.12.110
 NS-VI.RIPE.NET. A 193.0.12.243
 HOPPY.IOM.COM. A 217.23.163.140
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -28362
-;End of file: 2006092701
+;File end: -58503
+;End of file: 2006092800
