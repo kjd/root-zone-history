@@ -1,11 +1,11 @@
-;File start: 75051
+;File start: 43240
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006110301 ;serial
+				  2006110400 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1185,12 +1185,12 @@ TP. NS AUTH01.CONNECT.IE.
 TP. NS UUCP-GW-1.PA.DEC.COM.
 TP. NS UUCP-GW-2.PA.DEC.COM.
 TP. NS NS3.NS.ESAT.NET.
-TR. NS NS.RIPE.NET.
 TR. NS NS3.NIC.TR.
 TR. NS NS1.NIC.TR.
 TR. NS NS2.NIC.TR.
 TR. NS NS4.NIC.TR.
 TR. NS NS5.NIC.TR.
+TR. NS NS-TR.RIPE.NET.
 TT. NS DNS.NIC.TT.
 TT. NS UPR1.UPR.CLU.EDU.
 TT. NS NS1.PCH.NET.
@@ -2110,7 +2110,7 @@ GRNS-HER.ICS.FORTH.GR. A 139.91.248.1
 UD1.NS.NET.UA. A 204.74.112.1
 E.DNS.TW. A 211.79.207.26
 NS7.NIC.UK. A 212.121.40.130
-NS3.NIC.TR. A 81.8.4.10
+NS3.NIC.TR. A 213.248.162.131
 SLAVE.BTTB.NET. A 203.112.194.243
 CYNIC.DNS.CY. A 194.42.29.1
 NS2.CC.UCY.AC.CY. A 194.42.1.5
@@ -2479,6 +2479,7 @@ B.NIC.DK. A 193.163.102.2
 A.NIC.DK. A 212.88.78.122
 C.NIC.DK. A 198.173.5.4
 L.NIC.DK. A 192.38.7.242
+NS-TR.RIPE.NET. A 193.0.12.227
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -75051
-;End of file: 2006110301
+;File end: -43240
+;End of file: 2006110400
