@@ -1,11 +1,11 @@
-;File start: 13451
+;File start: 17039
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006111601 ;serial
+				  2006111700 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1433,7 +1433,6 @@ TL. NS PHLOEM.UOREGON.EDU.
 TL. NS SEC3.APNIC.NET.
 TL. NS NS-EXT.ISC.ORG.
 TL. NS SOA.NIC.TL.
-TL. NS NS.TP.TIMOR-LESTE.NET.NZ.
 TL. NS NS.ANYCAST.NIC.TL.
 EU. NS B.EU.DNS.BE.
 EU. NS A.EU.DNS.BE.
@@ -2212,7 +2211,6 @@ H.GTLD.BIZ. A 199.7.77.126
 H.GTLD.BIZ. AAAA 2001:503:8028:FFFF:FFFF:FFFF:FFFF:FF7E
 NS3.CURA.NET. A 200.26.226.6
 SOA.NIC.TL. A 202.72.107.142
-NS.TP.TIMOR-LESTE.NET.NZ. A 202.72.107.165
 NS-MD.RIPE.NET. A 193.0.12.144
 NS-TO.RIPE.NET. A 193.0.12.224
 NS-IS.RIPE.NET. A 193.0.12.102
@@ -2481,5 +2479,5 @@ L.NIC.DK. A 192.38.7.242
 NS-TR.RIPE.NET. A 193.0.12.227
 E.NS.NIC.CZ. A 194.146.105.38
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -13451
-;End of file: 2006111601
+;File end: -17039
+;End of file: 2006111700
