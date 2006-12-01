@@ -1,11 +1,11 @@
-;File start: 59191
+;File start: 83639
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006113001 ;serial
+				  2006120100 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -186,7 +186,7 @@ BE. NS B.NS.DNS.BE.
 BE. NS PRAGUE.NS.DNS.BE.
 BF. NS CASTOR.TELEGLOBE.NET.
 BF. NS NAHOURI.ONATEL.BF.
-BF. NS NS.IRD.FR.
+BF. NS NS1.IRD.FR.
 BG. NS AUTH01.NS.UU.NET.
 BG. NS NS.DIGSYS.BG.
 BG. NS NS2.DIGSYS.BG.
@@ -1681,7 +1681,7 @@ NS.ATI.TN. AAAA 2001:970:1:1:0:0:0:10
 NS2.UNDP.ORG. A 192.124.42.15
 OCEANO.UEM.MZ. A 196.3.96.69
 ODISEJ.TELEKOM.YU. A 195.178.32.2
-NAHOURI.ONATEL.BF. A 206.82.130.195
+NAHOURI.ONATEL.BF. A 206.82.130.196
 AUTH01.CONNECT.IE. A 213.228.227.50
 OSI2.GUA.NET. A 205.161.188.3
 NS.PA. A 168.77.8.2
@@ -1778,7 +1778,6 @@ EUR2.NIPR.MIL. A 199.252.143.234
 PAC1.NIPR.MIL. A 199.252.180.234
 PAC2.NIPR.MIL. A 199.252.155.234
 NS.EENET.EE. A 193.40.56.245
-NS.IRD.FR. A 195.83.14.1
 NS1.MANA.PF. A 202.3.225.10
 NS2.MANA.PF. A 202.3.225.20
 NS3.NS.ESAT.NET. A 192.111.39.100
@@ -2481,5 +2480,5 @@ NS-TR.RIPE.NET. A 193.0.12.227
 E.NS.NIC.CZ. A 194.146.105.38
 B.DNS.LT. A 81.16.239.150
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -59191
-;End of file: 2006113001
+;File end: -83639
+;End of file: 2006120100
