@@ -1,11 +1,11 @@
-;File start: 87419
+;File start: 49095
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006120800 ;serial
+				  2006120801 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -74,6 +74,7 @@ AC. NS B.NIC.IO.
 AC. NS A.NIC.AC.
 AD. NS DINIS.AD.
 AD. NS DNS2.AD.
+AD. NS NS3.NIC.FR.
 AD. NS VIVALDI.TELEPAC.PT.
 AD. NS DNS3.AD.
 AD. NS DNS4.AD.
@@ -648,7 +649,7 @@ JE. NS SEC1.DNS.UK.PSI.NET.
 JE. NS UUCP-GW-1.PA.DEC.COM.
 JE. NS UUCP-GW-2.PA.DEC.COM.
 JE. NS NS2.DNS.NET.NZ.
-JE. NS RS.CHANNELISLES.NET.
+JE. NS A.CI-SERVERS.NET.
 JM. NS NS.JM.
 JM. NS PHLOEM.UOREGON.EDU.
 JM. NS NS.UTECHJAMAICA.EDU.JM.
@@ -1922,7 +1923,6 @@ K3.NSTLD.COM. A 192.52.178.32
 NS2.JP.IO. A 210.146.53.19
 SEC1.APNIC.NET. A 202.12.29.59
 SERVER1.PUCMM.EDU.DO. A 66.98.65.147
-RS.CHANNELISLES.NET. A 212.100.224.90
 NS5.UNIVIE.AC.AT. A 193.171.255.77
 NS1.MT. A 193.188.34.241
 NS3.JARING.MY. A 161.142.227.17
@@ -2481,5 +2481,5 @@ E.NS.NIC.CZ. A 194.146.105.38
 B.DNS.LT. A 81.16.239.150
 A.CI-SERVERS.NET. A 87.117.200.21
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -87419
-;End of file: 2006120800
+;File end: -49095
+;End of file: 2006120801
