@@ -1,11 +1,11 @@
-;File start: 70699
+;File start: 94908
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2006121200 ;serial
+				  2006121201 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1595,7 +1595,7 @@ MICHAEL.VATICAN.VA. A 212.77.0.2
 ASKIA.SOTELMA.ML. A 217.64.98.67
 NCC.MOC.KW. A 196.1.69.98
 MUNNARI.OZ.AU. A 202.12.74.196
-NAC.NO. A 129.240.2.40
+NAC.NO. A 128.39.2.22
 NIC.ICOM.ORG. A 195.7.65.253
 NS.NIC.DO. A 66.98.65.146
 NS1.NIC.UK. A 195.66.240.130
@@ -1689,7 +1689,7 @@ OSI2.GUA.NET. A 205.161.188.3
 NS.PA. A 168.77.8.2
 PARABOL.TAIDE.NET. A 193.219.193.135
 PARAU.OYSTER.NET.CK. A 202.65.32.128
-PASCAL.UPRR.PR. A 136.145.251.60
+PASCAL.UPRR.PR. A 134.202.0.120
 NS2.CUHK.EDU.HK. A 137.189.6.21
 PEBBLES.IOM.COM. A 80.168.83.242
 PETRA.NIC.GOV.JO. A 193.188.66.2
@@ -2039,8 +2039,8 @@ NS4.NIC.UK. AAAA 2001:630:181:35:0:0:0:83
 NS3.NIC.UK. A 213.219.13.131
 F.NS.SE. A 192.36.125.53
 F.NS.SE. AAAA 2001:6B0:7:0:0:0:0:53
-G.NS.SE. A 130.242.94.19
-G.NS.SE. AAAA 2001:6B0:7:53:0:0:0:53
+G.NS.SE. A 130.239.5.114
+G.NS.SE. AAAA 2001:6B0:E:3:0:0:0:1
 H.NS.SE. A 199.7.49.30
 D.NS.SE. A 81.228.11.57
 E.NS.SE. A 81.228.10.57
@@ -2481,5 +2481,5 @@ E.NS.NIC.CZ. A 194.146.105.38
 B.DNS.LT. A 81.16.239.150
 A.CI-SERVERS.NET. A 87.117.200.21
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -70699
-;End of file: 2006121200
+;File end: -94908
+;End of file: 2006121201
