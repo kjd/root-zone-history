@@ -1,11 +1,11 @@
-;File start: 33038
+;File start: 96090
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2007011200 ;serial
+				  2007011201 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -249,6 +249,7 @@ BZ. NS NEDNS2.NETEKA.NET.
 BZ. NS NEDNS3.NETEKA.NET.
 CA. NS CA05.CIRA.CA.
 CA. NS NS-EXT.ISC.ORG.
+CA. NS CA03.CIRA.CA.
 CA. NS CA02.CIRA.CA.
 CA. NS CA06.CIRA.CA.
 CA. NS CA04.CIRA.CA.
@@ -2049,6 +2050,7 @@ DNS1.CENPAC.NET.NR. A 203.98.225.9
 NS1.COPPERNET.ZM. A 62.56.216.9
 NS.UT.EE. A 193.40.5.99
 NS5.NIC.UK. A 213.246.167.131
+CA03.CIRA.CA. A 192.228.25.45
 CA02.CIRA.CA. A 192.0.34.140
 A.DNS.JP. A 203.119.1.1
 A.DNS.JP. AAAA 2001:DC4:0:0:0:0:0:1
@@ -2482,5 +2484,5 @@ A.CI-SERVERS.NET. A 87.117.200.21
 NS3.MAGIC.MN. A 202.131.224.80
 NS-AD.RIPE.NET. A 193.0.12.6
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -33038
-;End of file: 2007011200
+;File end: -96090
+;End of file: 2007011201
