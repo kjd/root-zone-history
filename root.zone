@@ -1,11 +1,11 @@
-;File start: 945
+;File start: 64834
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2007020500 ;serial
+				  2007020501 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1565,6 +1565,7 @@ HIPPO.RU.AC.ZA. A 146.231.128.1
 NS2.UNIVIE.AC.AT. A 192.92.125.2
 NS2.UNIVIE.AC.AT. AAAA 2001:628:453:4302:0:0:0:53
 NS.NIC.HU. A 193.239.148.62
+NS.NIC.HU. AAAA 2001:738:4:8000:0:0:0:62
 HYDRA.HELSINKI.FI. A 128.214.4.29
 ICHU.RCP.NET.PE. A 161.132.5.14
 NS1.ID. A 202.155.30.227
@@ -1819,7 +1820,7 @@ ANTANA.IRD.MG. A 62.173.234.150
 D.GTLD-SERVERS.NET. A 192.31.80.30
 SHIKHAR.MOS.COM.NP. A 202.52.255.5
 NS1.DNS.NET.NZ. A 202.46.190.130
-NS2.DOMAIN-REGISTRY.NL. A 193.176.144.130
+NS2.DOMAIN-REGISTRY.NL. A 213.154.241.28
 CHARLES.CDEC.POLYMTL.CA. A 132.207.144.2
 NS2.MAGIC.MN. A 202.131.0.11
 KYNSE01.MESSAGESECURE.COM. A 63.251.131.146
@@ -2487,5 +2488,5 @@ DNS3.NIC.EC. A 200.1.6.51
 A.NIC.CL. A 200.1.121.10
 CL1.DNSNODE.NET. A 194.146.106.34
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -945
-;End of file: 2007020500
+;File end: -64834
+;End of file: 2007020501
