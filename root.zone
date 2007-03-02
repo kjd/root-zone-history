@@ -1,11 +1,11 @@
-;File start: 95632
+;File start: 18301
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2007030101 ;serial
+				  2007030200 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1489,6 +1489,16 @@ CAT. NS DNS-CAT.PCH.NET.
 AX. NS NS1.AALNET.NET.
 AX. NS NS2.AALNET.NET.
 AX. NS NS3.AALNET.NET.
+TEL. NS A.NIC.TEL.
+TEL. NS B.NIC.TEL.
+TEL. NS C.NIC.TEL.
+TEL. NS D.NIC.TEL.
+TEL. NS E.NIC.TEL.
+TEL. NS F.NIC.TEL.
+TEL. NS G.NIC.TEL.
+TEL. NS H.NIC.TEL.
+TEL. NS I.NIC.TEL.
+TEL. NS J.NIC.TEL.
 GRDNS.ICS.FORTH.GR. A 139.91.1.1
 ATHEA.AR. A 200.16.98.2
 AUSTIN.GH.COM. A 196.3.64.1
@@ -2508,6 +2518,18 @@ NS6.UZ. A 83.69.129.4
 DO-DNS.NIC.PR. A 134.202.1.121
 COPENHAGEN.NIC.FO. A 193.163.102.12
 FRANKFURT.NIC.FO. A 81.91.161.88
+A.NIC.TEL. A 194.146.106.38
+B.NIC.TEL. A 192.36.144.116
+C.NIC.TEL. A 209.173.53.162
+D.NIC.TEL. A 209.173.57.162
+E.NIC.TEL. A 209.173.60.65
+F.NIC.TEL. A 213.86.51.129
+G.NIC.TEL. A 209.173.58.65
+H.NIC.TEL. A 209.173.58.66
+I.NIC.TEL. A 199.7.64.126
+I.NIC.TEL. AAAA 2001:503:7BBB:FFFF:FFFF:FFFF:FFFF:FF7E
+J.NIC.TEL. A 199.7.77.126
+J.NIC.TEL. AAAA 2001:503:8028:FFFF:FFFF:FFFF:FFFF:FF7E
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -95632
-;End of file: 2007030101
+;File end: -18301
+;End of file: 2007030200
