@@ -1,11 +1,11 @@
-;File start: 60931
+;File start: 75669
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2007052301 ;serial
+				  2007052601 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -777,9 +777,9 @@ MD. NS NS-EXT.ISC.ORG.
 MD. NS CENTRAL.DNS.MD.
 MD. NS NS-MD.RIPE.NET.
 MG. NS NS.NIC.MG.
-MG. NS ANTANA.IRD.MG.
 MG. NS NS-MG.RIPE.NET.
 MG. NS NS1.IRD.FR.
+MG. NS NS.DTS.MG.
 MH. NS NS1.TOSA.TWTELECOM.NET.
 MH. NS INS2.TOSA.TWTELECOM.NET.
 MIL. NS CON1.NIPR.MIL.
@@ -1838,8 +1838,7 @@ NSGT1.NEWCOM-NS.NET. A 200.30.144.4
 NS1.RELCOM.RU. A 193.125.152.3
 B.GTLD-SERVERS.NET. A 192.33.14.30
 B.GTLD-SERVERS.NET. AAAA 2001:503:231D:0:0:0:2:30
-NS.NIC.MG. A 62.173.234.149
-ANTANA.IRD.MG. A 62.173.234.150
+NS.NIC.MG. A 196.192.42.153
 D.GTLD-SERVERS.NET. A 192.31.80.30
 SHIKHAR.MOS.COM.NP. A 202.52.255.5
 NS1.DNS.NET.NZ. A 202.46.190.130
@@ -2548,6 +2547,7 @@ CHC1.ADAMSNAMES.COM. A 195.153.6.27
 QEW1.ADAMSNAMES.COM. A 82.68.90.198
 BCN1.ADAMSNAMES.COM. A 217.147.94.75
 NS1.COMMUNITYDNS.NET. A 194.0.1.1
+NS.DTS.MG. A 196.192.32.2
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -60931
-;End of file: 2007052301
+;File end: -75669
+;End of file: 2007052601
