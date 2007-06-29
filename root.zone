@@ -1,11 +1,11 @@
-;File start: 29953
+;File start: 90596
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2007062201 ;serial
+				  2007062901 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1038,7 +1038,6 @@ RW. NS SUNIC.SUNET.SE.
 RW. NS DNS.DNSAFRICA.NET.
 RW. NS DNS.PRINCETON.EDU.
 SA. NS NS1.ISU.NET.SA.
-SA. NS NS.NIXU.NET.
 SA. NS RIP.PSG.COM.
 SA. NS NS1.NIC.NET.SA.
 SA. NS NS2.NIC.NET.SA.
@@ -1699,7 +1698,6 @@ NS1.NF. A 203.12.249.100
 NS3.CUHK.EDU.HK. A 202.45.188.19
 NS1.OFFSHORE.AI. A 209.88.68.34
 NS.CNC.UNA.PY. A 200.10.228.132
-NS.NIXU.NET. A 193.209.237.29
 NS.ONLINE.EE. A 194.106.96.21
 NS.ATI.TN. A 193.95.66.10
 NS.ATI.TN. AAAA 2001:970:1:1:0:0:0:10
@@ -2553,5 +2551,5 @@ NS3.NIC.GW. A 193.171.255.35
 NS.DNSSERVER.AG. A 66.223.51.173
 LS-NS.ANYCAST.PCH.NET. A 204.61.216.28
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -29953
-;End of file: 2007062201
+;File end: -90596
+;End of file: 2007062901
