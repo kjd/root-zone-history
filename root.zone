@@ -1,11 +1,11 @@
-;File start: 48744
+;File start: 60132
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2007071101 ;serial
+				  2007071201 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -351,7 +351,7 @@ CY. NS CYNIC.DNS.CY.
 CY. NS NS2.CC.UCY.AC.CY.
 CZ. NS C.NS.NIC.CZ.
 CZ. NS E.NS.NIC.CZ.
-CZ. NS F.NS.CZNIC.CZ.
+CZ. NS F.NS.NIC.CZ.
 CZ. NS A.NS.NIC.CZ.
 CZ. NS B.NS.NIC.CZ.
 CZ. NS D.NS.NIC.CZ.
@@ -2516,8 +2516,8 @@ J.NIC.TEL. AAAA 2001:503:8028:FFFF:FFFF:FFFF:FFFF:FF7E
 AD.NS.NIC.ES. A 194.69.254.15
 NS-ET.RIPE.NET. A 193.0.12.71
 NS-CR.RIPE.NET. A 193.0.12.55
-F.NS.CZNIC.CZ. A 193.171.255.48
-F.NS.CZNIC.CZ. AAAA 2001:628:453:420:0:0:0:48
+F.NS.NIC.CZ. A 193.171.255.48
+F.NS.NIC.CZ. AAAA 2001:628:453:420:0:0:0:48
 I.NIC.NO. A 194.146.106.6
 I.GTLD.BIZ. A 156.154.96.126
 I.GTLD.BIZ. AAAA 2001:503:D1AE:FFFF:FFFF:FFFF:FFFF:FF7E
@@ -2551,5 +2551,5 @@ NS3.NIC.GW. A 193.171.255.35
 NS.DNSSERVER.AG. A 66.223.51.173
 LS-NS.ANYCAST.PCH.NET. A 204.61.216.28
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -48744
-;End of file: 2007071101
+;File end: -60132
+;End of file: 2007071201
