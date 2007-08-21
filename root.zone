@@ -1,11 +1,11 @@
-;File start: 82885
+;File start: 18569
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2007080501 ;serial
+				  2007082101 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1449,13 +1449,12 @@ EU. NS L.NIC.EU.
 EU. NS M.NIC.EU.
 EU. NS L.EU.DNS.BE.
 EU. NS P.NIC.EU.
-TRAVEL. NS A.GTLD.BIZ.
-TRAVEL. NS C.GTLD.BIZ.
-TRAVEL. NS E.GTLD.BIZ.
 TRAVEL. NS TLD1.ULTRADNS.NET.
 TRAVEL. NS TLD2.ULTRADNS.NET.
-TRAVEL. NS G.GTLD.BIZ.
-TRAVEL. NS H.GTLD.BIZ.
+TRAVEL. NS TLD3.ULTRADNS.ORG.
+TRAVEL. NS TLD4.ULTRADNS.ORG.
+TRAVEL. NS TLD5.ULTRADNS.INFO.
+TRAVEL. NS TLD6.ULTRADNS.CO.UK.
 JOBS. NS L3.NSTLD.COM.
 JOBS. NS D3.NSTLD.COM.
 JOBS. NS A3.NSTLD.COM.
@@ -2548,5 +2547,5 @@ GOLOMB.NIC.PR. A 134.202.6.100
 ATHENA.OPT.NC. A 202.87.129.35
 HEPHAISTOS.OPT.NC. A 202.87.129.34
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -82885
-;End of file: 2007080501
+;File end: -18569
+;End of file: 2007082101
