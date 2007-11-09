@@ -1,11 +1,11 @@
-;File start: 34512
+;File start: 23449
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2007110801 ;serial
+				  2007110901 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1056,6 +1056,11 @@ SB. NS NS2.AUSREGISTRY.NET.
 SB. NS NS3.AUSREGISTRY.NET.
 SB. NS NS4.AUSREGISTRY.NET.
 SB. NS NS5.AUSREGISTRY.NET.
+SB. NS DNS1.TELEKOM.NET.SB.
+SB. NS SB-NS.ANYCAST.PCH.NET.
+SB. NS NS5.COMMUNITYDNS.NET.
+SB. NS DNS3.SB.COCCA.ORG.AU.
+SB. NS SB1.DYNTLD.NET.
 SC. NS TLD1.ULTRADNS.NET.
 SC. NS TLD2.ULTRADNS.NET.
 SC. NS NS1.NIC.SC.
@@ -2659,6 +2664,11 @@ H-DNS.PL. A 194.0.1.2
 RS-NS.ANYCAST.PCH.NET. A 204.61.216.32
 CI.HOSTING.NIC.FR. A 192.134.0.49
 CI.HOSTING.NIC.FR. AAAA 2001:660:3006:1:0:0:1:1
+DNS1.TELEKOM.NET.SB. A 202.1.169.15
+SB-NS.ANYCAST.PCH.NET. A 204.61.216.31
+NS5.COMMUNITYDNS.NET. A 194.0.1.5
+DNS3.SB.COCCA.ORG.AU. A 203.119.12.243
+SB1.DYNTLD.NET. A 208.78.70.83
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -34512
-;End of file: 2007110801
+;File end: -23449
+;End of file: 2007110901
