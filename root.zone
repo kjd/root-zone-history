@@ -1,11 +1,11 @@
-;File start: 69957
+;File start: 62853
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2007120701 ;serial
+				  2007121801 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1137,6 +1137,8 @@ SY. NS CASTOR.TELEGLOBE.NET.
 SY. NS POLLUX.TELEGLOBE.NET.
 SY. NS DNS1.NET.SY.
 SY. NS DNS2.NET.SY.
+SY. NS NS1.PDN.SY.
+SY. NS NS2.PDN.SY.
 SZ. NS NS.RIPE.NET.
 SZ. NS RIP.PSG.COM.
 SZ. NS DNS.SISPA.ORG.SZ.
@@ -2006,7 +2008,7 @@ NS9.UNIVIE.AC.AT. A 192.76.243.2
 NS3.DOMAIN-REGISTRY.NL. A 193.176.144.6
 SEC3.APNIC.NET. A 202.12.28.140
 SEC3.APNIC.NET. AAAA 2001:DC0:1:0:4777:0:0:140
-A.FI. A 193.229.4.44
+A.FI. A 193.166.4.1
 NS1.NIC.MP. A 202.128.29.2
 NS2.NIC.MP. A 202.128.29.135
 DNS3.EQUANT.NET. A 204.59.152.207
@@ -2661,6 +2663,8 @@ NS-NL.NIC.FR. A 192.93.0.4
 NS-NL.NIC.FR. AAAA 2001:660:3005:1:0:0:1:2
 NS4.NIC.NL. A 62.4.86.232
 A.TLD.LT. A 193.219.32.13
+NS1.PDN.SY. A 82.137.192.141
+NS2.PDN.SY. A 82.137.192.142
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -69957
-;End of file: 2007120701
+;File end: -62853
+;End of file: 2007121801
