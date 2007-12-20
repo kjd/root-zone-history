@@ -1,11 +1,11 @@
-;File start: 62853
+;File start: 32065
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2007121801 ;serial
+				  2007122001 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -167,6 +167,7 @@ AU. NS ADNS1.BERKELEY.EDU.
 AU. NS ADNS2.BERKELEY.EDU.
 AU. NS AUNIC.AUNIC.NET.
 AU. NS AUDNS.OPTUS.NET.
+AU. NS NS1.AUDNS.NET.AU.
 AW. NS NS1.SETARNET.AW.
 AW. NS NS2.SETARNET.AW.
 AW. NS NS3.DOMAIN-REGISTRY.NL.
@@ -2592,7 +2593,7 @@ B.NS.NIC.CZ. A 217.31.205.188
 B.NS.NIC.CZ. AAAA 2001:1488:DADA:184:0:0:0:188
 D.NS.NIC.CZ. A 193.29.206.1
 D.NS.NIC.CZ. AAAA 2001:678:1:0:0:0:0:1
-NS1.NIC.GW. A 81.91.161.6
+NS1.NIC.GW. A 81.91.170.10
 NS1.NIC.GW. AAAA 2001:608:6:0:0:0:0:3
 NS2.NIC.GW. A 87.233.175.20
 NS3.NIC.GW. A 193.171.255.35
@@ -2665,6 +2666,7 @@ NS4.NIC.NL. A 62.4.86.232
 A.TLD.LT. A 193.219.32.13
 NS1.PDN.SY. A 82.137.192.141
 NS2.PDN.SY. A 82.137.192.142
+NS1.AUDNS.NET.AU. A 58.65.255.73
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -62853
-;End of file: 2007121801
+;File end: -32065
+;End of file: 2007122001
