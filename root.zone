@@ -1,11 +1,11 @@
-;File start: 88327
+;File start: 62694
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008011101 ;serial
+				  2008011401 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -261,7 +261,7 @@ CA. NS CA02.CIRA.CA.
 CA. NS CA06.CIRA.CA.
 CA. NS CA04.CIRA.CA.
 CA. NS CA01.CIRA.CA.
-CA. NS TLD3.ULTRADNS.NET.
+CA. NS TLD3.ULTRADNS.ORG.
 CD. NS SUNIC.SUNET.SE.
 CD. NS DNS.DNSAFRICA.NET.
 CD. NS DNS.PRINCETON.EDU.
@@ -2670,7 +2670,6 @@ A.TLD.LT. A 193.219.32.13
 NS1.PDN.SY. A 82.137.192.141
 NS2.PDN.SY. A 82.137.192.142
 NS1.AUDNS.NET.AU. A 58.65.255.73
-TLD3.ULTRADNS.NET. A 199.7.66.1
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -88327
-;End of file: 2008011101
+;File end: -62694
+;End of file: 2008011401
