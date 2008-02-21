@@ -1,11 +1,11 @@
-;File start: 53802
+;File start: 39069
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008022000 ;serial
+				  2008022100 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1889,7 +1889,7 @@ NS5.DNS.LU. A 81.91.161.100
 NS.UZ. A 195.158.1.25
 NS.TOJIKISTON.COM. A 193.111.11.2
 F.NIC.DE. A 81.91.164.5
-F.NIC.DE. AAAA 2001:608:6:0:0:0:0:5
+F.NIC.DE. AAAA 2001:608:6:6:0:0:0:10
 NSGT1.NEWCOM-NS.NET. A 200.30.144.4
 NS1.RELCOM.RU. A 193.125.152.3
 B.GTLD-SERVERS.NET. A 192.33.14.30
@@ -2261,7 +2261,7 @@ NS2.CENTRALNIC.NET. A 72.3.240.16
 NS.NIC.CI. A 213.136.100.81
 NS1.NIC.CI. A 213.136.106.214
 L.DE.NET. A 89.213.253.189
-S.DE.NET. A 193.159.170.149
+S.DE.NET. A 195.243.137.26
 NS.ANYCAST.NIC.AF. A 204.61.216.13
 NS-LY.RIPE.NET. A 193.0.12.125
 A.DNS.BR. A 200.160.0.10
@@ -2683,5 +2683,5 @@ NSZ2.NIC.LV. A 92.240.64.2
 NS1.BARBADOSDOMAINS.NET. A 200.50.92.195
 NS2.BARBADOSDOMAINS.NET. A 205.244.149.107
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -53802
-;End of file: 2008022000
+;File end: -39069
+;End of file: 2008022100
