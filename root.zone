@@ -1,11 +1,11 @@
-;File start: 53333
+;File start: 32006
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008031401 ;serial
+				  2008031500 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -2702,5 +2702,5 @@ MARINGO.VANUATU.COM.VU. A 125.255.96.208
 NS-MY.NIC.FR. A 192.134.0.49
 NS-MY.NIC.FR. AAAA 2001:660:3006:1:0:0:1:1
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.ROOT. TXT plenus
-;File end: -53333
-;End of file: 2008031401
+;File end: -32006
+;End of file: 2008031500
