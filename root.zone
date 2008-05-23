@@ -1,11 +1,11 @@
-;File start: 2355
+;File start: 16930
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008052201 ;serial
+				  2008052301 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -2729,5 +2729,5 @@ KYNSE03.PERIMETERUSA.COM. A 216.54.168.28
 KYNSW03.PERIMETERUSA.COM. A 165.212.160.17
 K.DNS.LU. A 194.0.1.13
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -2355
-;End of file: 2008052201
+;File end: -16930
+;End of file: 2008052301
