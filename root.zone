@@ -1,11 +1,11 @@
-;File start: 90963
+;File start: 32840
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008062501 ;serial
+				  2008062600 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1420,13 +1420,11 @@ DK. NS A.NIC.DK.
 DK. NS C.NIC.DK.
 DK. NS L.NIC.DK.
 DK. NS P.NIC.DK.
-RO. NS SUNIC.SUNET.SE.
 RO. NS NS.UU.NET.
 RO. NS NS-EXT.VIX.COM.
 RO. NS PRIMARY.ROTLD.RO.
 RO. NS SECONDARY.ROTLD.RO.
 RO. NS DNS-RO.DENIC.DE.
-RO. NS NS-RO.RIPE.NET.
 RO. NS DNS-AT.ROTLD.RO.
 CC. NS L5.NSTLD.COM.
 CC. NS A5.NSTLD.COM.
@@ -2390,7 +2388,6 @@ NS-NP.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:154
 NP-NS.ANYCAST.PCH.NET. A 204.61.216.11
 NS-VN.RIPE.NET. A 193.0.12.241
 DNS-HCM02.VNNIC.NET.VN. A 203.119.38.105
-NS-RO.RIPE.NET. A 193.0.12.181
 A.DNS.LU. AAAA 2001:502:D399:0:0:0:0:251
 A.DNS.LU. A 204.74.112.251
 B.DNS.LU. A 204.74.113.251
@@ -2728,5 +2725,5 @@ NS2.NEOIP.COM. A 66.162.64.185
 NS-COM.NIC.HU. A 194.0.1.12
 NS-SE.NIC.HU. A 77.72.229.251
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -90963
-;End of file: 2008062501
+;File end: -32840
+;End of file: 2008062600
