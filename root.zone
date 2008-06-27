@@ -1,11 +1,11 @@
-;File start: 17793
+;File start: 1433
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008062700 ;serial
+				  2008062701 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -593,10 +593,10 @@ HN. NS TLD4.ULTRADNS.ORG.
 HN. NS TLD5.ULTRADNS.INFO.
 HN. NS TLD6.ULTRADNS.CO.UK.
 HR. NS DNS.SRCE.HR.
-HR. NS SUNIC.SUNET.SE.
 HR. NS NS.UU.NET.
 HR. NS NS-EXT.VIX.COM.
 HR. NS NS5.UNIVIE.AC.AT.
+HR. NS N3NS.NIC.ES.
 HT. NS NS3.NIC.FR.
 HT. NS CHARLES.CDEC.POLYMTL.CA.
 HT. NS NS1.NIC.HT.
@@ -2700,6 +2700,7 @@ V.NIC.EU. A 204.74.113.247
 W.NIC.EU. A 199.7.66.247
 E.FI. A 194.0.1.14
 P.NIC.DK. A 204.61.216.36
+N3NS.NIC.ES. A 194.69.254.42
 J.NIC.AT. A 194.146.106.50
 B0.INFO.AFILIAS-NST.ORG. A 199.254.48.1
 B0.INFO.AFILIAS-NST.ORG. AAAA 2001:500:1A:0:0:0:0:1
@@ -2725,5 +2726,5 @@ NS2.NEOIP.COM. A 66.162.64.185
 NS-COM.NIC.HU. A 194.0.1.12
 NS-SE.NIC.HU. A 77.72.229.251
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -17793
-;End of file: 2008062700
+;File end: -1433
+;End of file: 2008062701
