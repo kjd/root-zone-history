@@ -1,11 +1,11 @@
-;File start: 50790
+;File start: 85322
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008071000 ;serial
+				  2008071001 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -2750,5 +2750,5 @@ C0.ASIA.AFILIAS-NST.INFO. AAAA 2001:500:17:0:0:0:0:1
 D0.ASIA.AFILIAS-NST.ASIA. A 199.254.30.1
 D0.ASIA.AFILIAS-NST.ASIA. AAAA 2001:500:18:0:0:0:0:1
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -50790
-;End of file: 2008071000
+;File end: -85322
+;End of file: 2008071001
