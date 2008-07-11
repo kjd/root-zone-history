@@ -1,11 +1,11 @@
-;File start: 85322
+;File start: 60556
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008071001 ;serial
+				  2008071100 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -602,6 +602,7 @@ HT. NS CHARLES.CDEC.POLYMTL.CA.
 HT. NS NS1.NIC.HT.
 HT. NS NS2.NIC.HT.
 HT. NS DNS.PRINCETON.EDU.
+HT. NS HT-NS.ANYCAST.PCH.NET.
 HU. NS NS.NIC.HU.
 HU. NS NS2.NIC.FR.
 HU. NS NS1.NIC.HU.
@@ -2749,6 +2750,7 @@ C0.ASIA.AFILIAS-NST.INFO. A 199.254.29.1
 C0.ASIA.AFILIAS-NST.INFO. AAAA 2001:500:17:0:0:0:0:1
 D0.ASIA.AFILIAS-NST.ASIA. A 199.254.30.1
 D0.ASIA.AFILIAS-NST.ASIA. AAAA 2001:500:18:0:0:0:0:1
+HT-NS.ANYCAST.PCH.NET. A 204.61.216.38
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -85322
-;End of file: 2008071001
+;File end: -60556
+;End of file: 2008071100
