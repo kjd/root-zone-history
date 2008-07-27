@@ -1,11 +1,11 @@
-;File start: 90150
+;File start: 49801
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008072601 ;serial
+				  2008072700 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -96,10 +96,12 @@ AD. NS NS-EXT.ISC.ORG.
 AD. NS NS-AD.RIPE.NET.
 AD. NS AD.NS.NIC.ES.
 AE. NS SEC3.APNIC.NET.
-AE. NS NS2.UAENIC.AE.
-AE. NS NS1.UAENIC.AE.
 AE. NS NS-EXT.ISC.ORG.
 AE. NS NS-AE.RIPE.NET.
+AE. NS NS1.AUSREGISTRY.NET.AU.
+AE. NS NS2.AUSREGISTRY.NET.AU.
+AE. NS NS1.AEDNS.AE.
+AE. NS NS2.AEDNS.AE.
 AF. NS NS3.NIC.FR.
 AF. NS NS.UNDP.ORG.
 AF. NS NS2.UNDP.ORG.
@@ -2604,6 +2606,8 @@ NS1.NIC.RS. A 147.91.8.6
 NS1.NIC.ME. A 89.188.44.44
 NS-RS.RIPE.NET. A 193.0.12.184
 NS4.BTC.BW. A 168.167.253.20
+NS1.AUSREGISTRY.NET.AU. A 202.65.12.73
+NS2.AUSREGISTRY.NET.AU. A 202.65.13.73
 A0.ORG.AFILIAS-NST.INFO. A 199.19.56.1
 A0.ORG.AFILIAS-NST.INFO. AAAA 2001:500:E:0:0:0:0:1
 B0.ORG.AFILIAS-NST.ORG. A 199.19.54.1
@@ -2749,6 +2753,8 @@ DCA.TLD.GDNS.NET. A 198.65.143.254
 LHR.TLD.GDNS.NET. A 213.130.50.78
 G.EXT.NIC.FR. A 204.61.216.39
 X.DNS.BE. A 194.0.1.10
+NS1.AEDNS.AE. A 79.98.120.73
+NS2.AEDNS.AE. A 79.98.121.73
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -90150
-;End of file: 2008072601
+;File end: -49801
+;End of file: 2008072700
