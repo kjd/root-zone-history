@@ -1,11 +1,11 @@
-;File start: 74501
+;File start: 73778
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008080700 ;serial
+				  2008080800 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1154,9 +1154,9 @@ SR. NS NS2.SR.NET.
 SR. NS NS1.SR.NET.
 SU. NS AUTH60.NS.UU.NET.
 SU. NS NS.RIPN.NET.
-SU. NS NS.SPB.SU.
 SU. NS NS2.RIPN.NET.
 SU. NS NS5.MSK-IX.NET.
+SU. NS NS9.RIPN.NET.
 SV. NS AUTH02.NS.UU.NET.
 SV. NS NS.DNS.BR.
 SV. NS CIR.RED.SV.
@@ -1742,7 +1742,6 @@ NS2.GIP.NET. A 204.59.1.222
 NS3.GIP.NET. A 204.59.64.222
 NS.NI. A 165.98.1.2
 NS.TMX.COM.NI. A 200.62.64.1
-NS.SPB.SU. A 193.124.83.69
 NS1.BTC.BW. A 168.167.168.34
 NS.UCAD.SN. A 196.1.95.1
 NS.ITU.CH. A 156.106.192.121
@@ -2686,6 +2685,7 @@ U.NIC.EU. A 204.74.112.247
 V.NIC.EU. A 204.74.113.247
 W.NIC.EU. A 199.7.66.247
 E.FI. A 194.0.1.14
+E.FI. AAAA 2001:678:4:0:0:0:0:E
 P.NIC.DK. A 204.61.216.36
 N3NS.NIC.ES. A 194.69.254.42
 J.NIC.AT. A 194.146.106.50
@@ -2746,5 +2746,5 @@ NS1.AEDNS.AE. A 79.98.120.73
 NS2.AEDNS.AE. A 79.98.121.73
 PYTHON.OPT.NC. A 202.87.129.43
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -74501
-;End of file: 2008080700
+;File end: -73778
+;End of file: 2008080800
