@@ -1,11 +1,11 @@
-;File start: 68244
+;File start: 54247
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008081100 ;serial
+				  2008081101 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -460,9 +460,6 @@ FM. NS TLD3.ULTRADNS.ORG.
 FM. NS TLD4.ULTRADNS.ORG.
 FM. NS TLD5.ULTRADNS.INFO.
 FM. NS TLD6.ULTRADNS.CO.UK.
-FM. NS FM01.MAIL.FM.
-FM. NS FM03.MAIL.FM.
-FM. NS FM07.MAIL.FM.
 FO. NS COPENHAGEN.NIC.FO.
 FO. NS FRANKFURT.NIC.FO.
 FR. NS C.NIC.FR.
@@ -2492,8 +2489,6 @@ NS3.ARNES.EU. AAAA 2001:660:3005:1:0:0:1:2
 NS2.ARNES.SI. A 193.2.1.91
 NS.REGISTER.BG. A 192.92.129.99
 NS-BG.RIPE.NET. A 193.0.12.34
-FM01.MAIL.FM. A 206.49.89.2
-FM03.MAIL.FM. A 206.49.89.4
 A9.INFO.AFILIAS-NST.INFO. AAAA 2001:502:D399:0:0:0:0:3
 A9.INFO.AFILIAS-NST.INFO. A 204.74.112.33
 A9.MN.AFILIAS-NST.INFO. AAAA 2001:502:D399:0:0:0:0:45
@@ -2744,7 +2739,6 @@ X.DNS.BE. A 194.0.1.10
 NS1.AEDNS.AE. A 79.98.120.73
 NS2.AEDNS.AE. A 79.98.121.73
 PYTHON.OPT.NC. A 202.87.129.43
-FM07.MAIL.FM. A 206.49.89.10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -68244
-;End of file: 2008081100
+;File end: -54247
+;End of file: 2008081101
