@@ -1,11 +1,11 @@
-;File start: 54247
+;File start: 18361
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008081101 ;serial
+				  2008081200 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -325,7 +325,6 @@ CN. NS E.DNS.CN.
 CO. NS SAELL.CC.COLUMBIA.EDU.
 CO. NS CDCNET.UNIANDES.EDU.CO.
 CO. NS AYAX.UNIANDES.EDU.CO.
-CO. NS CMCL2.NYU.EDU.
 CO. NS MINTAKA.UNIANDES.EDU.CO.
 CO. NS KENSHIN.UNIANDES.EDU.CO.
 COM. NS A.GTLD-SERVERS.NET.
@@ -1924,7 +1923,6 @@ J.GTLD-SERVERS.NET. A 192.48.79.30
 K.GTLD-SERVERS.NET. A 192.52.178.30
 E.GTLD-SERVERS.NET. A 192.12.94.30
 M.GTLD-SERVERS.NET. A 192.55.83.30
-CMCL2.NYU.EDU. A 128.122.253.92
 DNS1.GOV.PS. A 213.244.82.147
 SLAVE1.STH.NETNOD.SE. A 192.36.144.116
 CCTLD.TIX.CH. A 194.42.48.120
@@ -2740,5 +2738,5 @@ NS1.AEDNS.AE. A 79.98.120.73
 NS2.AEDNS.AE. A 79.98.121.73
 PYTHON.OPT.NC. A 202.87.129.43
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -54247
-;End of file: 2008081101
+;File end: -18361
+;End of file: 2008081200
