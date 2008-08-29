@@ -1,11 +1,11 @@
-;File start: 22153
+;File start: 95845
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008082801 ;serial
+				  2008082900 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -72,7 +72,7 @@ EU. NS P.NIC.EU.
 EU. NS A.NIC.EU.
 EU. NS U.NIC.EU.
 EU. NS V.NIC.EU.
-EU. NS W.NIC.EU.
+EU. NS X.NIC.EU.
 BY. NS NS2.FREE.NET.
 BY. NS ARWENA.NASK.WAW.PL.
 BY. NS DNS.BELPAK.BY.
@@ -2668,7 +2668,6 @@ D0.CCTLD.AFILIAS-NST.ORG. AAAA 2001:500:28:0:0:0:0:1
 U.NIC.EU. AAAA 2001:502:D399:0:0:0:0:247
 U.NIC.EU. A 204.74.112.247
 V.NIC.EU. A 204.74.113.247
-W.NIC.EU. A 199.7.66.247
 E.FI. A 194.0.1.14
 E.FI. AAAA 2001:678:4:0:0:0:0:E
 P.NIC.DK. A 204.61.216.36
@@ -2741,6 +2740,7 @@ A1.IN.AFILIAS-NST.IN. A 203.119.49.201
 B1.IN.AFILIAS-NST.IN. A 220.226.205.253
 NS1.NIC.CO. A 157.253.99.15
 NS2.NIC.CO. A 157.253.99.16
+X.NIC.EU. A 194.0.1.19
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -22153
-;End of file: 2008082801
+;File end: -95845
+;End of file: 2008082900
