@@ -1,11 +1,11 @@
-;File start: 21680
+;File start: 27135
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008091001 ;serial
+				  2008091100 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -743,7 +743,6 @@ LA. NS NS5.CENTRALNIC.NET.
 LA. NS NS6.CENTRALNIC.NET.
 LB. NS RIP.PSG.COM.
 LB. NS SUNIC.SUNET.SE.
-LB. NS ARIZONA.EDU.
 LB. NS ZEINA.AUB.EDU.LB.
 LB. NS NS1.DNS.AQ.
 LC. NS DNS.SERVER.AG.
@@ -1794,7 +1793,6 @@ SECIU.EDU.UY. A 164.73.128.5
 NS1.GIP.NET. A 204.59.144.222
 SUN.REDIRIS.ES. A 130.206.1.2
 SUNIC.SUNET.SE. A 192.36.125.2
-ARIZONA.EDU. A 128.196.128.233
 TERI.USP.AC.FJ. A 144.120.8.1
 TGSERV.TELE.GL. A 194.177.224.7
 NS.THNIC.NET. A 202.28.0.1
@@ -2195,7 +2193,7 @@ A.NIC.SH. A 64.251.31.178
 NS1.PNINA.PS. A 194.6.225.20
 E.DNS.KR. AAAA 2001:DCC:5:0:0:0:0:100
 E.DNS.KR. A 202.30.124.100
-G.GOV.ZONEEDIT.COM. A 66.135.32.100
+G.GOV.ZONEEDIT.COM. A 76.74.254.208
 F.GOV.ZONEEDIT.COM. A 66.197.185.229
 E.GOV.ZONEEDIT.COM. A 82.165.40.134
 D.GOV.ZONEEDIT.COM. A 209.97.207.48
@@ -2745,5 +2743,5 @@ UMACSS3.UMAC.MO. A 161.64.7.3
 DSANY.SGNIC.SG. A 194.0.1.16
 DSANY.SGNIC.SG. AAAA 2001:678:4:0:0:0:0:10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -21680
-;End of file: 2008091001
+;File end: -27135
+;End of file: 2008091100
