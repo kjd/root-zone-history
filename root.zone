@@ -1,11 +1,11 @@
-;File start: 47426
+;File start: 69158
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008091501 ;serial
+				  2008091600 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1393,8 +1393,9 @@ LV. NS NS-LV.RIPE.NET.
 LV. NS NSZ.NIC.LV.
 LV. NS NSZ2.NIC.LV.
 KW. NS DNS1.KW.
-KW. NS NCC.MOC.KW.
 KW. NS DNS2.KW.
+KW. NS DNS3.KW.
+KW. NS DNS1.KEMS.NET.
 AQ. NS FLAG.EP.NET.
 AQ. NS SLAVE1.STH.NETNOD.SE.
 AQ. NS NS-EXT.ISC.ORG.
@@ -1690,7 +1691,6 @@ MERAPI.SWITCH.CH. AAAA 2001:620:0:0:0:0:0:5
 MERCURY.ML.ORG. A 209.68.0.85
 MICHAEL.VATICAN.VA. A 212.77.0.2
 ASKIA.SOTELMA.ML. A 217.64.98.67
-NCC.MOC.KW. A 196.1.69.98
 MUNNARI.OZ.AU. A 202.12.74.196
 NAC.NO. A 128.39.2.22
 NIC.ICOM.ORG. A 195.7.65.253
@@ -2747,6 +2747,8 @@ DSANY.SGNIC.SG. AAAA 2001:678:4:0:0:0:0:10
 NS-SA.RIPE.NET. A 193.0.12.193
 NS-SA.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:193
 SA-NS.ANYCAST.PCH.NET. A 204.61.216.41
+DNS3.KW. A 161.252.48.145
+DNS1.KEMS.NET. A 196.1.69.98
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -47426
-;End of file: 2008091501
+;File end: -69158
+;End of file: 2008091600
