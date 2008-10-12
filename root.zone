@@ -1,11 +1,11 @@
-;File start: 59127
+;File start: 24880
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008101101 ;serial
+				  2008101200 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -694,6 +694,7 @@ JP. NS D.DNS.JP.
 JP. NS E.DNS.JP.
 JP. NS A.DNS.JP.
 JP. NS B.DNS.JP.
+JP. NS C.DNS.JP.
 KE. NS MZIZI.KENIC.OR.KE.
 KE. NS NS.ANYCAST.KENIC.OR.KE.
 KE. NS NS1.COZA.NET.ZA.
@@ -852,6 +853,8 @@ MO. NS UMACSS2.UMAC.MO.
 MO. NS UMACSS3.UMAC.MO.
 MP. NS NS1.NIC.MP.
 MP. NS NS2.NIC.MP.
+MP. NS NS3.NIC.MP.
+MP. NS NS4.NIC.MP.
 MQ. NS MANTA.OUTREMER.COM.
 MQ. NS BIGUINE.MEDIASERV.NET.
 MQ. NS FADO.MEDIASERV.NET.
@@ -2121,6 +2124,8 @@ CA02.CIRA.CA. A 208.77.191.231
 A.DNS.JP. AAAA 2001:DC4:0:0:0:0:0:1
 A.DNS.JP. A 203.119.1.1
 B.DNS.JP. A 202.12.30.131
+C.DNS.JP. AAAA 2001:502:D399:0:0:0:0:245
+C.DNS.JP. A 204.74.112.245
 NS2.BRUNET.BN. A 202.160.8.20
 NS5.MSK-IX.NET. A 193.232.128.6
 CA06.CIRA.CA. A 192.228.30.9
@@ -2749,6 +2754,8 @@ SA-NS.ANYCAST.PCH.NET. A 204.61.216.41
 DNS3.KW. A 161.252.48.145
 DNS1.KEMS.NET. A 196.1.69.98
 NS3.SK-NIC.SK. A 217.75.67.234
+NS3.NIC.MP. A 75.101.129.89
+NS4.NIC.MP. A 75.101.133.101
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -59127
-;End of file: 2008101101
+;File end: -24880
+;End of file: 2008101200
