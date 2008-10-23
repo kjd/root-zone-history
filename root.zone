@@ -1,11 +1,11 @@
-;File start: 34634
+;File start: 25631
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008102201 ;serial
+				  2008102300 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1848,7 +1848,7 @@ NS2.DNS.WS. A 64.70.19.80
 NS3.DNS.WS. A 63.251.201.210
 NS4.DNS.WS. A 66.150.187.90
 NS5.DNS.WS. A 64.70.19.70
-CON1.NIPR.MIL. A 207.132.116.25
+CON1.NIPR.MIL. A 199.252.157.234
 CON2.NIPR.MIL. A 199.252.162.234
 EUR1.NIPR.MIL. A 199.252.154.234
 EUR2.NIPR.MIL. A 199.252.143.234
@@ -2759,5 +2759,5 @@ NS2.AUDNS.NET.AU. A 58.65.249.73
 MT-NS.ANYCAST.PCH.NET. A 204.61.216.45
 C-DNS.PL. A 195.47.235.226
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -34634
-;End of file: 2008102201
+;File end: -25631
+;End of file: 2008102300
