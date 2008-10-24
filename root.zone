@@ -1,11 +1,11 @@
-;File start: 6654
+;File start: 42050
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008102301 ;serial
+				  2008102400 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1220,7 +1220,6 @@ TN. NS SUNIC.SUNET.SE.
 TN. NS NS2.ATI.TN.
 TO. NS AUTH02.NS.UU.NET.
 TO. NS COLO.TO.
-TO. NS DNS.MSEN.COM.
 TO. NS NS1.IAFRICA.COM.
 TO. NS TONIC.TO.
 TO. NS NS-TO.RIPE.NET.
@@ -1263,10 +1262,10 @@ UA. NS NS2.NIC.FR.
 UA. NS NS.LUCKY.NET.
 UA. NS SUNIC.SUNET.SE.
 UA. NS NS.UU.NET.
+UA. NS TLD1.ULTRADNS.NET.
 UA. NS TLD2.ULTRADNS.NET.
 UA. NS HE1.NS.NET.UA.
 UA. NS HO1.NS.NET.UA.
-UA. NS UD1.NS.NET.UA.
 UA. NS PCH.NS.NET.UA.
 UA. NS NS-UA.RIPE.NET.
 UG. NS NS.RIPE.NET.
@@ -1637,7 +1636,6 @@ DNS2.AD. A 194.158.64.8
 DNS.SRCE.HR. A 161.53.3.7
 DNS2.IT.NET. A 151.1.2.1
 DNS.NETTUNO.IT. A 193.43.2.1
-DNS.MSEN.COM. A 148.59.19.11
 DNS.OMNIWAY.SM. A 194.183.64.10
 DNS.INTELCOM.SM. A 194.183.64.11
 DNS.CIT.CORNELL.EDU. A 192.35.82.50
@@ -2168,7 +2166,6 @@ Y.NIC.NO. A 193.71.199.51
 Z.NIC.NO. A 158.38.8.133
 NS-EXT.NIC.CL. A 200.1.123.14
 GRNS-HER.ICS.FORTH.GR. A 139.91.248.1
-UD1.NS.NET.UA. A 204.74.112.1
 E.DNS.TW. A 211.79.207.26
 NS7.NIC.UK. A 212.121.40.130
 NS3.NIC.TR. A 213.248.162.131
@@ -2759,5 +2756,5 @@ NS2.AUDNS.NET.AU. A 58.65.249.73
 MT-NS.ANYCAST.PCH.NET. A 204.61.216.45
 C-DNS.PL. A 195.47.235.226
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -6654
-;End of file: 2008102301
+;File end: -42050
+;End of file: 2008102400
