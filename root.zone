@@ -1,11 +1,11 @@
-;File start: 63184
+;File start: 66111
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008102500 ;serial
+				  2008102501 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1942,7 +1942,7 @@ NS.NIC.KZ. A 75.126.233.106
 NJET.NORID.NO. A 198.133.199.105
 NOT.NORID.NO. A 198.133.199.104
 NS3.DNS.NET.NZ. A 203.97.8.250
-NS4.DNS.NET.NZ. A 203.97.40.200
+NS4.DNS.NET.NZ. A 202.46.189.130
 D.DNS.KR. A 203.83.159.1
 DNS.BELPAK.BY. A 193.232.248.45
 EURO-NS2.CW.NET. A 212.80.175.2
@@ -2044,6 +2044,7 @@ NS1.MAGIC.MN. A 202.131.0.10
 DNS1.TELSTRA.NET. A 203.50.5.200
 NS7.DNS.NET.NZ. A 202.27.158.34
 NS6.DNS.NET.NZ. A 204.74.113.253
+NS5.DNS.NET.NZ. AAAA 2001:502:D399:0:0:0:0:253
 NS5.DNS.NET.NZ. A 204.74.112.253
 C5.NSTLD.COM. A 192.26.92.34
 MERLIN.NET.NA. A 204.152.184.96
@@ -2756,5 +2757,5 @@ NS2.AUDNS.NET.AU. A 58.65.249.73
 MT-NS.ANYCAST.PCH.NET. A 204.61.216.45
 C-DNS.PL. A 195.47.235.226
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -63184
-;End of file: 2008102500
+;File end: -66111
+;End of file: 2008102501
