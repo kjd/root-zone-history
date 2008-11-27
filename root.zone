@@ -1,11 +1,11 @@
-;File start: 2901
+;File start: 7053
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008112601 ;serial
+				  2008112700 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -247,6 +247,7 @@ BR. NS C.DNS.BR.
 BR. NS B.DNS.BR.
 BR. NS D.DNS.BR.
 BR. NS E.DNS.BR.
+BR. NS F.DNS.BR.
 BS. NS UPR1.UPR.CLU.EDU.
 BS. NS ANYNS.PCH.NET.
 BS. NS DNS.NIC.BS.
@@ -2039,7 +2040,7 @@ C.NS.SE. A 192.36.135.107
 DOMWE.SDN.MW. A 196.45.190.9
 NS1.MAGIC.MN. A 202.131.0.10
 DNS1.TELSTRA.NET. A 203.50.5.200
-NS7.DNS.NET.NZ. A 202.27.158.34
+NS7.DNS.NET.NZ. A 202.46.188.130
 NS6.DNS.NET.NZ. A 204.74.113.253
 NS5.DNS.NET.NZ. AAAA 2001:502:D399:0:0:0:0:253
 NS5.DNS.NET.NZ. A 204.74.112.253
@@ -2763,6 +2764,8 @@ KI1.DYNTLD.NET. A 208.78.70.87
 KI2.DYNTLD.NET. A 204.13.250.87
 KI3.DYNTLD.NET. A 208.78.71.87
 KI4.DYNTLD.NET. A 204.13.251.87
+F.DNS.BR. A 200.219.159.10
+F.DNS.BR. AAAA 2001:12F8:1:0:0:0:0:10
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -2901
-;End of file: 2008112601
+;File end: -7053
+;End of file: 2008112700
