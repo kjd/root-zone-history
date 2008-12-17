@@ -1,11 +1,11 @@
-;File start: 3094
+;File start: 16526
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008121601 ;serial
+				  2008121700 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1788,6 +1788,7 @@ NS2.QATAR.NET.QA. A 212.77.192.13
 RAIN.PSG.COM. A 147.28.0.34
 NSA.CCTLDMD.NET. A 217.26.144.5
 RIP.PSG.COM. A 147.28.0.39
+RIP.PSG.COM. AAAA 2001:418:1:0:0:0:0:39
 NS2.RIPN.NET. A 194.226.96.30
 SANTO.VANUATU.COM.VU. A 202.80.32.7
 SCE.CNC.UNA.PY. A 200.10.228.133
@@ -2777,5 +2778,5 @@ A2.IN.AFILIAS-NST.INFO. AAAA 2001:500:45:0:0:0:0:1
 B2.IN.AFILIAS-NST.ORG. A 199.249.125.1
 B2.IN.AFILIAS-NST.ORG. AAAA 2001:500:4D:0:0:0:0:1
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -3094
-;End of file: 2008121601
+;File end: -16526
+;End of file: 2008121700
