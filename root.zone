@@ -1,11 +1,11 @@
-;File start: 26158
+;File start: 23618
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008122100 ;serial
+				  2008122101 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -351,11 +351,11 @@ CR. NS NS.UCR.AC.CR.
 CR. NS NS3.NIC.MX.
 CR. NS NS-CR.RIPE.NET.
 CU. NS NS.CENIAI.NET.CU.
-CU. NS NS.RIPE.NET.
 CU. NS NS2.GIP.NET.
-CU. NS NS3.GIP.NET.
 CU. NS RIP.PSG.COM.
 CU. NS NS1.GIP.NET.
+CU. NS NS-CU.RIPE.NET.
+CU. NS NS2.CENIAI.NET.CU.
 CV. NS AUTH02.NS.UU.NET.
 CV. NS DNS.FCCN.PT.
 CV. NS SUNIC.SUNET.SE.
@@ -1731,7 +1731,6 @@ NS2.AALNET.NET. A 194.112.0.5
 NS1.REGISTRY.HM. A 208.70.79.25
 NS2.REGISTRY.HM. A 208.70.79.24
 NS2.GIP.NET. A 204.59.1.222
-NS3.GIP.NET. A 204.59.64.222
 NS.NI. A 165.98.1.2
 NS.TMX.COM.NI. A 200.62.64.1
 NS1.BTC.BW. A 168.167.168.34
@@ -2777,6 +2776,8 @@ C.DNS-SERVERS.VN. A 203.119.38.105
 D.DNS-SERVERS.VN. A 203.119.44.105
 E.DNS-SERVERS.VN. A 203.162.57.105
 F.DNS-SERVERS.VN. A 203.162.87.66
+NS-CU.RIPE.NET. A 193.0.12.58
+NS2.CENIAI.NET.CU. A 169.158.128.88
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -26158
-;End of file: 2008122100
+;File end: -23618
+;End of file: 2008122101
