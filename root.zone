@@ -1,11 +1,11 @@
-;File start: 85545
+;File start: 78829
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2008122301 ;serial
+				  2008122400 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -129,6 +129,7 @@ AL. NS SUNIC.SUNET.SE.
 AM. NS NS.AMNIC.NET.
 AM. NS RIP.PSG.COM.
 AM. NS SUNIC.SUNET.SE.
+AM. NS SEC1.APNIC.NET.
 AM. NS SEC3.APNIC.NET.
 AM. NS NS-EXT.ISC.ORG.
 AM. NS NS-AM.RIPE.NET.
@@ -1083,6 +1084,7 @@ RU. NS NS2.RIPN.NET.
 RU. NS SUNIC.SUNET.SE.
 RU. NS NS5.MSK-IX.NET.
 RU. NS NS9.RIPN.NET.
+RU. NS E.DNS.RIPN.NET.
 RW. NS SUNIC.SUNET.SE.
 RW. NS DNS.DNSAFRICA.NET.
 RW. NS DNS.PRINCETON.EDU.
@@ -1159,6 +1161,7 @@ SU. NS NS.RIPN.NET.
 SU. NS NS2.RIPN.NET.
 SU. NS NS5.MSK-IX.NET.
 SU. NS NS9.RIPN.NET.
+SU. NS E.DNS.RIPN.NET.
 SV. NS AUTH02.NS.UU.NET.
 SV. NS NS.DNS.BR.
 SV. NS CIR.RED.SV.
@@ -2778,6 +2781,7 @@ E.DNS-SERVERS.VN. A 203.162.57.105
 F.DNS-SERVERS.VN. A 203.162.87.66
 NS-CU.RIPE.NET. A 193.0.12.58
 NS2.CENIAI.NET.CU. A 169.158.128.88
+E.DNS.RIPN.NET. A 193.232.142.17
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -85545
-;End of file: 2008122301
+;File end: -78829
+;End of file: 2008122400
