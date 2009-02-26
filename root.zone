@@ -1,11 +1,11 @@
-;File start: 48445
+;File start: 18747
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009022600 ;serial
+				  2009022601 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -939,7 +939,7 @@ NG. NS HIPPO.RU.AC.ZA.
 NG. NS RIP.PSG.COM.
 NG. NS SUNIC.SUNET.SE.
 NG. NS NS1.DNS.AQ.
-NL. NS NS.DOMAIN-REGISTRY.NL.
+NL. NS NS1.NIC.NL.
 NL. NS NS2.NIC.NL.
 NL. NS NS-EXT.ISC.ORG.
 NL. NS NL1.DNSNODE.NET.
@@ -1720,7 +1720,7 @@ NS2.BATELCO.COM.BH. A 193.188.97.212
 NS.DHIVEHINET.NET.MV. A 202.1.192.196
 NS.NURSAT.NET. A 195.82.0.1
 NS1.NPLUS.GF. A 213.16.30.3
-NS.DOMAIN-REGISTRY.NL. A 193.176.144.2
+NS1.NIC.NL. A 193.176.144.2
 NS1.INDO.NET.ID. A 202.159.32.2
 NS1.SR.NET. A 200.1.157.10
 NS1.GRANITECANYON.COM. A 205.166.226.38
@@ -2717,7 +2717,7 @@ PHOBOS.FCCN.PT. A 193.136.7.17
 G.DNS.JP. A 203.119.40.1
 TJMIRROR.EASTERA.TJ. A 82.198.22.25
 NS-TJ.RIPE.NET. A 193.0.12.217
-I-DNS.PL. A 199.7.66.244
+I-DNS.PL. A 156.154.100.15
 KI1.DYNTLD.NET. A 208.78.70.87
 KI2.DYNTLD.NET. A 204.13.250.87
 KI3.DYNTLD.NET. A 208.78.71.87
@@ -2808,5 +2808,5 @@ SB4.DYNTLD.NET. A 204.13.251.83
 A.NIC.LV. A 91.198.156.99
 B.NIC.LV. A 92.240.70.1
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -48445
-;End of file: 2009022600
+;File end: -18747
+;End of file: 2009022601
