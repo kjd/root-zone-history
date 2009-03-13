@@ -1,11 +1,11 @@
-;File start: 64901
+;File start: 13572
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009031201 ;serial
+				  2009031300 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1939,8 +1939,9 @@ NS2.DNS.NET.NZ. A 202.46.191.130
 WEB.EAHD.OR.UG. A 216.104.202.101
 DEMON.MTN.CO.UG. A 212.88.97.20
 NS.NIC.KZ. A 75.126.233.106
-NJET.NORID.NO. A 198.133.199.105
-NOT.NORID.NO. A 198.133.199.104
+NJET.NORID.NO. A 156.154.101.12
+NOT.NORID.NO. A 156.154.100.12
+NOT.NORID.NO. AAAA 2001:502:AD09:0:0:0:0:12
 NS3.DNS.NET.NZ. A 202.46.188.130
 NS4.DNS.NET.NZ. A 202.46.189.130
 D.DNS.KR. A 203.83.159.1
@@ -2146,7 +2147,9 @@ NS3.NIC.HU. A 195.70.35.250
 AUNIC.AUNIC.NET. A 203.29.5.1
 X.NIC.NO. A 128.39.8.40
 Y.NIC.NO. A 193.71.199.51
+Y.NIC.NO. AAAA 2001:8C0:8200:1:0:0:0:2
 Z.NIC.NO. A 158.38.8.133
+Z.NIC.NO. AAAA 2001:700:0:52D:158:38:8:133
 NS-EXT.NIC.CL. A 200.1.123.14
 GRNS-HER.ICS.FORTH.GR. A 139.91.248.1
 E.DNS.TW. A 211.79.207.26
@@ -2822,5 +2825,5 @@ C.MX-NS.MX. A 192.100.224.1
 C.MX-NS.MX. AAAA 2001:1258:0:0:0:0:0:1
 NS-MG.MALAGASY.COM. A 87.98.132.231
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -64901
-;End of file: 2009031201
+;File end: -13572
+;End of file: 2009031300
