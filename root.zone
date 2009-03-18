@@ -1,11 +1,11 @@
-;File start: 66100
+;File start: 594
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009031701 ;serial
+				  2009031800 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -660,7 +660,6 @@ IR. NS NS1.NIC.IR.
 IR. NS NS5.UNIVIE.AC.AT.
 IS. NS ISGATE.IS.
 IS. NS SUNIC.SUNET.SE.
-IS. NS NS-EXT.VIX.COM.
 IS. NS NS4.TELE.DK.
 IS. NS DURINN.RHNET.IS.
 IS. NS NS-IS.RIPE.NET.
@@ -1016,7 +1015,6 @@ PG. NS MUNNARI.OZ.AU.
 PG. NS NS.UU.NET.
 PG. NS NS1.TIARE.NET.PG.
 PG. NS NS2.TIARE.NET.PG.
-PH. NS AUTH50.NS.UU.NET.
 PH. NS SEC3.APNIC.NET.
 PH. NS NS-EXT.ISC.ORG.
 PH. NS NS-PH.RIPE.NET.
@@ -1605,7 +1603,6 @@ AUSTIN.GH.COM. A 196.3.64.1
 AUTH00.NS.UU.NET. A 198.6.1.65
 AUTH02.NS.UU.NET. A 198.6.1.82
 AUTH61.NS.UU.NET. A 198.6.1.182
-AUTH50.NS.UU.NET. A 198.6.1.161
 AUTH51.NS.UU.NET. A 198.6.1.162
 AUTH03.NS.UU.NET. A 198.6.1.83
 AVALA.YUBC.NET. A 212.124.160.1
@@ -2824,5 +2821,5 @@ A.NUUK.NIC.GL. A 194.177.224.13
 B.NUUK.NIC.GL. A 194.177.224.17
 C.NUUK.NIC.GL. A 194.177.224.18
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -66100
-;End of file: 2009031701
+;File end: -594
+;End of file: 2009031800
