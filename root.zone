@@ -1,11 +1,11 @@
-;File start: 36808
+;File start: 8040
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009032000 ;serial
+				  2009032001 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -2126,9 +2126,9 @@ B.NS.DNS.BE. A 193.109.126.12
 NS1.KCCE.NET. A 194.29.232.18
 NS2.KCCE.NET. A 194.29.232.30
 DNS.SISPA.ORG.SZ. A 212.85.220.11
-NSA.NIC.UK. AAAA 2001:502:D399:0:0:0:0:44
-NSA.NIC.UK. A 204.74.112.44
-NSB.NIC.UK. A 204.74.113.44
+NSA.NIC.UK. A 156.154.100.3
+NSA.NIC.UK. AAAA 2001:502:AD09:0:0:0:0:3
+NSB.NIC.UK. A 156.154.101.3
 CENTRAL.DNS.MD. A 217.26.144.15
 NS.URBE.IT. A 193.43.128.2
 A-DNS.PL. A 195.187.245.44
@@ -2297,9 +2297,8 @@ NS.UTECHJAMAICA.EDU.JM. A 200.9.115.2
 NS3-JM.FSL.ORG.JM. A 196.3.191.66
 NS-AE.RIPE.NET. A 193.0.12.233
 NS-AE.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:233
-NSD.NIC.UK. A 199.7.67.44
-NSD.NIC.UK. AAAA 2001:502:100E:0:0:0:0:44
-NSC.NIC.UK. A 199.7.66.44
+NSD.NIC.UK. A 156.154.103.3
+NSC.NIC.UK. A 156.154.102.3
 NS5.KNIPP.DE. A 195.253.6.62
 NS5.KNIPP.DE. AAAA 2A01:5B0:0:29:0:0:0:3E
 NS.ANYCAST.NIC.DM. A 204.61.216.18
@@ -2821,5 +2820,5 @@ A.NUUK.NIC.GL. A 194.177.224.13
 B.NUUK.NIC.GL. A 194.177.224.17
 C.NUUK.NIC.GL. A 194.177.224.18
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -36808
-;End of file: 2009032000
+;File end: -8040
+;End of file: 2009032001
