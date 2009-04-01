@@ -1,11 +1,11 @@
-;File start: 62131
+;File start: 12340
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009033101 ;serial
+				  2009040100 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -2048,6 +2048,7 @@ NS2.NIC.GM. A 212.60.72.93
 VPSM.BTC.BW. A 168.167.253.21
 MZIZI.KENIC.OR.KE. A 196.1.4.130
 MZIZI.KENIC.OR.KE. A 198.32.67.9
+NS.ANYCAST.KENIC.OR.KE. AAAA 2001:500:14:6007:AD:0:0:1
 NS.ANYCAST.KENIC.OR.KE. A 204.61.216.7
 ALPHA.UNDP.ORG. A 165.65.35.29
 NS1.INTNET.BJ. A 81.91.225.18
@@ -2156,7 +2157,7 @@ CYNIC.DNS.CY. A 194.42.29.1
 NS2.CC.UCY.AC.CY. A 194.42.1.5
 OGOOUE.INET.GA. A 217.77.71.1
 NYALI.INET.GA. A 217.77.71.33
-NS1.COZA.NET.ZA. A 66.139.79.204
+NS1.COZA.NET.ZA. A 66.135.62.20
 MANU.USP.AC.FJ. A 144.120.8.10
 A.GTLD.PRO. A 192.149.62.10
 B.GTLD.PRO. A 192.149.63.10
@@ -2839,5 +2840,5 @@ F.DNS.NIC.TEL. AAAA 2001:502:100E:0:0:0:0:1
 G.DNS.NIC.TEL. A 192.100.59.11
 H.DNS.NIC.TEL. A 198.133.199.11
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -62131
-;End of file: 2009033101
+;File end: -12340
+;End of file: 2009040100
