@@ -1,11 +1,11 @@
-;File start: 27937
+;File start: 90090
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009040101 ;serial
+				  2009040200 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1231,7 +1231,6 @@ TO. NS NS1.IAFRICA.COM.
 TO. NS TONIC.TO.
 TO. NS NS-TO.RIPE.NET.
 TP. NS AUTH02.NS.UU.NET.
-TP. NS NS.RIPE.NET.
 TP. NS AUTH01.CONNECT.IE.
 TP. NS UUCP-GW-1.PA.DEC.COM.
 TP. NS UUCP-GW-2.PA.DEC.COM.
@@ -2840,5 +2839,5 @@ F.DNS.NIC.TEL. AAAA 2001:502:100E:0:0:0:0:1
 G.DNS.NIC.TEL. A 192.100.59.11
 H.DNS.NIC.TEL. A 198.133.199.11
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -27937
-;End of file: 2009040101
+;File end: -90090
+;End of file: 2009040200
