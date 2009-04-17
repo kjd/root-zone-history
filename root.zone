@@ -1,11 +1,11 @@
-;File start: 19569
+;File start: 97152
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009041700 ;serial
+				  2009041701 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -980,12 +980,12 @@ NR. NS SNS-PB.ISC.ORG.
 NU. NS NS.NIC.NU.
 NU. NS NS0.TELIA.NIC.NU.
 NU. NS NS0.DE.NIC.NU.
-NU. NS TLD1.ULTRADNS.NET.
-NU. NS TLD2.ULTRADNS.NET.
-NU. NS TLD3.ULTRADNS.ORG.
-NU. NS TLD4.ULTRADNS.ORG.
-NU. NS TLD5.ULTRADNS.INFO.
-NU. NS TLD6.ULTRADNS.CO.UK.
+NU. NS NS0.NUS.NIC.NU.
+NU. NS NS1.NUS.NIC.NU.
+NU. NS NS2.NUS.NIC.NU.
+NU. NS NS3.NUS.NIC.NU.
+NU. NS NS4.NUS.NIC.NU.
+NU. NS NS5.NUS.NIC.NU.
 NZ. NS NS1.DNS.NET.NZ.
 NZ. NS NS2.DNS.NET.NZ.
 NZ. NS NS3.DNS.NET.NZ.
@@ -2862,6 +2862,12 @@ C.NIC.SO. AAAA 2001:4F8:0:2:0:0:0:13
 C.NIC.SO. A 204.152.184.64
 D.NIC.SO. A 77.72.229.254
 E.NIC.SO. A 204.61.215.62
+NS0.NUS.NIC.NU. A 156.154.100.13
+NS1.NUS.NIC.NU. A 156.154.101.13
+NS2.NUS.NIC.NU. A 156.154.102.13
+NS3.NUS.NIC.NU. A 156.154.103.13
+NS4.NUS.NIC.NU. A 156.154.104.13
+NS5.NUS.NIC.NU. A 156.154.105.13
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -19569
-;End of file: 2009041700
+;File end: -97152
+;End of file: 2009041701
