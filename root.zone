@@ -1,11 +1,11 @@
-;File start: 15738
+;File start: 51489
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009042301 ;serial
+				  2009042400 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -495,10 +495,10 @@ GF. NS NS1-GP.MEDIASERV.NET.
 GG. NS DNS2.GUERNSEY.NET.
 GG. NS NS0.JA.NET.
 GG. NS SEC1.DNS.UK.PSI.NET.
-GG. NS UUCP-GW-1.PA.DEC.COM.
-GG. NS UUCP-GW-2.PA.DEC.COM.
-GG. NS NS2.DNS.NET.NZ.
+GG. NS SEC2.DNS.UK.PSI.NET.
 GG. NS A.CI-SERVERS.NET.
+GG. NS B.CI-SERVERS.NET.
+GG. NS NS99.DNS.NET.NZ.
 GH. NS AUSTIN.GH.COM.
 GH. NS MANTSE.GH.COM.
 GH. NS HIPPO.RU.AC.ZA.
@@ -674,10 +674,9 @@ IT. NS R.DNS.IT.
 JE. NS DNS2.GUERNSEY.NET.
 JE. NS NS0.JA.NET.
 JE. NS SEC1.DNS.UK.PSI.NET.
-JE. NS UUCP-GW-1.PA.DEC.COM.
-JE. NS UUCP-GW-2.PA.DEC.COM.
-JE. NS NS2.DNS.NET.NZ.
 JE. NS A.CI-SERVERS.NET.
+JE. NS B.CI-SERVERS.NET.
+JE. NS NS99.DNS.NET.NZ.
 JM. NS NS.JM.
 JM. NS PHLOEM.UOREGON.EDU.
 JM. NS NS.UTECHJAMAICA.EDU.JM.
@@ -2870,6 +2869,8 @@ NS2.NUS.NIC.NU. A 156.154.102.13
 NS3.NUS.NIC.NU. A 156.154.103.13
 NS4.NUS.NIC.NU. A 156.154.104.13
 NS5.NUS.NIC.NU. A 156.154.105.13
+B.CI-SERVERS.NET. A 82.103.139.220
+NS99.DNS.NET.NZ. A 202.46.191.130
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -15738
-;End of file: 2009042301
+;File end: -51489
+;End of file: 2009042400
