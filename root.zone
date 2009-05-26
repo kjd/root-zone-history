@@ -1,11 +1,11 @@
-;File start: 2808
+;File start: 73008
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009052600 ;serial
+				  2009052601 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -496,10 +496,10 @@ GF. NS NS1-GP.MEDIASERV.NET.
 GG. NS DNS2.GUERNSEY.NET.
 GG. NS NS0.JA.NET.
 GG. NS SEC1.DNS.UK.PSI.NET.
-GG. NS SEC2.DNS.UK.PSI.NET.
 GG. NS A.CI-SERVERS.NET.
 GG. NS B.CI-SERVERS.NET.
 GG. NS NS99.DNS.NET.NZ.
+GG. NS C.CI-SERVERS.ORG.
 GH. NS AUSTIN.GH.COM.
 GH. NS MANTSE.GH.COM.
 GH. NS HIPPO.RU.AC.ZA.
@@ -678,6 +678,7 @@ JE. NS SEC1.DNS.UK.PSI.NET.
 JE. NS A.CI-SERVERS.NET.
 JE. NS B.CI-SERVERS.NET.
 JE. NS NS99.DNS.NET.NZ.
+JE. NS C.CI-SERVERS.ORG.
 JM. NS NS.JM.
 JM. NS PHLOEM.UOREGON.EDU.
 JM. NS NS.UTECHJAMAICA.EDU.JM.
@@ -2886,6 +2887,7 @@ NS4.NIC.NET.NG. A 204.13.250.93
 NSB.NIC.NET.NG. A 72.167.122.8
 NS3.REGISTER.BG. A 94.155.14.10
 F.FI. A 87.239.127.198
+C.CI-SERVERS.ORG. A 64.34.165.135
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -2808
-;End of file: 2009052600
+;File end: -73008
+;End of file: 2009052601
