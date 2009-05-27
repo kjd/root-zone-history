@@ -1,11 +1,11 @@
-;File start: 87101
+;File start: 26789
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009052700 ;serial
+				  2009052701 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1284,11 +1284,11 @@ UA. NS HE1.NS.UA.
 UA. NS HO1.NS.UA.
 UA. NS PCH.NS.UA.
 UA. NS CD1.NS.UA.
-UG. NS NS.RIPE.NET.
+UG. NS NS-EXT.VIX.COM.
 UG. NS WEB.EAHD.OR.UG.
 UG. NS DEMON.MTN.CO.UG.
-UG. NS NS.ONE2NET.CO.UG.
 UG. NS NS1.AUTH.IANA.ORG.
+UG. NS NS-UG.RIPE.NET.
 UK. NS NS1.NIC.UK.
 UK. NS NS2.NIC.UK.
 UK. NS NS4.NIC.UK.
@@ -2088,7 +2088,6 @@ DNS2.NET.SY. A 66.198.41.14
 DNS.SERVER.AG. A 64.239.9.180
 NS-EXT.ISC.ORG. AAAA 2001:4F8:0:2:0:0:0:13
 NS-EXT.ISC.ORG. A 204.152.184.64
-NS.ONE2NET.CO.UG. A 41.220.14.8
 SSS-US2.NIC.AT. A 206.65.170.101
 SSS-JP.NIC.AT. A 210.81.13.181
 ADNS1.BERKELEY.EDU. A 128.32.136.3
@@ -2888,6 +2887,8 @@ NSB.NIC.NET.NG. A 72.167.122.8
 NS3.REGISTER.BG. A 94.155.14.10
 F.FI. A 87.239.127.198
 C.CI-SERVERS.ORG. A 64.34.165.135
+NS-UG.RIPE.NET. A 193.0.12.231
+NS-UG.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:231
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -87101
-;End of file: 2009052700
+;File end: -26789
+;End of file: 2009052701
