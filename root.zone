@@ -1,11 +1,11 @@
-;File start: 21345
+;File start: 38510
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009052800 ;serial
+				  2009052801 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -892,10 +892,9 @@ MV. NS NS.DHIVEHINET.NET.MV.
 MV. NS NS2.DHIVEHINET.NET.MV.
 MV. NS MV-NS.ANYCAST.PCH.NET.
 MW. NS RIP.PSG.COM.
-MW. NS SDNHQ.UNDP.ORG.
+MW. NS SEC3.APNIC.NET.
 MW. NS CHAMBO.SDNP.ORG.MW.
 MW. NS DOMWE.SDN.MW.
-MW. NS AUNIC.AUNIC.NET.
 MW. NS NS-MW.RIPE.NET.
 MX. NS O.MX-NS.MX.
 MX. NS M.MX-NS.MX.
@@ -1798,7 +1797,6 @@ RIP.PSG.COM. AAAA 2001:418:1:0:0:0:0:39
 NS2.RIPN.NET. A 194.226.96.30
 SANTO.VANUATU.COM.VU. A 202.80.32.7
 SCE.CNC.UNA.PY. A 200.10.228.133
-SDNHQ.UNDP.ORG. A 192.124.42.79
 SEC1.DNS.UK.PSI.NET. A 154.32.105.34
 SEC2.DNS.UK.PSI.NET. A 154.32.107.34
 SECIU.EDU.UY. A 164.73.128.5
@@ -2151,7 +2149,6 @@ NS6.NIC.UK. A 213.248.254.130
 NS1.NIC.HU. A 193.239.149.3
 NS2.NIC.HU. A 193.6.16.1
 NS3.NIC.HU. A 195.70.35.250
-AUNIC.AUNIC.NET. A 203.29.5.1
 X.NIC.NO. A 128.39.8.40
 Y.NIC.NO. A 193.71.199.51
 Y.NIC.NO. AAAA 2001:8C0:8200:1:0:0:0:2
@@ -2890,5 +2887,5 @@ C.CI-SERVERS.ORG. A 64.34.165.135
 NS-UG.RIPE.NET. A 193.0.12.231
 NS-UG.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:231
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -21345
-;End of file: 2009052800
+;File end: -38510
+;End of file: 2009052801
