@@ -1,11 +1,11 @@
-;File start: 225
+;File start: 30877
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009060101 ;serial
+				  2009060200 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -329,11 +329,11 @@ CN. NS C.DNS.CN.
 CN. NS D.DNS.CN.
 CN. NS E.DNS.CN.
 CO. NS SAELL.CC.COLUMBIA.EDU.
-CO. NS MINTAKA.UNIANDES.EDU.CO.
 CO. NS NS1.NIC.CO.
 CO. NS NS2.NIC.CO.
 CO. NS NS3.NIC.CO.
 CO. NS NS4.NIC.CO.
+CO. NS NS5.NIC.CO.
 COM. NS A.GTLD-SERVERS.NET.
 COM. NS G.GTLD-SERVERS.NET.
 COM. NS H.GTLD-SERVERS.NET.
@@ -2128,7 +2128,6 @@ NS20.IIJ.AD.JP. A 202.232.2.161
 C.NS.DNS.BE. A 195.22.139.135
 LONDON.NS.DNS.BE. A 195.66.241.90
 NS1.ARNES.SI. A 193.2.1.86
-MINTAKA.UNIANDES.EDU.CO. A 200.31.69.106
 GRDNS-AT.ICS.FORTH.GR. A 193.171.255.40
 GRDNS-BR.ICS.FORTH.GR. A 200.160.7.163
 NS1.PITCAIRN.NET.PN. A 210.54.120.113
@@ -2886,6 +2885,7 @@ F.FI. A 87.239.127.198
 C.CI-SERVERS.ORG. A 64.34.165.135
 NS-UG.RIPE.NET. A 193.0.12.231
 NS-UG.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:231
+NS5.NIC.CO. A 200.31.69.107
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -225
-;End of file: 2009060101
+;File end: -30877
+;End of file: 2009060200
