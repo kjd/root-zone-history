@@ -1,11 +1,11 @@
-;File start: 70074
+;File start: 49792
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009063001 ;serial
+				  2009070100 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1120,6 +1120,7 @@ SD. NS NS-SD.RIPE.NET.
 SD. NS ANS1.CANAR.SD.
 SD. NS ANS2.CANAR.SD.
 SD. NS ANS1.SIS.SD.
+SG. NS NS2.CUHK.EDU.HK.
 SG. NS SEC3.APNIC.NET.
 SG. NS DSANY.SGNIC.SG.
 SG. NS DS.SGNIC.SG.
@@ -1323,10 +1324,10 @@ UZ. NS NS5.UZ.
 UZ. NS NS6.UZ.
 VA. NS DNS.NIC.IT.
 VA. NS MICHAEL.VATICAN.VA.
-VA. NS NS.RIPE.NET.
 VA. NS JOHN.VATICAN.VA.
 VA. NS SETH.NAMEX.IT.
 VA. NS OSIRIS.NAMEX.IT.
+VA. NS NS-VA.RIPE.NET.
 VC. NS A0.CCTLD.AFILIAS-NST.INFO.
 VC. NS B0.CCTLD.AFILIAS-NST.ORG.
 VC. NS C0.CCTLD.AFILIAS-NST.INFO.
@@ -2900,6 +2901,8 @@ C.NIC.LV. A 194.0.1.24
 C.NIC.LV. AAAA 2001:678:4:0:0:0:0:18
 NS-ER.RIPE.NET. A 193.0.12.69
 B.CI-SERVERS.ORG. A 82.103.139.220
+NS-VA.RIPE.NET. A 193.0.12.98
+NS-VA.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:98
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -70074
-;End of file: 2009063001
+;File end: -49792
+;End of file: 2009070100
