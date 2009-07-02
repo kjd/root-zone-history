@@ -1,11 +1,11 @@
-;File start: 56335
+;File start: 56434
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009070101 ;serial
+				  2009070200 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -826,6 +826,10 @@ MG. NS NS-MG.RIPE.NET.
 MG. NS NS1.IRD.FR.
 MG. NS NS.DTS.MG.
 MG. NS NS-MG.MALAGASY.COM.
+MG. NS MG1.DYNTLD.NET.
+MG. NS MG2.DYNTLD.NET.
+MG. NS MG3.DYNTLD.NET.
+MG. NS MG4.DYNTLD.NET.
 MH. NS NS1.TOSA.TWTELECOM.NET.
 MH. NS INS2.TOSA.TWTELECOM.NET.
 MIL. NS CON1.NIPR.MIL.
@@ -2903,6 +2907,10 @@ NS-ER.RIPE.NET. A 193.0.12.69
 B.CI-SERVERS.ORG. A 82.103.139.220
 NS-VA.RIPE.NET. A 193.0.12.98
 NS-VA.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:98
+MG1.DYNTLD.NET. A 208.78.70.96
+MG2.DYNTLD.NET. A 204.13.250.96
+MG3.DYNTLD.NET. A 208.78.71.96
+MG4.DYNTLD.NET. A 204.13.251.96
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -56335
-;End of file: 2009070101
+;File end: -56434
+;End of file: 2009070200
