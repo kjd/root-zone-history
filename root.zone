@@ -1,11 +1,11 @@
-;File start: 84646
+;File start: 20989
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009070701 ;serial
+				  2009070800 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -788,11 +788,11 @@ LS. NS RAIN.PSG.COM.
 LS. NS LS-NS.ANYCAST.PCH.NET.
 LT. NS NN.UNINETT.NO.
 LT. NS SUNIC.SUNET.SE.
-LT. NS NS3.OMNITEL.NET.
 LT. NS B.TLD.LT.
 LT. NS A.TLD.LT.
 LT. NS C.TLD.LT.
 LT. NS D.TLD.LT.
+LT. NS E.TLD.LT.
 LU. NS MERAPI.SWITCH.CH.
 LU. NS NS1.DNS.LU.
 LU. NS NS5.DNS.LU.
@@ -2273,7 +2273,6 @@ M.NIC.EU. A 217.29.76.13
 NS.HORIZON.NET.FK. A 195.248.193.250
 NS-SM.RIPE.NET. A 193.0.12.191
 NS-AR.RIPE.NET. A 193.0.12.11
-NS3.OMNITEL.NET. A 194.176.32.147
 NS1.PUNCHDOWN.NET. A 66.92.19.36
 PR-DNS.DENIC.DE. A 81.91.161.82
 ENGINE2.UNA.AN. A 65.174.238.100
@@ -2920,6 +2919,7 @@ C.NIC.LI. AAAA 2001:418:1:0:0:0:0:39
 D.NIC.LI. AAAA 2001:DC0:1:0:4777:0:0:140
 D.NIC.LI. A 202.12.28.140
 I.DNS.LU. A 194.146.106.66
+E.TLD.LT. A 195.182.72.234
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -84646
-;End of file: 2009070701
+;File end: -20989
+;End of file: 2009070800
