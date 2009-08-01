@@ -1,11 +1,11 @@
-;File start: 36828
+;File start: 82700
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009073101 ;serial
+				  2009080100 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1482,7 +1482,6 @@ PRO. NS D.GTLD.PRO.
 BIZ. NS A.GTLD.BIZ.
 BIZ. NS B.GTLD.BIZ.
 BIZ. NS C.GTLD.BIZ.
-BIZ. NS D.GTLD.BIZ.
 BIZ. NS E.GTLD.BIZ.
 BIZ. NS F.GTLD.BIZ.
 BIZ. NS G.GTLD.BIZ.
@@ -1964,7 +1963,6 @@ A.GTLD.BIZ. A 209.173.53.162
 B.GTLD.BIZ. A 209.173.57.162
 C.GTLD.BIZ. A 209.173.60.65
 D6.NSTLD.COM. A 192.31.80.35
-D.GTLD.BIZ. A 156.154.100.19
 DURINN.RHNET.IS. A 130.208.16.20
 SSS.ARNES.SI. A 81.91.161.101
 DNS3.AD. A 194.158.64.9
@@ -2654,7 +2652,7 @@ KYNSW03.PERIMETERUSA.COM. A 165.212.160.17
 K.DNS.LU. A 194.0.1.13
 K.DNS.LU. AAAA 2001:678:4:0:0:0:0:D
 NS1.NEOIP.COM. A 62.90.12.10
-NS2.NEOIP.COM. A 66.162.64.185
+NS2.NEOIP.COM. A 208.109.17.150
 NS-COM.NIC.HU. A 194.0.1.12
 NS-SE.NIC.HU. A 77.72.229.251
 ANS1.SIS.SD. A 196.29.166.134
@@ -2953,5 +2951,5 @@ J.CA-SERVERS.CA. AAAA 2001:500:83:0:0:0:0:1
 NSEXT-PCH.AEDNS.AE. A 199.4.137.1
 NSEXT-PCH.AEDNS.AE. AAAA 2001:500:7D:0:0:0:0:1
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -36828
-;End of file: 2009073101
+;File end: -82700
+;End of file: 2009080100
