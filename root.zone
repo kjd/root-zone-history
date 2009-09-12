@@ -1,11 +1,11 @@
-;File start: 1225
+;File start: 30678
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009091200 ;serial
+				  2009091201 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -675,6 +675,7 @@ IT. NS DNS.NIC.IT.
 IT. NS M.DNS.IT.
 IT. NS S.DNS.IT.
 IT. NS R.DNS.IT.
+IT. NS C.DNS.IT.
 JE. NS NS0.JA.NET.
 JE. NS SEC1.DNS.UK.PSI.NET.
 JE. NS A.CI-SERVERS.NET.
@@ -1659,8 +1660,8 @@ A.NIC.DE. A 194.0.0.53
 DECST.CERIST.DZ. A 193.194.64.11
 DESCARTES.NIC.PR. A 134.202.1.120
 DINIS.AD. A 194.158.64.7
-DNS.NIC.IT. A 193.205.245.5
-DNS.NIC.IT. AAAA 2001:760:4000:1F5:0:0:0:5
+DNS.NIC.IT. A 192.12.192.5
+DNS.NIC.IT. AAAA 2A00:D40:1:1:0:0:0:5
 DNS2.AD. A 194.158.64.8
 DNS.SRCE.HR. A 161.53.3.7
 DNS.NETTUNO.IT. A 193.43.2.1
@@ -2950,6 +2951,8 @@ D.USADOTGOV.NET. A 204.168.112.71
 E.USADOTGOV.NET. A 82.165.40.134
 F.USADOTGOV.NET. A 66.197.185.229
 G.USADOTGOV.NET. A 64.62.200.134
+C.DNS.IT. A 194.0.1.22
+C.DNS.IT. AAAA 2001:678:4:0:0:0:0:16
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -1225
-;End of file: 2009091200
+;File end: -30678
+;End of file: 2009091201
