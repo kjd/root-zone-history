@@ -1,11 +1,11 @@
-;File start: 67506
+;File start: 54382
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009092101 ;serial
+				  2009092200 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1140,7 +1140,6 @@ SH. NS A.NIC.SH.
 SH. NS A.NS13.NET.
 SH. NS B.NS13.NET.
 SH. NS NS1.COMMUNITYDNS.NET.
-SI. NS NS.UU.NET.
 SI. NS NS-EXT.VIX.COM.
 SI. NS SSS.ARNES.SI.
 SI. NS NS1.ARNES.SI.
@@ -1148,6 +1147,7 @@ SI. NS NS4.ARNES.EU.
 SI. NS NS3.ARNES.EU.
 SI. NS NS2.ARNES.SI.
 SI. NS NS7.ARNES.EU.
+SI. NS NS8.ARNES.SI.
 SJ. NS NAC.NO.
 SJ. NS NN.UNINETT.NO.
 SJ. NS SERVER.NORDU.NET.
@@ -1611,7 +1611,6 @@ ASIA. NS B2.ASIA.AFILIAS-NST.ORG.
 KP. NS NS1.KCCE.NET.
 KP. NS NS2.KCCE.NET.
 RS. NS AVALA.YUBC.NET.
-RS. NS ODISEJ.TELEKOM.YU.
 RS. NS NS-EXT.ISC.ORG.
 RS. NS NS-EXT.LGA1.ISC.ORG.
 RS. NS NS-EXT.NRT1.ISC.ORG.
@@ -1619,6 +1618,7 @@ RS. NS NS-EXT.STH1.ISC.ORG.
 RS. NS NS1.NIC.RS.
 RS. NS NS-RS.RIPE.NET.
 RS. NS RS-NS.ANYCAST.PCH.NET.
+RS. NS ODISEJ.TELEKOM.RS.
 GRDNS.ICS.FORTH.GR. A 139.91.1.1
 ATHEA.AR. A 200.16.98.2
 AUSTIN.GH.COM. A 196.3.64.1
@@ -2953,6 +2953,9 @@ F.USADOTGOV.NET. A 66.197.185.229
 G.USADOTGOV.NET. A 64.62.200.134
 C.DNS.IT. A 194.0.1.22
 C.DNS.IT. AAAA 2001:678:4:0:0:0:0:16
+NS8.ARNES.SI. A 194.0.1.20
+NS8.ARNES.SI. AAAA 2001:678:4:0:0:0:0:14
+ODISEJ.TELEKOM.RS. A 195.178.32.2
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -67506
-;End of file: 2009092101
+;File end: -54382
+;End of file: 2009092200
