@@ -1,11 +1,11 @@
-;File start: 90184
+;File start: 93558
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009092500 ;serial
+				  2009092501 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -176,7 +176,6 @@ AT. NS NS9.UNIVIE.AC.AT.
 AT. NS SSS-NL.NIC.AT.
 AT. NS NS-US1.NIC.AT.
 AT. NS NS-UK.NIC.AT.
-AT. NS SSS-US2.NIC.AT.
 AT. NS SSS-JP.NIC.AT.
 AT. NS D.NIC.AT.
 AT. NS J.NIC.AT.
@@ -2100,7 +2099,6 @@ DNS2.NET.SY. A 66.198.41.14
 DNS.SERVER.AG. A 64.239.9.180
 NS-EXT.ISC.ORG. AAAA 2001:4F8:0:2:0:0:0:13
 NS-EXT.ISC.ORG. A 204.152.184.64
-SSS-US2.NIC.AT. A 206.65.170.101
 SSS-JP.NIC.AT. A 210.81.13.181
 ADNS1.BERKELEY.EDU. A 128.32.136.3
 ADNS2.BERKELEY.EDU. A 128.32.136.14
@@ -2958,5 +2956,5 @@ NS8.ARNES.SI. AAAA 2001:678:4:0:0:0:0:14
 ODISEJ.TELEKOM.RS. A 195.178.32.2
 DNS-AU.ST. A 203.19.59.140
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -90184
-;End of file: 2009092500
+;File end: -93558
+;End of file: 2009092501
