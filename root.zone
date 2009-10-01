@@ -1,11 +1,11 @@
-;File start: 82487
+;File start: 48983
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009093001 ;serial
+				  2009100100 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1288,8 +1288,6 @@ TW. NS H.DNS.TW.
 TZ. NS RIP.PSG.COM.
 TZ. NS SUNIC.SUNET.SE.
 TZ. NS NS2.TZNIC.OR.TZ.
-UA. NS NS2.NIC.FR.
-UA. NS NS.LUCKY.NET.
 UA. NS SUNIC.SUNET.SE.
 UA. NS NS.UU.NET.
 UA. NS NS-UA.RIPE.NET.
@@ -1298,6 +1296,7 @@ UA. NS HE1.NS.UA.
 UA. NS HO1.NS.UA.
 UA. NS PCH.NS.UA.
 UA. NS CD1.NS.UA.
+UA. NS YA1.NS.UA.
 UG. NS NS-EXT.VIX.COM.
 UG. NS WEB.EAHD.OR.UG.
 UG. NS DEMON.MTN.CO.UG.
@@ -1733,7 +1732,6 @@ NS.PIXAR.ES. A 194.143.196.3
 NS.BA. A 195.130.35.5
 NS.AMNIC.NET. A 195.250.64.90
 NS.AMNIC.NET. AAAA 2001:4D00:0:0:0:0:0:90
-NS.LUCKY.NET. A 193.193.193.100
 NS2.BATELCO.COM.BH. A 193.188.97.212
 NS.DHIVEHINET.NET.MV. A 202.1.192.196
 NS.NURSAT.NET. A 195.82.0.1
@@ -2955,6 +2953,8 @@ NS8.ARNES.SI. A 194.0.1.20
 NS8.ARNES.SI. AAAA 2001:678:4:0:0:0:0:14
 ODISEJ.TELEKOM.RS. A 195.178.32.2
 DNS-AU.ST. A 203.19.59.140
+YA1.NS.UA. AAAA 2A01:758:FFFF:0:0:0:0:88
+YA1.NS.UA. A 77.88.210.88
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -82487
-;End of file: 2009093001
+;File end: -48983
+;End of file: 2009100100
