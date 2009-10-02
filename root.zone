@@ -1,11 +1,11 @@
-;File start: 53062
+;File start: 52938
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009100200 ;serial
+				  2009100201 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -515,8 +515,11 @@ GI. NS A2.CCTLD.AFILIAS-NST.INFO.
 GI. NS B2.CCTLD.AFILIAS-NST.ORG.
 GL. NS NS-SOA.DARENET.DK.
 GL. NS A.NUUK.NIC.GL.
-GL. NS B.NUUK.NIC.GL.
-GL. NS C.NUUK.NIC.GL.
+GL. NS D.NIC.GL.
+GL. NS GL1.DYNTLD.NET.
+GL. NS GL2.DYNTLD.NET.
+GL. NS GL3.DYNTLD.NET.
+GL. NS GL4.DYNTLD.NET.
 GM. NS NS1.ASAP-ASP.NET.
 GM. NS NS1.NIC.GM.
 GM. NS NS2.NIC.GM.
@@ -2818,8 +2821,6 @@ C.MX-NS.MX. A 192.100.224.1
 C.MX-NS.MX. AAAA 2001:1258:0:0:0:0:0:1
 NS-MG.MALAGASY.COM. A 87.98.132.231
 A.NUUK.NIC.GL. A 194.177.224.13
-B.NUUK.NIC.GL. A 194.177.224.17
-C.NUUK.NIC.GL. A 194.177.224.18
 CD1.NS.UA. A 194.0.1.9
 CD1.NS.UA. AAAA 2001:678:4:0:0:0:0:9
 A1.AUDNS.NET.AU. AAAA 2001:DC0:2001:A:4608:0:0:59
@@ -2955,6 +2956,11 @@ ODISEJ.TELEKOM.RS. A 195.178.32.2
 DNS-AU.ST. A 203.19.59.140
 YA1.NS.UA. AAAA 2A01:758:FFFF:0:0:0:0:88
 YA1.NS.UA. A 77.88.210.88
+D.NIC.GL. A 204.61.216.49
+GL1.DYNTLD.NET. A 208.78.70.97
+GL2.DYNTLD.NET. A 204.13.250.97
+GL3.DYNTLD.NET. A 208.78.71.97
+GL4.DYNTLD.NET. A 204.13.251.97
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -53062
-;End of file: 2009100200
+;File end: -52938
+;End of file: 2009100201
