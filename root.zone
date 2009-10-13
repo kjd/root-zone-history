@@ -1,11 +1,11 @@
-;File start: 56376
+;File start: 13325
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009101201 ;serial
+				  2009101300 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -292,7 +292,6 @@ CA. NS J.CA-SERVERS.CA.
 CD. NS SUNIC.SUNET.SE.
 CD. NS DNS.DNSAFRICA.NET.
 CD. NS DNS.PRINCETON.EDU.
-CF. NS BOW.RAIN.FR.
 CF. NS BOW.INTNET.CF.
 CF. NS RIP.PSG.COM.
 CG. NS SUNIC.SUNET.SE.
@@ -1636,7 +1635,7 @@ NS.BATELCO.COM.BH. A 193.188.97.197
 NS1.IBL.BM. A 199.172.192.1
 UTAMA.BOLNET.BO. A 166.114.1.40
 BOW.RAIN.FR. A 194.51.3.49
-BOW.INTNET.CF. A 196.32.200.10
+BOW.INTNET.CF. A 204.14.43.132
 BOW.INTNET.DJ. A 193.251.143.162
 NS.INTNET.NE. A 193.251.228.10
 BOW.INTNET.TD. A 193.251.147.253
@@ -2963,5 +2962,5 @@ GL2.DYNTLD.NET. A 204.13.250.97
 GL3.DYNTLD.NET. A 208.78.71.97
 GL4.DYNTLD.NET. A 204.13.251.97
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -56376
-;End of file: 2009101201
+;File end: -13325
+;End of file: 2009101300
