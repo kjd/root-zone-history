@@ -1,11 +1,11 @@
-;File start: 65542
+;File start: 4257
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2009120401 ;serial
+				  2009120500 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -254,7 +254,6 @@ CA. NS B.CA-SERVERS.CA.
 CA. NS C.CA-SERVERS.CA.
 CA. NS D.CA-SERVERS.CA.
 CA. NS E.CA-SERVERS.CA.
-CA. NS F.CA-SERVERS.CA.
 CA. NS K.CA-SERVERS.CA.
 CA. NS L.CA-SERVERS.CA.
 CA. NS M.CA-SERVERS.CA.
@@ -982,6 +981,7 @@ OM. NS NS.ICANN.ORG.
 OM. NS OM16.OMANTEL.NET.OM.
 OM. NS OM14.OMANTEL.NET.OM.
 OM. NS NS-OM.RIPE.NET.
+OM. NS OM41.OMANTEL.NET.OM.
 ORG. NS A0.ORG.AFILIAS-NST.INFO.
 ORG. NS B0.ORG.AFILIAS-NST.ORG.
 ORG. NS C0.ORG.AFILIAS-NST.INFO.
@@ -2799,7 +2799,6 @@ B.CA-SERVERS.CA. A 192.228.25.45
 C.CA-SERVERS.CA. A 192.228.28.9
 D.CA-SERVERS.CA. A 129.33.164.73
 E.CA-SERVERS.CA. A 192.228.30.9
-F.CA-SERVERS.CA. A 208.77.191.231
 K.CA-SERVERS.CA. A 156.154.100.4
 L.CA-SERVERS.CA. A 156.154.101.4
 M.CA-SERVERS.CA. A 156.154.102.4
@@ -2960,6 +2959,7 @@ GL2.DYNTLD.NET. A 204.13.250.97
 GL3.DYNTLD.NET. A 208.78.71.97
 GL4.DYNTLD.NET. A 204.13.251.97
 E-DNS.PL. A 195.80.237.162
+OM41.OMANTEL.NET.OM. A 62.231.243.249
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -65542
-;End of file: 2009120401
+;File end: -4257
+;End of file: 2009120500
