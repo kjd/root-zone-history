@@ -5,7 +5,7 @@
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2010021000 ;serial
+				  2010021001 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -2992,4 +2992,4 @@ I.FI. A 156.154.103.26
 I.FI. AAAA 2001:502:2EDA:0:0:0:0:26
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
 ;File end: -70080
-;End of file: 2010021000
+;End of file: 2010021001
