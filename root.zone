@@ -1,11 +1,11 @@
-;File start: 31605
+;File start: 63216
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2010030801 ;serial
+				  2010030900 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -995,7 +995,6 @@ PA. NS NS.CR.
 PA. NS NS.PA.
 PA. NS NS.NIC.PA.
 PA. NS NS-EXT.NIC.CL.
-PE. NS EKEKO.RCPIP.NET.
 PE. NS ICHU.RCP.NET.PE.
 PE. NS NS-PE.RIPE.NET.
 PE. NS QUIPU.RCP.NET.PE.
@@ -1681,7 +1680,6 @@ DOGON.SOTELMA.ML. A 217.64.98.75
 DOWNSTAGE.MCS.VUW.AC.NZ. A 130.195.6.10
 DZOWO.UEM.MZ. A 196.3.96.66
 EFATE.VANUATU.COM.VU. A 202.80.32.5
-EKEKO.RCPIP.NET. A 209.45.127.2
 ENGINE1.UNA.NET. A 198.93.177.21
 MANTSE.GH.COM. A 193.194.185.2
 ESTIA.ICS.FORTH.GR. A 139.91.191.3
@@ -1747,6 +1745,7 @@ NS2.BATELCO.COM.BH. A 193.188.97.212
 NS.DHIVEHINET.NET.MV. A 202.1.192.196
 NS.NURSAT.NET. A 195.82.0.1
 NS1.NIC.NL. A 193.176.144.2
+NS1.NIC.NL. AAAA 2A00:D78:0:102:193:176:144:2
 NS1.INDO.NET.ID. A 202.159.32.2
 NS1.SR.NET. A 200.1.159.58
 NS.UNINET.EE. A 194.204.0.1
@@ -2991,5 +2990,5 @@ H.FI. A 156.154.102.26
 I.FI. A 156.154.103.26
 I.FI. AAAA 2001:502:2EDA:0:0:0:0:26
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -31605
-;End of file: 2010030801
+;File end: -63216
+;End of file: 2010030900
