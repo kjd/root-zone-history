@@ -1,11 +1,11 @@
-;File start: 68975
+;File start: 43604
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2010032300 ;serial
+				  2010032301 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1508,8 +1508,6 @@ TEL. NS G.DNS.NIC.TEL.
 TEL. NS H.DNS.NIC.TEL.
 TEL. NS A.DNS.NIC.TEL.
 TEL. NS B.DNS.NIC.TEL.
-TEL. NS I.DNS.NIC.TEL.
-TEL. NS J.DNS.NIC.TEL.
 LV. NS SUNIC.SUNET.SE.
 LV. NS NS-LV.RIPE.NET.
 LV. NS LT.NIC.LV.
@@ -2862,10 +2860,6 @@ NS-AL.RIPE.NET. A 193.0.12.3
 NS-AL.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:3
 A.DNS.NIC.TEL. A 194.146.106.38
 B.DNS.NIC.TEL. A 192.36.144.116
-I.DNS.NIC.TEL. A 199.7.64.126
-I.DNS.NIC.TEL. AAAA 2001:503:7BBB:FFFF:FFFF:FFFF:FFFF:FF7E
-J.DNS.NIC.TEL. A 199.7.77.126
-J.DNS.NIC.TEL. AAAA 2001:503:8028:FFFF:FFFF:FFFF:FFFF:FF7E
 NS2.TOJIKISTON.COM. A 193.111.11.4
 NSA.NIC.NET.NG. A 41.222.79.3
 NS1.NIC.NET.NG. A 194.0.1.29
@@ -2989,5 +2983,5 @@ I.FI. A 156.154.103.26
 I.FI. AAAA 2001:502:2EDA:0:0:0:0:26
 PE1.DNSNODE.NET. A 194.146.106.82
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -68975
-;End of file: 2010032300
+;File end: -43604
+;End of file: 2010032301
