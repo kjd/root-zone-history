@@ -1,11 +1,11 @@
-;File start: 50586
+;File start: 18503
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2010041301 ;serial
+				  2010041400 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -2972,5 +2972,5 @@ NS1.NIC.NET.MM. A 203.81.81.85
 NS2.NIC.NET.MM. A 203.81.92.10
 NS0.NIC.NET.MM. A 203.81.64.20
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -50586
-;End of file: 2010041301
+;File end: -18503
+;End of file: 2010041400
