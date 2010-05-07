@@ -1,11 +1,11 @@
-;File start: 75868
+;File start: 6087
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2010050700 ;serial
+				  2010050701 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -2219,8 +2219,8 @@ DNS2-TL.BRUNET.BN. A 202.160.9.10
 A.NIC.FR. A 192.93.0.129
 A.NIC.FR. AAAA 2001:660:3005:3:0:0:1:1
 DNS.DNSAFRICA.NET. A 213.193.157.30
-D.EXT.NIC.FR. AAAA 2001:4F8:0:2:0:0:0:8
-D.EXT.NIC.FR. A 204.152.184.85
+D.EXT.NIC.FR. A 192.5.4.2
+D.EXT.NIC.FR. AAAA 2001:500:2E:0:0:0:0:2
 E.EXT.NIC.FR. A 193.176.144.6
 E.EXT.NIC.FR. AAAA 2A00:D78:0:102:193:176:144:6
 DNS.PRINCETON.EDU. A 128.112.129.15
@@ -2994,5 +2994,5 @@ NS1.DOTMASR.EG. A 81.21.97.155
 NS2.DOTMASR.EG. A 81.21.99.11
 NS3.DOTMASR.EG. A 81.10.38.11
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -75868
-;End of file: 2010050700
+;File end: -6087
+;End of file: 2010050701
