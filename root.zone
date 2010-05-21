@@ -1,11 +1,11 @@
-;File start: 30693
+;File start: 4021
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2010052001 ;serial
+				  2010052100 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -1287,9 +1287,6 @@ UK. NS NS6.NIC.UK.
 UK. NS NS7.NIC.UK.
 UK. NS NSD.NIC.UK.
 UK. NS NSC.NIC.UK.
-US. NS I.GTLD.BIZ.
-US. NS J.GTLD.BIZ.
-US. NS K.GTLD.BIZ.
 US. NS A.CCTLD.US.
 US. NS B.CCTLD.US.
 US. NS C.CCTLD.US.
@@ -2495,11 +2492,6 @@ NS-CR.RIPE.NET. A 193.0.12.55
 F.NS.NIC.CZ. A 193.171.255.48
 F.NS.NIC.CZ. AAAA 2001:628:453:420:0:0:0:48
 I.NIC.NO. A 194.146.106.6
-I.GTLD.BIZ. A 156.154.96.126
-I.GTLD.BIZ. AAAA 2001:503:D1AE:FFFF:FFFF:FFFF:FFFF:FF7E
-J.GTLD.BIZ. AAAA 2001:503:A124:FFFF:FFFF:FFFF:FFFF:FF7E
-K.GTLD.BIZ. A 156.154.72.65
-K.GTLD.BIZ. AAAA 2001:503:E239:0:0:0:3:1
 CHC1.ADAMSNAMES.COM. A 195.153.6.27
 QEW1.ADAMSNAMES.COM. A 82.68.90.198
 BCN1.ADAMSNAMES.COM. A 217.147.94.75
@@ -3005,5 +2997,5 @@ J.CCTLD.US. AAAA 2001:503:A124:FFFF:FFFF:FFFF:FFFF:FF7E
 K.CCTLD.US. A 156.154.128.70
 K.CCTLD.US. AAAA 2001:503:E239:0:0:0:3:1
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -30693
-;End of file: 2010052001
+;File end: -4021
+;End of file: 2010052100
