@@ -1,11 +1,11 @@
-;File start: 76761
+;File start: 9411
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2010052601 ;serial
+				  2010052700 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -2387,7 +2387,9 @@ OSIRIS.NAMEX.IT. AAAA 2001:7F8:10:F00A:0:0:0:6
 NS-UA.RIPE.NET. A 193.0.12.232
 NS-UA.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:232
 NS5.NIC.TR. A 213.139.255.18
+NS1.NIC.NET.SA. AAAA 2001:67C:130:410:0:0:0:9
 NS1.NIC.NET.SA. A 86.111.192.9
+NS2.NIC.NET.SA. AAAA 2001:67C:130:10:0:0:0:9
 NS2.NIC.NET.SA. A 86.111.196.9
 NS.ANYCAST.NIC.CX. A 204.61.216.16
 NS.NIC.CAT. AAAA 2001:40B0:1:3:0:0:0:2
@@ -2689,6 +2691,7 @@ DSANY.SGNIC.SG. A 194.0.1.16
 DSANY.SGNIC.SG. AAAA 2001:678:4:0:0:0:0:10
 NS-SA.RIPE.NET. A 193.0.12.193
 NS-SA.RIPE.NET. AAAA 2001:610:240:0:53:CC:12:193
+SA-NS.ANYCAST.PCH.NET. AAAA 2001:500:14:6041:AD:0:0:1
 SA-NS.ANYCAST.PCH.NET. A 204.61.216.41
 DNS3.KW. A 161.252.48.145
 NS3.SK-NIC.SK. A 217.75.67.234
@@ -2997,5 +3000,5 @@ J.CCTLD.US. AAAA 2001:503:A124:FFFF:FFFF:FFFF:FFFF:FF7E
 K.CCTLD.US. A 156.154.128.70
 K.CCTLD.US. AAAA 2001:503:E239:0:0:0:3:1
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -76761
-;End of file: 2010052601
+;File end: -9411
+;End of file: 2010052700
