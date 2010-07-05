@@ -1,11 +1,11 @@
-;File start: 18668
+;File start: 75808
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2010070500 ;serial
+				  2010070501 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -166,7 +166,7 @@ BA. NS NS.BA.
 BA. NS SAVA.UTIC.NET.BA.
 BA. NS NS-BA.RIPE.NET.
 BB. NS NS1.BARBADOSDOMAINS.NET.
-BB. NS NS2.BARBADOSDOMAINS.NET.
+BB. NS NS2.BARBADOSDOMAIN.NET.
 BE. NS A.NS.DNS.BE.
 BE. NS BRUSSELS.NS.DNS.BE.
 BE. NS AMSTERDAM.NS.DNS.BE.
@@ -2585,7 +2585,6 @@ NS5.CENTRALNIC.NET. A 217.151.106.82
 NS6.CENTRALNIC.NET. A 194.0.2.2
 NS6.CENTRALNIC.NET. AAAA 2001:678:5:0:0:0:0:2
 NS1.BARBADOSDOMAINS.NET. A 200.50.92.195
-NS2.BARBADOSDOMAINS.NET. A 205.244.149.107
 PS-NS.ANYCAST.PCH.NET. A 204.61.216.29
 MU1.DYNTLD.NET. A 208.78.70.79
 MU2.DYNTLD.NET. A 204.13.250.79
@@ -3028,6 +3027,7 @@ D.EXT.NIC.CZ. A 193.29.206.2
 D.EXT.NIC.CZ. AAAA 2001:678:1:0:0:0:0:2
 N.NIC.AT. A 87.233.175.130
 DNS.INTNET.GQ. A 193.251.153.67
+NS2.BARBADOSDOMAIN.NET. A 204.212.242.113
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -18668
-;End of file: 2010070500
+;File end: -75808
+;End of file: 2010070501
