@@ -1,11 +1,11 @@
-;File start: 91949
+;File start: 68250
 ; The use of the Data contained in Verisign Inc.'s aggregated
 ; .com, and .net top-level domain zone files (including the checksum
 ; files) is subject to the restrictions described in the access Agreement
 ; with Verisign Inc.
 
 . IN    SOA     A.ROOT-SERVERS.NET. NSTLD.VERISIGN-GRS.COM. (
-				  2010070600 ;serial
+				  2010070700 ;serial
 				  1800 ;refresh every 30 min
 				  900 ;retry every 15 min
 				  604800 ;expire after a week
@@ -378,12 +378,12 @@ EC. NS DNS2.NIC.EC.
 EC. NS DNS4.NIC.EC.
 EC. NS DNS3.NIC.EC.
 EDU. NS A.GTLD-SERVERS.NET.
-EDU. NS G.GTLD-SERVERS.NET.
 EDU. NS C.GTLD-SERVERS.NET.
 EDU. NS D.GTLD-SERVERS.NET.
-EDU. NS L.GTLD-SERVERS.NET.
-EDU. NS F.GTLD-SERVERS.NET.
 EDU. NS E.GTLD-SERVERS.NET.
+EDU. NS F.EDU-SERVERS.NET.
+EDU. NS G.EDU-SERVERS.NET.
+EDU. NS L.EDU-SERVERS.NET.
 EE. NS NS.UNINET.EE.
 EE. NS SUNIC.SUNET.SE.
 EE. NS NS.UU.NET.
@@ -3028,6 +3028,10 @@ D.EXT.NIC.CZ. AAAA 2001:678:1:0:0:0:0:2
 N.NIC.AT. A 87.233.175.130
 DNS.INTNET.GQ. A 193.251.153.67
 NS2.BARBADOSDOMAIN.NET. A 204.212.242.113
+F.EDU-SERVERS.NET. A 192.35.51.36
+G.EDU-SERVERS.NET. A 192.42.93.36
+G.EDU-SERVERS.NET. AAAA 2001:503:CC2C:0:0:0:2:36
+L.EDU-SERVERS.NET. A 192.41.162.36
 VRSN-END-OF-ZONE-MARKER-DUMMY-RECORD.root. TXT plenus
-;File end: -91949
-;End of file: 2010070600
+;File end: -68250
+;End of file: 2010070700
