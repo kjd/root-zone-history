@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010072000 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20100727070000 20100720060000 41248 . lYE3SGq34wPtQUcfcM6LZE4HOHs6OexYdtnoMrK9YOr1bgjbAPNL3GEhygq2ktJCZERRXQOnj2b45rNQy93S3G0JB9r7MOUFHtyjJPFKsUnAqyHodicYxaRaekrQf/AxEtkOXrr5ksAcop88+cAwHiAlNfxqJb4wA/k7xmGNX4g=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010072001 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20100727070000 20100720060000 41248 . nzzc0A6dmSVqeYOiBaV9q7RKWJ5V5KQCscTXBARl+uhtiY1bkjHR0WsZ1FKsgZ1Jg9Zhgz2AasPbfS4jr69a61hcJhHmytw/DRP9nttN5xHOn8OSTvktKyiw5rTGxoPiqzCg0EYVItidBZvt+4GgD/Ib9m3ObZaIunz8Ku5h0mM=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -276,8 +276,11 @@ bb.			172800	IN	NS	ns2.barbadosdomain.net.
 bb.			86400	IN	NSEC	bd. NS RRSIG NSEC
 bb.			86400	IN	RRSIG	NSEC 8 1 86400 20100727070000 20100720060000 41248 . YZEYOoeHEuaPaplw6bcyDp3kkMuuaKWXBl9PBZnzAsrSxsiRhzAWTSGPQFFFOBJteaFEDZ7YjnSweoPus/jwGhGVQFcbjDpI2ce88WUUTV8W8j0Y54zD+bRYEubODjOn3yGxTqpUP8H5uLv+8ZRcYt1rHk2ag8e2FNCbG+rd2Bw=
 bd.			172800	IN	NS	dns.bd.
-bd.			172800	IN	NS	slave.bttb.net.
+bd.			172800	IN	NS	surma.btcl.net.bd.
+bd.			172800	IN	NS	jamuna.btcl.net.bd.
 dns.bd.			172800	IN	A	209.58.24.3
+jamuna.btcl.net.bd.	172800	IN	A	203.112.194.231
+surma.btcl.net.bd.	172800	IN	A	203.112.194.232
 bd.			86400	IN	NSEC	be. NS RRSIG NSEC
 bd.			86400	IN	RRSIG	NSEC 8 1 86400 20100727070000 20100720060000 41248 . AYgqHOC0j8AL0amMcFVWaGl/2iVyz1QuMqCmMYR7mgpjn2ZX8CfFHzCRWj8PeQMOMFAeF1eM2Bu9YKvNPxost8JwXvoretnPJ04gq5jL0Xj16QSJBRUoGgvHL4KvlKGHpXFHiuUPTkNOTxV55XUcsSAJ8SMncW5qQJxGGud8rME=
 be.			172800	IN	NS	a.ns.dns.be.
@@ -1024,6 +1027,7 @@ b.hosting.nic.fr.	172800	IN	A	192.93.0.4
 b.hosting.nic.fr.	172800	IN	AAAA	2001:660:3005:1:0:0:1:2
 ci.hosting.nic.fr.	172800	IN	A	192.134.0.49
 ci.hosting.nic.fr.	172800	IN	AAAA	2001:660:3006:1:0:0:1:1
+ns-ie.nic.fr.		172800	IN	A	192.93.0.4
 ns-my.nic.fr.		172800	IN	A	192.134.0.49
 ns-my.nic.fr.		172800	IN	AAAA	2001:660:3006:1:0:0:1:1
 ns-nl.nic.fr.		172800	IN	A	192.93.0.4
@@ -1056,7 +1060,6 @@ gd.			86400	IN	RRSIG	NSEC 8 1 86400 20100727070000 20100720060000 41248 . nQlOFS
 ge.			172800	IN	NS	ns.uu.net.
 ge.			172800	IN	NS	ns.nic.ge.
 ge.			172800	IN	NS	ns2.nic.fr.
-ge.			172800	IN	NS	ns-ge.ripe.net.
 ge.			172800	IN	NS	sunic.sunet.se.
 ns.nic.ge.		172800	IN	A	212.72.130.11
 ge.			86400	IN	NSEC	gf. NS RRSIG NSEC
@@ -1295,11 +1298,11 @@ id.			86400	IN	NSEC	ie. NS RRSIG NSEC
 id.			86400	IN	RRSIG	NSEC 8 1 86400 20100727070000 20100720060000 41248 . W9jcI4wzpeA88sMb4T2Vk1HacA4VzNSZjJOExz9xuaBMAXE+OOoOxtyJD40bCOZLknoVa7BjFG0e7qv06xmxvhWhI8xAAFIdppCeAw5Q5BouE8dJB67+urdRCwmnExYHkWyzLmLU2ZhAT8G9mMGM3p0l50NwhLzJ5GGnAhI3FxI=
 ie.			172800	IN	NS	b.iedr.ie.
 ie.			172800	IN	NS	ice.netsource.ie.
-ie.			172800	IN	NS	ns2.nic.fr.
 ie.			172800	IN	NS	ns3.ns.esat.net.
 ie.			172800	IN	NS	gns1.domainregistry.ie.
 ie.			172800	IN	NS	gns2.domainregistry.ie.
 ie.			172800	IN	NS	banba.domainregistry.ie.
+ie.			172800	IN	NS	ns-ie.nic.fr.
 ie.			172800	IN	NS	uucp-gw-1.pa.dec.com.
 ie.			172800	IN	NS	uucp-gw-2.pa.dec.com.
 auth01.connect.ie.	172800	IN	A	213.228.227.50
@@ -2081,7 +2084,6 @@ ns1.bahnhof.net.	172800	IN	A	195.178.160.2
 ns2.bahnhof.net.	172800	IN	A	212.85.64.4
 ns2.barbadosdomain.net.	172800	IN	A	204.212.242.113
 ns1.barbadosdomains.net.	172800	IN	A	200.50.92.195
-slave.bttb.net.		172800	IN	A	203.112.194.243
 nsa.cctldmd.net.	172800	IN	A	217.26.144.5
 ns1.centralnic.net.	172800	IN	A	89.151.83.36
 ns2.centralnic.net.	172800	IN	A	72.3.240.16
@@ -2285,7 +2287,6 @@ ns-et.ripe.net.		172800	IN	A	193.0.12.71
 ns-ga.ripe.net.		172800	IN	A	193.0.12.81
 ns-ga.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:81
 ns-gd.ripe.net.		172800	IN	A	193.0.12.38
-ns-ge.ripe.net.		172800	IN	A	193.0.12.83
 ns-gp.ripe.net.		172800	IN	A	193.0.12.90
 ns-gs.ripe.net.		172800	IN	A	193.0.12.206
 ns-gt.ripe.net.		172800	IN	A	193.0.12.92
