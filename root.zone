@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010081400 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20100821000000 20100813230000 41248 . JHGTt/+p0zk/73Tcv9JdgxjgW25vy2bZSxFmrNllX6Nh2vkDaQu3wd5aPkSE/ULsp9vKP5LEM+CqwuO6ySZKu+ko2x45/YNOg+y0DnNLakAT3XlKyTGithMP191StzpJcBYx53IF6M0z6vgLBo3x9FnCBktCCUUYyPnJA/4tfZI=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010081401 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20100821000000 20100813230000 41248 . ldawBelZBLkmv4AvMR93rBxtzFcdWtslBmAMJ5jaKz9oARtZPoS8AeSJGpAdqIcXirbNkAP13gHwWUGm+UvROChGM7pbyhUkfatP7Ab3k8lrCkHiUTVGUCw0iRIIPuiItRYNNawv6FKw73Z05YFV7t3h4ISG0uHaN/wnet/Y2+0=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1716,12 +1716,13 @@ ls.			172800	IN	NS	ls-ns.anycast.pch.net.
 ls.			86400	IN	NSEC	lt. NS RRSIG NSEC
 ls.			86400	IN	RRSIG	NSEC 8 1 86400 20100821000000 20100813230000 41248 . Qx18mTfjbXX1mefmhKRuDvkLYd0HfbMwkXP/bMCZA3heCfbU2oVZSk/lDTZ5Rmdy0kZpBK9nJ2U3tFk/Gkl6ptwPskmFMt8s7kvL2AUo3WARCwagK3HvG8tBgEfOZMHB0nHvxyRo4Ot4mLXbb6TgpFaJC8Bg9q7l3VKLTEfd3wE=
 lt.			172800	IN	NS	a.tld.lt.
+lt.			172800	IN	NS	b.tld.lt.
 lt.			172800	IN	NS	c.tld.lt.
 lt.			172800	IN	NS	d.tld.lt.
 lt.			172800	IN	NS	e.tld.lt.
-lt.			172800	IN	NS	nn.uninett.no.
-lt.			172800	IN	NS	sunic.sunet.se.
 a.tld.lt.		172800	IN	A	193.219.32.13
+b.tld.lt.		172800	IN	A	194.0.20.1
+b.tld.lt.		172800	IN	AAAA	2001:678:19:0:0:0:0:1
 c.tld.lt.		172800	IN	A	194.0.1.4
 d.tld.lt.		172800	IN	A	194.0.3.1
 d.tld.lt.		172800	IN	AAAA	2001:678:6:0:0:0:0:1
