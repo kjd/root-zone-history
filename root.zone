@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010081700 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20100824000000 20100816230000 41248 . q7Jird+cO3CATJUzTNQE5UvIFmDoUDx6rIdAZ82ufzMeukiAIaXNodMa40RP59uNNTT7yMX1KuexvoFAVQSoM2CskGJrbb2hHjvhHKHi153lEbJDVXxI3EczGcVdIuxuHXlDG/oVrICDaJPbrlT8fd9PY657BOEYnE7lMa/11CE=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010081701 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20100824000000 20100816230000 41248 . FQ/t5d07oCytMImoTEqLx8K0wB/7yj9HGfxtNR8sj+tpxSOCa9S1Tnzv/08ECm09XUiCYN7ZLSAC4Yni9aT0ZE5kPNcdqX5pxufsLF0ki+RHNv94edCdg0kRTDyZ5j5DpP9/X/xU0EKrY+zpiBL185VXwmh7sU5I4/7LPDD4p/Y=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -2134,6 +2134,7 @@ nl1.dnsnode.net.	172800	IN	A	194.146.106.42
 pe1.dnsnode.net.	172800	IN	A	194.146.106.82
 fork.sth.dnsnode.net.	172800	IN	A	77.72.229.254
 za1.dnsnode.net.	172800	IN	A	194.146.106.78
+za1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:19:0:0:0:53
 af1.dyntld.net.		172800	IN	A	208.78.70.94
 af2.dyntld.net.		172800	IN	A	204.13.250.94
 af3.dyntld.net.		172800	IN	A	208.78.71.94
@@ -2381,8 +2382,6 @@ ns-va.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:98
 ns-vg.ripe.net.		172800	IN	A	193.0.12.242
 ns-vi.ripe.net.		172800	IN	A	193.0.12.243
 ns-vn.ripe.net.		172800	IN	A	193.0.12.241
-ns-za.ripe.net.		172800	IN	A	193.0.12.205
-ns-za.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:205
 ns-zw.ripe.net.		172800	IN	A	193.0.12.249
 e.dns.ripn.net.		172800	IN	A	193.232.142.17
 e.dns.ripn.net.		172800	IN	AAAA	2001:678:15:0:193:232:142:17
@@ -3604,8 +3603,13 @@ xn--mgbaam7a8h.		86400	IN	NSEC	xn--mgberp4a5d4ar. NS RRSIG NSEC
 xn--mgbaam7a8h.		86400	IN	RRSIG	NSEC 8 1 86400 20100824000000 20100816230000 41248 . XaG5uroNmZQfcM2cz1biVsQLpvFSLmhYKvXljm/3Q3XnifU2NrMFMIL3oWAPEn0rCs7KdFo77YlrzrMjEaWA2cRRKpS2JBp8lEPBy+l84OHOegccFWDP+DicklWyXL9amTPUIY5SB2GHRTESqJA2Tgs+MzwdQELd0Z7WbRbS/I8=
 xn--mgberp4a5d4ar.	172800	IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns2.nic.net.sa.
-xn--mgberp4a5d4ar.	86400	IN	NSEC	xn--p1ai. NS RRSIG NSEC
-xn--mgberp4a5d4ar.	86400	IN	RRSIG	NSEC 8 1 86400 20100824000000 20100816230000 41248 . RbUumtWvxBtUw0ibRpiZKdDVn5IIcnUM1XvRk3T9FgviKIDDaTV0h6+54AagSboWJ/N0MrcU9XkhTeZF6CXLdqT12ZQzsC1eLa/JBp+Ly13/o3WQKgd1j2/NLtrkpHR9J9Hflgc8Vh+iDVHmytS2zLvFyIoxiimIhS5xXzd3o4g=
+xn--mgberp4a5d4ar.	86400	IN	NSEC	xn--o3cw4h. NS RRSIG NSEC
+xn--mgberp4a5d4ar.	86400	IN	RRSIG	NSEC 8 1 86400 20100824000000 20100816230000 41248 . UwtuHj+JuYYiEUaLiQgTroJzZGt6ExJAgqRcOZQvBEryEB7oe77mvJBO6PCDXZoePQj5DeN3F4XGXsZ+ZCn2dWJPvvpShB1DL5NuaWlhOi0mnc/I8T8K7QzNZBKKu1z764FOK5mtCP9xW3KEHVcnKCQ1+LzjD/ADW6pUBM/K8js=
+xn--o3cw4h.		172800	IN	NS	ns.thnic.net.
+xn--o3cw4h.		172800	IN	NS	dns1.thnic.co.th.
+xn--o3cw4h.		172800	IN	NS	ns-a.thnic.co.th.
+xn--o3cw4h.		86400	IN	NSEC	xn--p1ai. NS RRSIG NSEC
+xn--o3cw4h.		86400	IN	RRSIG	NSEC 8 1 86400 20100824000000 20100816230000 41248 . pkT0Ak97fQbLRV3mFqRad/HdFfX+21oxw1DcqXf7UmbqZ0k24zkjm9kw+G/gb8eGdfLOz2VDWsBM6cgbgwS6TsrZtrNG++xFeSG83VUFPbRvq1Rt4Pma5hmLhT0CxoDA5GSyyYCsGFbmY8NlZYKwWUS02aitpNi9xoWvzbhUtnQ=
 xn--p1ai.		172800	IN	NS	e.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	f.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	ns.ripn.net.
@@ -3643,13 +3647,12 @@ yt.			172800	IN	NS	f.ext.nic.fr.
 yt.			172800	IN	NS	g.ext.nic.fr.
 yt.			86400	IN	NSEC	za. NS RRSIG NSEC
 yt.			86400	IN	RRSIG	NSEC 8 1 86400 20100824000000 20100816230000 41248 . n4cNEmtKVeuYYFhhmZkMCzAKVMNDWTk8hINmrcoajQf3S+Y2HJhUryTw/GBJzwi+sRuvcW2AoqVJkmDIjDs/59m4g6eOpvc2xKUkF20K3JVwg4IjCvSsNAkQsq/IuFu1RD9wQAefL0wo5O6936Ta9QcA7UndlzKzqATLUZ0cRNw=
-za.			172800	IN	NS	ns1.dns.aq.
 za.			172800	IN	NS	za1.dnsnode.net.
 za.			172800	IN	NS	disa.tenet.ac.za.
 za.			172800	IN	NS	nsza.is.co.za.
 za.			172800	IN	NS	hippo.ru.ac.za.
-za.			172800	IN	NS	ns-za.ripe.net.
 za.			172800	IN	NS	za-ns.anycast.pch.net.
+za.			172800	IN	NS	sns-pb.isc.org.
 hippo.ru.ac.za.		172800	IN	A	146.231.128.1
 hippo.ru.ac.za.		172800	IN	AAAA	2001:4200:1010:0:0:0:0:1
 disa.tenet.ac.za.	172800	IN	A	196.21.79.50
