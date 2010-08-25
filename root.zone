@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010082500 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20100901000000 20100824230000 41248 . XRVB+HEUsRN9+/5LXm6/i7SaH/CpcYwNSSiDj9Mz/v/SNa1hvxxYMy3W7NHAGL5Udt5aUxrZAu7FKtsTKhJFgrk5mII2Vd858itdz6KqNK7bkUEmYUL1OvoPIC2U5Q+zNV21eDdzfW7Ff8Q4v5b3VfRCWsGLOJPqzEa0mVLbBTg=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010082501 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20100901000000 20100824230000 41248 . kvtevu0CQUCaXkli84UNy5lfJAXm3PVO632drKV/oZVAgkB/O4I1R8lhxLEwnqzAZ9nclbrmzGCmMkGPTql43Jsu2gT6vYqsTDaIBb+Gc2Kn6Q+IUi640KjRxoFgBTikskQR644DylbFfbXTg2e9aNMyBr6hPMbX71tMRWWisIo=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1413,7 +1413,7 @@ int.			172800	IN	NS	ns.uu.net.
 int.			172800	IN	NS	ns.icann.org.
 int.			172800	IN	NS	ns0.ja.net.
 int.			172800	IN	NS	ns1.cs.ucl.ac.uk.
-int.			172800	IN	NS	ns-sec.ripe.net.
+int.			172800	IN	NS	sec2.authdns.ripe.net.
 int.			86400	IN	NSEC	io. NS RRSIG NSEC
 int.			86400	IN	RRSIG	NSEC 8 1 86400 20100901000000 20100824230000 41248 . jA2gAvSgmDd3MxJmoYCAUNxgnWun4DQwhrASWEBRsMtptwp7JgLw4Wpvw80JAhOSwEMs+K+87E7JcfUHAf1kqRttt42Bwxn2NSf+/Y/kmoFHshKGpeZZf0qPKHo+GVAMzqdjGWzcqmsX9t8tYtFEAEOq9olM817cyOWmonbKAZg=
 io.			172800	IN	NS	a.nic.io.
@@ -2286,6 +2286,8 @@ ns1.pch.net.		172800	IN	A	206.220.231.1
 sec1.dns.uk.psi.net.	172800	IN	A	154.32.105.34
 sec2.dns.uk.psi.net.	172800	IN	A	154.32.107.34
 ns1.punchdown.net.	172800	IN	A	66.92.19.36
+sec2.authdns.ripe.net.	172800	IN	A	193.0.9.4
+sec2.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:4
 ns.ripe.net.		172800	IN	A	193.0.0.193
 ns-ad.ripe.net.		172800	IN	A	193.0.12.6
 ns-ae.ripe.net.		172800	IN	A	193.0.12.233
@@ -2366,8 +2368,6 @@ ns-rs.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:184
 ns-sa.ripe.net.		172800	IN	A	193.0.12.193
 ns-sa.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:193
 ns-sd.ripe.net.		172800	IN	A	193.0.12.209
-ns-sec.ripe.net.	172800	IN	A	193.0.0.196
-ns-sec.ripe.net.	172800	IN	AAAA	2001:610:240:0:53:0:0:4
 ns-sm.ripe.net.		172800	IN	A	193.0.12.191
 ns-sn.ripe.net.		172800	IN	A	193.0.12.195
 ns-sv.ripe.net.		172800	IN	A	193.0.12.67
