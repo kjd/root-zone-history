@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010091400 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20100921000000 20100913230000 41248 . kK8NUpGywEHvwO6UIWYNTp8zw8yFaWPutMUvlhUW4Qc5VJqpK6gB8qHVmc4Q/5IroEepl2YkllELyXSKMHRBqx3fL1Xi/vA4ud1sVWEaZSToqzIWRP9ppVlbVCqVlGcrzpyyWrZfU9RqiSEc1ybvkJ7WcBqKitZ/gWXZB1F208o=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010091401 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20100921000000 20100913230000 41248 . LlcxgpGSNYNcfxnLI0ZTzo9/1t4pcqLCdfjjazgv2v/vE4LxYiNd8iDaTsSqVuqyW7+b606+XOOp6pzxIIMkksrP8Ac5/Vx+e8gqs0ghdUpuMqSaXwAzlBiUwj5dilbC5VUGQURqw6Llcd18OIAkvBqlQvyaiu9tOaUMWpo7tPA=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -591,7 +591,7 @@ cl.			172800	IN	NS	a.nic.cl.
 cl.			172800	IN	NS	b.nic.cl.
 cl.			172800	IN	NS	ns.nic.cl.
 cl.			172800	IN	NS	cl1.dnsnode.net.
-cl.			172800	IN	NS	slave.sth.netnod.se.
+cl.			172800	IN	NS	cl-ns.anycast.pch.net.
 cl.			172800	IN	NS	sns-pb.isc.org.
 a.nic.cl.		172800	IN	A	200.1.121.10
 b.nic.cl.		172800	IN	A	200.7.4.7
@@ -2272,6 +2272,8 @@ server.nordu.net.	172800	IN	A	193.10.252.19
 a.ns13.net.		172800	IN	A	202.181.97.168
 b.ns13.net.		172800	IN	A	202.181.96.60
 ns.nursat.net.		172800	IN	A	195.82.0.1
+cl-ns.anycast.pch.net.	172800	IN	A	204.61.216.30
+cl-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6030:ad:0:0:1
 cy-ns.anycast.pch.net.	172800	IN	A	204.61.216.44
 gy-ns.anycast.pch.net.	172800	IN	A	204.61.216.34
 gy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6034:ad:0:0:1
