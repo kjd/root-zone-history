@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010100100 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20101008000000 20100930230000 40288 . hTsiWNuqY54PBff0jOAv9PYSbyJy92ejBUus7ScqMe7/0RrKC8KtkFns4FecSFUENfxnvRSvakj8mDBQiCotQGokowuerev4p8XA/R3LDSNn4n70E+9qH5nTjK+3V2nnX2t2wkWutVxg6LnzxKwM8wfMseKVQpAmEWcjxD5w+oI=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010100101 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20101008000000 20100930230000 40288 . KFcy1OSTjY3PvHVyEExyaFbUYu3m32Fc0g09sY2jhrDeYyfKhL+cVX9fprswCH6DfU1CQYrIhcXJwcnxb+CeXpkRui1jB1szaAiH67sIK5Pulld46sX/yhGX7iKyIqb1aJjM1c6VM/UeanQFiEW3zONLbIaL43K8MAdg1jeTG8A=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -111,13 +111,10 @@ al.			172800	IN	NS	munnari.oz.au.
 ns1.nic.al.		172800	IN	A	194.1.149.230
 al.			86400	IN	NSEC	am. NS RRSIG NSEC
 al.			86400	IN	RRSIG	NSEC 8 1 86400 20101008000000 20100930230000 40288 . NTqvRZsrvfjj6l5BqfjYz/4La0TZn63Gbc8wcMlQha16apzC2KEKDKPMVDsi4u6Wv/CwyVdhxFj9TYRqWUFXLL6mBw+PophwufFyv2zUKJHlHK7F8yKfajXRS9NwMEIPec1D1C1+NZGWKjTQmAQOzmR276A9kAMA7KUPrRxNpdk=
-am.			172800	IN	NS	ns.amnic.net.
 am.			172800	IN	NS	rip.psg.com.
-am.			172800	IN	NS	sec1.apnic.net.
-am.			172800	IN	NS	sec3.apnic.net.
-am.			172800	IN	NS	ns-am.ripe.net.
-am.			172800	IN	NS	sunic.sunet.se.
+am.			172800	IN	NS	fork.sth.dnsnode.net.
 am.			172800	IN	NS	ns-cdn.amnic.net.
+am.			172800	IN	NS	ns-pri.amnic.net.
 am.			172800	IN	NS	sns-pb.isc.org.
 am.			86400	IN	NSEC	an. NS RRSIG NSEC
 am.			86400	IN	RRSIG	NSEC 8 1 86400 20101008000000 20100930230000 40288 . aU9D0zmvzEFgg/3IuXxRqZkwwlerjHpYReKsczKcguuM5LzWne/qQ/oSy59hHQc+d89awt5IwkK6m3Z8Uh4sfCrtiEOZ42IaNqizhbAtoErZVZBCcyYLVQP69Kg/Kp4JIDU7CelFO5by0scOIgnWLOdqUED0it5mzCGBnNLQlkw=
@@ -2115,10 +2112,10 @@ ns2.admin.net.		172800	IN	A	67.202.107.93
 ns3.admin.net.		172800	IN	A	87.98.180.44
 ns4.admin.net.		172800	IN	A	202.190.180.244
 dns2.gt.amnetdatos.net.	172800	IN	A	200.30.145.4
-ns.amnic.net.		172800	IN	A	195.250.64.90
-ns.amnic.net.		172800	IN	AAAA	2001:4d00:0:0:0:0:0:90
 ns-cdn.amnic.net.	172800	IN	A	194.0.1.26
 ns-cdn.amnic.net.	172800	IN	AAAA	2001:678:4:0:0:0:0:1a
+ns-pri.amnic.net.	172800	IN	A	195.43.74.90
+ns-pri.amnic.net.	172800	IN	AAAA	2001:67c:21c:10:0:0:0:90
 sec1.apnic.net.		172800	IN	A	202.12.29.59
 sec1.apnic.net.		172800	IN	AAAA	2001:dc0:2001:a:4608:0:0:59
 sec3.apnic.net.		172800	IN	A	202.12.28.140
@@ -2323,8 +2320,6 @@ ns-af.ripe.net.		172800	IN	A	193.0.12.1
 ns-af.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:1
 ns-al.ripe.net.		172800	IN	A	193.0.12.3
 ns-al.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:3
-ns-am.ripe.net.		172800	IN	A	193.0.12.12
-ns-am.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:12
 ns-an.ripe.net.		172800	IN	A	193.0.12.156
 ns-ar.ripe.net.		172800	IN	A	193.0.12.11
 ns-ba.ripe.net.		172800	IN	A	193.0.12.28
