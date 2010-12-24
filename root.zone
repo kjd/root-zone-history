@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010122400 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20101231000000 20101223230000 40288 . navGhlaYPLWgoerWryWLUci1S86CItYqdApGPQ8CVVYasBNAYE9xf+8ir2QDq8iLC0gs/a3InCizmOD3qUzMI6jJh3U/b/9iUygZAKkmMMW3LxY5MA+EpXyG8ZDVZ5rv9V9OfuYqg33+qkFQo4aYywiLmiITZEQWCzPFSQs4QZc=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2010122401 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20101231000000 20101223230000 40288 . WS+x0otbiiOAg3iDnJptjrTU/Rj7HQVbcD/EpBAn2YXaZGt1l/juBbNl8jSFDqwTF1dLLuuhjdvmjNgLJvmTuDcjUX264ycrMRN9Rqh64ZGftRptaNz6SHWZWw2Izx7iLdTAE0N28KvNVL9qDLUpOCJQSjAN837xSv9c5Ys6VYM=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -2502,7 +2502,7 @@ tld1.ultradns.net.	172800	IN	A	204.74.112.1
 tld1.ultradns.net.	172800	IN	AAAA	2001:502:d399:0:0:0:0:1
 tld2.ultradns.net.	172800	IN	A	204.74.113.1
 engine1.una.net.	172800	IN	A	198.93.177.21
-a.usadotgov.net.	172800	IN	A	74.208.172.129
+a.usadotgov.net.	172800	IN	A	76.73.18.236
 b.usadotgov.net.	172800	IN	A	206.204.217.151
 c.usadotgov.net.	172800	IN	A	69.72.142.35
 d.usadotgov.net.	172800	IN	A	204.168.112.71
@@ -2921,6 +2921,8 @@ qa.			172800	IN	NS	ns3.qatar.net.qa.
 ns1.qatar.net.qa.	172800	IN	A	212.77.192.10
 ns2.qatar.net.qa.	172800	IN	A	212.77.192.13
 ns3.qatar.net.qa.	172800	IN	A	212.77.192.15
+ans0.qaregistry.qa.	172800	IN	A	178.23.18.5
+ans1.qaregistry.qa.	172800	IN	A	178.23.18.6
 qa.			86400	IN	NSEC	re. NS RRSIG NSEC
 qa.			86400	IN	RRSIG	NSEC 8 1 86400 20101231000000 20101223230000 40288 . fHvFsBqthvzj/fSFrnhSumQKA+8jex9ClWj+KDeEVQaeBbXk/ZQD9a9m9f7GWBwmd+8H3l6CW4P4bP/3f0gLe1pXgCpoe0YH3Sa81yba+lTMg+7DLHbNSdkuflFWOuONN8uuR2K90zH4Omr+dE0tWkLGHw7MIYRcl0whQzFI0QY=
 re.			172800	IN	NS	a.nic.fr.
@@ -3776,8 +3778,14 @@ xn--pgbs0dh.		86400	IN	RRSIG	NSEC 8 1 86400 20101231000000 20101223230000 40288 
 xn--wgbh1c.		172800	IN	NS	ns1.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns2.dotmasr.eg.
 xn--wgbh1c.		172800	IN	NS	ns3.dotmasr.eg.
-xn--wgbh1c.		86400	IN	NSEC	xn--xkc2al3hye2a. NS RRSIG NSEC
-xn--wgbh1c.		86400	IN	RRSIG	NSEC 8 1 86400 20101231000000 20101223230000 40288 . VlEzLyhYcUnOlGyRjv1FVpZKcrj6jPvvknlDZJxmDsAGRenXGF6PNFiFf9tiKOx5O0HsJ9UCz4I2UNjeKeMRNYH5qXaUmINKg80FtaNK96mBa8Jm60RybUmmt57++YeM+Ci+RoIZ+C09lsp0XWJn17saH3aO7f2EKvmqzaBTpNk=
+xn--wgbh1c.		86400	IN	NSEC	xn--wgbl6a. NS RRSIG NSEC
+xn--wgbh1c.		86400	IN	RRSIG	NSEC 8 1 86400 20101231000000 20101223230000 40288 . T/CuM1qGxKewW6Rk7+NCIPc3HFUJvVd1b2GZwU4Tj5i/hN8c2NT2Ev6ru/93rl/ncDnLP0/dDkNwIYzLEGqZxBUYDbDOjftYt7WujKo7e+TYEsfdnz8df5hWEyoZ2VhyM7A2kNXljyFEJcnOdpaUfzyXmW3DYdYXIIgPlOvxkYA=
+xn--wgbl6a.		172800	IN	NS	ns1.qatar.net.qa.
+xn--wgbl6a.		172800	IN	NS	ns2.qatar.net.qa.
+xn--wgbl6a.		172800	IN	NS	ans0.qaregistry.qa.
+xn--wgbl6a.		172800	IN	NS	ans1.qaregistry.qa.
+xn--wgbl6a.		86400	IN	NSEC	xn--xkc2al3hye2a. NS RRSIG NSEC
+xn--wgbl6a.		86400	IN	RRSIG	NSEC 8 1 86400 20101231000000 20101223230000 40288 . LDx/N6Y5avb51mlkZqqIGvSh8/b+lnnDP2GLjUTqfUha2/zsQQFgDZbVn3x00fOouJv1QQdfZ6HIAsTcOM0DD4Z5AoFpYk1vz08UGEeJoM930ep+EBeQRXGE9IYgIgCFz1oGyIffNdQ9SCcnXTkgTbk15r0RF9OtH0c24QXSpLY=
 xn--xkc2al3hye2a.	172800	IN	NS	lk.communitydns.net.
 xn--xkc2al3hye2a.	172800	IN	NS	nic.lk-anycast.pch.net.
 xn--xkc2al3hye2a.	172800	IN	NS	ns1.ac.lk.
