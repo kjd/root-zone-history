@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011020200 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20110209000000 20110201230000 21639 . BP/PDfBN9CRMU602JrS8ilRdHbjQdvmFJl1d6+jOjVDEM8yFHhh0AuQpsRH5cXBhTLRXtmGvtu1Qnn7nPsWonSifANj+cJic3BVolVM10kw361X04n/LhbA8Ie0QaLTFhM6dLXvbaAv/d6N5wyeRKRr0AatfmhMf16HjSDFa+kI=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011020201 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20110209000000 20110201230000 21639 . i+nvlua/QsJkqm7BBSKt9nKaPi1aGBeMR4H8aiVdo48AigEZ93uzQ7cphqTLBIJ2vka9mYYK97FaOY4q0WPo3XS8n0vMKat4PEnDnocEQ25y3jU/k4/ajy0fXYL7PKnqbErUIaewts+UyK1ek7i2KPgmRli9TBmHZ1ZyDCqjmHY=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -113,11 +113,14 @@ al.			86400	IN	NSEC	am. NS RRSIG NSEC
 al.			86400	IN	RRSIG	NSEC 8 1 86400 20110209000000 20110201230000 21639 . q+iK2gKysH2D8++Ijw881Ofls7Anl5Rb2GRd1Tpa1cpgrcnygaftdX7641CSwdEVEU1eGEauqBqO6+vbpeZC0KYu8IKrUK/bokA5lntiTsHwLSA//oAppYIoU3+AGnV+dRGlsL+jKXaZMXkZfOydySAbhokFSNXTuxq7eJe/TOI=
 am.			172800	IN	NS	rip.psg.com.
 am.			172800	IN	NS	fork.sth.dnsnode.net.
+am.			172800	IN	NS	ns-am.ripe.net.
 am.			172800	IN	NS	ns-cdn.amnic.net.
 am.			172800	IN	NS	ns-pri.amnic.net.
 am.			172800	IN	NS	sns-pb.isc.org.
-am.			86400	IN	NSEC	an. NS RRSIG NSEC
-am.			86400	IN	RRSIG	NSEC 8 1 86400 20110209000000 20110201230000 21639 . PlzjSWZWph8pMi+BM5d2IIgq9ATqdsw/JHsYzoiOBYGm1aHaYUE3vE82/MoVVb0owDE1QfPsKPDw07yME+o5pQ1HG7IGttIH3O7gTbPrPGJ7pR5CDnA0SFcf7lw/6B9dxDVXOJh3BXP0oJ7Rp24EyQRSr4xOmL0+X69CC29cG74=
+am.			86400	IN	DS	8139 7 2 4E3FDE76275B57743F4776B650703E06DE15435957EEBA22BDBF0B8DAD0A8599
+am.			86400	IN	RRSIG	DS 8 1 86400 20110209000000 20110201230000 21639 . B0P6GvBrMunSY/ks1AHSEKRG70qRS5UCLdpBT7hmk9eVqrW8wZa1VdIxyXzoQt3tshRbLp1Zlk7BY13+rl5E/zaPNFgb9k07nNGiTvpfoVHBnoEOAVhnRIs/iYbuHyDt0JgPovLwKdxmEnlM0lU+QqzOpwd50ecv6oDM437vetM=
+am.			86400	IN	NSEC	an. NS DS RRSIG NSEC
+am.			86400	IN	RRSIG	NSEC 8 1 86400 20110209000000 20110201230000 21639 . TgHfVuP8nJvH/vn/F7sw9Y9Cn+YNcJvj/DthvIECaOJS0ar6NIJ8/JfrvJ9rgNn+8x/Tq3iOBD2BlGf630nOoYdEdbUsJLbGizNQIuFdCyxisgZpmQw5jLKwJRHbyb4tHuJND2rJSIq43P6vNEzmpuNQS/hyo91iofpl2uYpF+M=
 an.			172800	IN	NS	ns0.ja.net.
 an.			172800	IN	NS	ns3.cura.net.
 an.			172800	IN	NS	ns-an.ripe.net.
@@ -487,7 +490,6 @@ bz.			86400	IN	RRSIG	NSEC 8 1 86400 20110209000000 20110201230000 21639 . Tmzauh
 ca.			172800	IN	NS	a.ca-servers.ca.
 ca.			172800	IN	NS	b.ca-servers.ca.
 ca.			172800	IN	NS	c.ca-servers.ca.
-ca.			172800	IN	NS	d.ca-servers.ca.
 ca.			172800	IN	NS	e.ca-servers.ca.
 ca.			172800	IN	NS	f.ca-servers.ca.
 ca.			172800	IN	NS	j.ca-servers.ca.
@@ -498,7 +500,6 @@ ca.			172800	IN	NS	sns-pb.isc.org.
 a.ca-servers.ca.	172800	IN	A	192.228.27.11
 b.ca-servers.ca.	172800	IN	A	192.228.25.45
 c.ca-servers.ca.	172800	IN	A	192.228.28.9
-d.ca-servers.ca.	172800	IN	A	129.33.164.73
 e.ca-servers.ca.	172800	IN	A	192.228.30.9
 f.ca-servers.ca.	172800	IN	A	199.4.28.220
 j.ca-servers.ca.	172800	IN	A	198.182.167.1
@@ -865,6 +866,7 @@ ec.			172800	IN	NS	dns1.nic.ec.
 ec.			172800	IN	NS	dns2.nic.ec.
 ec.			172800	IN	NS	dns3.nic.ec.
 ec.			172800	IN	NS	dns4.nic.ec.
+ec.			172800	IN	NS	sns-pb.isc.org.
 dns1.nic.ec.		172800	IN	A	157.100.1.44
 dns2.nic.ec.		172800	IN	A	200.6.84.2
 dns3.nic.ec.		172800	IN	A	200.1.6.51
@@ -2368,6 +2370,8 @@ ns-af.ripe.net.		172800	IN	A	193.0.12.1
 ns-af.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:1
 ns-al.ripe.net.		172800	IN	A	193.0.12.3
 ns-al.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:3
+ns-am.ripe.net.		172800	IN	A	193.0.12.12
+ns-am.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:12
 ns-an.ripe.net.		172800	IN	A	193.0.12.156
 ns-ar.ripe.net.		172800	IN	A	193.0.12.11
 ns-ar.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:11
