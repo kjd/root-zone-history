@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011041500 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20110422000000 20110414230000 34525 . X0+yHcBzRrw7vCdhviVyZrYjatSUDez9LfvivN6lsTJNSSsJD1frrqRzqxvHpjHrswRpteyHcFtrvwNUoXIvu/Uby30LxxYEzK7CtWqW+jvKqpanOJM2dC0RmIFpNH/DjyL1A1uCCiruLZ82LhBA17qxW2S+xUlsMdZcJXMDXDk=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011041501 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20110422000000 20110414230000 34525 . e9q59dVaIdnrjRMVvbRjBoV8VSZTPxXBEH/oyeBLxEculbvOZNAVoIlpfwNyG6oQIRMZ2zWiICMOBsHWIWeaLNAjz/PJIeLbRA1WordNrmCD9Z1luFgr6okuE6VsvMvBr1f01enD2baAvTS6SR2kq20VPTB1M9pivNuKtT2beRk=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1457,6 +1457,9 @@ a2.org.afilias-nst.info.	172800	IN	A	199.249.112.1
 a2.org.afilias-nst.info.	172800	IN	AAAA	2001:500:40:0:0:0:0:1
 c0.org.afilias-nst.info.	172800	IN	A	199.19.53.1
 c0.org.afilias-nst.info.	172800	IN	AAAA	2001:500:b:0:0:0:0:1
+a0.xxx.afilias-nst.info.	172800	IN	A	199.115.152.1
+a2.xxx.afilias-nst.info.	172800	IN	A	199.115.156.1
+c0.xxx.afilias-nst.info.	172800	IN	A	199.115.154.1
 tld.isc-sns.info.	172800	IN	A	72.52.71.3
 tld.isc-sns.info.	172800	IN	AAAA	2001:470:1a:0:0:0:0:3
 tld5.ultradns.info.	172800	IN	A	192.100.59.11
@@ -2753,6 +2756,9 @@ b2.org.afilias-nst.org.	172800	IN	A	199.249.120.1
 b2.org.afilias-nst.org.	172800	IN	AAAA	2001:500:48:0:0:0:0:1
 d0.org.afilias-nst.org.	172800	IN	A	199.19.57.1
 d0.org.afilias-nst.org.	172800	IN	AAAA	2001:500:f:0:0:0:0:1
+b0.xxx.afilias-nst.org.	172800	IN	A	199.115.153.1
+b2.xxx.afilias-nst.org.	172800	IN	A	199.115.157.1
+d0.xxx.afilias-nst.org.	172800	IN	A	199.115.155.1
 b.ci-servers.org.	172800	IN	A	82.103.139.220
 c.ci-servers.org.	172800	IN	A	194.146.106.86
 c.ci-servers.org.	172800	IN	AAAA	2001:67c:1010:22:0:0:0:53
@@ -3942,8 +3948,16 @@ xn--zckzah.		172800	IN	NS	c.iana-servers.net.
 xn--zckzah.		86400	IN	DS	56231 8 1 D2C46F1B7A4F83D99C5133671167D083243A3F48
 xn--zckzah.		86400	IN	DS	56231 8 2 34F6E274294D84E62C132117208BB64BC31CC0A8D81287DD7A7E65DCB760BD19
 xn--zckzah.		86400	IN	RRSIG	DS 8 1 86400 20110422000000 20110414230000 34525 . JX/UBUvBaSrc1iaWCS8jzd2MEAD3swx1zh5eS9Oy/Sy/xbILXYapglZR44MKvxB9CdVsv+hzXYwpTYXTbW61fYotLqOdrLU/92kzrRzg0gety+UHyBeBwDZWfNswieJsKuC0+Ge7DLY79t9Gj6mKvUmXAeiLWXzJ7TyFiD6K1/4=
-xn--zckzah.		86400	IN	NSEC	ye. NS DS RRSIG NSEC
-xn--zckzah.		86400	IN	RRSIG	NSEC 8 1 86400 20110422000000 20110414230000 34525 . IbfnYx//CmjHNuaNCimwciwtFyDQbLCPDdE8Rzo13RZMdFWI9lqFntwoudFt64/YThT+mTCK2TKiLQTU/INQyAhaS/pNEa8E0+4ripNdIfRZFcEpQn4FrbOCCH8VFDMrVNj/esoSI08Acp2CLEpD7u1oJCDObfVR7fkj3xvo+XA=
+xn--zckzah.		86400	IN	NSEC	xxx. NS DS RRSIG NSEC
+xn--zckzah.		86400	IN	RRSIG	NSEC 8 1 86400 20110422000000 20110414230000 34525 . dDbsA82LWqYhgi9THGeomI+eS8Zbd5JhBhy9aifWmHdiDXkitaMAJficbesp8Kaz17rSzTV6D36FteBAneREClitchWmxfGdVdih4yfxXL6fXX6mN/Wb2DgEOh/VIDOK8G6Jsv02wqABN9hG9sV9ClRJgnthDvCDtg0hbE8uBSU=
+xxx.			172800	IN	NS	a0.xxx.afilias-nst.info.
+xxx.			172800	IN	NS	a2.xxx.afilias-nst.info.
+xxx.			172800	IN	NS	b0.xxx.afilias-nst.org.
+xxx.			172800	IN	NS	b2.xxx.afilias-nst.org.
+xxx.			172800	IN	NS	c0.xxx.afilias-nst.info.
+xxx.			172800	IN	NS	d0.xxx.afilias-nst.org.
+xxx.			86400	IN	NSEC	ye. NS RRSIG NSEC
+xxx.			86400	IN	RRSIG	NSEC 8 1 86400 20110422000000 20110414230000 34525 . WG8zb4KyMuHQD84CtCnpyDaHhn1WFiMZGlu1l2eTP73nAgTAWbU84ADnbOPddCIaOh5ab2trTkvTEbaI4BSZppWVy9fCBWIA1QiY0uPQIPqqF1Z01akNkoxDqlF3ZVMbo76ybZAc1Q2+gdrVCMFJV2WK6rueZ0rc7ZEFy/BA9zI=
 ye.			172800	IN	NS	ns1.yemen.net.ye.
 ye.			172800	IN	NS	ns2.yemen.net.ye.
 ye.			172800	IN	NS	sah1.ye.
