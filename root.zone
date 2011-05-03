@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011050300 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20110510000000 20110502230000 34525 . f8MpN53P0fBRNGpV7nc8I+50MBVcyg1Vp8/Vhkem7nGd6KdaUlncwdfNe/YAS9r1a6PcF1q/OWqTZj9g7FGqkQ5P1Z9g3LNnn9LvpkarywGdTDgg/m0gvgK6VDv4F3/tJaELiCLjurB3uBXdQEtXs7gwWiUAo42RVuKZdOWipxo=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011050301 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20110510000000 20110502230000 34525 . dVzd0kkUzl3/dlTO/949imQ7e7gMNqY3isXvJDd7C7O+hd2q6wCgTj5BVl/+ekxb5b9R2UgnhDXrF8b2JBSiXZzXi1cFttH72lPrtZwTV3HrY/izCEzarvFPwSxWvSUEAOETvhOaRUrB08NnLw3v5ON+/6rwaoDrt/1TELYX5oA=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1868,6 +1868,9 @@ ma.			172800	IN	NS	ns2.iam.net.ma.
 ma.			172800	IN	NS	ns2.nic.fr.
 ma.			172800	IN	NS	ns3.iam.net.ma.
 ma.			172800	IN	NS	ns-ma.ripe.net.
+hariss.anrt.ma.		172800	IN	A	194.204.241.140
+dns2.menara.ma.		172800	IN	A	81.192.53.156
+dns3.menara.ma.		172800	IN	A	196.217.246.51
 ns1.iam.net.ma.		172800	IN	A	212.217.0.10
 ns2.iam.net.ma.		172800	IN	A	81.192.53.23
 ns3.iam.net.ma.		172800	IN	A	212.217.1.13
@@ -3707,8 +3710,13 @@ xn--80akhbyknj4f.	172800	IN	NS	c.iana-servers.net.
 xn--80akhbyknj4f.	86400	IN	DS	56231 8 1 85503A030DDF0297450DDD4B5E2B96A463D2D1EA
 xn--80akhbyknj4f.	86400	IN	DS	56231 8 2 58A2D5813CC2CAA6B5B88349B5127EB592E64BC85E6D796A27D1B3338CA35638
 xn--80akhbyknj4f.	86400	IN	RRSIG	DS 8 1 86400 20110510000000 20110502230000 34525 . KG0sFDFvmcnJBixP8CmqvS4/5GS7ozyOrWa8bVMIrN83SpgNhsb4dxMQoPkehvi1ralnnaf77bklpvt0FDo7z0N+sozPhOJnis5Ay3ZjaJpl5SzX9L441+Iyaxg72dnlecC4vw8QE2le+xEVv/cJ/pSnq/e/4b0CSV1FbMCpFog=
-xn--80akhbyknj4f.	86400	IN	NSEC	xn--9t4b11yi5a. NS DS RRSIG NSEC
-xn--80akhbyknj4f.	86400	IN	RRSIG	NSEC 8 1 86400 20110510000000 20110502230000 34525 . xmdwk0hcB+lvoX7eIkc9jDdIRa9Zf3Dplan/djuTvVBANElnjGysuyl52yk+oV0x/W/VbaNUzzuXiW2xaqtc1Uawq5/pEyJ4NJ21U6mbV/wn5zSNtkezRpkugbfdFYG09T5V/J47ueA15K55Jc8fXgSWOS6kGn4DcSPVo3qWrUg=
+xn--80akhbyknj4f.	86400	IN	NSEC	xn--90a3ac. NS DS RRSIG NSEC
+xn--80akhbyknj4f.	86400	IN	RRSIG	NSEC 8 1 86400 20110510000000 20110502230000 34525 . tLCsMGFxvKEOzaznV4chi2zqWOeALhqmV1k2D0JZG8oh3Ry0ZFQVdICYMHR/yMk+OfjcbQUia83eEc3r4i0JMTrpIQaZFRQ/aBdSXIBNcp5RHzBD+AMjZLh2COp2HoEDTkvs0jy5x5eCtJNm6rUPLeL6YCpMF8geevG7nd1oQj4=
+xn--90a3ac.		172800	IN	NS	a.nic.rs.
+xn--90a3ac.		172800	IN	NS	g.nic.rs.
+xn--90a3ac.		172800	IN	NS	h.nic.rs.
+xn--90a3ac.		86400	IN	NSEC	xn--9t4b11yi5a. NS RRSIG NSEC
+xn--90a3ac.		86400	IN	RRSIG	NSEC 8 1 86400 20110510000000 20110502230000 34525 . Al0K2/kJPjuN3fo9nkzDketzpgYGFqkNYsqGvqaqJQGrzUCTY3X41V4K7sTI4JSO9MdlAvRAoB61f1/5Gt/Mavk7PVcZIhVrzNaafl9vQ4Fo/uEOWg5VXQhdAvwVcGohOLdEF5bMbDYusvoQ8LXnKpV4hv4OwqlRrOSFFgc7cxo=
 xn--9t4b11yi5a.		172800	IN	NS	a.iana-servers.net.
 xn--9t4b11yi5a.		172800	IN	NS	b.iana-servers.net.
 xn--9t4b11yi5a.		172800	IN	NS	c.iana-servers.net.
@@ -3874,8 +3882,14 @@ xn--mgbbh1a71e.		172800	IN	NS	b1.in.afilias-nst.in.
 xn--mgbbh1a71e.		172800	IN	NS	b2.in.afilias-nst.org.
 xn--mgbbh1a71e.		172800	IN	NS	c0.cctld.afilias-nst.info.
 xn--mgbbh1a71e.		172800	IN	NS	d0.cctld.afilias-nst.org.
-xn--mgbbh1a71e.		86400	IN	NSEC	xn--mgberp4a5d4ar. NS RRSIG NSEC
-xn--mgbbh1a71e.		86400	IN	RRSIG	NSEC 8 1 86400 20110510000000 20110502230000 34525 . Okm9Ee2HkYAsj/Lv8UQr48x0iA51GU0T2YqvdAfdm9vUgQSL1UGvB6K6huD0l7gMR2+xpvFNEKfL2kudlNg6FndVxu5QxOkARu+/KCahAZ8oFhGXvyyQ6Jg1JjP1cj5oGrLHOZbhn0iQqgECyzs67LKiy55EN25oFu8hS824S08=
+xn--mgbbh1a71e.		86400	IN	NSEC	xn--mgbc0a9azcg. NS RRSIG NSEC
+xn--mgbbh1a71e.		86400	IN	RRSIG	NSEC 8 1 86400 20110510000000 20110502230000 34525 . l01RmQo/ukrM9IlsjabJ+2gGYOlij7KvJ/8KIOMSCIsfKezyuNUZB7GTELhblgB5iB+g27sFBQDAms84vXuMncJMFh4t99FEhMKzT0UtG3/+M0LPrGPv4cRFa7CYQXMUxO/Y4VGrnrK6g7ahZsZweB1e9iiJwgW1N5PmF0+BvU4=
+xn--mgbc0a9azcg.	172800	IN	NS	ns2.nic.fr.
+xn--mgbc0a9azcg.	172800	IN	NS	dns2.menara.ma.
+xn--mgbc0a9azcg.	172800	IN	NS	dns3.menara.ma.
+xn--mgbc0a9azcg.	172800	IN	NS	hariss.anrt.ma.
+xn--mgbc0a9azcg.	86400	IN	NSEC	xn--mgberp4a5d4ar. NS RRSIG NSEC
+xn--mgbc0a9azcg.	86400	IN	RRSIG	NSEC 8 1 86400 20110510000000 20110502230000 34525 . ZiQE7h+bT9nJSNEhPc6/STT4xh+OXpgWu0Y/N/LrRj9XXNfm6MbTL2aoFcb5DMSylXMLc2XrEFhAXxWWnbeLhbzzvVGcRAx8evnfWVlgdpaEA+uEanBkH0o46RNuTGlfuQascvSZ/VJGWEWEroCKq0oaEx89b1XtnryiKsb1Z8Q=
 xn--mgberp4a5d4ar.	172800	IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns2.nic.net.sa.
 xn--mgberp4a5d4ar.	86400	IN	NSEC	xn--o3cw4h. NS RRSIG NSEC
