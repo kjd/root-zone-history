@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011050500 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20110512000000 20110504230000 34525 . QXh89WOKWpjETJQqAZ7kR7lSvv0A6mcPh1yKb3Ld9CYUYzoOMbw09D06vinypgNQtO/gH122Tm1j9GWMURjWz8cTgx/meiH3mBwtdOvB0zev1r8RqcSdI7BX/poPV1XyUC7nK6fjsNb/mmh4H1O6dipokxXK66EwjEQPbEjWNTU=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011050501 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20110512000000 20110504230000 34525 . sUQeyGEj1RsZzffdUvAQ2SHArs2ZYQMEfhGdcHpde9ro2NBrN21ATccSLGeDbWHRgrZYBwfytBQqXQauLOa3oNQkQxclZ14QcQGCqiZqjo3iTBHSa8KmclId0v8CbMIT4RAR/PGk8IAdnTJB7Nm74TyaMCPioVZx9pzxSekZZbo=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -227,6 +227,7 @@ r.nic.at.		172800	IN	A	192.174.68.10
 r.nic.at.		172800	IN	AAAA	2001:67c:1bc:0:0:0:0:10
 at.			86400	IN	NSEC	au. NS RRSIG NSEC
 at.			86400	IN	RRSIG	NSEC 8 1 86400 20110512000000 20110504230000 34525 . imSJg8jNU1c3gUg5JwXepwIeeCMHsV9SLlLeOGivQqcuuxMfNX6gTN3P92XLUjWTum2fNEEAZlcA7o8HY2VZMxatWbk4L/wge31JdTydL05q0xT9upUypT1hT8TmGEsLAFsRUh/4v4zHoUs+XHq8hOl6pgFBjYfofJ3FDXf2gOk=
+au.			172800	IN	NS	a.au.
 au.			172800	IN	NS	b.au.
 au.			172800	IN	NS	o.audns.net.au.
 au.			172800	IN	NS	a3.audns.net.au.
@@ -234,6 +235,7 @@ au.			172800	IN	NS	b1.audns.net.au.
 au.			172800	IN	NS	b2.audns.net.au.
 au.			172800	IN	NS	ns1.audns.net.au.
 au.			172800	IN	NS	ns3.audns.net.au.
+a.au.			172800	IN	A	58.65.254.73
 b.au.			172800	IN	A	58.65.253.73
 yarrina.connect.com.au.	172800	IN	A	192.189.54.17
 a3.audns.net.au.	172800	IN	A	202.12.31.141
