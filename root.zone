@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011051900 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20110526000000 20110518230000 34525 . MPWDPa2t4ubYfD5y6yAg4NRLQenbzTkGCzrnM8UIeBKtt6YEz702VIfpEbRtSblKKD5n5CXcVs6bnN4o6k/5CI6IqmllZzZTbU6P2OUFbx9imSoO9/hhkFN0eenGPk7VLRzmbWB9lFeb1tP8+5QwZOGlOS3LNEUn4vfN3c2DeLo=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011051901 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20110526000000 20110518230000 34525 . aK57rttNmk1UCnHsu7Y8HebpDFH3yw/eSKwXIIicUyv2uKTI4Qa2830aFJUmsh/9GJycHIsDQCmO7fNja/tJSBtYJUvkaRleSwnKbqCfSgdrfl6lBihJVESR+r6FYGT+czxlvKn/8JsSMYzGy0wbDEqJS7RcZf4MIvq4pth1GQc=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -3462,11 +3462,13 @@ h.dns.tw.		172800	IN	A	203.119.3.1
 tw.			86400	IN	NSEC	tz. NS RRSIG NSEC
 tw.			86400	IN	RRSIG	NSEC 8 1 86400 20110526000000 20110518230000 34525 . RywIQlHFUzVJo5+5QfIQ4f3Rz4g30c44EShmWKk3nr/KzZv+AyZBzQyJEYXFhljWCeOxZVZG9Xuq91S5/Ss/fyfRLcHZhd4QxbY7AKzihgFATS1pkmb3wHQQR4Klpthi7yY0hmeuBSpyD7CQoLAZr/o0i+gkx7DbR3lt2RWI5Uc=
 tz.			172800	IN	NS	d.ext.nic.cz.
+tz.			172800	IN	NS	ns.anycast.co.tz.
 tz.			172800	IN	NS	ns2.tznic.or.tz.
 tz.			172800	IN	NS	ns2.afrinic.net.
 tz.			172800	IN	NS	rip.psg.com.
 tz.			172800	IN	NS	sunic.sunet.se.
 tz.			172800	IN	NS	sns-pb.isc.org.
+ns.anycast.co.tz.	172800	IN	A	204.61.216.15
 ns2.tznic.or.tz.	172800	IN	A	196.216.162.67
 ns2.tznic.or.tz.	172800	IN	AAAA	2001:43f8:e0:1:0:0:0:67
 tz.			86400	IN	NSEC	ua. NS RRSIG NSEC
