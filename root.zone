@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011052700 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20110603000000 20110526230000 34525 . inV4DE+rWhjxEReeGS8TDZ8EQGVKwWBnfy3t/q3hvmBBr+38SJYWha9Ap0Qy5lU2oVdY7Bkr+8ty96Cdfcq1KfghQVGOx6mJZZosCIpIXFlTmyoPZVZVwrpOp0PKa7bGxgdiZOhnIKy5fdcFdgxJ/e6t4xZbo7dPVVKLWfcLlqs=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011052701 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20110603000000 20110526230000 34525 . J+hioXkosmtsPFEAKQWKvzbRhudz6CgXvdT1Btfw7wjtvhm8lDWK5Ko07VI8+ns9JtbrLJJ0Jh0kkJacclNOHOjWyC8ep6UxABPRWJeobHcHVZSDbDub9IVfozceg1a9u9+bTXSGFA7QN2ux3wIO0xnFtI36fqJpKWO4PN/bm1o=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -234,8 +234,6 @@ au.			172800	IN	NS	o.audns.net.au.
 au.			172800	IN	NS	a3.audns.net.au.
 au.			172800	IN	NS	b1.audns.net.au.
 au.			172800	IN	NS	b2.audns.net.au.
-au.			172800	IN	NS	ns1.audns.net.au.
-au.			172800	IN	NS	ns3.audns.net.au.
 a.au.			172800	IN	A	58.65.254.73
 b.au.			172800	IN	A	58.65.253.73
 yarrina.connect.com.au.	172800	IN	A	192.189.54.17
@@ -245,8 +243,6 @@ b1.audns.net.au.	172800	IN	A	128.32.136.3
 b1.audns.net.au.	172800	IN	AAAA	2607:f140:ffff:fffe:0:0:0:3
 b2.audns.net.au.	172800	IN	A	128.32.136.14
 b2.audns.net.au.	172800	IN	AAAA	2607:f140:ffff:fffe:0:0:0:e
-ns1.audns.net.au.	172800	IN	A	58.65.255.73
-ns3.audns.net.au.	172800	IN	A	58.65.251.73
 o.audns.net.au.		172800	IN	A	211.29.133.32
 munnari.oz.au.		172800	IN	A	202.29.151.3
 au.			86400	IN	NSEC	aw. NS RRSIG NSEC
@@ -3042,6 +3038,7 @@ sa.			172800	IN	NS	rip.psg.com.
 sa.			172800	IN	NS	ns-sa.ripe.net.
 sa.			172800	IN	NS	sa-ns.anycast.pch.net.
 ns1.isu.net.sa.		172800	IN	A	212.26.18.3
+ns1.isu.net.sa.		172800	IN	AAAA	2001:1490:0:800:0:0:0:3
 ns1.nic.net.sa.		172800	IN	A	86.111.192.9
 ns1.nic.net.sa.		172800	IN	AAAA	2001:67c:130:410:0:0:0:9
 ns2.nic.net.sa.		172800	IN	A	86.111.196.9
