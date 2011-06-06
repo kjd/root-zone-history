@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011060600 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20110613000000 20110605230000 34525 . BT4EzwWVPHnLWcOOEIikd+cWq+KEsfrWYbFjUZx4VJy4QsGwe3Rw628qa/G9+RcZsuMWvdEEluJvC9tV5ZbtZvKvRiBMst8bfnj2ErPlNSYxbYSGfDmMIfg/xEizgOqz44Ib8ai9H9CtbjY+svI+yy06MSepNQbIi/ETL5+9jIM=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011060601 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20110613000000 20110605230000 34525 . hFeTPT9xhr2AatrQg4/AP+HDpunuxj35ydvSUNQdd2HmVX5Mlw1fx/3GUli4mSoWp9/4HgppfJbf6spbpZwnkDDkPCJmEfEw/ZfzQKhWWPUDaQjBnJ95AwxlnsOfzqeoJPUF1nnX11bOqxo4xMwYpFb6Cn8UqKDzRxZxZu09xUY=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -937,7 +937,6 @@ zaranew.noc.net.er.	172800	IN	A	196.200.96.2
 er.			86400	IN	NSEC	es. NS RRSIG NSEC
 er.			86400	IN	RRSIG	NSEC 8 1 86400 20110613000000 20110605230000 34525 . jh0YqfnuCCt2BcGZwe9RYCO0t+wyeO0zJ9sjZU/FE0tlcZZf4HptNKSIlP1rLXNsm1RUz7NL+stjIFdwq8YUrbgbaIZF3GML8bs42eQHV5XgsL/WLE0Kz8RTJblmmf3Q5KANDZjquqjk5XRq/OYjRzO3Dw2+g6opXGjmX+rDZOM=
 es.			172800	IN	NS	a.nic.es.
-es.			172800	IN	NS	b.nic.es.
 es.			172800	IN	NS	f.nic.es.
 es.			172800	IN	NS	ns1.cesca.es.
 es.			172800	IN	NS	ns3.nic.fr.
@@ -946,7 +945,6 @@ es.			172800	IN	NS	ns-ext.nic.cl.
 es.			172800	IN	NS	sns-pb.isc.org.
 ns1.cesca.es.		172800	IN	A	84.88.0.3
 a.nic.es.		172800	IN	A	194.69.254.1
-b.nic.es.		172800	IN	A	195.81.201.11
 f.nic.es.		172800	IN	A	130.206.1.2
 f.nic.es.		172800	IN	AAAA	2001:720:418:caf1:0:0:0:2
 n3ns.nic.es.		172800	IN	A	194.69.254.42
@@ -3159,19 +3157,20 @@ sj.			172800	IN	NS	nac.no.
 sj.			172800	IN	NS	server.nordu.net.
 sj.			86400	IN	NSEC	sk. NS RRSIG NSEC
 sj.			86400	IN	RRSIG	NSEC 8 1 86400 20110613000000 20110605230000 34525 . Fc+hGVjKH+7FOREBWsJKaoDKTWwu2SmvahvHYM203T4dqI2f4uWkd9LuN3C5DqDYPTbI2nTX+bh/4au2ZumraIkzja8ISS3VVpZWRq7v1IxbqebzkTJx7a8+0LDmA0gWZE/2eGaOkWsOq9V1ZONYzPCjVoqU4nN3SCAr4TxmqRo=
+sk.			172800	IN	NS	c.tld.sk.
 sk.			172800	IN	NS	ns.uu.net.
 sk.			172800	IN	NS	ns.eunet.sk.
 sk.			172800	IN	NS	ns.sk-nic.sk.
-sk.			172800	IN	NS	ns.internet.sk.
 sk.			172800	IN	NS	ns1.sk-nic.sk.
 sk.			172800	IN	NS	ns3.sk-nic.sk.
 sk.			172800	IN	NS	sunic.sunet.se.
 sk.			172800	IN	NS	ns-ext.vix.com.
 ns.eunet.sk.		172800	IN	A	217.75.73.242
-ns.internet.sk.		172800	IN	A	217.75.73.241
 ns.sk-nic.sk.		172800	IN	A	195.12.159.2
 ns1.sk-nic.sk.		172800	IN	A	195.12.159.3
 ns3.sk-nic.sk.		172800	IN	A	217.75.67.234
+c.tld.sk.		172800	IN	A	217.75.72.157
+c.tld.sk.		172800	IN	AAAA	2a02:770:100:100:0:0:0:101
 sk.			86400	IN	NSEC	sl. NS RRSIG NSEC
 sk.			86400	IN	RRSIG	NSEC 8 1 86400 20110613000000 20110605230000 34525 . v3X0E9D3MbeWChz9V3T2RJM/MIWKgrLHnXSOJMqmyDtFr2AMqZHxi0Oi6l/LoIt7ZycKJsLnELpPoJAjz6VjH2gZ/f6b+sQh97fRQbMUOGA0Ms/+fEZl3KUUyWWxpnOzzhePk+Y3q6ROFafm5nsvMxnP9/NCgA0k2extFGvraoI=
 sl.			172800	IN	NS	ns1.neoip.com.
