@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011062100 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20110628000000 20110620230000 34525 . vE4lT3P9kfHRLj2HdfEypnRK/9/iS0kCNLx1isTcwV6Fv5FSivBi7bho/2C2FpxRl71nVapafmMvwCgmdLnp9Qa84F6GF+TGQt7AjZ7JfFxflGBvKpqOdD6nCeDBtVLk8fPFv4/1VNRz67p6GItNj83GWmslLscFzVMHvVh4eOo=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011062101 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20110628000000 20110620230000 34525 . mqeXRMo/Xu6ivPU2ngTX8tO7rEj4y2L0yd/pjeWVIWJGkWKV370DeH5NbMy3As2hoT+7l2GsbyclFiZvJCHmnKesAidDR4In0l0qmowD4ba6785D0HCIJqqFBGsbAMV68E/ahX31jkc9Vp3pdQm44K70bZE5REUs4rla69ucwpw=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -866,6 +866,7 @@ do.			172800	IN	NS	ns.nic.do.
 do.			172800	IN	NS	ns3.nic.mx.
 do.			172800	IN	NS	do-dns.nic.pr.
 do.			172800	IN	NS	phloem.uoregon.edu.
+do.			172800	IN	NS	sns-pb.isc.org.
 do.			172800	IN	NS	server1.pucmm.edu.do.
 server1.pucmm.edu.do.	172800	IN	A	66.98.65.147
 ns.nic.do.		172800	IN	A	66.98.65.146
