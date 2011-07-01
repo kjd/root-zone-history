@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011070100 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20110708000000 20110630230000 39283 . c5Kycft5+tLx40X/jjhVxRd1x3qHngY+zxjWYPAZkQFU70+Tje6KMA9OmaSMeBKenWLshDtP/fO46AV/FLwJ2iQXhHRSEqNf1b72IlBYS+H2rqVxb/K9LLFPmBsogPGaX7Wy4bMzR0HVKXzSdW4Oxw40auPwur/z/j8okXwUnfg=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011070101 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20110708000000 20110630230000 39283 . w7JtnyAwdwtg6If7PXPjK5SwVj5t8ponrwdEBXwRqQw5JWTj5uBXkHeFAPZUptP6V8kYVDjRhnFqmA16chgqhz7DHQ5Z7H5lagM9GiXWunRdCEJ7fMr/SahEsG8wOs887hh+crlYOen+aK9fsHh+XTzEqBFzt/mqwafS27eImMc=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -2224,8 +2224,8 @@ ns1.admin.net.		172800	IN	A	198.73.186.1
 ns2.admin.net.		172800	IN	A	67.202.107.93
 ns3.admin.net.		172800	IN	A	87.98.180.44
 ns4.admin.net.		172800	IN	A	202.190.180.244
-ns2.afrinic.net.	172800	IN	A	196.216.168.10
-ns2.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:10
+ns-tz.afrinic.net.	172800	IN	A	196.216.168.20
+ns-tz.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:20
 dns2.gt.amnetdatos.net.	172800	IN	A	200.30.145.4
 ns-cdn.amnic.net.	172800	IN	A	194.0.1.26
 ns-cdn.amnic.net.	172800	IN	AAAA	2001:678:4:0:0:0:0:1a
@@ -3505,11 +3505,12 @@ tw.			86400	IN	RRSIG	NSEC 8 1 86400 20110708000000 20110630230000 39283 . hQWYwj
 tz.			172800	IN	NS	d.ext.nic.cz.
 tz.			172800	IN	NS	ns.anycast.co.tz.
 tz.			172800	IN	NS	ns2.tznic.or.tz.
-tz.			172800	IN	NS	ns2.afrinic.net.
 tz.			172800	IN	NS	rip.psg.com.
+tz.			172800	IN	NS	ns-tz.afrinic.net.
 tz.			172800	IN	NS	sunic.sunet.se.
 tz.			172800	IN	NS	sns-pb.isc.org.
 ns.anycast.co.tz.	172800	IN	A	204.61.216.15
+ns.anycast.co.tz.	172800	IN	AAAA	2001:500:14:6015:ad:0:0:1
 ns2.tznic.or.tz.	172800	IN	A	196.216.162.67
 ns2.tznic.or.tz.	172800	IN	AAAA	2001:43f8:e0:1:0:0:0:67
 tz.			86400	IN	NSEC	ua. NS RRSIG NSEC
