@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011082800 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20110904000000 20110827230000 39283 . PhV5+Vwyo/k/C6yqc/0le3VDutv+FA6EEOnefPfX6oF9qbIBuXjBQUXz5ssetdvbnTGpTO3yAlBT4Zq1tSr6e8op/Ohy5h68XO2CWhxFjO8BMTYptsTsPTiBPf7ky7HxSSGJOI8usKCOczP6wEkceNw5n/2CfjRkIIplGRoZBiw=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011082801 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20110904000000 20110827230000 39283 . aCPfZzvHFILJW7xQh6mThlRo+LviiX7GAsBwri4cMZNRVH26bXkKNOL2W9a6aW6J/bvfJzIIV/1qndvQ9QqVEicSN7fHHCBXeBgFgONxjy5mpMpdrthYiLdmRR869iE7i37UGOeiLOpyEzQ6YVWoMlKzPlL6889wM2sOADdYlTw=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -3202,7 +3202,7 @@ sk.			172800	IN	NS	ns.sk-nic.sk.
 sk.			172800	IN	NS	ns1.sk-nic.sk.
 sk.			172800	IN	NS	ns3.sk-nic.sk.
 sk.			172800	IN	NS	sunic.sunet.se.
-sk.			172800	IN	NS	ns-ext.vix.com.
+sk.			172800	IN	NS	sns-pb.isc.org.
 ns.eunet.sk.		172800	IN	A	217.75.73.242
 ns.sk-nic.sk.		172800	IN	A	195.12.159.2
 ns1.sk-nic.sk.		172800	IN	A	195.12.159.3
