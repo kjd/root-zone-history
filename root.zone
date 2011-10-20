@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011102000 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20111027000000 20111019230000 55231 . ULPAokJ9HLV8GinmdyF79YagASxB0dq22rSqECA6yzV/rvp92jxT2TwZ5wHaSWCm9/hIa7zfsZXBs1qwx3i8YUvKBplnrRZf+Ztai2O7T/WEelRCg91zeFUSEGCynAS7bA8jb1tG4M5T/0+saHvfk42xIHE9SXZURwMg3HsD0Gw=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011102001 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20111027000000 20111019230000 55231 . WpC/PVq0SemUmlkgWBSQrau6LgKNfTbX/IXkdlY3sjAqSoe6b1G2498pv67sPmS7vkanQECEsZm3WJuDacV9ridty0pOGZvVZHdzM3g4ZVSNd3GSYWAQIp23bWZIYePH42SoMEspBVpoCJ5obEgXCRNGMZXLnpDWCdW/3CGgtWE=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -47,10 +47,10 @@ dns3.ad.		172800	IN	A	194.158.64.9
 dns4.ad.		172800	IN	A	194.158.64.10
 ad.			86400	IN	NSEC	ae. NS RRSIG NSEC
 ad.			86400	IN	RRSIG	NSEC 8 1 86400 20111027000000 20111019230000 55231 . S84v7H0lhFAMliPN9qLWO6S0l4b85W4z2SAeiOxVxTjjCLkkNd21T7yK+sAJr6xFa5d6xUcS9gA1I8K+kIH3sCZHWD6m6jpsILYGLCsYIgwkLRJoM7opKTuR/mOskJxzZ1fVkZRYUOJ4mH0zVTOfNspBQoDk+gCyKMVJFeaccdI=
+ae.			172800	IN	NS	ae.cctld.authdns.ripe.net.
 ae.			172800	IN	NS	ns1.aedns.ae.
 ae.			172800	IN	NS	ns2.aedns.ae.
 ae.			172800	IN	NS	sec3.apnic.net.
-ae.			172800	IN	NS	ns-ae.ripe.net.
 ae.			172800	IN	NS	sns-pb.isc.org.
 ae.			172800	IN	NS	nsext-pch.aedns.ae.
 ns1.aedns.ae.		172800	IN	A	79.98.120.73
@@ -2444,6 +2444,8 @@ nf-ns.pch.net.		172800	IN	AAAA	2001:500:14:6051:ad:0:0:1
 sec1.dns.uk.psi.net.	172800	IN	A	154.32.105.34
 sec2.dns.uk.psi.net.	172800	IN	A	154.32.107.34
 ns1.punchdown.net.	172800	IN	A	66.92.19.36
+ae.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.54
+ae.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:54
 bg.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.61
 bg.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:61
 ci.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.67
@@ -2474,8 +2476,6 @@ sec2.authdns.ripe.net.	172800	IN	A	193.0.9.4
 sec2.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:4
 ns.ripe.net.		172800	IN	A	193.0.0.193
 ns-ad.ripe.net.		172800	IN	A	193.0.12.6
-ns-ae.ripe.net.		172800	IN	A	193.0.12.233
-ns-ae.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:233
 ns-af.ripe.net.		172800	IN	A	193.0.12.1
 ns-af.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:1
 ns-al.ripe.net.		172800	IN	A	193.0.12.3
