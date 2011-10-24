@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011102400 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20111031000000 20111023230000 55231 . OV7JxcskRo9eqBkJ0w4pEOIQuSVmzP/qBEw0K+SjF7J1ZIcUUVCoVIFthXKGNj6rOL86bFP1Cm+hJqIt2USoH3Lol92oBKzUe9iLEe2Oslv0ZpDJK3707jiywRRh0N7qunf7iENllVVLx6oswAnu5TTwzoMICvfkG5z/Prjgsww=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011102401 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20111031000000 20111023230000 55231 . EoVS5Dftm10foNmNIzM7PJkEU3bPLBn6Khim5ITEq59HxL47/Pplo6I+i/l54nUmSpxlMKvGhtPsFPKzvtQakNQa+huduL9gDKn6lYY4hXhAisyLEaruXfZLobUMCJkJ1LgwmJYYjtb1stfijj+SAXyjmRwn6cNg3l/i/epHguI=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -111,9 +111,8 @@ al.			172800	IN	NS	munnari.oz.au.
 ns1.nic.al.		172800	IN	A	194.1.149.230
 al.			86400	IN	NSEC	am. NS RRSIG NSEC
 al.			86400	IN	RRSIG	NSEC 8 1 86400 20111031000000 20111023230000 55231 . evLlku56It5O9HXBMoenKohEVm5yP9fibkIWzo+C2xr/5GqWon/RXFVMQzHsMNpzL9LhCROTRjvYJMjevLdDynsS3FHyOuU+N9p34+aJb57mQN3ekrlIdZMqgcz+SkTKNGIVhqZI/iB7U8efOuHZbMk3jJdmGU9xEVb7ACY377A=
+am.			172800	IN	NS	am.cctld.authdns.ripe.net.
 am.			172800	IN	NS	rip.psg.com.
-am.			172800	IN	NS	fork.sth.dnsnode.net.
-am.			172800	IN	NS	ns-am.ripe.net.
 am.			172800	IN	NS	ns-cdn.amnic.net.
 am.			172800	IN	NS	ns-pri.amnic.net.
 am.			172800	IN	NS	sns-pb.isc.org.
@@ -1229,9 +1228,8 @@ gr.			172800	IN	NS	gr-aix.ics.forth.gr.
 gr.			172800	IN	NS	grdns-at.ics.forth.gr.
 gr.			172800	IN	NS	grdns-br.ics.forth.gr.
 gr.			172800	IN	NS	grdns-de.denic.de.
-GR.			86400	IN	DS	41118 7 2 CB6DAEEF5AE0DB7CDFA54766F560D393A6A6B24A857E78C51D53C1B50D2EB175
 GR.			86400	IN	DS	57519 7 2 89AD46EAD256DA5010F004AEAE31E41FBA15FD91F5F0F85B2FD820C27EEB5CF3
-GR.			86400	IN	RRSIG	DS 8 1 86400 20111031000000 20111023230000 55231 . kaYo1B8b445XADweA91sKITQnbJIkhPNuQoFAi2dFR9oxyS12FJ4y7oBolMJR5db7nhbZuiybaeyA3sEUy5q8sYqXumZMTMrlAC2Pbrx8eYd5GZaklxugDLURSisLm5KpfTgHd4gVI/3DosI9hmKHsA0CKnxZ2Lnohkug7lF+AA=
+GR.			86400	IN	RRSIG	DS 8 1 86400 20111031000000 20111023230000 55231 . zG7HggKh1kt7SfYD2ftxRC4whSFILGEVglQXPc5644XGMT/K0JFjbIATEgZJzKtFS2oN9zM7isHkSibmrwD786j5+WUbsgveHeExRNYMxObABxKmY+eZ+pcjdP/HznKdhloFFjeQfanN+hgYTjNQoA0fAuEccZn8BThniBmGva8=
 estia.ics.forth.gr.	172800	IN	A	139.91.191.3
 estia.ics.forth.gr.	172800	IN	AAAA	2001:648:2c30:0:0:0:191:3
 gr-aix.ics.forth.gr.	172800	IN	A	83.212.8.130
@@ -1876,7 +1874,7 @@ lv.			172800	IN	NS	b.nic.lv.
 lv.			172800	IN	NS	c.nic.lv.
 lv.			172800	IN	NS	d.nic.lv.
 lv.			172800	IN	NS	lt.nic.lv.
-lv.			172800	IN	NS	ns-lv.ripe.net.
+lv.			172800	IN	NS	lv.cctld.authdns.ripe.net.
 lv.			172800	IN	NS	sunic.sunet.se.
 a.nic.lv.		172800	IN	A	91.198.156.99
 a.nic.lv.		172800	IN	AAAA	2a02:500:4400:700:0:0:0:4
@@ -2070,13 +2068,14 @@ mnidns1.mninet.ms.	172800	IN	A	199.7.90.2
 ms.			86400	IN	NSEC	mt. NS RRSIG NSEC
 ms.			86400	IN	RRSIG	NSEC 8 1 86400 20111031000000 20111023230000 55231 . JugJY3QWCwvX9nshCsFQT/TkO2Od14iIjtcprBeg0gNmuSJPLBz6BVcRhTgToFMQQ+tx8JZr9/F24yBBaIBoYKCZFqe6HLdnh1SgkgqAwz5t84fTWEHrHD6oXJUSD13mK251BfWNDa/zO4hgmCLU1mlGskNmX+v7RnvubJ6F3H4=
 mt.			172800	IN	NS	b.hosting.nic.fr.
+mt.			172800	IN	NS	p.ns.mt.
+mt.			172800	IN	NS	mt.cctld.authdns.ripe.net.
 mt.			172800	IN	NS	ns.mt.
 mt.			172800	IN	NS	ns1.mt.
-mt.			172800	IN	NS	mt-ns.anycast.pch.net.
-mt.			172800	IN	NS	ns-mt.ripe.net.
 mt.			172800	IN	NS	sunic.sunet.se.
 mt.			172800	IN	NS	sns-pb.isc.org.
 ns.mt.			172800	IN	A	193.188.47.252
+p.ns.mt.		172800	IN	A	204.61.216.45
 ns1.mt.			172800	IN	A	193.188.34.241
 mt.			86400	IN	NSEC	mu. NS RRSIG NSEC
 mt.			86400	IN	RRSIG	NSEC 8 1 86400 20111031000000 20111023230000 55231 . ImFwGgOMbyoXQG7YWgSTJOqFqO4NGN5iRHw9oJAv0GgRC7HOuXDVJYGTTqCvC7ROrkoE3c3QnyB1LKuIYYBNUI2ot98KQglkIE3eE82CK6QJaLHx1l9bPT91TrOBHIkPyv8qHyw4pEpUp8nYDb7oIgdpVxdIIT4GNVLada2pyL4=
@@ -2141,9 +2140,9 @@ my.			172800	IN	NS	ns20.iij.ad.jp.
 my.			172800	IN	NS	ns-my.nic.fr.
 MY.			86400	IN	DS	7266 8 1 BEF4B9723136DF37B6EEA52210F09FB13D75834A
 MY.			86400	IN	DS	7266 8 2 EA84B2091FD05477CD30E350D6861E9E709845AC87FD50D1F1D472B6DB258961
-MY.			86400	IN	DS	54969 8 1 A5D5ECCE5522BB6DB3755369EBAEBEC8A98A9022
-MY.			86400	IN	DS	54969 8 2 F82937C921A54EF232FF244C0EB0C54DA49A282F947496E1DE4F3ADC4F6D1869
-MY.			86400	IN	RRSIG	DS 8 1 86400 20111031000000 20111023230000 55231 . zpHt32o34c4a9OdTcoPkxBtQSKc/80dHj6raiCXpez8jG7kU8bWrxJAAQuWH5s+8fJw13BumlMtv589Wzm1vdBf7S9CnI6KpZkOAjxR+doiTeZU0XFC9J+e6JWNPf+IgKw4yVATq3wxXziBFB/aSWf9nrCS7H+RMagoztgVyrrA=
+MY.			86400	IN	DS	53514 8 1 9907213063971880C7F05292A759CDD5B932AD34
+MY.			86400	IN	DS	53514 8 2 7AD6AA39810AB765F4BEF96FD30105762F0FB4F88699221CF2116DD18B79FB17
+MY.			86400	IN	RRSIG	DS 8 1 86400 20111031000000 20111023230000 55231 . mutLwqNG6WYueEC+FvKNJvdccy091vgiAaAOom/fQvE9MbZgMG2wAqgdnCaBVpD4Nw5UbxKIenlJY4oWxX7XU09Ahok9oksqQFhnFtND+HrtuFScKhlCvxs6iQM7ZoKdYyp0CPDKYacE/Wd8kS7azNFtevZctLBlBW58cqTxkdM=
 ns5.jaring.my.		172800	IN	A	61.6.38.139
 ns5.jaring.my.		172800	IN	AAAA	2001:328:200:48:0:0:0:400
 ns6.jaring.my.		172800	IN	A	192.228.128.16
@@ -2417,7 +2416,6 @@ gy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6034:ad:0:0:1
 ht-ns.anycast.pch.net.	172800	IN	A	204.61.216.38
 ls-ns.anycast.pch.net.	172800	IN	A	204.61.216.28
 ms-ns.anycast.pch.net.	172800	IN	A	204.61.216.33
-mt-ns.anycast.pch.net.	172800	IN	A	204.61.216.45
 mv-ns.anycast.pch.net.	172800	IN	A	204.61.216.24
 na-ns.anycast.pch.net.	172800	IN	A	204.61.216.35
 na-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6035:ad:0:0:1
@@ -2446,6 +2444,8 @@ sec2.dns.uk.psi.net.	172800	IN	A	154.32.107.34
 ns1.punchdown.net.	172800	IN	A	66.92.19.36
 ae.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.54
 ae.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:54
+am.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.57
+am.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:57
 bg.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.61
 bg.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:61
 ci.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.67
@@ -2456,22 +2456,32 @@ is.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.81
 is.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:81
 kz.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.87
 kz.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:87
+lv.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.89
+lv.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:89
 mc.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.92
 mc.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:92
 md.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.93
 md.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:93
+mt.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.97
+mt.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:97
 nc.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.100
 nc.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:100
+ph.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.104
+ph.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:104
 qa.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.51
 qa.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:51
 sm.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.110
 sm.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:110
+tc.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.115
+tc.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:115
 tj.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.117
 tj.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:117
 to.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.118
 to.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:118
 ug.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.52
 ug.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:52
+vg.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.124
+vg.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:124
 sec2.authdns.ripe.net.	172800	IN	A	193.0.9.4
 sec2.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:4
 ns.ripe.net.		172800	IN	A	193.0.0.193
@@ -2480,8 +2490,6 @@ ns-af.ripe.net.		172800	IN	A	193.0.12.1
 ns-af.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:1
 ns-al.ripe.net.		172800	IN	A	193.0.12.3
 ns-al.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:3
-ns-am.ripe.net.		172800	IN	A	193.0.12.12
-ns-am.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:12
 ns-an.ripe.net.		172800	IN	A	193.0.12.156
 ns-ar.ripe.net.		172800	IN	A	193.0.12.11
 ns-ar.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:11
@@ -2518,23 +2526,17 @@ ns-kh.ripe.net.		172800	IN	A	193.0.12.37
 ns-ki.ripe.net.		172800	IN	A	193.0.12.115
 ns-lk.ripe.net.		172800	IN	A	193.0.12.208
 ns-lk.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:208
-ns-lv.ripe.net.		172800	IN	A	193.0.12.121
-ns-lv.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:121
 ns-ly.ripe.net.		172800	IN	A	193.0.12.125
 ns-ma.ripe.net.		172800	IN	A	193.0.12.149
 ns-mg.ripe.net.		172800	IN	A	193.0.12.131
 ns-ml.ripe.net.		172800	IN	A	193.0.12.135
 ns-mm.ripe.net.		172800	IN	A	193.0.12.151
-ns-mt.ripe.net.		172800	IN	A	193.0.12.136
-ns-mt.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:136
 ns-mu.ripe.net.		172800	IN	A	193.0.12.140
 ns-mw.ripe.net.		172800	IN	A	193.0.12.132
 ns-ne.ripe.net.		172800	IN	A	193.0.12.160
 ns-np.ripe.net.		172800	IN	A	193.0.12.154
 ns-np.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:154
 ns-om.ripe.net.		172800	IN	A	193.0.12.166
-ns-ph.ripe.net.		172800	IN	A	193.0.12.174
-ns-ph.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:174
 ns-ps.ripe.net.		172800	IN	A	193.0.12.169
 ns-py.ripe.net.		172800	IN	A	193.0.12.172
 ns-py.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:172
@@ -2545,7 +2547,6 @@ ns-sn.ripe.net.		172800	IN	A	193.0.12.195
 ns-sv.ripe.net.		172800	IN	A	193.0.12.67
 ns-sy.ripe.net.		172800	IN	A	193.0.12.215
 ns-sz.ripe.net.		172800	IN	A	193.0.12.212
-ns-tc.ripe.net.		172800	IN	A	193.0.12.229
 ns-th.ripe.net.		172800	IN	A	193.0.12.219
 ns-tp.ripe.net.		172800	IN	A	193.0.12.250
 ns-tp.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:250
@@ -2553,7 +2554,6 @@ ns-tr.ripe.net.		172800	IN	A	193.0.12.227
 ns-uy.ripe.net.		172800	IN	A	193.0.12.237
 ns-va.ripe.net.		172800	IN	A	193.0.12.98
 ns-va.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:98
-ns-vg.ripe.net.		172800	IN	A	193.0.12.242
 ns-vi.ripe.net.		172800	IN	A	193.0.12.243
 ns-vn.ripe.net.		172800	IN	A	193.0.12.241
 ns-zw.ripe.net.		172800	IN	A	193.0.12.249
@@ -2869,11 +2869,11 @@ ns1.tiare.net.pg.	172800	IN	A	202.165.192.23
 ns2.tiare.net.pg.	172800	IN	A	202.165.192.24
 pg.			86400	IN	NSEC	ph. NS RRSIG NSEC
 pg.			86400	IN	RRSIG	NSEC 8 1 86400 20111031000000 20111023230000 55231 . KV2PVEWBzJVihXy1DFu1G8m85CpXiHuVXWq99OuwHGpk63rInsunlrZX8i/SDzcKoy1i7fwJVDxPL9HAgWuzK9nxScw3S8SDW+aKpvGTIrUrxt1z4nN15vSf2fFPqw/L66N4QSTBxjq9gZ7aDnvRVo1ZHRDVVb2sLD0v1C9mz5Y=
+ph.			172800	IN	NS	ph.cctld.authdns.ripe.net.
 ph.			172800	IN	NS	ph.communitydns.net.
 ph.			172800	IN	NS	ns1.domains.ph.
 ph.			172800	IN	NS	ns2.cuhk.edu.hk.
 ph.			172800	IN	NS	sec4.apnic.net.
-ph.			172800	IN	NS	ns-ph.ripe.net.
 ph.			172800	IN	NS	sns-pb.isc.org.
 ns1.domains.ph.		172800	IN	A	203.119.6.78
 ph.			86400	IN	NSEC	pk. NS RRSIG NSEC
@@ -3268,10 +3268,15 @@ su.			172800	IN	NS	f.dns.ripn.net.
 su.			172800	IN	NS	ns.ripn.net.
 su.			172800	IN	NS	ns5.msk-ix.net.
 su.			172800	IN	NS	ns9.ripn.net.
+SU.			86400	IN	DS	1509 7 1 BD2A5E4C39AA200E6B5C4D16B0103EE1CF4963EF
+SU.			86400	IN	DS	1509 7 2 470F69969FBFB2ECB5A82E8737D17DD358D5CB31AFECBA158FD903A62F8C9DC0
+SU.			86400	IN	DS	19071 7 1 758E9D294967DCB1B9C16132662F8002230FE0C8
+SU.			86400	IN	DS	19071 7 2 E31B3548869A5238041F9BBAED82BB16711750E5368E53CD34BE128C2C3A7B7B
+SU.			86400	IN	RRSIG	DS 8 1 86400 20111031000000 20111023230000 55231 . Lk02+bLATFX4ekyISIOq4mdadE6pS2mUnN0RgQJ3v3KF3Wzp7dd4NkSlcfqso3AcLUWp+FG350YQEUMtRXFTdrcKvLVFG0G8PUnQKHGJ5bbXrisuNpxMBLint8+oFuvc4AFoWRsAVhYsd1SigwF+9HCknIcO7BARka5yxlPb0O8=
 ns.demos.su.		172800	IN	A	194.87.0.8
 ns.demos.su.		172800	IN	A	194.87.0.9
-su.			86400	IN	NSEC	sv. NS RRSIG NSEC
-su.			86400	IN	RRSIG	NSEC 8 1 86400 20111031000000 20111023230000 55231 . zCqCQ1z0M+Wc9L4c0r4mNGVC7NhVhg2BMPtKgtDSlH6rAYQ5ixdD3aVULY7ij2sSN8XFyMtaUNQN/+87YU7GEbLR8NEiRPB3VltdKLvfaFGKunIUC64eAErgYvgPKeCZYtdWzavAZcMfew1lXrbYPvkubEoJso3fXkkzVwh6fv0=
+su.			86400	IN	NSEC	sv. NS DS RRSIG NSEC
+su.			86400	IN	RRSIG	NSEC 8 1 86400 20111031000000 20111023230000 55231 . pvxcMAxgMctrJV/6zkp+mY+RVmFNn0ppbi2L1PgAJ0EOJJIRvb0lSLyR5dZwAG0AwEh5COVthzVzcGNUJn3Jud/FlzRseeh6QSF5IClep4EddYXyf+jyR5+R9Rw7qoRu4Q7hfibgPbHSQmT3Zbouqx+jJDA8nV29hbTqdPn/QHs=
 sv.			172800	IN	NS	ns.cr.
 sv.			172800	IN	NS	ns.uu.net.
 sv.			172800	IN	NS	ns.dns.br.
@@ -3295,9 +3300,9 @@ sz.			172800	IN	NS	ns-sz.ripe.net.
 dns.sispa.org.sz.	172800	IN	A	212.85.220.11
 sz.			86400	IN	NSEC	tc. NS RRSIG NSEC
 sz.			86400	IN	RRSIG	NSEC 8 1 86400 20111031000000 20111023230000 55231 . YvdLw19RCFJ15F0AYt55i0lrbHMG30hA3hBM49sWMBFnMPuFU5Z6ITEvVcHhkWTqYx8A8P93nYMi9yD3LLFjEYCbBlBNkw2mtdqJ8nAwvMKxZA+0oOouOKaHM9Co/NNYEDH6bi6YF2YuZzJ3NRHMkh+9rcxEghYwvKcqKucgSAw=
+tc.			172800	IN	NS	tc.cctld.authdns.ripe.net.
 tc.			172800	IN	NS	sec1.dns.uk.psi.net.
 tc.			172800	IN	NS	sec2.dns.uk.psi.net.
-tc.			172800	IN	NS	ns-tc.ripe.net.
 tc.			172800	IN	NS	auth02.ns.uu.net.
 tc.			172800	IN	NS	euterpe.william.org.
 tc.			86400	IN	NSEC	td. NS RRSIG NSEC
@@ -3659,9 +3664,9 @@ ns2.nic.ve.		172800	IN	AAAA	2001:1338:0:0:0:0:0:3
 azmodan.ula.ve.		172800	IN	A	150.185.130.16
 ve.			86400	IN	NSEC	vg. NS RRSIG NSEC
 ve.			86400	IN	RRSIG	NSEC 8 1 86400 20111031000000 20111023230000 55231 . ZZI79TSgh06y3BlMjPizmd/RxfIoaeHsfV0ZlSIi58hUdh2R2+VyfaNSfOr9JLSOjWh7Pb/Eo1HRZ8I+T2slyNRpwmPmsjc/drhcnHXKJaECdBfBCZLftax389Cdk0PjU9YN04zVICBizYrqXydXZIFvZOi+BWpXq4pJlf3S/+8=
+vg.			172800	IN	NS	vg.cctld.authdns.ripe.net.
 vg.			172800	IN	NS	sec1.dns.uk.psi.net.
 vg.			172800	IN	NS	sec2.dns.uk.psi.net.
-vg.			172800	IN	NS	ns-vg.ripe.net.
 vg.			172800	IN	NS	auth02.ns.uu.net.
 vg.			172800	IN	NS	euterpe.william.org.
 vg.			86400	IN	NSEC	vi. NS RRSIG NSEC
