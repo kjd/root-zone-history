@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011102700 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20111103000000 20111026230000 55231 . nHoi9LJPl3EOciwmwU0sEZw3Kvw1NeBIPUcAjtwaIS643DgBQNRwsYsBcH/RHW8N9bazG1V68JiaAhe8baiMolLMLiF3Ze735ID/peQEtvCfLJrbCOl2NYeHiVISmOYkSBdbaY2hBiCKyPXCNqqpRpCsHV5jiZmbfLIDSY1eF9A=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011102701 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20111103000000 20111026230000 55231 . TErhd0fKfbuWgnpkMXPf6tKqVZl1/4IMcN3tEy2aZOlVc+EtXaE0EOSuXeRY5ZwSc2XvULEDJPNRhlBhrkfBiOl2uCNI94lumuiNrfJSLB5/R2iBs3yDnoA9IjiQhcSh0iesXAUJyIiDZtxUcGlSOND7W/3xHj/nRsPfbsLFpao=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -151,9 +151,9 @@ aq.			172800	IN	NS	sns-pb.isc.org.
 ns1.dns.aq.		172800	IN	A	203.119.56.132
 aq.			86400	IN	NSEC	ar. NS RRSIG NSEC
 aq.			86400	IN	RRSIG	NSEC 8 1 86400 20111103000000 20111026230000 55231 . NX+DLWmhHVhG+lVrAG86BfW7bzuZnYHrkph4ttcTK2B4hAb1Dk2q+S79cu+cKjmJ6oCr57vJrKSTMvc3w7fZZwqoNcnlyv2pvUH05AebjYoPoxIlkLAR9TgYdWHvcIqTvZs6a7/s8KE+Z7U0yiPG0AVRe3HvltPyRWr86GmeFAA=
+ar.			172800	IN	NS	ar.cctld.authdns.ripe.net.
 ar.			172800	IN	NS	athea.ar.
 ar.			172800	IN	NS	ctina.ar.
-ar.			172800	IN	NS	ns-ar.ripe.net.
 ar.			172800	IN	NS	merapi.switch.ch.
 ar.			172800	IN	NS	relay1.mecon.gov.ar.
 athea.ar.		172800	IN	A	200.16.98.2
@@ -1886,9 +1886,9 @@ d.nic.lv.		172800	IN	AAAA	2001:678:b:1:0:0:0:1
 lt.nic.lv.		172800	IN	A	83.171.8.137
 lv.			86400	IN	NSEC	ly. NS RRSIG NSEC
 lv.			86400	IN	RRSIG	NSEC 8 1 86400 20111103000000 20111026230000 55231 . jPXeg/AyfhrMDwM2jDMm/KuG14f8VQgVGXpkBrvGyRgcpWIu7/bK13JvGyHU6VfEyji2X+bxlPFOEGKopxgENTglGroF86WwbNY4Wf68jDTkRHbdEBCb5itzKh34UJptr8GCrvIpEc3o74igr8wt5kf0xEyVhw5gKlZGhP/FHmc=
+ly.			172800	IN	NS	ly.cctld.authdns.ripe.net.
 ly.			172800	IN	NS	dns.lttnet.net.
 ly.			172800	IN	NS	dns1.lttnet.net.
-ly.			172800	IN	NS	ns-ly.ripe.net.
 ly.			172800	IN	NS	auth02.ns.uu.net.
 ly.			172800	IN	NS	phloem.uoregon.edu.
 ly.			86400	IN	NSEC	ma. NS RRSIG NSEC
@@ -1937,6 +1937,7 @@ ns.nic.me.		172800	IN	A	89.188.44.44
 ns2.nic.me.		172800	IN	A	89.188.44.88
 me.			86400	IN	NSEC	mg. NS DS RRSIG NSEC
 me.			86400	IN	RRSIG	NSEC 8 1 86400 20111103000000 20111026230000 55231 . kryXhjS0javkdnz+EDW4LKQKMVkcMhiiO5NDkdp7b8Ll23KCMR99cXqk1L51YnWYU9FNX9lY7sj4EY9XR+/5wn9uYZuqRHKkDsif41HmkxeWe6nLbpzIXpokfESpQO2nXsjD6w1USFazu0rb7xbWlQlLqPd9D/AeAT7YgePcf+o=
+mg.			172800	IN	NS	mg.cctld.authdns.ripe.net.
 mg.			172800	IN	NS	ns.dts.mg.
 mg.			172800	IN	NS	ns.nic.mg.
 mg.			172800	IN	NS	mg1.dyntld.net.
@@ -1944,7 +1945,6 @@ mg.			172800	IN	NS	mg2.dyntld.net.
 mg.			172800	IN	NS	mg3.dyntld.net.
 mg.			172800	IN	NS	mg4.dyntld.net.
 mg.			172800	IN	NS	ns1.ird.fr.
-mg.			172800	IN	NS	ns-mg.ripe.net.
 mg.			172800	IN	NS	ns-mg.malagasy.com.
 ns.dts.mg.		172800	IN	A	196.192.32.2
 ns.nic.mg.		172800	IN	A	196.192.42.153
@@ -2446,6 +2446,8 @@ ae.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.54
 ae.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:54
 am.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.57
 am.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:57
+ar.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.59
+ar.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:59
 ba.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.60
 ba.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:60
 bg.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.61
@@ -2462,10 +2464,14 @@ kz.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.87
 kz.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:87
 lv.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.89
 lv.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:89
+ly.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.90
+ly.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:90
 mc.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.92
 mc.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:92
 md.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.93
 md.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:93
+mg.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.94
+mg.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:94
 mm.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.96
 mm.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:96
 mt.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.97
@@ -2497,8 +2503,6 @@ ns-af.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:1
 ns-al.ripe.net.		172800	IN	A	193.0.12.3
 ns-al.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:3
 ns-an.ripe.net.		172800	IN	A	193.0.12.156
-ns-ar.ripe.net.		172800	IN	A	193.0.12.11
-ns-ar.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:11
 ns-bi.ripe.net.		172800	IN	A	193.0.12.36
 ns-bi.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:36
 ns-bj.ripe.net.		172800	IN	A	193.0.12.24
@@ -2530,9 +2534,7 @@ ns-kh.ripe.net.		172800	IN	A	193.0.12.37
 ns-ki.ripe.net.		172800	IN	A	193.0.12.115
 ns-lk.ripe.net.		172800	IN	A	193.0.12.208
 ns-lk.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:208
-ns-ly.ripe.net.		172800	IN	A	193.0.12.125
 ns-ma.ripe.net.		172800	IN	A	193.0.12.149
-ns-mg.ripe.net.		172800	IN	A	193.0.12.131
 ns-ml.ripe.net.		172800	IN	A	193.0.12.135
 ns-mu.ripe.net.		172800	IN	A	193.0.12.140
 ns-mw.ripe.net.		172800	IN	A	193.0.12.132
