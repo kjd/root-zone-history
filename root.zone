@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011103100 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20111107000000 20111030230000 55231 . cw7OTz1EaWBJqymA22oEt3RVS20v1Q+c9TD9WcF7m2n6cYgWRvmKKyRBl54wVncDUPREpKaPA5KY9qJEmilGeW4ZSvtLNcaqoJr5GuzQjRRsFqIHZ/1AOThb2gb70WPc0/cy/5N1nTBDP7bMjSxBGNj3aOjVkUQ9QU4xYR4MVq8=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011103101 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20111107000000 20111030230000 55231 . EclkCLEGGzh/89r3JzxF3PWKmIQj0Hd6b1XohMvVCNZCMRV5h+HsLMKSpldjU9/CJfNeaCo2mkhqOeotSuPlKPogXLNOyRi4o0qLSOHBSy1Llnywt4IgQEzGuGBlZSM4XBynHHJgrVnxETq3yVVMzoHVVtirjMPSO1UmDrmnP5w=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1553,6 +1553,7 @@ sab.isnic.is.		172800	IN	AAAA	2001:67c:1010:14:0:0:0:53
 durinn.rhnet.is.	172800	IN	A	130.208.16.20
 is.			86400	IN	NSEC	it. NS RRSIG NSEC
 is.			86400	IN	RRSIG	NSEC 8 1 86400 20111107000000 20111030230000 55231 . BIVlQDLbM2Dg+YQtYry3Psy2Slnb16/sZ9e8zyCQiFj13nUhbFoLgEsH51mkMJegH5C+/5toCNrUHgYXlqcMjsqXw18MO1UfrVk5JxYCVkjsjZ/yNo6/fHPmLC89KU5tWHMF1czf1iELpSR3CaAbXVy3fDBWVuA+2n35AUF7XAs=
+it.			172800	IN	NS	a.dns.it.
 it.			172800	IN	NS	c.dns.it.
 it.			172800	IN	NS	m.dns.it.
 it.			172800	IN	NS	r.dns.it.
@@ -1562,9 +1563,13 @@ it.			172800	IN	NS	nameserver.cnr.it.
 ns-al.isti.cnr.it.	172800	IN	A	194.119.192.3
 ns-al.isti.cnr.it.	172800	IN	A	194.119.192.4
 nameserver.cnr.it.	172800	IN	A	194.119.192.34
+nameserver.cnr.it.	172800	IN	AAAA	2a00:1620:c0:220:194:119:192:34
+a.dns.it.		172800	IN	A	194.0.16.215
+a.dns.it.		172800	IN	AAAA	2001:678:12:0:194:0:16:215
 c.dns.it.		172800	IN	A	194.0.1.22
 c.dns.it.		172800	IN	AAAA	2001:678:4:0:0:0:0:16
 m.dns.it.		172800	IN	A	217.29.76.4
+m.dns.it.		172800	IN	AAAA	2001:1ac0:0:200:0:a5d1:6004:2
 r.dns.it.		172800	IN	A	193.206.141.46
 r.dns.it.		172800	IN	AAAA	2001:760:ffff:ffff:0:0:0:ca
 s.dns.it.		172800	IN	A	194.146.106.30
@@ -2484,6 +2489,8 @@ py.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.106
 py.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:106
 qa.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.51
 qa.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:51
+sa.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.108
+sa.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:108
 sm.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.110
 sm.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:110
 tc.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.115
@@ -2545,8 +2552,6 @@ ns-np.ripe.net.		172800	IN	A	193.0.12.154
 ns-np.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:154
 ns-om.ripe.net.		172800	IN	A	193.0.12.166
 ns-ps.ripe.net.		172800	IN	A	193.0.12.169
-ns-sa.ripe.net.		172800	IN	A	193.0.12.193
-ns-sa.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:193
 ns-sd.ripe.net.		172800	IN	A	193.0.12.209
 ns-sn.ripe.net.		172800	IN	A	193.0.12.195
 ns-sv.ripe.net.		172800	IN	A	193.0.12.67
@@ -3087,11 +3092,11 @@ rw.			172800	IN	NS	dns.princeton.edu.
 rw.			172800	IN	NS	sunic.sunet.se.
 rw.			86400	IN	NSEC	sa. NS RRSIG NSEC
 rw.			86400	IN	RRSIG	NSEC 8 1 86400 20111107000000 20111030230000 55231 . q/PGi1IGsND8sU+KQH0CDXK4ByKLaZzub2ppDrlO8bOJ4DcapIddbKx1E2az8y991xhNEYmB3zV3QV+3Us5mOLw95DeEyzjfAiyV/Sm5C/iMpuV9h7GOXnvJLeGGOpStLT9lzV8hmgFkizRviLw/shF3cHsoTS5nPfy+96OlTDA=
+sa.			172800	IN	NS	sa.cctld.authdns.ripe.net.
 sa.			172800	IN	NS	ns1.isu.net.sa.
 sa.			172800	IN	NS	ns1.nic.net.sa.
 sa.			172800	IN	NS	ns2.nic.net.sa.
 sa.			172800	IN	NS	rip.psg.com.
-sa.			172800	IN	NS	ns-sa.ripe.net.
 sa.			172800	IN	NS	sa-ns.anycast.pch.net.
 ns1.isu.net.sa.		172800	IN	A	212.26.18.3
 ns1.isu.net.sa.		172800	IN	AAAA	2001:1490:0:800:0:0:0:3
