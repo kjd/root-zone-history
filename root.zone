@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011111600 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20111123000000 20111115230000 55231 . PqL6U2arGXwJ38E+iZhEmD5jtPzCE63pCbfvu2RwglFsxqYNW5crCprriT76vWwIuDuyXEykUtdxT6qPyHTWK3RaolF700XhQvlB6yRM0A+m2S52z5fMwAGoldImimoTJa0w6JYBNm/5aRBLGpgE9nEkw6X2sHc6n8xQizTivbc=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011111601 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20111123000000 20111115230000 55231 . bdxa4ZqSNVJoBC68taOTkJi044G065O0OwyYzgpoBwtc6HGqkqiTAmVcdIXn58/k2YRyTfFoB44K+4Lfg+qwXJFZDmy/ZujoxQjsx7+8f0DX2GrZ9BlXJIU9GDtoFar4eILJ5Maq9z8qNORx2LN4F0doQFe0tMuzbMPA0nvGLew=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -946,9 +946,9 @@ ns3.dotmasr.eg.		172800	IN	A	81.10.38.11
 frcu.eun.eg.		172800	IN	A	193.227.1.1
 eg.			86400	IN	NSEC	er. NS RRSIG NSEC
 eg.			86400	IN	RRSIG	NSEC 8 1 86400 20111123000000 20111115230000 55231 . TCbd9dkflvv3Bx1AgfU6dBZmiUdSqQP4cSybifzLPEPoelYiN+3rLsviNvD70QqE2eywG4LjhULEl1xn8XEsNwqy1hvQTlzu3nJdl4/tM/XhmN1w+nyRfUjtmQjwQV+HJp5iW3kmL4LmsAp7c8As1Gy08N2yTRvpq7ke3n3LQdo=
+er.			172800	IN	NS	er.cctld.authdns.ripe.net.
 er.			172800	IN	NS	ns0.punchdown.org.
 er.			172800	IN	NS	ns1.punchdown.net.
-er.			172800	IN	NS	ns-er.ripe.net.
 er.			172800	IN	NS	sawanew.noc.net.er.
 er.			172800	IN	NS	zaranew.noc.net.er.
 sawanew.noc.net.er.	172800	IN	A	196.200.96.1
@@ -1483,8 +1483,11 @@ a2.org.afilias-nst.info.	172800	IN	AAAA	2001:500:40:0:0:0:0:1
 c0.org.afilias-nst.info.	172800	IN	A	199.19.53.1
 c0.org.afilias-nst.info.	172800	IN	AAAA	2001:500:b:0:0:0:0:1
 a0.xxx.afilias-nst.info.	172800	IN	A	199.115.152.1
+a0.xxx.afilias-nst.info.	172800	IN	AAAA	2001:500:a0:0:0:0:0:1
 a2.xxx.afilias-nst.info.	172800	IN	A	199.115.156.1
+a2.xxx.afilias-nst.info.	172800	IN	AAAA	2001:500:a4:0:0:0:0:1
 c0.xxx.afilias-nst.info.	172800	IN	A	199.115.154.1
+c0.xxx.afilias-nst.info.	172800	IN	AAAA	2001:500:a2:0:0:0:0:1
 tld.isc-sns.info.	172800	IN	A	72.52.71.3
 tld.isc-sns.info.	172800	IN	AAAA	2001:470:1a:0:0:0:0:3
 tld5.ultradns.info.	172800	IN	A	192.100.59.11
@@ -2464,6 +2467,8 @@ cu.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.70
 cu.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:70
 dz.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.71
 dz.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:71
+er.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.72
+er.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:72
 gd.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.75
 gd.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:75
 gp.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.76
@@ -2534,7 +2539,6 @@ ns-bt.ripe.net.		172800	IN	A	193.0.12.26
 ns-bt.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:26
 ns-cr.ripe.net.		172800	IN	A	193.0.12.55
 ns-cr.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:55
-ns-er.ripe.net.		172800	IN	A	193.0.12.69
 ns-et.ripe.net.		172800	IN	A	193.0.12.71
 ns-ga.ripe.net.		172800	IN	A	193.0.12.81
 ns-ga.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:81
@@ -2820,8 +2824,11 @@ b2.org.afilias-nst.org.	172800	IN	AAAA	2001:500:48:0:0:0:0:1
 d0.org.afilias-nst.org.	172800	IN	A	199.19.57.1
 d0.org.afilias-nst.org.	172800	IN	AAAA	2001:500:f:0:0:0:0:1
 b0.xxx.afilias-nst.org.	172800	IN	A	199.115.153.1
+b0.xxx.afilias-nst.org.	172800	IN	AAAA	2001:500:a1:0:0:0:0:1
 b2.xxx.afilias-nst.org.	172800	IN	A	199.115.157.1
+b2.xxx.afilias-nst.org.	172800	IN	AAAA	2001:500:a5:0:0:0:0:1
 d0.xxx.afilias-nst.org.	172800	IN	A	199.115.155.1
+d0.xxx.afilias-nst.org.	172800	IN	AAAA	2001:500:a3:0:0:0:0:1
 b.ci-servers.org.	172800	IN	A	82.103.139.220
 c.ci-servers.org.	172800	IN	A	194.146.106.86
 c.ci-servers.org.	172800	IN	AAAA	2001:67c:1010:22:0:0:0:53
