@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011111800 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20111125000000 20111117230000 55231 . M+1l38ta9sLDkVi8U3rNwcRdANLEasKiODU2CL/oVfrfSQ2HJqXOcHb9Vz/nRqpTDziW+OpnwJDDWOiDVWYRv9GWZmamTQQCMkxhH0aC/hKs9ZbLbUZBBOQlXrWzsb9a+bIC4ZEL6zR5rmfwDObCgM12b/LdHFwNGJXPBW7qrHc=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011111801 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20111125000000 20111117230000 55231 . eCE85vEio04SE+471B4r/4IutFDKM505VW6MIDkIHwfxPaffdKQN/AOtjSNI6yJ2/Tu/IKyRwiqHky1p0sEHqzc9xPHanWlfQhvbqqpcj848cZV1J9J8MWlZ8TYuoO2R7UU8BrKTvkeuGufE+o+10ek1FB0QUfXRbqlgetqceBg=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -250,6 +250,8 @@ ns1.ausregistry.net.au.	172800	IN	A	202.65.12.73
 ns2.ausregistry.net.au.	172800	IN	A	202.65.13.73
 o.au.			172800	IN	A	69.36.146.34
 munnari.oz.au.		172800	IN	A	202.29.151.3
+munnari.oz.au.		172800	IN	AAAA	2001:3c8:9007:1:0:0:0:21
+munnari.oz.au.		172800	IN	AAAA	2001:3c8:9009:181:0:0:0:2
 p.au.			172800	IN	A	72.13.46.34
 r.au.			172800	IN	A	128.32.136.3
 r.au.			172800	IN	AAAA	2607:f140:ffff:fffe:0:0:0:3
@@ -1237,13 +1239,13 @@ grdns-at.ics.forth.gr.	172800	IN	A	193.171.255.40
 grdns-br.ics.forth.gr.	172800	IN	A	200.160.7.163
 gr.			86400	IN	NSEC	gs. NS DS RRSIG NSEC
 gr.			86400	IN	RRSIG	NSEC 8 1 86400 20111125000000 20111117230000 55231 . TAvWuonIYmhKCIuIaZV/beKXkKu0gsNgvsNwNfpxqu/oo8xTskyRF8BqKVjDAPv7g8qKD6Wjeau1x7L9vOJlWBtI4r67OOcU1pfYELZi8cqIiEDKQ1sJ8/rZvsHtC7FesLbdHSn4WL7PXom9oITlrfZbEOGzOr/k+Kz2jm6wHkM=
+gs.			172800	IN	NS	gs.cctld.authdns.ripe.net.
 gs.			172800	IN	NS	ns.anycast.nic.gs.
 gs.			172800	IN	NS	gs1.dyntld.net.
 gs.			172800	IN	NS	gs2.dyntld.net.
 gs.			172800	IN	NS	gs3.dyntld.net.
 gs.			172800	IN	NS	gs4.dyntld.net.
 gs.			172800	IN	NS	nsa.nic.gs.
-gs.			172800	IN	NS	ns-gs.ripe.net.
 ns.anycast.nic.gs.	172800	IN	A	204.61.216.21
 nsa.nic.gs.		172800	IN	A	203.119.84.244
 gs.			86400	IN	NSEC	gt. NS RRSIG NSEC
@@ -2475,6 +2477,8 @@ gd.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.75
 gd.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:75
 gp.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.76
 gp.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:76
+gs.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.77
+gs.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:77
 gu.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.78
 gu.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:78
 gy.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.79
@@ -2548,8 +2552,6 @@ ns-cr.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:55
 ns-et.ripe.net.		172800	IN	A	193.0.12.71
 ns-ga.ripe.net.		172800	IN	A	193.0.12.81
 ns-ga.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:81
-ns-gs.ripe.net.		172800	IN	A	193.0.12.206
-ns-gs.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:206
 ns-il.ripe.net.		172800	IN	A	193.0.12.108
 ns-jm.ripe.net.		172800	IN	A	193.0.12.110
 ns-kg.ripe.net.		172800	IN	A	193.0.12.119
