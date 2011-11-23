@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011112300 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20111130000000 20111122230000 55231 . NYawe/lEoUHapy//o8zbC8TWudGfcD8cRTR+fiw/dlaGuUuEQuZkPzA7+AVrpZbGiGVAqbWBoXLw4nKhYvq3R8Ge77M3tHG/qTfZteNVtlIb+JZV6o1zi/LQ9/fLVNzDhFX7FEZh14sKZGiJk5uj9t+PVHhpLscLBYt7q8s+mF0=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011112301 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20111130000000 20111122230000 55231 . vIYKl95Np1u/Y0Nleag6nciajrg+4eYG1VI6l+Yxep6rEff13n2kFYeUvEOhMD05GlZ25aKvk6cS7XyJ5Wh2NCUc/XxDAq3UMRiLZ4wN+hp8m/I6IkJ7iui9/AMJf0W7XMz9K3A0oB+kwpPM4UN+nEeRy7CqN7jqq6Wp7WDVmro=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1604,10 +1604,8 @@ jo.			172800	IN	NS	amra.nic.gov.jo.
 jo.			172800	IN	NS	petra.nic.gov.jo.
 jo.			172800	IN	NS	jordan1st.nic.gov.jo.
 amra.nic.gov.jo.	172800	IN	A	193.188.66.103
-amra.nic.gov.jo.	172800	IN	AAAA	2a02:9c0:0:408:0:0:0:103
 jordan1st.nic.gov.jo.	172800	IN	A	193.188.69.19
 petra.nic.gov.jo.	172800	IN	A	193.188.66.2
-petra.nic.gov.jo.	172800	IN	AAAA	2a02:9c0:0:407:0:0:0:2
 jo.			86400	IN	NSEC	jobs. NS RRSIG NSEC
 jo.			86400	IN	RRSIG	NSEC 8 1 86400 20111130000000 20111122230000 55231 . JeWBBOoDd2IxJTpdSKLYZ2vve1Kyt7CumjDuBdqoFEKp42uoCrDK8xXnURHNMGqOxA6Fq742JmPwxHLe3l0gW6M9f6cbsZPzXPPFJJKOiiD7DF2QlLxgZoIgxGJrDgaWv+8rpu0M09f0doUPZing6mjQc19nreshEbZ+SP14sFY=
 jobs.			172800	IN	NS	a5.nstld.com.
