@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011112900 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20111206000000 20111128230000 55231 . sd+2PHOsNauJcP+ORTQlBGkqNcPw3oXG+8whHmuHKMuc59ABoq3NVJQz8cP1KsAPl68xuh0P4UBzV/W29zU0KAHTv8V/5dwvcPJakVhcKAcEHKr5bXuNUVa74CmRZS197J7u4aV0qrBEwRGxUpuQQX/ojydzXA53yFPh6A2CjFU=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011112901 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20111206000000 20111128230000 55231 . tv8goRN+g3CJwnIISKk7Wi1Hax2VhgzGYDfZZ/J4ttLiRmy95/eNzW4sCgETW1PyQsETuR/k+0Y6H1UMoruPS/ri+hkJc5irD0mdoC8F+SQk4RlSkWs4pTiSN7BdtfROeNimmjUrqzLfqEaZXNn031+NdmRi2B2B7FAyo12xnAQ=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1397,16 +1397,17 @@ b.iedr.ie.		172800	IN	AAAA	2a01:4b0:0:0:0:0:0:2
 ice.netsource.ie.	172800	IN	A	212.17.32.2
 ie.			86400	IN	NSEC	il. NS RRSIG NSEC
 ie.			86400	IN	RRSIG	NSEC 8 1 86400 20111206000000 20111128230000 55231 . uEmZyfjvZh1BsEYMPTuiIa81K+K+kaUt+sV7YTaEco9key0eCKcrky4ufXgsO0hn6g69AWczhEt0QeethA8KId+60h29p4tSXmfomf+5hntMT1W8OQzzX5+sXESB2Agg2IM/cS2T6A/itQ57O/a4kJMGAZvvrNAAx7zEmC9O7ko=
+il.			172800	IN	NS	nsa.ns.il.
 il.			172800	IN	NS	nsb.ns.il.
 il.			172800	IN	NS	nsd.ns.il.
 il.			172800	IN	NS	nse.ns.il.
 il.			172800	IN	NS	dns8.denic.de.
 il.			172800	IN	NS	ildns.huji.ac.il.
-il.			172800	IN	NS	ns-il.ripe.net.
 il.			172800	IN	NS	lookup.iucc.ac.il.
 il.			172800	IN	NS	sns-pb.isc.org.
 ildns.huji.ac.il.	172800	IN	A	128.139.6.66
 lookup.iucc.ac.il.	172800	IN	A	128.139.34.240
+nsa.ns.il.		172800	IN	A	192.115.210.58
 nsb.ns.il.		172800	IN	A	192.115.210.60
 nsd.ns.il.		172800	IN	A	149.20.56.132
 nsd.ns.il.		172800	IN	AAAA	2001:4f8:3:37:0:0:0:11
@@ -2560,7 +2561,6 @@ ns-cr.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:55
 ns-et.ripe.net.		172800	IN	A	193.0.12.71
 ns-ga.ripe.net.		172800	IN	A	193.0.12.81
 ns-ga.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:81
-ns-il.ripe.net.		172800	IN	A	193.0.12.108
 ns-jm.ripe.net.		172800	IN	A	193.0.12.110
 ns-kg.ripe.net.		172800	IN	A	193.0.12.119
 ns-kg.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:119
@@ -2581,6 +2581,8 @@ ns-va.ripe.net.		172800	IN	A	193.0.12.98
 ns-va.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:98
 ns-vi.ripe.net.		172800	IN	A	193.0.12.243
 ns-zw.ripe.net.		172800	IN	A	193.0.12.249
+d.dns.ripn.net.		172800	IN	A	194.190.124.17
+d.dns.ripn.net.		172800	IN	AAAA	2001:678:18:0:194:190:124:17
 e.dns.ripn.net.		172800	IN	A	193.232.142.17
 e.dns.ripn.net.		172800	IN	AAAA	2001:678:15:0:193:232:142:17
 f.dns.ripn.net.		172800	IN	A	193.232.156.17
@@ -3286,6 +3288,7 @@ st.			172800	IN	NS	dns-au.st.
 dns-au.st.		172800	IN	A	203.19.59.140
 st.			86400	IN	NSEC	su. NS RRSIG NSEC
 st.			86400	IN	RRSIG	NSEC 8 1 86400 20111206000000 20111128230000 55231 . Wf+FDxHhMs/xpJ7AsXSnI0nupflZ60nd9WfTPBNJtulmh6FI85XdgWGxAqc4tDuKuukcpZizlGQyrTxrqqMN+MCIpOHe9FYgdskVHwsZRVp4skYSpffHfrhOcpHFlyGLsqvzeW9uzUj922cQ8t+eTJ2haHFzv4sxvMm/6XoxK40=
+su.			172800	IN	NS	d.dns.ripn.net.
 su.			172800	IN	NS	e.dns.ripn.net.
 su.			172800	IN	NS	f.dns.ripn.net.
 su.			172800	IN	NS	ns.ripn.net.
