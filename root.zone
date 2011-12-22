@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011122200 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20111229000000 20111221230000 55231 . Zpx4R77NTbbgsNB8knyDuTuos6GP0vHp9c3it26nx6ZMCAl3J05ncIrA7TyYOdlULUMLRLZQpwlu5zbk1cILRo6aKB05+rDfa5MlM1Rg+FjwrboXpypnVBB7PKUO5ndr51Oe1L+DDYOiz+eNBccLru8SfEQimi4uedgYmH67OxE=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011122201 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20111229000000 20111221230000 55231 . gLV2EaXk8NJ98oZmN/o1sFRN7qHVgBeFqgmornr+oF394pWxhg4NCYpCRCzBQyEgIm1AjYVN41M67g80lhIaJ2URlUN2WEdMo6jJk9UMO2fcmi8FHVovoDRFFnt4yrcR3h2U9deL6z3zHqb7g2qnW4p0cSBtUAiEG3BEwBiyAzU=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -915,6 +915,7 @@ ns1.nic.dz.		172800	IN	A	193.194.64.242
 ns2.nic.dz.		172800	IN	A	213.179.160.66
 dz.			86400	IN	NSEC	ec. NS RRSIG NSEC
 dz.			86400	IN	RRSIG	NSEC 8 1 86400 20111229000000 20111221230000 55231 . zupmCdkbSSFqnRTL2nK7lds867QdCTd3flwLPUIoQqtjv9zmIE641Af9NVrxM4a8x2md1CFj7bLCtxdg51FhsWiXkD9NIghZaKnRpZNRBjopJCU4IIOwenJrZ9/gRXcXHgtoaOOyR9APLLiGJNW4sjasCWYXdwDkEohyZOy/uFk=
+ec.			172800	IN	NS	n1.nic.ec.
 ec.			172800	IN	NS	n2.nic.ec.
 ec.			172800	IN	NS	dns1.nic.ec.
 ec.			172800	IN	NS	dns2.nic.ec.
@@ -925,6 +926,7 @@ dns1.nic.ec.		172800	IN	A	157.100.1.44
 dns2.nic.ec.		172800	IN	A	200.6.84.2
 dns3.nic.ec.		172800	IN	A	200.1.6.51
 dns4.nic.ec.		172800	IN	A	200.105.231.153
+n1.nic.ec.		172800	IN	A	200.12.198.1
 n2.nic.ec.		172800	IN	A	200.12.199.1
 ec.			86400	IN	NSEC	edu. NS RRSIG NSEC
 ec.			86400	IN	RRSIG	NSEC 8 1 86400 20111229000000 20111221230000 55231 . hCZXGcXs1c6t7cBjifGoQNVkNBBtWsYEzq3aB114u/TyxXihlFpTfO/tCSz277L4TObLLD59fg1Bl4mrN5LhytopSiRAiSDc22N8csHL9UG1LobbYrF7RsxUsMy4dw07MPJPN649+pFEg9xL+aY3C5cNoKSQ3OFuHTEPxylCld0=
@@ -2560,6 +2562,8 @@ qa.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.51
 qa.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:51
 sa.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.108
 sa.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:108
+sd.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.109
+sd.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:109
 sm.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.110
 sm.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:110
 sn.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.111
@@ -2606,7 +2610,6 @@ ns-ml.ripe.net.		172800	IN	A	193.0.12.135
 ns-np.ripe.net.		172800	IN	A	193.0.12.154
 ns-np.ripe.net.		172800	IN	AAAA	2001:610:240:0:53:cc:12:154
 ns-om.ripe.net.		172800	IN	A	193.0.12.166
-ns-sd.ripe.net.		172800	IN	A	193.0.12.209
 ns-sv.ripe.net.		172800	IN	A	193.0.12.67
 ns-zw.ripe.net.		172800	IN	A	193.0.12.249
 d.dns.ripn.net.		172800	IN	A	194.190.124.17
@@ -3175,13 +3178,13 @@ SC.			86400	IN	RRSIG	DS 8 1 86400 20111229000000 20111221230000 55231 . BkXxHM8O
 ns1.nic.sc.		172800	IN	A	41.191.121.129
 sc.			86400	IN	NSEC	sd. NS DS RRSIG NSEC
 sc.			86400	IN	RRSIG	NSEC 8 1 86400 20111229000000 20111221230000 55231 . aTBUjv7q4EHnjTVGSQnc1cpV75EkGDSiW2oGv4xuI2y39wqdtq93Vrbt7sXvDotzs1AcYHx2j8elFsH7MEbR+T9E1vXNfYaJxrK9SyxIUXAAWXp+iwtvdMfMLfLeuX9PQEgx0n/I4SPOBa4yg/zHG+evRi3h5V9QhJCdDitBw78=
+sd.			172800	IN	NS	sd.cctld.authdns.ripe.net.
 sd.			172800	IN	NS	ns1.coza.net.za.
 sd.			172800	IN	NS	ns1.uaenic.ae.
 sd.			172800	IN	NS	ns2.uaenic.ae.
 sd.			172800	IN	NS	ans1.sis.sd.
 sd.			172800	IN	NS	ans1.canar.sd.
 sd.			172800	IN	NS	ans2.canar.sd.
-sd.			172800	IN	NS	ns-sd.ripe.net.
 ans1.canar.sd.		172800	IN	A	196.29.180.14
 ans2.canar.sd.		172800	IN	A	196.29.164.14
 ans1.sis.sd.		172800	IN	A	196.29.166.134
