@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011122900 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120105000000 20111228230000 55231 . jGVtYadNRaM7cGlDkGou38Bs2IS8FvSUUkB9rNMOJ4YIe1ArHzFn5TM4ejMtugkaEh3cWEizLyrB26dcSnPkmyU7hMTBp6wVr3dTB0x/Qnxy3PqJsijFGVZomBDlI1fPx8Bcs+OGQxEQ1G+ieAXMB2HB5RmvcrqHI4ASV469OwU=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2011122901 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120105000000 20111228230000 55231 . CM1W0tkp+AF9VoTccm3Rfve/YZ+td5trnWBdM2AFVR+InCM2+bHQ539RTHOLd8ZdqIkDi5rtICSgyO066WuW6MivDPlpu4NgT49HT500gPLlIS86QUu6Z6bkMBD/qbhiuc1yWRte52i7rbQ44hST3DsVF3PYEve+/CV3vUDDUr0=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1909,6 +1909,7 @@ lv.			86400	IN	RRSIG	NSEC 8 1 86400 20120105000000 20111228230000 55231 . tJP964
 ly.			172800	IN	NS	ly.cctld.authdns.ripe.net.
 ly.			172800	IN	NS	dns.lttnet.net.
 ly.			172800	IN	NS	dns1.lttnet.net.
+ly.			172800	IN	NS	ns-ly.afrinic.net.
 ly.			172800	IN	NS	auth02.ns.uu.net.
 ly.			172800	IN	NS	phloem.uoregon.edu.
 ly.			86400	IN	NSEC	ma. NS RRSIG NSEC
@@ -2256,6 +2257,8 @@ ns3.admin.net.		172800	IN	A	87.98.180.44
 ns4.admin.net.		172800	IN	A	202.190.180.244
 ns-bi.afrinic.net.	172800	IN	A	196.216.168.23
 ns-bi.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:23
+ns-ly.afrinic.net.	172800	IN	A	196.216.168.24
+ns-ly.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:24
 ns-tz.afrinic.net.	172800	IN	A	196.216.168.20
 ns-tz.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:20
 ns-cdn.amnic.net.	172800	IN	A	194.0.1.26
