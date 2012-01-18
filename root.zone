@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012011800 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120125000000 20120117230000 51201 . RLvBMshG2mMdyZvt6QW1oKxlsie0L4ZnUQfOUxSMqQmX5XP/SRnxfQh4XHUUoW+8ANRaJRb27AGAq9oKPeJOzjzJ/DiuQnY0+nellTtpP919/CiavH+I3hwNk5oR1u6FPCLXIWkZPQYYnkBYD50BkZ2/4LEmqdgiZnbfjuOa2ls=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012011801 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120125000000 20120117230000 51201 . dm+Emcs8XiU/2ZNt/RdQWWb18cmn+rLCFYUwLBn11WQBHGKWIbP/86XsmCxQ6+JKU/lm2UcBPcWmIIppt4/uk4Fph/OWIfuguw8SY8PxPKtigqdjkvaAs80HcGqZH72/mQhYgtQa6SgLzeP81p+iZjzaGFRc3gvLCrWJQMeZEqs=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1572,8 +1572,7 @@ it.			172800	IN	NS	r.dns.it.
 it.			172800	IN	NS	s.dns.it.
 it.			172800	IN	NS	dns.nic.it.
 it.			172800	IN	NS	nameserver.cnr.it.
-ns-al.isti.cnr.it.	172800	IN	A	194.119.192.3
-ns-al.isti.cnr.it.	172800	IN	A	194.119.192.4
+ns-al.isti.cnr.it.	172800	IN	A	194.119.192.8
 nameserver.cnr.it.	172800	IN	A	194.119.192.34
 nameserver.cnr.it.	172800	IN	AAAA	2a00:1620:c0:220:194:119:192:34
 a.dns.it.		172800	IN	A	194.0.16.215
@@ -3472,20 +3471,30 @@ tj.			172800	IN	NS	phloem.uoregon.edu.
 ns1.nic.tj.		172800	IN	A	62.122.137.16
 tj.			86400	IN	NSEC	tk. NS RRSIG NSEC
 tj.			86400	IN	RRSIG	NSEC 8 1 86400 20120125000000 20120117230000 51201 . X7sM3SKSlcL25Q7GAkjU6jPTv18hZGkpg/ZBNb813eYzfmHDd8sptgsqt690Wv6ss4afwswwxE6J6OeRFyYVbqtIJ235dcgFMYKpSVBYjWX4tghIqwdMLdx7rcHsQJoLmjkpED2axWel2lq7RYoNPxpWSKVkFW+RrgACI5UQL18=
+tk.			172800	IN	NS	a.ns.tk.
+tk.			172800	IN	NS	b.ns.tk.
+tk.			172800	IN	NS	c.ns.tk.
+tk.			172800	IN	NS	d.ns.tk.
 tk.			172800	IN	NS	root-a.taloha.tk.
 tk.			172800	IN	NS	root-b.taloha.tk.
 tk.			172800	IN	NS	root-c.taloha.tk.
 tk.			172800	IN	NS	root-d.taloha.tk.
 tk.			172800	IN	NS	root-e.taloha.tk.
 tk.			172800	IN	NS	root-f.taloha.tk.
-tk.			172800	IN	NS	root-g.taloha.tk.
+a.ns.tk.		172800	IN	A	194.0.38.1
+a.ns.tk.		172800	IN	AAAA	2001:678:50:0:0:0:0:1
+b.ns.tk.		172800	IN	A	194.0.39.1
+b.ns.tk.		172800	IN	AAAA	2001:678:54:0:0:0:0:1
+c.ns.tk.		172800	IN	A	194.0.40.1
+c.ns.tk.		172800	IN	AAAA	2001:678:58:0:0:0:0:1
+d.ns.tk.		172800	IN	A	194.0.41.1
+d.ns.tk.		172800	IN	AAAA	2001:678:5c:0:0:0:0:1
 root-a.taloha.tk.	172800	IN	A	194.109.152.138
 root-b.taloha.tk.	172800	IN	A	85.214.136.249
 root-c.taloha.tk.	172800	IN	A	207.36.228.217
 root-d.taloha.tk.	172800	IN	A	217.199.176.121
 root-e.taloha.tk.	172800	IN	A	66.36.231.236
 root-f.taloha.tk.	172800	IN	A	202.125.44.173
-root-g.taloha.tk.	172800	IN	A	217.68.243.17
 tk.			86400	IN	NSEC	tl. NS RRSIG NSEC
 tk.			86400	IN	RRSIG	NSEC 8 1 86400 20120125000000 20120117230000 51201 . chsYh6gc8xpNWsF+4dW2Q8Sh5PeXZqCVjVhVTvLorgMuhbSLC+P78QvJDmus72joM08mG8gr/MkugwL45BoR+CMU5DyMDYwGSU4sIggUzQlKr2X3UlVXjgQwuSDNZs2z7DDJkJ4ZlI791wbgYScxp/mwRcgf4xfk1TqNgLjcwIc=
 tl.			172800	IN	NS	ns.anycast.nic.tl.
