@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012013000 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120206000000 20120129230000 51201 . LowHX2KWGGDO/cmWvlhQcS37yTeawSklpDCuD8gxvHDGj5pc6/jS2DNzm1eWNYCBJgU5uQsF6w4DBY0zR8OkRp+kKOajMDvY4oiYAnk/g0IO9VEfT/LMvw7vUS8VXRCJBuAR/iAn129F4TOJXaS7Z/Xp7u71w873WSzc7LI8zbg=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012013001 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120206000000 20120129230000 51201 . EXSifIZKEPzOJiFj9tbf7s7cC8tAFYH76+kp1DibSakeqSPyBiHGeEALDUgAcDeLD2OYgUIcBW2V+5kgtXwC1tZbgXk24KsVXDOmZy2onWWAS7rHSwrN+9dH902c9AKzmeeSCnNglB+2YFla9iqsWFKBKByKHsywcyi2AFGzbBM=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -3466,12 +3466,6 @@ tk.			172800	IN	NS	a.ns.tk.
 tk.			172800	IN	NS	b.ns.tk.
 tk.			172800	IN	NS	c.ns.tk.
 tk.			172800	IN	NS	d.ns.tk.
-tk.			172800	IN	NS	root-a.taloha.tk.
-tk.			172800	IN	NS	root-b.taloha.tk.
-tk.			172800	IN	NS	root-c.taloha.tk.
-tk.			172800	IN	NS	root-d.taloha.tk.
-tk.			172800	IN	NS	root-e.taloha.tk.
-tk.			172800	IN	NS	root-f.taloha.tk.
 a.ns.tk.		172800	IN	A	194.0.38.1
 a.ns.tk.		172800	IN	AAAA	2001:678:50:0:0:0:0:1
 b.ns.tk.		172800	IN	A	194.0.39.1
@@ -3480,12 +3474,6 @@ c.ns.tk.		172800	IN	A	194.0.40.1
 c.ns.tk.		172800	IN	AAAA	2001:678:58:0:0:0:0:1
 d.ns.tk.		172800	IN	A	194.0.41.1
 d.ns.tk.		172800	IN	AAAA	2001:678:5c:0:0:0:0:1
-root-a.taloha.tk.	172800	IN	A	194.109.152.138
-root-b.taloha.tk.	172800	IN	A	85.214.136.249
-root-c.taloha.tk.	172800	IN	A	207.36.228.217
-root-d.taloha.tk.	172800	IN	A	217.199.176.121
-root-e.taloha.tk.	172800	IN	A	66.36.231.236
-root-f.taloha.tk.	172800	IN	A	202.125.44.173
 tk.			86400	IN	NSEC	tl. NS RRSIG NSEC
 tk.			86400	IN	RRSIG	NSEC 8 1 86400 20120206000000 20120129230000 51201 . fa0YQyvi/pg4bY7vfCc1txH3mck5CSnmKBl9tAZpw+fhk2sMlzGvZxPq8tXrijYwgg8P1HS/9rUNVBaW+SWczzZTnd5LI/Qkfo1MCI/+nYJpujOV3KNvbP63jDLSzL0Dat7GJJZ+Vl7wd42wFqlpEyS8BYZa49TctNCKWQkSYWo=
 tl.			172800	IN	NS	ns.anycast.nic.tl.
