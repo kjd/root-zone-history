@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012021400 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120221000000 20120213230000 51201 . SbeCD3O+Y3/EyL6eKOd0/ZBDOghSrYEuS80tXgH10l5TzqFpWD1e2opJ1K6rdgOLpbwgJ19RD89trGD3B2nsgjEqUyVm+HzZSdDIXen+UE/XITqQr2qv3sYINZz85s/FAQrvlJdc2ixo3QpIvhdDbIRFtmV08S2rX31rNWPUfTA=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012021401 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120221000000 20120213230000 51201 . nrm2CsUWdNOcjR7p7yx1hJIdvuVN+bSyp0q1ECUxaIn3fCsFV7JzxEqpKgwOYDc7vKS58TsBojEJ4/o1uoKAUFZKQ8RzWSpfQNgIAAoiGFGpXFIuAhrZFM9u3JYNxjwr40lf4qsS8hIOsFZELhaQMXsrQTUUhv4HJWTxZmE3ezg=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -3708,7 +3708,7 @@ uy.			172800	IN	NS	uy.cctld.authdns.ripe.net.
 uy.			172800	IN	NS	ns3.nic.mx.
 uy.			172800	IN	NS	seciu.edu.uy.
 uy.			172800	IN	NS	ultra.seciu.uy.
-uy.			172800	IN	NS	ns-ext.isc.org.
+uy.			172800	IN	NS	sns-pb.isc.org.
 seciu.edu.uy.		172800	IN	A	164.73.128.5
 seciu.edu.uy.		172800	IN	AAAA	2001:1328:6:0:0:0:0:5
 ultra.seciu.uy.		172800	IN	A	164.73.128.70
