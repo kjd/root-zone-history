@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012040500 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120412000000 20120404230000 56158 . WzdcMWFdBxdmf/IqXr1gkQ23jU0ofLLip0c41BmjgwzWBc8rEC60+cPurXwch9uptU5yhQBmUwIsBcqYpqoHvVwHqHEcMVmK7TmUo8CTaIJNj/zSu95IvedKk2QdQoW0Ti081WliLBV75bNWs6svfEXIQ+ZG+/spTaVsM55W3/Q=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012040501 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120412000000 20120404230000 56158 . OlTRiK3nusU//dcHdgqwGqpho2Wb9AopfzCwzOySBD1UKSBHlU8r1EUegbbtZwvkBCrpoHu8CzLm1hvQoiN4LYCBR+UAJPJiGbBibkRRjxqJBaGrW//ywkwp9bNS2ow9AEQf0c1uCq54tjMr+GqjgnGXSuZJPXW6p1cr0t9YPwo=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1153,7 +1153,6 @@ gd.			86400	IN	RRSIG	NSEC 8 1 86400 20120412000000 20120404230000 56158 . E1fpsT
 ge.			172800	IN	NS	ns.uu.net.
 ge.			172800	IN	NS	ns.nic.ge.
 ge.			172800	IN	NS	ns2.nic.fr.
-ge.			172800	IN	NS	sunic.sunet.se.
 ns.nic.ge.		172800	IN	A	212.72.130.11
 ge.			86400	IN	NSEC	gf. NS RRSIG NSEC
 ge.			86400	IN	RRSIG	NSEC 8 1 86400 20120412000000 20120404230000 56158 . kOTbkUO6tt2d6e7wCEH+jhRCqwq2LGskvWXhRpzb3+U+sPI72RInVNMawgHJzW2VT4+yVuShbb2uxpM6OwzDPQm0TlbMRyCYT/Kjyr8vb6dp2mY4XNGUoGloxqo3C3uNpU5yv9TRU0mF0Bd2iuZKevh0MYxns1HHXvIkEIFUsx4=
@@ -1930,7 +1929,7 @@ ma.			172800	IN	NS	ns2.iam.net.ma.
 ma.			172800	IN	NS	ns2.nic.fr.
 ma.			172800	IN	NS	ns3.iam.net.ma.
 hariss.anrt.ma.		172800	IN	A	194.204.241.140
-dns2.menara.ma.		172800	IN	A	81.192.53.156
+dns2.menara.ma.		172800	IN	A	81.192.108.228
 dns3.menara.ma.		172800	IN	A	196.217.246.51
 ns1.iam.net.ma.		172800	IN	A	212.217.0.10
 ns2.iam.net.ma.		172800	IN	A	81.192.53.23
@@ -2559,8 +2558,6 @@ ne.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.101
 ne.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:101
 np.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.102
 np.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:102
-om.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.103
-om.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:103
 ph.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.104
 ph.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:104
 ps.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.105
@@ -2818,14 +2815,12 @@ ns7.dns.net.nz.		172800	IN	AAAA	2001:67c:1010:13:0:0:0:53
 ns99.dns.net.nz.	172800	IN	A	202.46.191.130
 nz.			86400	IN	NSEC	om. NS DS RRSIG NSEC
 nz.			86400	IN	RRSIG	NSEC 8 1 86400 20120412000000 20120404230000 56158 . De9Cqocq491MrJXFtMy1sLSHXXUVBaRoHCtR7Y7iqwVGFzG334V8XR42xkiOmCd7fCH0PnZgQ6Tc4i207sKY5arfxSsaKruINqapDcdv8bJDh7ixNVdnUqz/mID0nYjoPtIiA/5nzxfZMpd52sDjDsT7GlpiM+dj7FbCJdixFOM=
-om.			172800	IN	NS	ns.icann.org.
-om.			172800	IN	NS	om.cctld.authdns.ripe.net.
-om.			172800	IN	NS	om14.omantel.net.om.
-om.			172800	IN	NS	om16.omantel.net.om.
-om.			172800	IN	NS	om41.omantel.net.om.
-om14.omantel.net.om.	172800	IN	A	212.72.23.4
-om16.omantel.net.om.	172800	IN	A	212.72.1.186
-om41.omantel.net.om.	172800	IN	A	62.231.243.249
+om.			172800	IN	NS	ns1.registry.om.
+om.			172800	IN	NS	ns1.ausregistry.net.au.
+om.			172800	IN	NS	ns2.registry.om.
+om.			172800	IN	NS	ns2.ausregistry.net.au.
+ns1.registry.om.	172800	IN	A	212.72.15.101
+ns2.registry.om.	172800	IN	A	188.135.6.231
 om.			86400	IN	NSEC	org. NS RRSIG NSEC
 om.			86400	IN	RRSIG	NSEC 8 1 86400 20120412000000 20120404230000 56158 . Bp8dLOAgaDUKdgETQb4YbCo5k3/PUJf4ofmgDdIJ7aEOcgELQyoHfkZaUCw3Ver7xMUIYk6wtzLaU/zFFKW5DsWFOpboQR7tzBzS9n6ibPI3aiMTqPTyuHL1yNwR2dlEA5J+1U6klBPy22VHzHfpN0Qv44bQyVHzXa3M909Lc8o=
 org.			172800	IN	NS	a0.org.afilias-nst.info.
