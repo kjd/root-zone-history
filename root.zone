@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012042400 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120501000000 20120423230000 56158 . FogWoeKcdDI50/p/utMNrdN/XrPAKmrpz8QF09cWwnPFsA2mvRIsrP33PBoOYETfM7nxQ2UlwaZR3b5dCIqjE0gum1d9NStbtJ1zfyb1iwtE1i+zkADyI5jQnjPAhIiprGgPlQ8zLNe+in6VKI2+pQ0CA0lIU/8DoJfzXDYHbKA=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012042401 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120501000000 20120423230000 56158 . b4tQxknvNuswkuFWVam23R5OcvnKlrpWGPWYMVgX4ZBYIcB3sfIC+P434xODRG6ug9gTIgbdVAHH91UszVS3Tdn0RjGe5g3xZga/fS59CTuLc4DbMsSp1elgdcjq9XP3ohj7Szzm446hK34+pzQ9Lsi1QjhOMdJmy4xsbc7tWOs=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -3068,7 +3068,6 @@ py.			172800	IN	NS	ns.dns.br.
 py.			172800	IN	NS	py.cctld.authdns.ripe.net.
 py.			172800	IN	NS	ns3.nic.mx.
 py.			172800	IN	NS	sce.cnc.una.py.
-py.			172800	IN	NS	sunic.sunet.se.
 py.			172800	IN	NS	auth00.ns.uu.net.
 py.			172800	IN	NS	merapi.switch.ch.
 ns.cnc.una.py.		172800	IN	A	200.10.228.132
