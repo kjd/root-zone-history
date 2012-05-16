@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012051600 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120523000000 20120515230000 56158 . ou7Eu/1UQhPqSZwWBZ+Ua1B6lIe0hzo7swzXiI1Li9E7lTSK4S0F6OEt9UTr854BtPO0+zGJnF6gEI9yo4BVVRXNIVzpISEWNTUROQSTkFZP7pkvp32duhWE91lX0nHMgcoOsIk/logZ7cyqv5Pj1wb0jOQJ9rO8rrPnwYyjrp0=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012051601 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120523000000 20120515230000 56158 . ripXyeUvPYHJM8oCvBcRAUBH7HwDRPMi7aMmBpLyuOIaodLir1hNOSiuUaH8pt07I6BNZSTbu6GOhTKN1y4X9uvwZhkBVitze7Gyyw17tpXUoAHCQXI97yBHQkxQPrWm+MgECeZvXntLxiMCJk3sIxfTQ+jqqUKBsfETK/59XsI=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1398,19 +1398,21 @@ ns1.id.			172800	IN	A	202.155.30.227
 id.			86400	IN	NSEC	ie. NS RRSIG NSEC
 id.			86400	IN	RRSIG	NSEC 8 1 86400 20120523000000 20120515230000 56158 . JeTJub1BXL4B2SmKihOADspMf3E0esUHk5FLNYENhn1xxmA7pYYaSxMz83WCh5XIWFvf9QFFbyFuxnj0jp3jyK7T45jk1k4clRTxp7i56BIx0pZilMlICsrNTaCFHkJ+iznXxXwP6f3ko9GuqDvpPGWc/AHhMuH6Ee2/RBjLc8I=
 ie.			172800	IN	NS	b.iedr.ie.
+ie.			172800	IN	NS	c.iedr.ie.
+ie.			172800	IN	NS	d.iedr.ie.
 ie.			172800	IN	NS	ns3.ns.esat.net.
 ie.			172800	IN	NS	gns1.domainregistry.ie.
 ie.			172800	IN	NS	gns2.domainregistry.ie.
 ie.			172800	IN	NS	banba.domainregistry.ie.
 ie.			172800	IN	NS	ns-ie.nic.fr.
-ie.			172800	IN	NS	uucp-gw-1.pa.dec.com.
-ie.			172800	IN	NS	uucp-gw-2.pa.dec.com.
 auth01.connect.ie.	172800	IN	A	87.198.184.50
 banba.domainregistry.ie.	172800	IN	A	193.1.142.2
 gns1.domainregistry.ie.	172800	IN	A	198.133.199.102
 gns2.domainregistry.ie.	172800	IN	A	198.133.199.103
 b.iedr.ie.		172800	IN	A	77.72.72.34
 b.iedr.ie.		172800	IN	AAAA	2a01:4b0:0:0:0:0:0:2
+c.iedr.ie.		172800	IN	A	194.146.106.98
+d.iedr.ie.		172800	IN	A	77.72.229.245
 ie.			86400	IN	NSEC	il. NS RRSIG NSEC
 ie.			86400	IN	RRSIG	NSEC 8 1 86400 20120523000000 20120515230000 56158 . SR9iZU+Jicy2HD4hjTXfmpdTmRDmHNIDQQGLYPAzezV7qIXyIhx5iF1Cz1bqVpfkl0ry6TXpziTDAi9dI3Fmk0YNYptsxf7LkNV4v3MxovscZnuHB/jkGHTgJ9EGgOpYPD3/34pyE3/4BCq+tzdXZeKsqWG5paz418sI8f3vwTk=
 il.			172800	IN	NS	nsa.ns.il.
