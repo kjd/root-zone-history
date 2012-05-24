@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012052400 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120531000000 20120523230000 56158 . Ak3l1ny+QLv3mbSCILd6dhXc99b7unQxaVlQB77TTMsEgRCEsGQxtkXno6+/lCpgx78e6a44So0ioXtuo3DdMd1A6H3PsnRpQfmvXoE8N07hlfYihQvnXZtx9h1ExU/hx40l1tT5vARYykJXgSENk0pLXE+N5q9AtPiIr0qScWw=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012052401 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120531000000 20120523230000 56158 . KHdE9BN4VQDhbW8/tDYnwTgSgEGOF77JTfF2M7ZqCXsFX/7S7f8bYbLo4SJwYrH7XjchoIja8B+mWJun/kUl/jafrfyVPPObMoY4csH76foazzMSFILxqzhez3wuiS9bG43qs81iFcr9QFwsbqEMIMcon/AW69fhuavklQ03f5A=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1324,6 +1324,8 @@ ns2.cuhk.edu.hk.	172800	IN	AAAA	2405:3000:3:60:0:0:0:21
 ns1.hkirc.net.hk.	172800	IN	A	203.119.2.18
 ns2.hkirc.net.hk.	172800	IN	A	203.119.87.19
 ns2.hkirc.net.hk.	172800	IN	AAAA	2001:dca:1000:0:0:0:cb77:5713
+y.hkirc.net.hk.		172800	IN	A	137.189.6.21
+y.hkirc.net.hk.		172800	IN	AAAA	2405:3000:3:60:0:0:0:21
 z.hkirc.net.hk.		172800	IN	A	194.146.106.70
 z.hkirc.net.hk.		172800	IN	AAAA	2001:67c:1010:17:0:0:0:53
 hk.			86400	IN	NSEC	hm. NS RRSIG NSEC
@@ -3989,9 +3991,9 @@ XN--HLCJ6AYA9ESC7A.	86400	IN	RRSIG	DS 8 1 86400 20120531000000 20120523230000 56
 xn--hlcj6aya9esc7a.	86400	IN	NSEC	xn--j6w193g. NS DS RRSIG NSEC
 xn--hlcj6aya9esc7a.	86400	IN	RRSIG	NSEC 8 1 86400 20120531000000 20120523230000 56158 . J7QtmqBsM8RzRfsiqz10cgDNDEO1xfIRe/rwmT/Vzq6tSHQx5gFYpmgrufs5fdf1bWqCZfgfLPKXvdbKHe31/r1YFfgloOmsVFbIhk35PzYtV868GFK2vD1ayJkb44K9ZxmhqSdIuAIcKDcm3+uhjx8qIodTSL9eoRjwocGyQGg=
 xn--j6w193g.		172800	IN	NS	b.dns.tw.
+xn--j6w193g.		172800	IN	NS	y.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	z.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	ns1.hkirc.net.hk.
-xn--j6w193g.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--j6w193g.		172800	IN	NS	ns2.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	sec3.apnic.net.
 xn--j6w193g.		172800	IN	NS	adns1.berkeley.edu.
