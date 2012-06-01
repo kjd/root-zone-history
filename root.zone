@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012060100 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120608000000 20120531230000 56158 . G1UPd8TQCDpKtsJDL/Nif+F0MqpLloLiYYfH6RMmmQixrFkyyeEGiFxneMJn3Gt7e1W3HwZzXvByEq9DbH2xd/Zzui1kyEcDKWsLQdMOBsIdUYyuDLrncJwBn7JSnLKfwYTTUO2bUX5ahCRLKuHMowQB2Yh2IfSrf2SRSHZ7mDI=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012060101 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120608000000 20120531230000 56158 . JB6BxE8NUbECjr7q73/g/HP82BEeznPsC2QjOyKq1QQmxwcN9J7nyLLZabPzvbjHZkOIYLksCE2lqCxxLxlxip46Anvdde3Zkk8U5q47NqL4U/HRCaqSIRdd7zpmic6yAaxRTEzet5tgzdvs44jjFGfJymLq1nzSy98xyOQDGmo=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1315,9 +1315,9 @@ ns2.gtt.co.gy.		172800	IN	A	190.80.0.42
 gy.			86400	IN	NSEC	hk. NS RRSIG NSEC
 gy.			86400	IN	RRSIG	NSEC 8 1 86400 20120608000000 20120531230000 56158 . dd5JMdInvjFx9F7OaV2+GdxjbLZNqe36fwtKSL/yym2R93FDDLDoh3TzgYq2NdAzHOZgnxwM3/kPukrhYt6FiSTtU/zLXcwhhHOS/NIjj3uqNRIUHUFgg+6i+IbYPvbQIOYeIUlqh6ZcA3gkteOtc699YFSejwT8So7wv/8kWXQ=
 hk.			172800	IN	NS	b.dns.tw.
+hk.			172800	IN	NS	y.hkirc.net.hk.
 hk.			172800	IN	NS	z.hkirc.net.hk.
 hk.			172800	IN	NS	ns1.hkirc.net.hk.
-hk.			172800	IN	NS	ns2.cuhk.edu.hk.
 hk.			172800	IN	NS	ns2.hkirc.net.hk.
 hk.			172800	IN	NS	sec3.apnic.net.
 hk.			172800	IN	NS	adns1.berkeley.edu.
