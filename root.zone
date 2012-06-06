@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012060600 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120613000000 20120605230000 56158 . tDL6nUMFomYc67LdU0rnW+kxKeWDMJIWPAg11RuZThbLl6WKfJvU7TaFih1j4YAErUP3j7PpGpjxaTgUJ/HpAll8aGYZ3dXODrmoCWlJ674JsEBV1lcM2f9FomjwiZF/Cyt8vRRXzlV7HjqGyfn0etLiIW9KWlUz/ARdun+xSGs=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012060601 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120613000000 20120605230000 56158 . WX7hDykxJpGKfVePh9ItsIXjLW2Wv1ATduEiDPL2NVBYEt7PmxozDAoCEnHzTrPfJ8IqxvSUexrywVSt+RDUWyoapMP5jmgO9HI93rMn2bp/wO7tTtYgD+If4Ye+oM8uKvogzyN6rFMePBK1tQ27O2y5oFymVcv1NYIAI6WBPRM=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1327,6 +1327,8 @@ ns2.cuhk.edu.hk.	172800	IN	AAAA	2405:3000:3:60:0:0:0:21
 ns1.hkirc.net.hk.	172800	IN	A	203.119.2.18
 ns2.hkirc.net.hk.	172800	IN	A	203.119.87.19
 ns2.hkirc.net.hk.	172800	IN	AAAA	2001:dca:1000:0:0:0:cb77:5713
+w.hkirc.net.hk.		172800	IN	A	202.12.28.140
+w.hkirc.net.hk.		172800	IN	AAAA	2001:dc0:1:0:4777:0:0:140
 y.hkirc.net.hk.		172800	IN	A	137.189.6.21
 y.hkirc.net.hk.		172800	IN	AAAA	2405:3000:3:60:0:0:0:21
 z.hkirc.net.hk.		172800	IN	A	194.146.106.70
@@ -3990,11 +3992,11 @@ XN--HLCJ6AYA9ESC7A.	86400	IN	RRSIG	DS 8 1 86400 20120613000000 20120605230000 56
 xn--hlcj6aya9esc7a.	86400	IN	NSEC	xn--j6w193g. NS DS RRSIG NSEC
 xn--hlcj6aya9esc7a.	86400	IN	RRSIG	NSEC 8 1 86400 20120613000000 20120605230000 56158 . YOj8uEb6MEkYWHILCLi5YZ8FgEZ9x25oDochjUaCQx8c/hXQu5D32zteiAxifKUwuOVS38bw/e6uLxWFlGTOAlW+30TZjKK9ByMiKWPXj9gYoO3NGxu95vihikW64nkP0N4li9ylaGdDdQ9q+WrH/lrBNDC+QrSyP9xT9y2ij0o=
 xn--j6w193g.		172800	IN	NS	b.dns.tw.
+xn--j6w193g.		172800	IN	NS	w.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	y.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	z.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	ns1.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	ns2.hkirc.net.hk.
-xn--j6w193g.		172800	IN	NS	sec3.apnic.net.
 xn--j6w193g.		172800	IN	NS	adns1.berkeley.edu.
 xn--j6w193g.		172800	IN	NS	hk-ns.pch.net.
 xn--j6w193g.		86400	IN	NSEC	xn--jxalpdlp. NS RRSIG NSEC
