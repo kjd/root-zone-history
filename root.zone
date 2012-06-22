@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012062200 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120629000000 20120621230000 56158 . sjgFaeD2ZFSdb8lYSjsZgfJhmY3CU8d6Yp0fTpe40Lf+0mRR8N7PhXMZDunldUylLVRP1mfupv2LD1GHvEps4jqa8SK4LP7cd6OkltE+EEVweI+2mj4rL2zu5xpoiCIJ8aF2THwQ+6dktkSrAEoK/24Xl+z/Lepo7uvWoPD3RGc=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012062201 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120629000000 20120621230000 56158 . nbSbEeK0KgjbjPB30SH/D4kk498I3Dbknflz9XCQZKs+bqEA9uS2xxqNVA3IbT8fegLFw3MmaQQZyC8PDzoJ2RRQ3r7D4lAzZ/poneBSeKKJG64pAQ3/iidb23UxYNe9tBMorBlqw2p+TZ1P/XU4uiTFS7Npz6v35HYBr4HwRao=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -915,8 +915,6 @@ do.			172800	IN	NS	ns3.nic.mx.
 do.			172800	IN	NS	do-dns.nic.pr.
 do.			172800	IN	NS	phloem.uoregon.edu.
 do.			172800	IN	NS	sns-pb.isc.org.
-do.			172800	IN	NS	server1.pucmm.edu.do.
-server1.pucmm.edu.do.	172800	IN	A	66.98.65.147
 ns.nic.do.		172800	IN	A	66.98.65.146
 ns1.nic.do.		172800	IN	A	200.16.91.226
 ns2.nic.do.		172800	IN	A	200.16.90.162
@@ -1522,6 +1520,12 @@ a2.org.afilias-nst.info.	172800	IN	A	199.249.112.1
 a2.org.afilias-nst.info.	172800	IN	AAAA	2001:500:40:0:0:0:0:1
 c0.org.afilias-nst.info.	172800	IN	A	199.19.53.1
 c0.org.afilias-nst.info.	172800	IN	AAAA	2001:500:b:0:0:0:0:1
+a0.pro.afilias-nst.info.	172800	IN	A	199.182.0.1
+a0.pro.afilias-nst.info.	172800	IN	AAAA	2001:500:c0:0:0:0:0:1
+a2.pro.afilias-nst.info.	172800	IN	A	199.182.32.1
+a2.pro.afilias-nst.info.	172800	IN	AAAA	2001:500:e0:0:0:0:0:1
+c0.pro.afilias-nst.info.	172800	IN	A	199.182.16.1
+c0.pro.afilias-nst.info.	172800	IN	AAAA	2001:500:d0:0:0:0:0:1
 a0.xxx.afilias-nst.info.	172800	IN	A	199.115.152.1
 a0.xxx.afilias-nst.info.	172800	IN	AAAA	2001:500:a0:0:0:0:0:1
 a2.xxx.afilias-nst.info.	172800	IN	A	199.115.156.1
@@ -2893,6 +2897,12 @@ b2.org.afilias-nst.org.	172800	IN	A	199.249.120.1
 b2.org.afilias-nst.org.	172800	IN	AAAA	2001:500:48:0:0:0:0:1
 d0.org.afilias-nst.org.	172800	IN	A	199.19.57.1
 d0.org.afilias-nst.org.	172800	IN	AAAA	2001:500:f:0:0:0:0:1
+b0.pro.afilias-nst.org.	172800	IN	A	199.182.1.1
+b0.pro.afilias-nst.org.	172800	IN	AAAA	2001:500:c1:0:0:0:0:1
+b2.pro.afilias-nst.org.	172800	IN	A	199.182.40.1
+b2.pro.afilias-nst.org.	172800	IN	AAAA	2001:500:e1:0:0:0:0:1
+d0.pro.afilias-nst.org.	172800	IN	A	199.182.17.1
+d0.pro.afilias-nst.org.	172800	IN	AAAA	2001:500:d1:0:0:0:0:1
 b0.xxx.afilias-nst.org.	172800	IN	A	199.115.153.1
 b0.xxx.afilias-nst.org.	172800	IN	AAAA	2001:500:a1:0:0:0:0:1
 b2.xxx.afilias-nst.org.	172800	IN	A	199.115.157.1
@@ -3026,6 +3036,12 @@ pro.			172800	IN	NS	a.gtld.pro.
 pro.			172800	IN	NS	b.gtld.pro.
 pro.			172800	IN	NS	c.gtld.pro.
 pro.			172800	IN	NS	d.gtld.pro.
+pro.			172800	IN	NS	a0.pro.afilias-nst.info.
+pro.			172800	IN	NS	a2.pro.afilias-nst.info.
+pro.			172800	IN	NS	b0.pro.afilias-nst.org.
+pro.			172800	IN	NS	b2.pro.afilias-nst.org.
+pro.			172800	IN	NS	c0.pro.afilias-nst.info.
+pro.			172800	IN	NS	d0.pro.afilias-nst.org.
 a.gtld.pro.		172800	IN	A	192.149.62.10
 b.gtld.pro.		172800	IN	A	192.149.63.10
 c.gtld.pro.		172800	IN	A	192.149.64.10
