@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012062300 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120630000000 20120622230000 56158 . MbFLlNsPFnfaiB0ZHZLw4tho/pn/35BGrvz9oMpcPfoTaiXcCCQ3bxhoxz80IfzyQEs40kmBnNjMNkcIKNw+qWWz0lzsRg+4UAGucQOirGTeEZxxJUAKMII/2+FGWmr7af8+OBhxvpYky3mjV6KE0nI0z+crjeLeYBjLMNuFQmE=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012062301 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120630000000 20120622230000 56158 . Lr+qXSFvJkEeSSp7ZywTg76qxCZT9CXgVFgybpG9iDxYU04PrzvKr5GOqSXbX+ip1GTpgxaO82KkIp5/xWDqyO8XePg+m+l+qObaLwloae8dFiBQgpwPWCe5fomS3CP2uIQtKskkBMWJD/s2MSzY8oCvaPYUNvYo0H2aEL9SoUY=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1316,6 +1316,7 @@ ns2.gtt.co.gy.		172800	IN	A	190.80.0.42
 gy.			86400	IN	NSEC	hk. NS RRSIG NSEC
 gy.			86400	IN	RRSIG	NSEC 8 1 86400 20120630000000 20120622230000 56158 . oyWvOoDaz7sRnJwWovVVpuLPDsAzPej8sblIMXFpRPXs274sYyoKOcg/FkWFJXimQlHPJPE00gi8Xgx8E2ZORKUh/bMpZWwhyiFx9igctaVv2PxQCpd1JbXJUj0qWo6Uv4QONAf0HWa0NP3XuM6Bkf5aKSyB+fFjYP4aSGJNwk4=
 hk.			172800	IN	NS	b.dns.tw.
+hk.			172800	IN	NS	v.hkirc.net.hk.
 hk.			172800	IN	NS	w.hkirc.net.hk.
 hk.			172800	IN	NS	x.hkirc.net.hk.
 hk.			172800	IN	NS	y.hkirc.net.hk.
@@ -1323,12 +1324,13 @@ hk.			172800	IN	NS	z.hkirc.net.hk.
 hk.			172800	IN	NS	ns1.hkirc.net.hk.
 hk.			172800	IN	NS	ns2.hkirc.net.hk.
 hk.			172800	IN	NS	adns1.berkeley.edu.
-hk.			172800	IN	NS	hk-ns.pch.net.
 ns2.cuhk.edu.hk.	172800	IN	A	137.189.6.21
 ns2.cuhk.edu.hk.	172800	IN	AAAA	2405:3000:3:60:0:0:0:21
 ns1.hkirc.net.hk.	172800	IN	A	203.119.2.18
 ns2.hkirc.net.hk.	172800	IN	A	203.119.87.19
 ns2.hkirc.net.hk.	172800	IN	AAAA	2001:dca:1000:0:0:0:cb77:5713
+u.hkirc.net.hk.		172800	IN	A	210.201.138.58
+u.hkirc.net.hk.		172800	IN	AAAA	2404:0:10a0:0:0:0:0:58
 v.hkirc.net.hk.		172800	IN	A	204.61.216.46
 v.hkirc.net.hk.		172800	IN	AAAA	2001:500:14:6046:ad:0:0:1
 w.hkirc.net.hk.		172800	IN	A	202.12.28.140
@@ -1952,7 +1954,7 @@ ma.			172800	IN	NS	ns2.nic.fr.
 ma.			172800	IN	NS	ns3.iam.net.ma.
 hariss.anrt.ma.		172800	IN	A	194.204.241.140
 dns2.menara.ma.		172800	IN	A	81.192.108.228
-dns3.menara.ma.		172800	IN	A	196.217.246.51
+dns3.menara.ma.		172800	IN	A	81.192.108.164
 ns1.iam.net.ma.		172800	IN	A	212.217.0.10
 ns2.iam.net.ma.		172800	IN	A	81.192.53.23
 ns3.iam.net.ma.		172800	IN	A	212.217.1.13
@@ -2496,8 +2498,6 @@ za-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6055:ad:0:0:1
 anyns.pch.net.		172800	IN	A	204.61.216.4
 cat.pch.net.		172800	IN	A	204.61.216.20
 cat.pch.net.		172800	IN	AAAA	2001:500:14:6020:ad:0:0:1
-hk-ns.pch.net.		172800	IN	A	204.61.216.46
-hk-ns.pch.net.		172800	IN	AAAA	2001:500:14:6046:ad:0:0:1
 nic.lk-anycast.pch.net.	172800	IN	A	204.61.216.27
 nf-ns.pch.net.		172800	IN	A	204.61.216.51
 nf-ns.pch.net.		172800	IN	AAAA	2001:500:14:6051:ad:0:0:1
@@ -3883,8 +3883,10 @@ xn--3e0b707e.		172800	IN	NS	d.dns.kr.
 xn--3e0b707e.		172800	IN	NS	e.dns.kr.
 xn--3e0b707e.		172800	IN	NS	f.dns.kr.
 xn--3e0b707e.		172800	IN	NS	g.dns.kr.
-xn--3e0b707e.		86400	IN	NSEC	xn--45brj9c. NS RRSIG NSEC
-xn--3e0b707e.		86400	IN	RRSIG	NSEC 8 1 86400 20120630000000 20120622230000 56158 . h1CBbMrPmNgiIq+vghh3DdnJhDpQL6YbBfuZcvDIUZyUqFmuxiKaB0rlgbwPxZ6vREOOHmkCVvzGzV/ORsJ5RGwjzBLvOf4IZZtCuNM1Qg5I7+ggnMkbN4pM0eVdMinmTqLiWbh/3qh2ukl/oxZ/G2d12njTPhEMAkmuqT20WMs=
+XN--3E0B707E.		86400	IN	DS	27573 7 2 A1C0A1B101F2B31DA2DD995BD0994A6C1E9E34E325FA007E2EA8721DFC4C6CB4
+XN--3E0B707E.		86400	IN	RRSIG	DS 8 1 86400 20120630000000 20120622230000 56158 . tRa3zoCD4bbq2GnHG7iOnBaRjnbBGOr/oKrkM+uK8bGsqFIRC/5s1Z+wEc/AOFyvsmSt+TstcdvFNAc+T9YE87tOTZ5H/vWLCZatuO8RoyU6ydI8WLbZEQwdAiHb5bZHO5PtHEH9aDW+J7wATNESZUTkBydyo7DEQfkr0q2iZVk=
+xn--3e0b707e.		86400	IN	NSEC	xn--45brj9c. NS DS RRSIG NSEC
+xn--3e0b707e.		86400	IN	RRSIG	NSEC 8 1 86400 20120630000000 20120622230000 56158 . oxtBjwvt7RCw7AsqCQuUNd+fJ/PjNuL0Ol/I6alyQT0jRLR1Ha7ggNYmBlcPm+GEgfden92+nz1l6rk8vfSy4CVHO3tpE6bJ2rJswEVRhB6ZzIUZLYET/hkKS2zXzRtisf+kFri6hKomZRvXmKbQoWp/Rhnhty2HDBQ1jE+Afoc=
 xn--45brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
 xn--45brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
 xn--45brj9c.		172800	IN	NS	a2.in.afilias-nst.info.
@@ -4014,7 +4016,7 @@ XN--HLCJ6AYA9ESC7A.	86400	IN	DS	56231 8 2 D51F6C4A545691F4234F886F4FB82EBBEB06D2
 XN--HLCJ6AYA9ESC7A.	86400	IN	RRSIG	DS 8 1 86400 20120630000000 20120622230000 56158 . Ny8DPJrkjZYI30rTjkfRxGy6hGvEUchTzxiJwcAUIDorsVM4c5GS1T3OS/yR3QazuhNa6B+5aTVv4s1O5blsOrKT7RWFh4uQqYL3SXw6h9tjJSewaS8E+IkPurBfOv09LW+EmCAUHB64AMkRpGjJkGWlicYUNC4ppgaz+qJxuzA=
 xn--hlcj6aya9esc7a.	86400	IN	NSEC	xn--j6w193g. NS DS RRSIG NSEC
 xn--hlcj6aya9esc7a.	86400	IN	RRSIG	NSEC 8 1 86400 20120630000000 20120622230000 56158 . QtQUQbPBOELTeWmPBHud8AKCuvHgK/opKbO9om5wKsVGC1Kx5l+ERoU71L2QCUWgVT3eqob4tLGBBDsedCREFmHtaI8NU/eiwfYetd/WWmZwkgj0RekNyppmSt3IeFeNm/997pP2UwVKJJHqsPy75naoRAMT26hEfNaOa1Di3gA=
-xn--j6w193g.		172800	IN	NS	b.dns.tw.
+xn--j6w193g.		172800	IN	NS	u.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	v.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	w.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	x.hkirc.net.hk.
