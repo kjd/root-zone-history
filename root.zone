@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012062700 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120704000000 20120626230000 56158 . LuPVRpG60UK3t6BuOp4r7Yh7KykXFYZvZEfl4GEv1z1XyXsZ4SwPqEyRoK0qO6hkVZCsnSwk7OlSdqIDvg/cZTMMZGyOC99LU4sIqluVO7VDB7bU/g3tlQ5lJyH4cNqsUbs8iMAY8VWtMVpVBHEzNkH2lO7Vo87RE5ywXUQncWE=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012062701 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120704000000 20120626230000 56158 . G00zMmXsZdcw+veNrHhfJNeWqFybvEMpc54TIqFphaNrX3u7i2YJ8MkbU31L6J0CKT6prafC3fHG+IWBTNKdF5DQHKbvIAGOh6231ZzzWNx4awxNC1WHVA9Uzu/oyXwhGAO69Rndb+NH8z9pKqSp1dajoBF0xKOgm15hSJ6mvss=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -150,6 +150,7 @@ ns1.dns.aq.		172800	IN	A	203.119.56.132
 aq.			86400	IN	NSEC	ar. NS RRSIG NSEC
 aq.			86400	IN	RRSIG	NSEC 8 1 86400 20120704000000 20120626230000 56158 . GBx5ahlUvZw38iDlSb0MsyJg+k6q9yG46NA87V/Z2s/msUVnppGj0bf3zf9gyo0jLAXMLevBcnU3rLbFrx3jBaanwguxUToVblM2vpXcLYJ8No6r6eBERKWxVh5nZw5q2JjHQO7L7QU+dv/LX7FiJ4R8W7mcl/8v4Bq6ANAguXo=
 ar.			172800	IN	NS	ar.cctld.authdns.ripe.net.
+ar.			172800	IN	NS	ns2.switch.ch.
 ar.			172800	IN	NS	athea.ar.
 ar.			172800	IN	NS	ctina.ar.
 ar.			172800	IN	NS	merapi.switch.ch.
@@ -595,6 +596,8 @@ f.nic.ch.		172800	IN	AAAA	2001:67c:1010:2:0:0:0:53
 h.nic.ch.		172800	IN	A	194.42.48.120
 merapi.switch.ch.	172800	IN	A	130.59.211.10
 merapi.switch.ch.	172800	IN	AAAA	2001:620:0:0:0:0:0:5
+ns2.switch.ch.		172800	IN	A	130.59.138.49
+ns2.switch.ch.		172800	IN	AAAA	2001:620:0:1b:5054:ff:fe74:8780
 ch.			86400	IN	NSEC	ci. NS DS RRSIG NSEC
 ch.			86400	IN	RRSIG	NSEC 8 1 86400 20120704000000 20120626230000 56158 . JnamWuvSfdscD13bl7XcSC/DBy0eBTPS8NYncWvgb/Pua54erStoMR6XdSrbkFChhRv6lZ7re9xyN+/DXGWDPX3jyh3FgF1lOc0n9M1ENv4EBeAgBcZWw9/qJ1ixIbKATryJo5ZPnMU0BVS0A2HCO/oInVj7iGUiwQkogxpFDxY=
 ci.			172800	IN	NS	ci.cctld.authdns.ripe.net.
@@ -3033,20 +3036,12 @@ golomb.nic.pr.		172800	IN	A	134.202.6.100
 pascal.nic.pr.		172800	IN	A	134.202.0.120
 pr.			86400	IN	NSEC	pro. NS DS RRSIG NSEC
 pr.			86400	IN	RRSIG	NSEC 8 1 86400 20120704000000 20120626230000 56158 . HEB8LH9sRFdHxCTGstQRrNrouyxnNi8Pru8J4JYtsl89EeZm34upYGFwxlMrXXPEcJi76+JjvvdoXi5ZNv4hD8mvNzsEr6FwvS0D9C7hfH7IDBdTwtY5PIh6JKh51ojB/xgffAjC9auttpX9r3lefMssL4KOEglp8cMRc4/ERfo=
-pro.			172800	IN	NS	a.gtld.pro.
-pro.			172800	IN	NS	b.gtld.pro.
-pro.			172800	IN	NS	c.gtld.pro.
-pro.			172800	IN	NS	d.gtld.pro.
 pro.			172800	IN	NS	a0.pro.afilias-nst.info.
 pro.			172800	IN	NS	a2.pro.afilias-nst.info.
 pro.			172800	IN	NS	b0.pro.afilias-nst.org.
 pro.			172800	IN	NS	b2.pro.afilias-nst.org.
 pro.			172800	IN	NS	c0.pro.afilias-nst.info.
 pro.			172800	IN	NS	d0.pro.afilias-nst.org.
-a.gtld.pro.		172800	IN	A	192.149.62.10
-b.gtld.pro.		172800	IN	A	192.149.63.10
-c.gtld.pro.		172800	IN	A	192.149.64.10
-d.gtld.pro.		172800	IN	A	192.149.66.10
 pro.			86400	IN	NSEC	ps. NS RRSIG NSEC
 pro.			86400	IN	RRSIG	NSEC 8 1 86400 20120704000000 20120626230000 56158 . D4uMmFV86dgbDtw3sWNnaGErV4hUDx71CAuJgf7smt6cdp2DcPg+e8VeHySrXIg+3m0nLtjkwvkofV0Z2MnNfeLAubtR8Rlt9SZfbJHw4YIpFAw8cGxknEJ9MgfC2u7E/ruHIHIhNJoWGVryaw7Th3p52nQrAz0WvsfS4ROnoCg=
 ps.			172800	IN	NS	ps.cctld.authdns.ripe.net.
