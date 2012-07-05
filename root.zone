@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012070500 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120712000000 20120704230000 50398 . XxhUCP6NFFMfYZwIS1DoRx5VQAyXBqgFUmQAEvEDZoM75LtP0j+lU+HuzGRhDjlHDjwy8kOsYiAAS0jwDq8yMn2eDP/1orZnphIPbYEIO6Gf/rPzs/myqBxhRWwRPyayUwI6WMPZRgH96SAcx5HGBqNyvIjidKc3roc8XeqlfA4=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012070501 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120712000000 20120704230000 50398 . MjoO/SZVuCtiKkgvzlRRsB3YqCbTxB2wTAADnwFBCgZpy4vjqltXBGT1vpX8Yifnl5OrYxy2EiLO/KfuTQQWPdmkVpkAviy8DNhdDg1Lv1Z9yexMo8q5p24rIxnWrNe/JCmfBeSvRuBfT6sRh1321PN1jyBr4JH36+ZJ8QrcFcw=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1317,6 +1317,8 @@ ns1.gtt.co.gy.		172800	IN	A	190.80.0.41
 ns2.gtt.co.gy.		172800	IN	A	190.80.0.42
 gy.			86400	IN	NSEC	hk. NS RRSIG NSEC
 gy.			86400	IN	RRSIG	NSEC 8 1 86400 20120712000000 20120704230000 50398 . mcANfRzirDF6kKFmb9+GZdQ7TlJmB2UeJztHBqALDDexZDBrU/Dnnyq62rpq3Yjoc9MgqY84HsNXLbEgbsh/jeH0sQiw5J9zAvnm1824a+VbriAABdhG0xaEiZpXYp34RR99C5XHCQMutGF+6L4n8A9T+BahT2MGDQayV9IgKRk=
+hk.			172800	IN	NS	s.hkirc.net.hk.
+hk.			172800	IN	NS	t.hkirc.net.hk.
 hk.			172800	IN	NS	u.hkirc.net.hk.
 hk.			172800	IN	NS	v.hkirc.net.hk.
 hk.			172800	IN	NS	w.hkirc.net.hk.
@@ -1325,12 +1327,15 @@ hk.			172800	IN	NS	y.hkirc.net.hk.
 hk.			172800	IN	NS	z.hkirc.net.hk.
 hk.			172800	IN	NS	ns1.hkirc.net.hk.
 hk.			172800	IN	NS	ns2.hkirc.net.hk.
-hk.			172800	IN	NS	adns1.berkeley.edu.
 ns2.cuhk.edu.hk.	172800	IN	A	137.189.6.21
 ns2.cuhk.edu.hk.	172800	IN	AAAA	2405:3000:3:60:0:0:0:21
 ns1.hkirc.net.hk.	172800	IN	A	203.119.2.18
 ns2.hkirc.net.hk.	172800	IN	A	203.119.87.19
 ns2.hkirc.net.hk.	172800	IN	AAAA	2001:dca:1000:0:0:0:cb77:5713
+s.hkirc.net.hk.		172800	IN	A	128.32.136.3
+s.hkirc.net.hk.		172800	IN	AAAA	2607:f140:ffff:fffe:0:0:0:3
+t.hkirc.net.hk.		172800	IN	A	128.32.136.14
+t.hkirc.net.hk.		172800	IN	AAAA	2607:f140:ffff:fffe:0:0:0:e
 u.hkirc.net.hk.		172800	IN	A	210.201.138.58
 u.hkirc.net.hk.		172800	IN	AAAA	2404:0:10a0:0:0:0:0:58
 v.hkirc.net.hk.		172800	IN	A	204.61.216.46
@@ -4009,6 +4014,8 @@ XN--HLCJ6AYA9ESC7A.	86400	IN	DS	56231 8 2 D51F6C4A545691F4234F886F4FB82EBBEB06D2
 XN--HLCJ6AYA9ESC7A.	86400	IN	RRSIG	DS 8 1 86400 20120712000000 20120704230000 50398 . bRuSZWhM17AEJw534STIsRMb1kOsYdmCoUJSaDSh/wJWhzc6pndy7Gaz2zNkq0gftS+sHR8x8ZR4ExjCsC6JIB1fg0vVDLQ3anqlBRrgqnJ9DlNEzP+QRwcNoh/Q2jV9pwnKjWiid1Gu1IP1cQvMEJaC2L+7cOr2mDwgSYfIS+c=
 xn--hlcj6aya9esc7a.	86400	IN	NSEC	xn--j6w193g. NS DS RRSIG NSEC
 xn--hlcj6aya9esc7a.	86400	IN	RRSIG	NSEC 8 1 86400 20120712000000 20120704230000 50398 . A9QJ9xDvAb2aETAWTyr9qWLahEgK0PhRFhYU30vWtlL4vlAeTHcHKt6IuoMSWVnnzzDR1TXpFBVPo7IYXwLBI74CJL8xezk3bJI1osnFuU1/K/y3FMx58gav11hZUXXDPoLP+m8duTavQtCzaoDIkTrizYhla5l6PwDegbFP7jU=
+xn--j6w193g.		172800	IN	NS	s.hkirc.net.hk.
+xn--j6w193g.		172800	IN	NS	t.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	u.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	v.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	w.hkirc.net.hk.
@@ -4017,7 +4024,6 @@ xn--j6w193g.		172800	IN	NS	y.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	z.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	ns1.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	ns2.hkirc.net.hk.
-xn--j6w193g.		172800	IN	NS	adns1.berkeley.edu.
 xn--j6w193g.		86400	IN	NSEC	xn--jxalpdlp. NS RRSIG NSEC
 xn--j6w193g.		86400	IN	RRSIG	NSEC 8 1 86400 20120712000000 20120704230000 50398 . O8OKMW/Wkacfwr4YoW5dAnm2bT4pFzKe/Db2jRLukDYZ2sxay7s/hm6/QA35v9pzcMqdlNszjap5nd0yFXGdHIxTm2ixnbVok5k8LCEYBnXKgQxj03GiqBSrEQu8EkvMwbTpIp59p9oJl9ibrwh69g8KT18es/uEUM+h1lq3rjY=
 xn--jxalpdlp.		172800	IN	NS	a.iana-servers.net.
