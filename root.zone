@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012071700 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120724000000 20120716230000 50398 . iqr3XRyJ1lAHtO4d1qX9iDLeuBIBMD4C6Xv+I/WS81dHmsPabytDLFUbDlIY8Ath+CFCJ9xmLQYbFwydyVEjhVtGQeO6YaXtWrERnxfS5HqvpFxgMKFdJamgUIKjW0t+f79TRDN7xkeAsfSWYbjPlx0E34Jp0m2afk95zY/+BAE=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012071701 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120724000000 20120716230000 50398 . k3PCkz9XMvmJUnjiySRepPG0mxKpJzO8rFP+otwLwOBV/UX7LWVqtj6R0PSSNYGxtWfNcakTrtiocQzUlncJGqP+pWa0bMFOPaghyotQX2hBY3JgGiSf6zfmiFQQYw2oHWjqwKXF/TOZVMvlUkfPZU5MeT835JhE8XjvchU4Bz4=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1302,7 +1302,6 @@ gw.			172800	IN	NS	ns1.nic.gw.
 gw.			172800	IN	NS	ns2.nic.gw.
 gw.			172800	IN	NS	ns3.nic.gw.
 ns1.nic.gw.		172800	IN	A	81.91.170.10
-ns1.nic.gw.		172800	IN	AAAA	2001:608:6:0:0:0:0:3
 ns2.nic.gw.		172800	IN	A	87.233.175.20
 ns3.nic.gw.		172800	IN	A	193.171.255.35
 gw.			86400	IN	NSEC	gy. NS RRSIG NSEC
@@ -2601,8 +2600,6 @@ ps.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.105
 ps.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:105
 py.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.106
 py.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:106
-qa.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.51
-qa.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:51
 sa.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.108
 sa.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:108
 sd.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.109
@@ -3111,17 +3108,17 @@ ns.cnc.una.py.		172800	IN	A	200.10.228.132
 sce.cnc.una.py.		172800	IN	A	200.10.228.133
 py.			86400	IN	NSEC	qa. NS RRSIG NSEC
 py.			86400	IN	RRSIG	NSEC 8 1 86400 20120724000000 20120716230000 50398 . PHScJytqI4r1zNjYTv4rrx3lqp8kbyx5Q/D0HpKGehlJJbH1SnuvKbmm7YmFWCg9c01bK5glImxqF4/ejv3qpjK8yHA+dECMrbuoynTQhGqnw3oeDMRsRMPk/prWqojxHGELKWo3yH+YAtQP/XC6rJmb+iJIP6vZXea0uvyTvhI=
-qa.			172800	IN	NS	qa.cctld.authdns.ripe.net.
-qa.			172800	IN	NS	ns1.qatar.net.qa.
-qa.			172800	IN	NS	ns1.registry.qa.
-qa.			172800	IN	NS	ns1.ausregistry.net.au.
-qa.			172800	IN	NS	ns2.qatar.net.qa.
-qa.			172800	IN	NS	ns2.registry.qa.
-qa.			172800	IN	NS	ns2.ausregistry.net.au.
-qa.			172800	IN	NS	ns3.qatar.net.qa.
-ns1.qatar.net.qa.	172800	IN	A	212.77.192.10
-ns2.qatar.net.qa.	172800	IN	A	212.77.192.13
-ns3.qatar.net.qa.	172800	IN	A	212.77.192.15
+qa.			172800	IN	NS	a.registry.qa.
+qa.			172800	IN	NS	b.registry.qa.
+qa.			172800	IN	NS	c.registry.qa.
+qa.			172800	IN	NS	d.registry.qa.
+qa.			172800	IN	NS	e.registry.qa.
+qa.			172800	IN	NS	f.registry.qa.
+qa.			172800	IN	NS	g.registry.qa.
+qa.			172800	IN	NS	h.registry.qa.
+qa.			172800	IN	NS	i.registry.qa.
+qa.			172800	IN	NS	j.registry.qa.
+qa.			172800	IN	NS	k.registry.qa.
 a.registry.qa.		172800	IN	A	178.23.16.104
 b.registry.qa.		172800	IN	A	178.23.17.104
 c.registry.qa.		172800	IN	A	212.77.192.10
@@ -3136,8 +3133,6 @@ i.registry.qa.		172800	IN	AAAA	2001:500:14:6062:ad:0:0:1
 j.registry.qa.		172800	IN	A	38.103.2.3
 k.registry.qa.		172800	IN	A	72.52.71.3
 k.registry.qa.		172800	IN	AAAA	2001:470:1a:0:0:0:0:3
-ns1.registry.qa.	172800	IN	A	178.23.16.104
-ns2.registry.qa.	172800	IN	A	178.23.17.104
 qa.			86400	IN	NSEC	re. NS RRSIG NSEC
 qa.			86400	IN	RRSIG	NSEC 8 1 86400 20120724000000 20120716230000 50398 . em3+QZsXOz1kCQkz0zPRjKpY+yuOdpyevYmadc5UDwpnJUNkXpggyeGGQ8jWbBu0ehyt4Qm0BDcsL36bGz/SXEGQKMZ9V952BYgzADHL6Ck8csPe0dUwH1m/5L5vypmQGz3S7LZ3WKn6IwdYBPxZ2JFBE/jSDclQDgjt4G3CHso=
 re.			172800	IN	NS	d.ext.nic.fr.
