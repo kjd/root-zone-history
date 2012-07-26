@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012072600 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120802000000 20120725230000 50398 . djlK8da2pw1KoHoWbKFyxh+qcozxykN+hSkaPO+0sRn7rqSQBTvA/ISHUH2S/URUIoQx7rHPIEHbzEzkY9EUXbOJO5fQ1oZX+V1X54YiL06vr8F0yioUHfOcYH7WrKjCe9tTPV5NbB+iKBJdlNzC7TDFezX55Hmt1ZfctGyjfmk=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012072601 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120802000000 20120725230000 50398 . GYeQbonMY3rHFh4EkgRAbdPYpFepCoaI4dgdIINGh3Mntkupayw26/D6MDp4zshpfOTXYdoGEGBWvA4/0UYI60EfUFd+XVxgjvZ3+ulYDyM8oyRxfnClRicAVUYzyea7UfqVkLwSXz0DlrzDnnNq/g2bHgKOZIHSyA+axRZ48Ts=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -2288,6 +2288,7 @@ nc.			86400	IN	RRSIG	NSEC 8 1 86400 20120802000000 20120725230000 50398 . FutUBF
 ne.			172800	IN	NS	ne.cctld.authdns.ripe.net.
 ne.			172800	IN	NS	ns.intnet.ne.
 ne.			172800	IN	NS	bow.rain.fr.
+ne.			172800	IN	NS	ns-ne.afrinic.net.
 ns.intnet.ne.		172800	IN	A	41.138.54.10
 ne.			86400	IN	NSEC	net. NS RRSIG NSEC
 ne.			86400	IN	RRSIG	NSEC 8 1 86400 20120802000000 20120725230000 50398 . YamsvjqFELdS0eOd4bSYMlxPKIvxEFLDAUiQhqPlp+6z9L4rQ0ShXsWbBv7frfA/F1mhUTowr5YsncL+9tKjcCG4e5vPUwFemmhDdhFNw08AoKFPfZKHpO2n+cPV/DJpbEFXVPmRYRPlThqeOw5X7R5+19aKCpb61sbq/gQAc8U=
@@ -2319,6 +2320,8 @@ ns-dz.afrinic.net.	172800	IN	A	196.216.168.36
 ns-dz.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:36
 ns-ly.afrinic.net.	172800	IN	A	196.216.168.24
 ns-ly.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:24
+ns-ne.afrinic.net.	172800	IN	A	196.216.168.45
+ns-ne.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:45
 ns-tz.afrinic.net.	172800	IN	A	196.216.168.20
 ns-tz.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:20
 ns-cdn.amnic.net.	172800	IN	A	194.0.1.26
