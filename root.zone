@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012080200 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120809000000 20120801230000 50398 . R+1+rpEiFN+TosFFluh2V13GeYSeD/3XwpKb5j2QbJ/FwnkF95BX3djzsnmYeVCeJZqxYS2Ek35JQIZUWCX44sdAnI/slYTb+MJHCs2VsPhv9LvbZNmS33rA6OU0SIA9cBZ30Ojoui88Lm/GnApdoQhZCLPx7UAyh0kVpggKe1I=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012080201 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120809000000 20120801230000 50398 . FcGLI2xm8M7CPk79CtLarmIH40mmqbJcdS5GYQfSa6UXZawsxfeRMnAD84QL0QURrJHWQ7e9nAVVO8L3a7Bmxfgplg8eOMoiGLDX9eFw/VG2WufpIym6fjqkjsueFgZyPwFaOvVwN6qCCM69LrhiBRGCe8B7Nr2bHsvCU3XHAxY=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -2327,6 +2327,8 @@ ns-ly.afrinic.net.	172800	IN	A	196.216.168.24
 ns-ly.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:24
 ns-ne.afrinic.net.	172800	IN	A	196.216.168.45
 ns-ne.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:45
+ns-tn.afrinic.net.	172800	IN	A	196.216.168.25
+ns-tn.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:25
 ns-tz.afrinic.net.	172800	IN	A	196.216.168.20
 ns-tz.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:20
 ns-cdn.amnic.net.	172800	IN	A	194.0.1.26
@@ -3559,6 +3561,7 @@ tn.			172800	IN	NS	ns.ati.tn.
 tn.			172800	IN	NS	ns2.ati.tn.
 tn.			172800	IN	NS	ns2.nic.fr.
 tn.			172800	IN	NS	rip.psg.com.
+tn.			172800	IN	NS	ns-tn.afrinic.net.
 ns.ati.tn.		172800	IN	A	193.95.66.10
 ns.ati.tn.		172800	IN	AAAA	2001:4350:1:1:0:0:0:10
 ns2.ati.tn.		172800	IN	A	193.95.67.22
