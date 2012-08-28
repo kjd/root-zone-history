@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012082800 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20120904000000 20120827230000 50398 . OpdnHGt1J1dl7aYV/1C8BSh3VxgY85yCv4Nc0dAka/tObNyugoBoP/fNPSKn6u0VCseG0dnZToTreX8nGOdBglQzeOpJFAJCnXGLMrMvsEIQ/zyprPdfPznJMbpLKyOIA80kGVG05R647niEux7T7lOW90DS3bIj4M8gqhSnSLU=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2012082801 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20120904000000 20120827230000 50398 . ft6+iH7/H0KgEhpEZS37QvgkevLDsq577torxRO1BnNgJeyuGvGhSNy3E2SJS384nDxLaaVSTfq+hNMcw3TImQx9rXUf7GXpCvMZqWvoBBPqbLTTDrLW7LTgYllWQSvf75o1TLtdtI+TKzp4X/16wJ1TKTLPrjX36M/5btLQlVM=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -702,9 +702,7 @@ com.			172800	IN	NS	l.gtld-servers.net.
 com.			172800	IN	NS	m.gtld-servers.net.
 COM.			86400	IN	DS	30909 8 2 E2D3C916F6DEEAC73294E8268FB5885044A833FC5459588F4A9184CFC41A5766
 COM.			86400	IN	RRSIG	DS 8 1 86400 20120904000000 20120827230000 50398 . a/9Uqc3hv64ZRVyQPZ9Su+a+LibhCdyae5vxR8qVPPH2gv7gdEVjiMciYMQLhAEDwJuz+x8nTAPpxLskg6RXqyzRNvZYJWrlq0gxT1I+RnO9wN+FKisXS+6JRnGAuyCowpRy6snwGVoxYWKe0OETNjqOpxfm2leeCZu++5dDPkY=
-bcn1.adamsnames.com.	172800	IN	A	89.145.97.75
 chc1.adamsnames.com.	172800	IN	A	195.153.6.27
-qew1.adamsnames.com.	172800	IN	A	82.68.90.198
 ns.blacknightsolutions.com.	172800	IN	A	217.114.173.6
 ns.blacknightsolutions.com.	172800	IN	AAAA	2a01:a8:fe00:0:0:0:0:2
 ns2.blacknightsolutions.com.	172800	IN	A	82.96.97.64
@@ -1164,9 +1162,10 @@ gb.			172800	IN	NS	ns4.ja.net.
 gb.			86400	IN	NSEC	gd. NS RRSIG NSEC
 gb.			86400	IN	RRSIG	NSEC 8 1 86400 20120904000000 20120827230000 50398 . Six9jsvidHnkm9EAXImKT2BbSNFm74jotWEJFb6FPw5PVdBdQ+fsq3kqfJ4HgM0Twjk+oseLe66ZcMJ8JMO9xXX6GJd3MCsKNegUX51ewjthKav2cvkg2eMSxzAJYHMRxusT6T5ibfqFDD4t/rnBNAfToz2RVYq+e2WcsfSlQi8=
 gd.			172800	IN	NS	gd.cctld.authdns.ripe.net.
-gd.			172800	IN	NS	bcn1.adamsnames.com.
+gd.			172800	IN	NS	ns1.root-servers.gd.
 gd.			172800	IN	NS	chc1.adamsnames.com.
-gd.			172800	IN	NS	qew1.adamsnames.com.
+ns1.root-servers.gd.	172800	IN	A	194.0.11.103
+ns1.root-servers.gd.	172800	IN	AAAA	2001:678:e:103:0:0:0:53
 gd.			86400	IN	NSEC	ge. NS RRSIG NSEC
 gd.			86400	IN	RRSIG	NSEC 8 1 86400 20120904000000 20120827230000 50398 . faaYwBYSXBhr/9t9Niw4n90687/8Z61P4k3A3bEl5ooc1/bhSyAdqHZHwCGASoHhGNbNzXiEKijDbLuHvKbOTOslQ3iWciJkHemnCfD6F8Uuccq1Ym1iMmcwicc7w4DGZbvOUfskH/kCmg8KWWCghlbsR27uVyv3jfWFmQQEUt8=
 ge.			172800	IN	NS	ge.hostmaster.ua.
