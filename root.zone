@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013011500 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130122000000 20130114230000 40323 . MPJHy/hNo3MslbmJV95ZKIB8ajm+ZwY69QwNfzL4ig2QMtbUNipLtzq32qlP9mYfaX3S++c0d7g5jZ1NS7cLJ8Funqc0oRf/tnsZMI6v1pK5qwHbwrC1Um3rBSGAsuZ79WhgrDLGnwSBAZrgKaK3gQJ1m8ALg7vDPvjjE5KoK+A=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013011501 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130122000000 20130114230000 40323 . U9hpxVha/9FN4dcrkqLvFpFfm5Y8ZuWvVv/aDcJJx76ON9r6IhaE7UwmAKpoS1/tVdnF4ASHuz1GMe3/q+hyo2qbvC87Je8fm1rkfhXyjUHLpTtc4nE+M6MLRIn42TPbo2t7xuiX/pqVDUliqdGkfgdjmBPEBMhDgjbB/7ClrVw=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
