@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013020200 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130209000000 20130201230000 40323 . G1zDTOtCP/JjgD1UMzmvuCnRehSN4LqIkcDG/EmEebDHIuBmup/JKxWBrNDyToHKIva/pIZUU+LXcMAY1FVv/OP1ms8R0HwjUCc0NEvOHU/kB4EwyPPDqKwpSGDvblW2oLbRxPxqbcOcweyJbjwaKWdSZKnh2lpLqPYufjN9uFI=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013020201 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130209000000 20130201230000 40323 . irOF+77OMQcabvntK7uJfREgRtrzVBkXYWGU4Wr+ckxPG+mz6epignphISvgl3dkNlwk8c0CbbXgKv4QgEhScC+2nXReLZhivMKUQqZDQ6U4GC/8j9q+GOmrBpV3V6ExmlOWTJO6JkcJOnOTWUrABUax9mPcV8P3viEAkWhM9iM=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1427,6 +1427,7 @@ hu.			172800	IN	NS	ns.nic.hu.
 hu.			172800	IN	NS	ns2.nic.fr.
 hu.			172800	IN	NS	ns-com.nic.hu.
 b.hu.			172800	IN	A	193.239.149.3
+b.hu.			172800	IN	AAAA	2001:738:4:4000:0:0:0:3
 c.hu.			172800	IN	A	193.6.16.1
 d.hu.			172800	IN	A	195.70.35.250
 e.hu.			172800	IN	A	194.0.25.11
