@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013031300 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130320000000 20130312230000 40323 . evGoXdMn/YQrpcc9pqKIGwteUUr/nx4EqaNEIdv2WqUlBndhAaUZwvZSOB5++3ZuRv1ot+nM4LvT51ZqnUuc+HQniz089xsjFJsutYW20pLC9Od+wKRElZabSl6mEUdWnmNhMAmVtzxmVoQZvI4QTAUj/s4qDgYq/t7sIS5jxiA=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013031301 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130320000000 20130312230000 40323 . bhbKzy3XDvtcZBAtzal1UfYMRHeHOieVjjI84hi1uWGAhXgCBB0pgiVLjR61ZodIjy8tqelw7igkReLafyiHORSNHQrseaGoBErLunyURCwU0BSOmtntquAmb2AwUZiBF7q97X7rEZ28Nx6h37Twtd6jnBeSs1SX+ExDrwbjw1g=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1288,7 +1288,6 @@ gr.			172800	IN	NS	estia.ics.forth.gr.
 gr.			172800	IN	NS	gr-us.ics.forth.gr.
 gr.			172800	IN	NS	grdns.ics.forth.gr.
 gr.			172800	IN	NS	gr-aix.ics.forth.gr.
-gr.			172800	IN	NS	grdns-at.ics.forth.gr.
 gr.			172800	IN	NS	grdns-br.ics.forth.gr.
 gr.			172800	IN	NS	grdns-de.denic.de.
 GR.			86400	IN	DS	57519 7 2 89AD46EAD256DA5010F004AEAE31E41FBA15FD91F5F0F85B2FD820C27EEB5CF3
@@ -1302,7 +1301,6 @@ gr-m.ics.forth.gr.	172800	IN	AAAA	2001:678:7:0:0:0:4:10
 gr-us.ics.forth.gr.	172800	IN	A	199.4.28.219
 gr-us.ics.forth.gr.	172800	IN	AAAA	2620:0:22b0:4:221:9bff:fe97:dc44
 grdns.ics.forth.gr.	172800	IN	A	139.91.1.1
-grdns-at.ics.forth.gr.	172800	IN	A	193.171.255.40
 grdns-br.ics.forth.gr.	172800	IN	A	200.160.7.163
 gr.			86400	IN	NSEC	gs. NS DS RRSIG NSEC
 gr.			86400	IN	RRSIG	NSEC 8 1 86400 20130320000000 20130312230000 40323 . K2RdVMlvxiCwoykRU7Q2KU+C74BgY9qNQlHloHSVopEEJ5yCkDWxDXk1mjxlNeqd4RGj0bFGVm9JT84EAOpjLIl5+PrVP/EKs2LA5pbxVZz3sOBMefLvP07wl2c4x5XZUUWxEgPdl/5x8YWtmqUEQ3txwZlUPxAu4B5f9CTU1ps=
