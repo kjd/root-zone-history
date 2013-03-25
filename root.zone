@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013032500 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130401000000 20130324230000 40323 . k7Qg72uSfThalXYu362gJhVkb193s30pzsaR/Vz+6HRh9ZRaADn9dIJTl2Bk6V8McSqQPpYK4h8qgGBAl4M5OtISkAoX/bG+AUlRRuheMBVRLX2WU/bYnWlmBLbxU66DmK340I1v7U7hg4oT0MkNnq/omsV5dfB06AhQaNpGdAI=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013032501 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130401000000 20130324230000 40323 . cDToTsgjNk+GnXsuRCVkZarU+GwJrcoAD4H2FTLPeyRX9szoAQ8V+BbiyKLAKqejrcQLBMHOZeEdoGd4RbyrfLIWV17zPbe76JQw0SVxiwnI+F2W7MDc8D8JM8qCYeGBRIL7tXy3u42fjVvflQlzzrLOnyH95B4w5R0HQX3Qz7g=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1153,8 +1153,8 @@ d.nic.fr.		172800	IN	A	194.0.9.1
 d.nic.fr.		172800	IN	AAAA	2001:678:c:0:0:0:0:1
 d.ext.nic.fr.		172800	IN	A	192.5.4.2
 d.ext.nic.fr.		172800	IN	AAAA	2001:500:2e:0:0:0:0:2
-e.ext.nic.fr.		172800	IN	A	193.176.144.6
-e.ext.nic.fr.		172800	IN	AAAA	2a00:d78:0:102:193:176:144:6
+e.ext.nic.fr.		172800	IN	A	193.176.144.22
+e.ext.nic.fr.		172800	IN	AAAA	2a00:d78:0:102:193:176:144:22
 f.ext.nic.fr.		172800	IN	A	194.146.106.46
 f.ext.nic.fr.		172800	IN	AAAA	2001:67c:1010:11:0:0:0:53
 g.ext.nic.fr.		172800	IN	A	194.0.36.1
@@ -1636,7 +1636,6 @@ it.			172800	IN	NS	a.dns.it.
 it.			172800	IN	NS	c.dns.it.
 it.			172800	IN	NS	m.dns.it.
 it.			172800	IN	NS	r.dns.it.
-it.			172800	IN	NS	s.dns.it.
 it.			172800	IN	NS	dns.nic.it.
 it.			172800	IN	NS	nameserver.cnr.it.
 ns-al.isti.cnr.it.	172800	IN	A	194.119.192.8
@@ -1650,7 +1649,6 @@ m.dns.it.		172800	IN	A	217.29.76.4
 m.dns.it.		172800	IN	AAAA	2001:1ac0:0:200:0:a5d1:6004:2
 r.dns.it.		172800	IN	A	193.206.141.46
 r.dns.it.		172800	IN	AAAA	2001:760:ffff:ffff:0:0:0:ca
-s.dns.it.		172800	IN	A	194.146.106.30
 osiris.namex.it.	172800	IN	A	193.201.40.6
 osiris.namex.it.	172800	IN	AAAA	2001:7f8:10:f00a:0:0:0:6
 seth.namex.it.		172800	IN	A	193.201.40.7
