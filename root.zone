@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013040400 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130411000000 20130403230000 20580 . o3qjJVFx6p2FEJYHLAUNed/0fkeqVGbORCpdNidfTlJ5rpHTnKWKZwdVNfq2SkWw4iF9eLc8knUjAgt37Ln/CcWVE7fvlRg4NJK5GtbJ5rfgtdL+3a0X/EQNPlhumuV02MCSJy2ml05wHgBnZuDMq8FORdoNOA69nMuYx/uWnds=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013040401 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130411000000 20130403230000 20580 . D4P/0QmN/xyHwj/ZzSy59q0Iyl1vtTt8BfEgv/X7kNp5sT34Zix2nqu50/BuvsRpjNlyKWfv0X4Y6hxWid1aT/aOeQ5AREqazqe57cdfBT3jTJoUc5yO2NfoqT0BwocjJsNJduuFD5nT4kN1I3jucw25mQ2FGHj2PE9Xq68KbK0=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -573,12 +573,24 @@ ns1.pch.nic.cd.		172800	IN	A	204.61.216.66
 ns1.pch.nic.cd.		172800	IN	AAAA	2001:500:14:6066:ad:0:0:1
 cd.			86400	IN	NSEC	cf. NS RRSIG NSEC
 cd.			86400	IN	RRSIG	NSEC 8 1 86400 20130411000000 20130403230000 20580 . eOkNZv1o4ZVgA9rQClZxb0GzTNFi+zOpdxhPTXGS9fc8F0a2pXeLo553tq2Yi0l6+1Y9WCNHzhcvOb7JZZ9s+NVE8lwBFA4cB/4yIo0LT1HTtytR1z4Pa2oW084RxCZ8db8zbobKUB7gjT2Yl3LaE0yTiX0frjpgPwBfpe1mbRg=
+cf.			172800	IN	NS	a.ns.cf.
+cf.			172800	IN	NS	b.ns.cf.
+cf.			172800	IN	NS	c.ns.cf.
+cf.			172800	IN	NS	d.ns.cf.
 cf.			172800	IN	NS	root1.nic.cf.
 cf.			172800	IN	NS	root2.nic.cf.
 cf.			172800	IN	NS	root3.nic.cf.
 root1.nic.cf.		172800	IN	A	71.6.218.254
 root2.nic.cf.		172800	IN	A	85.10.201.202
 root3.nic.cf.		172800	IN	A	80.90.43.30
+a.ns.cf.		172800	IN	A	185.21.168.17
+a.ns.cf.		172800	IN	AAAA	2a04:1b00:4:0:0:0:0:1
+b.ns.cf.		172800	IN	A	185.21.169.17
+b.ns.cf.		172800	IN	AAAA	2a04:1b00:5:0:0:0:0:1
+c.ns.cf.		172800	IN	A	185.21.170.17
+c.ns.cf.		172800	IN	AAAA	2a04:1b00:6:0:0:0:0:1
+d.ns.cf.		172800	IN	A	185.21.171.17
+d.ns.cf.		172800	IN	AAAA	2a04:1b00:7:0:0:0:0:1
 cf.			86400	IN	NSEC	cg. NS RRSIG NSEC
 cf.			86400	IN	RRSIG	NSEC 8 1 86400 20130411000000 20130403230000 20580 . IJN/fOABUMPl2mVFSxt3XpCoA2YcTrQDRf8MN0dXjU2FdGA7QW/ZBGknlN3Sr1V1lt+VfC4zGB6O/DSmMsqpRQ8Sc1tsYMY2NIpZDeHk/mIquzWgbXPGtBwJ+BTz4RqFtHzcml1z9eWHX38sjPOcutMYvZCSiB/OUPxScn97swo=
 cg.			172800	IN	NS	dns.dnsafrica.net.
@@ -2094,12 +2106,6 @@ ml.			172800	IN	NS	a.ns.ml.
 ml.			172800	IN	NS	b.ns.ml.
 ml.			172800	IN	NS	c.ns.ml.
 ml.			172800	IN	NS	d.ns.ml.
-ml.			172800	IN	NS	karite.nic.ml.
-ml.			172800	IN	NS	kapioka.nic.ml.
-ml.			172800	IN	NS	cailcedra.nic.ml.
-cailcedra.nic.ml.	172800	IN	A	85.10.201.202
-kapioka.nic.ml.		172800	IN	A	71.6.218.254
-karite.nic.ml.		172800	IN	A	80.90.43.30
 a.ns.ml.		172800	IN	A	185.21.168.1
 a.ns.ml.		172800	IN	AAAA	2a04:1b00:0:0:0:0:0:1
 b.ns.ml.		172800	IN	A	185.21.169.1
@@ -2492,9 +2498,9 @@ sb2.dyntld.net.		172800	IN	A	204.13.250.83
 sb3.dyntld.net.		172800	IN	A	208.78.71.83
 sb4.dyntld.net.		172800	IN	A	204.13.251.83
 tl1.dyntld.net.		172800	IN	A	208.78.70.78
-tl2.dyntld.net.		172800	IN	A	204.13.250.78
+tl1.dyntld.net.		172800	IN	AAAA	2001:500:90:0:0:0:0:78
 tl3.dyntld.net.		172800	IN	A	208.78.71.78
-tl4.dyntld.net.		172800	IN	A	204.13.251.78
+tl3.dyntld.net.		172800	IN	AAAA	2001:500:94:0:0:0:0:78
 a.edu-servers.net.	172800	IN	A	192.5.6.30
 c.edu-servers.net.	172800	IN	A	192.26.92.30
 d.edu-servers.net.	172800	IN	A	192.31.80.30
@@ -3641,13 +3647,10 @@ d.ns.tk.		172800	IN	AAAA	2001:678:5c:0:0:0:0:1
 tk.			86400	IN	NSEC	tl. NS RRSIG NSEC
 tk.			86400	IN	RRSIG	NSEC 8 1 86400 20130411000000 20130403230000 20580 . gzJGhy3dIApcsuOLhR18RBpNVDEwdklY7I9WPIokLHFx0kkVET8LBd4OS1CGClAPPO++hE6J6MKqICYm+vg7jdxI4xM7u9Q9+pwcxdHdgVpwv6JJj1qcSsj35ouvmchboY1nC9w67vANG2f2hM/5AaoJKin3OCa+t8J7zkUwWXs=
 tl.			172800	IN	NS	ns.anycast.nic.tl.
-tl.			172800	IN	NS	soa.nic.tl.
 tl.			172800	IN	NS	tl1.dyntld.net.
-tl.			172800	IN	NS	tl2.dyntld.net.
 tl.			172800	IN	NS	tl3.dyntld.net.
-tl.			172800	IN	NS	tl4.dyntld.net.
 ns.anycast.nic.tl.	172800	IN	A	204.61.216.19
-soa.nic.tl.		172800	IN	A	203.119.12.247
+ns.anycast.nic.tl.	172800	IN	AAAA	2001:500:14:6019:ad:0:0:1
 tl.			86400	IN	NSEC	tm. NS RRSIG NSEC
 tl.			86400	IN	RRSIG	NSEC 8 1 86400 20130411000000 20130403230000 20580 . kEVuTBW4l+gPPR9G7Jashu14iKDU9BuQxyuKiJ97dUgVj9Fytg4B3R/BJvn9ZPcC0yub8WzXZlLog5Z0SLAiErQpsAZzPkBlaws0FfeeYX5whENiKVYO65yJ1KZ1Q/mPSGkEHY3FzokXOkh2Px1jIlkUpLTmopL8rlRgMxm1klM=
 tm.			172800	IN	NS	a.nic.tm.
