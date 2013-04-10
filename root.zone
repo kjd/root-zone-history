@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013041000 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130417000000 20130409230000 20580 . t8w7U8nHpI++kvAO0UucR1W27qWBpCcTO4JfOMHrGv52fvXXrWoxAjOyarcACD1IlGAzUlPYkQQkwQCtyQcLJfEgv1MLf2WxoIa6MIRtypFoi972fhcgzDmmaP8m8DkzM6k20cvexPlvll2TzbM58Jf5sw4xoDopEJre2s6mOWw=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013041001 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130417000000 20130409230000 20580 . meBLQ+qwYgqkNM0C1l7znkD63c4R3Qmhyf9VbvMnzdnEZALN7a4Z+bIsqwcQJOAn4gq0fjLYB8ZFEOQQoj2br8vRZTG/EtKVYwYgLRiVNKGpdAuIfK+f+EPhr/brXj990k9fGWqWJsi3GF384/bhqO+ooY33yuJunc4poYjT94c=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -841,6 +841,7 @@ cw.			86400	IN	RRSIG	NSEC 8 1 86400 20130417000000 20130409230000 20580 . GUSYqH
 cx.			172800	IN	NS	ns.anycast.nic.cx.
 cx.			172800	IN	NS	cx1.dyntld.net.
 cx.			172800	IN	NS	cx3.dyntld.net.
+cx.			172800	IN	NS	sns-pb.isc.org.
 ns.anycast.nic.cx.	172800	IN	A	204.61.216.16
 ns.anycast.nic.cx.	172800	IN	AAAA	2001:500:14:6016:ad:0:0:1
 cx.			86400	IN	NSEC	cy. NS RRSIG NSEC
