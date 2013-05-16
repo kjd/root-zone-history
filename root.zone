@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013051600 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130523000000 20130515230000 20580 . ka8P+S4hELPXFiCkUkFl9TRkh/mb4Fn0EwgqU16XfW1Er6AJqnci1SwBthI3uW2/JysIjFgtuFa+1n29LfFjKw0PWan5E9iJjKrHOcmPWM3M67GPHrLSO9yI/SfgdJak44IqFwrSTmqPv3F8GdBGQBc0886jO24SDS5aHMijgK8=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013051601 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130523000000 20130515230000 20580 . pqc9cW5ckDDqbM0FirEWtzbAsM70TjbpZNYSVLBbZWD4+wytYFR2xKpEvUkunX03hzFz7gHZv/rMftbhzLiQsPBbf/70NuzlkIiq9I5KTRLUTrkHwi9INLDHOs+e5CvMoVzMCIF7F6PLKRPYaAWxbmtZ9cE64iCgMfQqPkksrLM=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -4281,6 +4281,7 @@ xn--ogbpf8fl.		172800	IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.		172800	IN	NS	ns1.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	ns2.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	pch.anycast.tld.sy.
+xn--ogbpf8fl.		172800	IN	NS	ns-sy.afrinic.net.
 xn--ogbpf8fl.		86400	IN	NSEC	xn--p1ai. NS RRSIG NSEC
 xn--ogbpf8fl.		86400	IN	RRSIG	NSEC 8 1 86400 20130523000000 20130515230000 20580 . eOJbph2MVjYUGWoLcXttIU/u1hm5j80ugLthqZl/K9mzzvHb2qkd4HO5HrHXToA1mYzJjHEEb5u/WrQdC+VKSUQgq6nQwPvDBGKeaX7QdjpmGrenKViqynz9MZau8z4gmNsBD4cQnCShpmuKrbTk9Bz4RW5fNSkcfsaHolOGAQg=
 xn--p1ai.		172800	IN	NS	a.dns.ripn.net.
