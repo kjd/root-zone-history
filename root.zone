@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013060800 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130615000000 20130607230000 20580 . o6dkHtCdFBz9orKMm8zPBQxoPDzZp3DZgacisQTIG8DAlGsDmVUM031weEUGfzQW0G83x0jy2eiLjhZPQBLGzt38R4w+H64r4dTR/uEf2QSYWvCsPFbc4Sxu38MPR+zTlY+s7doul8evJwDK9NUczONZGqT3nx8iqrEAM6AvmS4=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013060801 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130615000000 20130607230000 20580 . HfhqWFZfrklaiVJF63WyvfYoWPggU5+hHfV3DuNHXjHqRGn+u9FpeGKcZcHT58Yuf98TYQJEbeBZu61gQ4zh22k80AVj1QMhyP7QvOrWCwL9K+mmsYhnbpmKjduOPRgIU9jGeKS4ZyM9XjQyv2MqSW4nYpLLUauRe05egySPBuQ=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -1182,14 +1182,22 @@ ns3.nic.fr.		172800	IN	AAAA	2001:660:3006:1:0:0:1:1
 bow.rain.fr.		172800	IN	A	194.51.3.49
 fr.			86400	IN	NSEC	ga. NS DS RRSIG NSEC
 fr.			86400	IN	RRSIG	NSEC 8 1 86400 20130615000000 20130607230000 20580 . tkCimYMiy8L2w3SlhBpHWzaiCshzZz+vakVend134m+P8CsAU5iL0vTSegZ21D+ryftLoTI7E2LdaI+V1eZlAeBLFbdb0Jxrs+cexqKGYBe+s6svbJ55LgjijD4FYvwq9nRb0AnoLIskUZp3/4I8GdTYD+ybI8/zVzPnNxCp2Jc=
-ga.			172800	IN	NS	douka.aninf.ga.
+ga.			172800	IN	NS	a.ns.ga.
+ga.			172800	IN	NS	b.ns.ga.
+ga.			172800	IN	NS	c.ns.ga.
+ga.			172800	IN	NS	d.ns.ga.
 ga.			172800	IN	NS	ozigo.aninf.ga.
 ga.			172800	IN	NS	okoume.aninf.ga.
-ga.			172800	IN	NS	belinga.aninf.ga.
-belinga.aninf.ga.	172800	IN	A	217.77.72.115
-douka.aninf.ga.		172800	IN	A	217.77.72.117
 okoume.aninf.ga.	172800	IN	A	71.6.218.252
 ozigo.aninf.ga.		172800	IN	A	78.46.37.112
+a.ns.ga.		172800	IN	A	185.21.168.49
+a.ns.ga.		172800	IN	AAAA	2a04:1b00:c:0:0:0:0:1
+b.ns.ga.		172800	IN	A	185.21.169.49
+b.ns.ga.		172800	IN	AAAA	2a04:1b00:d:0:0:0:0:1
+c.ns.ga.		172800	IN	A	185.21.170.49
+c.ns.ga.		172800	IN	AAAA	2a04:1b00:e:0:0:0:0:1
+d.ns.ga.		172800	IN	A	185.21.171.49
+d.ns.ga.		172800	IN	AAAA	2a04:1b00:f:0:0:0:0:1
 ga.			86400	IN	NSEC	gb. NS RRSIG NSEC
 ga.			86400	IN	RRSIG	NSEC 8 1 86400 20130615000000 20130607230000 20580 . MYSco+Mgn8S5lKAiCJy/9iwG74SB62cbVUVrnmPwJsArUHMzhWQJst5WoKd1ScpTyCOHKbiPi/AAlw6d6fSs7ymVWePjWtqRPS45kWpCC7+nMJ2k1sGbd7pBinjwRee8zHTQyDvm3D/nQxjoCwScjWw6Gb/BOmDbinbWoCt0nrk=
 gb.			172800	IN	NS	ns.uu.net.
@@ -1297,21 +1305,24 @@ gq.			86400	IN	RRSIG	NSEC 8 1 86400 20130615000000 20130607230000 20580 . GPIDDF
 gr.			172800	IN	NS	gr-m.ics.forth.gr.
 gr.			172800	IN	NS	estia.ics.forth.gr.
 gr.			172800	IN	NS	gr-at.ics.forth.gr.
+gr.			172800	IN	NS	gr-br.ics.forth.gr.
+gr.			172800	IN	NS	gr-ix.ics.forth.gr.
 gr.			172800	IN	NS	gr-us.ics.forth.gr.
 gr.			172800	IN	NS	grdns.ics.forth.gr.
-gr.			172800	IN	NS	grdns-br.ics.forth.gr.
 gr.			172800	IN	NS	grdns-de.denic.de.
 GR.			86400	IN	DS	57519 7 2 89AD46EAD256DA5010F004AEAE31E41FBA15FD91F5F0F85B2FD820C27EEB5CF3
 GR.			86400	IN	RRSIG	DS 8 1 86400 20130615000000 20130607230000 20580 . nm+4jJdcnDh7lUJ3wO/XJ3LIyofAPnZsKToDeXx36JNzITR1aF9wK7objLLJx7IRD3LGzohsXBgVsRV0TEzKuYoS7L6b5zadyZTmAqrHlzhW3O5mIfjD3XHSw6OEh9u9ECTwbKNiEE1nXFpJytUPDUN9ExmnBrKUlMkvK7rkYBI=
 estia.ics.forth.gr.	172800	IN	A	139.91.191.3
 estia.ics.forth.gr.	172800	IN	AAAA	2001:648:2c30:0:0:0:191:3
 gr-at.ics.forth.gr.	172800	IN	A	78.104.145.227
+gr-br.ics.forth.gr.	172800	IN	A	200.160.7.163
+gr-ix.ics.forth.gr.	172800	IN	A	176.126.38.132
+gr-ix.ics.forth.gr.	172800	IN	AAAA	2001:7f8:6e:1:0:0:0:132
 gr-m.ics.forth.gr.	172800	IN	A	194.0.4.10
 gr-m.ics.forth.gr.	172800	IN	AAAA	2001:678:7:0:0:0:4:10
 gr-us.ics.forth.gr.	172800	IN	A	199.4.28.219
 gr-us.ics.forth.gr.	172800	IN	AAAA	2620:0:22b0:4:221:9bff:fe97:dc44
 grdns.ics.forth.gr.	172800	IN	A	139.91.1.1
-grdns-br.ics.forth.gr.	172800	IN	A	200.160.7.163
 gr.			86400	IN	NSEC	gs. NS DS RRSIG NSEC
 gr.			86400	IN	RRSIG	NSEC 8 1 86400 20130615000000 20130607230000 20580 . S0spdNIXzJlJWQvqNpK4Olcq/M/DU7hFE53ahW4sgs+KZuzpYhcJxLDrXdVlBvumG/3sz2TNWJ7XTR+tZ2kkVKku01WLtMOtr3HwoYHbNGYW0BiRZiocbkGcbryIik61Mye7Jn7GTpSUWnbzcu8VGXWqwe2ReeJiRMaVvZFXoIY=
 gs.			172800	IN	NS	gs.cctld.authdns.ripe.net.
@@ -2913,7 +2924,7 @@ downstage.mcs.vuw.ac.nz.	172800	IN	A	130.195.6.10
 ns1.dns.net.nz.		172800	IN	A	202.46.190.130
 ns1.dns.net.nz.		172800	IN	AAAA	2001:dce:2000:2:0:0:0:130
 ns2.dns.net.nz.		172800	IN	A	202.46.187.130
-ns2.dns.net.nz.		172800	IN	AAAA	2001:dce:4000:2:0:0:0:130
+ns2.dns.net.nz.		172800	IN	AAAA	2001:dce:7000:2:0:0:0:130
 ns3.dns.net.nz.		172800	IN	A	202.46.188.130
 ns4.dns.net.nz.		172800	IN	A	202.46.189.130
 ns5.dns.net.nz.		172800	IN	A	156.154.100.14
@@ -4306,6 +4317,7 @@ xn--p1ai.		86400	IN	RRSIG	NSEC 8 1 86400 20130615000000 20130607230000 20580 . R
 xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
 xn--pgbs0dh.		172800	IN	NS	ns8.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns9.ati.tn.
+xn--pgbs0dh.		172800	IN	NS	ns-tn.afrinic.net.
 xn--pgbs0dh.		86400	IN	NSEC	xn--s9brj9c. NS RRSIG NSEC
 xn--pgbs0dh.		86400	IN	RRSIG	NSEC 8 1 86400 20130615000000 20130607230000 20580 . bCB+gxK+6qFUMcYb+oSnHW9FWOvdE2q3dyqH7dU8hjt1d/iGmq2FLD6RuRGraF7a/GqIpngeK4fM+TrwksK23Wp3O7mT6GvCCl0NATgPd0vAxTifahhIdxQrXxbLwfpwfOQZpzyzCunIMFyWTkrPi7wJyt9K172YUZDwo+ZlL9k=
 xn--s9brj9c.		172800	IN	NS	a0.cctld.afilias-nst.info.
