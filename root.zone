@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013062800 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130705000000 20130627230000 20580 . HF/yko5aDzjJfxp2heF8wPc9ujcYkVkO+53QlRWnpt9rDcdJzUkFC+WOCqo1QYmxGta5i/+wxeJ9BDgsRD7Az/btdvH3Znmyi1+ARvnBwezTCchTa2MovgCNC0xfIhYq4u7EUPX/bpdTpTlfhz1FIuByY4TjfeuS7xf0/w1F1TQ=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013062801 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130705000000 20130627230000 20580 . GFxHDk/D+Z9bPe2fXKsoAS64esbHU/nybxQigQ09NCorqDVRRSyxhPyieDltkjZT9fmCJ+uuC5YpFkWi+l7SEsTD+NFybGZMj3KQjTCZr0gHUcJlhNnryqMm6MGcADOqZa1Rv2h9VOjuYnpna7t3tVNNaVOHESNjokkseri+r8E=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -260,8 +260,6 @@ cctld.delta.aridns.net.au.	172800	IN	A	37.209.198.6
 cctld.delta.aridns.net.au.	172800	IN	AAAA	2001:dcd:4:0:0:0:0:6
 cctld.gamma.aridns.net.au.	172800	IN	A	37.209.196.6
 cctld.gamma.aridns.net.au.	172800	IN	AAAA	2001:dcd:3:0:0:0:0:6
-ns1.ausregistry.net.au.	172800	IN	A	202.65.12.73
-ns2.ausregistry.net.au.	172800	IN	A	202.65.13.73
 o.au.			172800	IN	A	69.36.146.34
 munnari.oz.au.		172800	IN	A	202.29.151.3
 munnari.oz.au.		172800	IN	AAAA	2001:3c8:9007:1:0:0:0:21
@@ -4250,9 +4248,11 @@ xn--lgbbat1ad8j.	172800	IN	NS	idn2.nic.dz.
 xn--lgbbat1ad8j.	86400	IN	NSEC	xn--mgb9awbf. NS RRSIG NSEC
 xn--lgbbat1ad8j.	86400	IN	RRSIG	NSEC 8 1 86400 20130705000000 20130627230000 20580 . qOz8c+0LsuhBlz0ul8WQkpvhatly7MA6moKTmt1pb7gDDuHx842cwjJG3O97WHYpdUusOfMsrNIfzuBC0H2dn5qbXQYga9ha8goX/mj0LR9+Etbb8onastFSA7roCqtsAY4ak4n8QK68ieMLCvdCBG7/bPCfU+VrXMvxc7jra+4=
 xn--mgb9awbf.		172800	IN	NS	ns1.registry.om.
-xn--mgb9awbf.		172800	IN	NS	ns1.ausregistry.net.au.
 xn--mgb9awbf.		172800	IN	NS	ns2.registry.om.
-xn--mgb9awbf.		172800	IN	NS	ns2.ausregistry.net.au.
+xn--mgb9awbf.		172800	IN	NS	cctld.beta.aridns.net.au.
+xn--mgb9awbf.		172800	IN	NS	cctld.alpha.aridns.net.au.
+xn--mgb9awbf.		172800	IN	NS	cctld.delta.aridns.net.au.
+xn--mgb9awbf.		172800	IN	NS	cctld.gamma.aridns.net.au.
 xn--mgb9awbf.		86400	IN	NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
 xn--mgb9awbf.		86400	IN	RRSIG	NSEC 8 1 86400 20130705000000 20130627230000 20580 . Dj7QyOHbSF9+JUIbHaInsiOdmHT+sZifwu/cA9neuEztUw3P6oJSYUCcPyCgELkNr99fqsmmpQoitlwyxVXfjSDT0CX4+rDeoYvvz5U7yp+Umi73Fkr4SWcm7YTquzxIizqfsBnsxYeTxUPoj6PLUs6x4gJNcwbsB5O8bhTQZqc=
 xn--mgbaam7a8h.		172800	IN	NS	ns1.aedns.ae.
