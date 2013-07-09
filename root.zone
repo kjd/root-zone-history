@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013070900 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130716000000 20130708230000 49656 . di9OD3P+N4gq7bh2kSP/Yyll5nKTLtTV9/8APYXjp1obF37E9juU8c6sGyEAHLqVmWgKxOxWR6ZuXo0UFVtaeWzql/R7Fuc3USP+BPEzj+kx7wqJ1uN32bEFAPNRLTcItHTeM4jYwImn5z9swrTBmKa10eWwDEYJgi3YSN5omm8=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013070901 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130716000000 20130708230000 49656 . XtyXWrj/3HhSqdmUxPvZwU4tfFdC4wYiwtZlmXdOtFTuB5Ox0cvnrxRaZEuOzGIqkE/4hjh4GIw9ibkVT5DVwAGvaVSu+y6k3UBt0hamtozYV+rqOORxs+6X4qs+bSIFfG/WgR3R+V56OM4TAMtzXlmJjaRT2HFEWji5zsxqVLk=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -37,13 +37,9 @@ ac.			86400	IN	RRSIG	NSEC 8 1 86400 20130716000000 20130708230000 49656 . dcZ7ZR
 ad.			172800	IN	NS	ad.ns.nic.es.
 ad.			172800	IN	NS	ad.cctld.authdns.ripe.net.
 ad.			172800	IN	NS	ns3.nic.fr.
-ad.			172800	IN	NS	dns4.ad.
 ad.			172800	IN	NS	dnsc.ad.
 ad.			172800	IN	NS	dnsm.ad.
-ad.			172800	IN	NS	dinis.ad.
 ad.			172800	IN	NS	ns-ext.isc.org.
-dinis.ad.		172800	IN	A	194.158.64.7
-dns4.ad.		172800	IN	A	194.158.64.10
 dnsc.ad.		172800	IN	A	194.158.74.10
 dnsc.ad.		172800	IN	AAAA	2a02:8060:32fa:0:0:0:0:b
 dnsm.ad.		172800	IN	A	194.158.74.9
@@ -315,7 +311,6 @@ bd.			86400	IN	RRSIG	NSEC 8 1 86400 20130716000000 20130708230000 49656 . c2Vc7s
 be.			172800	IN	NS	m.ns.dns.be.
 be.			172800	IN	NS	x.dns.be.
 be.			172800	IN	NS	london.ns.dns.be.
-be.			172800	IN	NS	prague.ns.dns.be.
 be.			172800	IN	NS	brussels.ns.dns.be.
 BE.			86400	IN	DS	12664 8 1 59462E9CB5520A36DD248D9DDC4EAA44672A5ED1
 BE.			86400	IN	DS	12664 8 2 75141E9B1188A95A7A855BF47E278A742A5E3F2DDEED8E995D749D48F2F0E72D
@@ -326,7 +321,6 @@ brussels.ns.dns.be.	172800	IN	A	193.190.135.4
 brussels.ns.dns.be.	172800	IN	AAAA	2001:6a8:3c60:0:0:0:0:be
 london.ns.dns.be.	172800	IN	A	195.66.241.90
 m.ns.dns.be.		172800	IN	A	194.0.6.1
-prague.ns.dns.be.	172800	IN	A	195.47.235.138
 x.dns.be.		172800	IN	A	194.0.1.10
 x.dns.be.		172800	IN	AAAA	2001:678:4:0:0:0:0:a
 be.			86400	IN	NSEC	bf. NS DS RRSIG NSEC
@@ -3256,8 +3250,10 @@ b.registry.qa.		172800	IN	A	178.23.17.104
 c.registry.qa.		172800	IN	A	212.77.192.10
 d.registry.qa.		172800	IN	A	212.77.192.13
 e.registry.qa.		172800	IN	A	212.77.192.15
-f.registry.qa.		172800	IN	A	202.65.12.73
-g.registry.qa.		172800	IN	A	202.65.13.73
+f.registry.qa.		172800	IN	A	37.209.192.6
+f.registry.qa.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:6
+g.registry.qa.		172800	IN	A	37.209.194.6
+g.registry.qa.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:6
 h.registry.qa.		172800	IN	A	193.0.9.51
 h.registry.qa.		172800	IN	AAAA	2001:67c:e0:0:0:0:0:51
 i.registry.qa.		172800	IN	A	204.61.216.62
