@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013071700 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130724000000 20130716230000 49656 . KhngzJe9bvZgLEF8jPjmzjEttY4J/2HzhaoK4C/KY3or3FfcNa3C/RgBaU8zezNfUiN64ty2ePxyhtRbINxA+m9mtqB8A4Sow3/TOuuZEtU4d7DmFtYUqtwMyswRfuFqnV0NHWeiV8BZdxslVaMVt55vusFL8PmhLedbAaxCca0=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013071701 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130724000000 20130716230000 49656 . HmFT1/PVJArFFR4avmY7PYe5XjSNlfjw4zmfgJUPWOYu11QT7Dj7QJeDrVM98vFOlep51AK+Mt5vBAAjrHnIlBwXDmYZPfsp41871/vEvButx1LP7UH2D5sUS/TzDrYFQDgjVusHHJb4daDiNhVDdOpBvKJSqmhuUqGA6sFZ+yo=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -240,7 +240,9 @@ au.			172800	IN	NS	x.au.
 au.			172800	IN	NS	y.au.
 au.			172800	IN	NS	z.au.
 a.au.			172800	IN	A	58.65.254.73
+a.au.			172800	IN	AAAA	2407:6e00:254:306:0:0:0:73
 b.au.			172800	IN	A	58.65.253.73
+b.au.			172800	IN	AAAA	2407:6e00:253:306:0:0:0:73
 yarrina.connect.com.au.	172800	IN	A	192.189.54.17
 cctld.alpha.aridns.net.au.	172800	IN	A	37.209.192.6
 cctld.alpha.aridns.net.au.	172800	IN	AAAA	2001:dcd:1:0:0:0:0:6
