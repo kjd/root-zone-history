@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013082900 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130905000000 20130828230000 49656 . Ob39+XpKO+Pwipyqjlr2KueNi4BMsdZ3YJFLtRq1Hup/+6NH4ycPqF8jjS0CV4UK7vDXXyW5jtGT88dHsHC2Brf+JMOXchGlPbjnfxfPauck+RdirDp2kH3SKl+70dj4XAnYRZ7aZ228O1WQO1WklRjqItVr6+yav45YoyF5ux0=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013082901 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130905000000 20130828230000 49656 . JWq3J8XxPvDg6xIG1kppklGCRIyd0PK9Q7kHMGV/nzY3xOSzrr21yfz/5+XhjtOH1D+LZz4b1HL4ilCyh8KGMUbe6/xpv2pltVkpwM0HXepjSy/QFSaRmFB2/qZDFkxCr34Qhor8Z6AJuScc7ENLOmzXwZqpnRFMwZ5M1TSmq9Q=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -2031,7 +2031,6 @@ ly.			172800	IN	NS	ly.cctld.authdns.ripe.net.
 ly.			172800	IN	NS	dns.lttnet.net.
 ly.			172800	IN	NS	dns1.lttnet.net.
 ly.			172800	IN	NS	ns-ly.afrinic.net.
-ly.			172800	IN	NS	auth02.ns.uu.net.
 ly.			172800	IN	NS	phloem.uoregon.edu.
 ly.			86400	IN	NSEC	ma. NS RRSIG NSEC
 ly.			86400	IN	RRSIG	NSEC 8 1 86400 20130905000000 20130828230000 49656 . VTkIXTvpjqJbl7FnYdj6rnnK+ssy12JIRhsa9bGoiwI9WgB+9y+H2JkbTF+H8YXQA494OZMFx3VurXhSERkkS/CmRJzcM4nwSjwZlyPelS9KNt5CYEtIvm3NcR98jPEcyMYbYvEzUXtdVjSvsQW2h7T7Vuz+dlul/rORbauitzs=
