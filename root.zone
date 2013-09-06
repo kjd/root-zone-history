@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013090600 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20130913000000 20130905230000 49656 . ZsRUPXXH6LvFFQSrSwNwcHYyY/YFGa3QtufEG0tQs6LojtXZDpg/VJNpJ8VGsqv3cjJCpzXIMya1QtBGllcpQ+GskiSuNX7GGtYLiWttxJ48NzOOf4PaIsYEZdIBYVUQG+KmoZnzXxlXzWZyhi7bRkBndZ2+1xt587uQFG1TYbM=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013090601 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20130913000000 20130905230000 49656 . njKn8gDBa0KRm7wYu7jyExwCT1fIWPqk5wnqS5qYWSiHR4/lXbfeRu5tjj0lfJ1Mvh1lb/JHZtr5O5BSwXMgg0X9drbfGejiXXl1XQUCC2XBxKi7rvGwwDcwbTb8RGsSK4kvCN5c8Gdv41dvHkXGMlX2ZU3Q7GPiie5hu9intV8=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -3967,6 +3967,7 @@ ve.			172800	IN	NS	ns2.nic.ve.
 ve.			172800	IN	NS	ns3.nic.ve.
 ve.			172800	IN	NS	ns-ext.isc.org.
 ve.			172800	IN	NS	ns-ext.nic.cl.
+ve.			172800	IN	NS	sns-pb.isc.org.
 ve.			172800	IN	NS	azmodan.ula.ve.
 ns1.nic.ve.		172800	IN	A	150.188.228.4
 ns1.nic.ve.		172800	IN	AAAA	2001:1338:0:0:0:0:0:2
