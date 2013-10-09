@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013100900 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20131016000000 20131008230000 59085 . WxxomQUS4ffIKs/MaeSUDZg1m9xYAaN2eOwKosmLq50mkbF9annBkrs/bh8muXTbgigttZCyjZ7CtTIUsZNQXvxsjc/IBDHcBfKP/q2Pb9kZdalYMiJOD1fH23Z7sIKWXutpL191Ouw9YjXwOfNRXsKba+VZNWnsWZPdyu2a7e0=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2013100901 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20131016000000 20131008230000 59085 . RnIiGWzuRnWjwKvr7Fe0B1uUBCRg3HmoLOuAhuFdrOieiJYhnAnrAVCYWPiFAfOP8iHso7zauu4WhLMI3S/XdEjW+d8d2tW253/PtnxaTB/3TeY6ljoloSto6JGKiSdUfk3XYjRE9L6PJ09WloegVUT4wpMxVL8NkpIeiD0uA+Y=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -4273,8 +4273,12 @@ xn--mgb9awbf.		172800	IN	NS	cctld.beta.aridns.net.au.
 xn--mgb9awbf.		172800	IN	NS	cctld.alpha.aridns.net.au.
 xn--mgb9awbf.		172800	IN	NS	cctld.delta.aridns.net.au.
 xn--mgb9awbf.		172800	IN	NS	cctld.gamma.aridns.net.au.
-xn--mgb9awbf.		86400	IN	NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
-xn--mgb9awbf.		86400	IN	RRSIG	NSEC 8 1 86400 20131016000000 20131008230000 59085 . WuOXiKUHmaTGIXgZnf6jjhIe8jcc8R3x3KPK1w6KnLz1R+fYsHVMi5LxmTFouzZfku04m+EraJbr8fptAnomSdlVezJE9kPmvl5NJK0v30b/a4YV2cYPcifcZvCDbJxLy+dQgEBtghJTZtzWRP1GLEUXvTmsq+VY/XqGpc50KJs=
+xn--mgb9awbf.		86400	IN	NSEC	xn--mgba3a4f16a. NS RRSIG NSEC
+xn--mgb9awbf.		86400	IN	RRSIG	NSEC 8 1 86400 20131016000000 20131008230000 59085 . KojiKF8/KzzenFqgF6P2T/LbaU5xTTxIiaiE72Dsh29YDMJwC+aUR8nNe6xE7hsprzbmt4j5FfUNixPlOWrSOodPdW/sbW1LpAQOILsgZ0TNu/+r9I/J+RZz7JZKomvam/6UYSrsTSJZZa5ZwezJJQACJI1z06smoHy8LGve5YA=
+xn--mgba3a4f16a.	172800	IN	NS	a.nic.ir.
+xn--mgba3a4f16a.	172800	IN	NS	ns.irnic.ir.
+xn--mgba3a4f16a.	86400	IN	NSEC	xn--mgbaam7a8h. NS RRSIG NSEC
+xn--mgba3a4f16a.	86400	IN	RRSIG	NSEC 8 1 86400 20131016000000 20131008230000 59085 . ZdPs+AzZU0PQkqCkckSD750ne23yJp/mFMwL/vzE4XzNfnoEo1eT3Mf6zdSbrbNtfCtTKlN1RQPfGVCBZ6Mm/YUcFpjmDunkh0t5DObNqL5Vb+smUVWwTFPdUDh3FWJlAOEX6GsbHUHCITKqcQHjBX+hwKzdBC1LG/ebpS2GD6s=
 xn--mgbaam7a8h.		172800	IN	NS	ns1.aedns.ae.
 xn--mgbaam7a8h.		172800	IN	NS	ns2.aedns.ae.
 xn--mgbaam7a8h.		172800	IN	NS	sns-pb.isc.org.
