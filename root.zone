@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014021800 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20140225000000 20140217230000 33655 . kzML5eTgzCy56LGGuCJETwaQp2n46nF+vYvC9fOMvH18XMmHF8jXNSOZfIO+DxO1sfIX7lqw/Jul2hlUcMDGLU3sZgTGWq0BaeVMk5XUOdv/ZjrpYq04uTbE1fClp64RNcsHgsK/2Q2C9q6Nv5orX8xWNKhEBql3+OM43tmj3Wo=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014021801 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20140225000000 20140217230000 33655 . hilFYv8RBa1g1pGrYDohOkF+Rdqs7ns73nVAGGhnDENe+ay3NcYmZTyA3HtZnrb0qO9zBLJaxfncz47/8sdwrOlkDWdgIhQD9KE8R4h1tRrDop0uZsQUzdAtQX4bTh/39L8PyqmIYhekQrHT7XQOIIImQrlyM5vs6pSc7QnGgXY=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -5715,8 +5715,16 @@ xn--mgbaam7a8h.		172800	IN	NS	ns1.aedns.ae.
 xn--mgbaam7a8h.		172800	IN	NS	ns2.aedns.ae.
 xn--mgbaam7a8h.		172800	IN	NS	sns-pb.isc.org.
 xn--mgbaam7a8h.		172800	IN	NS	nsext-pch.aedns.ae.
-xn--mgbaam7a8h.		86400	IN	NSEC	xn--mgbayh7gpa. NS RRSIG NSEC
-xn--mgbaam7a8h.		86400	IN	RRSIG	NSEC 8 1 86400 20140225000000 20140217230000 33655 . J7PCihaCrB9+Jgfyg5FyWoljgi0hTHXT6JRChzLSnpUKDlVPjTCsNh1zCcUXwSHGcEynAmMofG6FGHG09lu0Be7RPi8YHGnUuIlInsIzCeMtioBeK0lCPaaDThVhyPxP4jKgWlXZCn89mDaWFeWmL2ngn7BSxol6VA8MS6yG854=
+xn--mgbaam7a8h.		86400	IN	NSEC	xn--mgbab2bd. NS RRSIG NSEC
+xn--mgbaam7a8h.		86400	IN	RRSIG	NSEC 8 1 86400 20140225000000 20140217230000 33655 . DoW81nfxfNsj/cy5l3oCrr8kWcPwE2+bmShrsrRO9qsW34Vh8rZThXDlYvdCr9BmqrN+nxWO5oCssn4QnM/KVKteVYRRwC5eFin+PMaxmbkr6jwlxfqtPThQGBIfaWAiRR7IT0n/r7qu4xv2d4W2T5i41HucoEE1E58o63tE+Lc=
+xn--mgbab2bd.		172800	IN	NS	anycast9.irondns.net.
+xn--mgbab2bd.		172800	IN	NS	anycast10.irondns.net.
+xn--mgbab2bd.		172800	IN	NS	anycast23.irondns.net.
+xn--mgbab2bd.		172800	IN	NS	anycast24.irondns.net.
+XN--MGBAB2BD.		86400	IN	DS	47778 10 2 0EC09A1126F31B2C64C4CF2302EC87B2F12375485347BD4BFCBE93DE7D33B7D2
+XN--MGBAB2BD.		86400	IN	RRSIG	DS 8 1 86400 20140225000000 20140217230000 33655 . ctZS8Xtr6IFqp7vjSZ9OcJx+y/JSWG3r6CswSrG/0lhLPySfj+oe1VJpAbgkan9Jka2fJHLV0oXdEc6dGzv2axR9SkYbrInfki/PhXHZ1JqUvyoFiCSdgDpj3dvoyrJG8+IudZHt5Pcxj49F4Tl+B/pD8S62V1q++ZXvo46ACYo=
+xn--mgbab2bd.		86400	IN	NSEC	xn--mgbayh7gpa. NS DS RRSIG NSEC
+xn--mgbab2bd.		86400	IN	RRSIG	NSEC 8 1 86400 20140225000000 20140217230000 33655 . XCJ7NGwqtXgEWfWQVfuloHfTbEc1MX7SA0LVdouQ/7mGS559w/xz9b6/ViJCGlYHdNF0R+k8wtWx4bNw1/ulUfIkCBDtTSqLNlzKhpHedyxNuthBsG1ugTBryZdWQG/PcrcIzh6bFYVuN3zLCdx4O8bXvxuY/VNK26CKhlhSCdI=
 xn--mgbayh7gpa.		172800	IN	NS	jo.cctld.authdns.ripe.net.
 xn--mgbayh7gpa.		172800	IN	NS	rip.psg.com.
 xn--mgbayh7gpa.		172800	IN	NS	amra.nic.gov.jo.
