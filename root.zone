@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014051200 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20140519000000 20140511230000 40926 . iktri3HBnjWBFcbDk0TGloGLgaWtbfGMeYiJV2VeoDYPamOP6oNF4/U3aBunX0k6rhflq5rl0O7otaGEjZo6JdHr26IjzHFdV7G/r+AE8qxWQKfTKLS8PNYUS9eb7dZcRAAE7C0jcc2ckoikA/HAe3v7YRM2hlN/oIZg3VHOikk=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014051201 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20140519000000 20140511230000 40926 . KHbu/8rEVssXkO+usXnyh7vi0muEQse4XKmASPWJNQq7Q620K785K5Lm/GQRDX1mj6bKzCRvvy2vd+ztUYegmBkqab1DyElB4VzHhAGNF8xqfDho9psGBsO7roObeQ/DVOb8/MDk6Yx0pbnEzFVXwVCzrHNprV3YWWUUTDjNuSg=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -813,6 +813,7 @@ bw.			172800	IN	NS	dns2.nic.net.bw.
 bw.			172800	IN	NS	ns-bw.afrinic.net.
 ns1.btc.bw.		172800	IN	A	168.167.168.34
 dns1.nic.net.bw.	172800	IN	A	168.167.98.226
+dns1.nic.net.bw.	172800	IN	AAAA	2c0f:ff00:1:3:0:0:0:226
 dns2.nic.net.bw.	172800	IN	A	168.167.98.218
 pch.nic.net.bw.		172800	IN	A	204.61.216.70
 bw.			86400	IN	NSEC	by. NS RRSIG NSEC
