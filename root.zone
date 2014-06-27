@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014062701 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20140704000000 20140626230000 40926 . Oa6l2sKsumjjIlFvkJFDoiw4r2wwiNgdW+JsDlsDqevn9C+R8ZNS/NbPu8u1f2AxKbgY7Ako0escYGQODwVNYeqMOM1S0150vZF+RF9274sdfjmEAeLSL8BXxflLzDlesf1MWCtbNvEGaM8cT3mbcjTU3KQrbpO+AYqe5jAYBLI=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014062702 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20140704000000 20140626230000 40926 . FYKNDzddJtKQthZrTJcQauS/peAXE0SL/Wt6t62UvVPJ501NSA6YfAehH7+udZQ5PddbAGHNVIV2hLQYFrpHaTJWtLidJvhQcLftwZ3CFOl8UH5WtEz/prAZMgt4GJot0clYrBcEBcTwX6f00nasRK/YmEnbqfXZD4xreOj23D4=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -2776,9 +2776,9 @@ c0.nic.hiv.		172800	IN	A	65.22.230.17
 c0.nic.hiv.		172800	IN	AAAA	2a01:8840:e0:0:0:0:0:17
 hiv.			86400	IN	NSEC	hk. NS DS RRSIG NSEC
 hiv.			86400	IN	RRSIG	NSEC 8 1 86400 20140704000000 20140626230000 40926 . OgeQgzvej8XIkvNa41V7qHBuIgDujLbJOpwgPl5F1NximUuzOtyPZgfwuoW1CNTPNOrU5faUkSZhwo0sVrNwKkTC9ucvIp7DQHYtN0vIBCrTfoTh3BBf3zYmGPe/dDf03MJegmuyOZTV8vpmC1LFKbNFDe/xmOFFshbQsiillK4=
-hk.			172800	IN	NS	a.hkirc.net.hk.
 hk.			172800	IN	NS	b.hkirc.net.hk.
 hk.			172800	IN	NS	c.hkirc.net.hk.
+hk.			172800	IN	NS	d.hkirc.net.hk.
 hk.			172800	IN	NS	s.hkirc.net.hk.
 hk.			172800	IN	NS	t.hkirc.net.hk.
 hk.			172800	IN	NS	u.hkirc.net.hk.
@@ -2789,11 +2789,11 @@ hk.			172800	IN	NS	y.hkirc.net.hk.
 hk.			172800	IN	NS	z.hkirc.net.hk.
 ns2.cuhk.edu.hk.	172800	IN	A	137.189.6.21
 ns2.cuhk.edu.hk.	172800	IN	AAAA	2405:3000:3:6:0:0:0:15
-a.hkirc.net.hk.		172800	IN	A	203.119.2.18
 b.hkirc.net.hk.		172800	IN	A	203.119.87.19
 b.hkirc.net.hk.		172800	IN	AAAA	2001:dca:1000:0:0:0:cb77:5713
 c.hkirc.net.hk.		172800	IN	A	203.119.2.218
 c.hkirc.net.hk.		172800	IN	AAAA	2001:dca:4000:0:0:0:cb77:2da
+d.hkirc.net.hk.		172800	IN	A	203.119.87.218
 s.hkirc.net.hk.		172800	IN	A	128.32.136.3
 s.hkirc.net.hk.		172800	IN	AAAA	2607:f140:ffff:fffe:0:0:0:3
 t.hkirc.net.hk.		172800	IN	A	128.32.136.14
@@ -7545,9 +7545,9 @@ xn--j1amh.		172800	IN	NS	dns3.dotukr.com.
 xn--j1amh.		172800	IN	NS	tier1.num.net.ua.
 xn--j1amh.		86400	IN	NSEC	xn--j6w193g. NS RRSIG NSEC
 xn--j1amh.		86400	IN	RRSIG	NSEC 8 1 86400 20140704000000 20140626230000 40926 . fCA96wlNTgr7fq6TIHRF19uZ3w6BMLn/YRjln9N4kA9KDFN/giGgSKnpGeWLD/cwcKrNpaHSAg4BxcqKcuL1ptq0uBgYak2cOTghhEA5SQTXsvQqB/xL1IteUalDAqxYpS44rV1G7TEAhlRhlkfZlTx02nTHFGZB/CB9QBjehwQ=
-xn--j6w193g.		172800	IN	NS	a.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	b.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	c.hkirc.net.hk.
+xn--j6w193g.		172800	IN	NS	d.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	s.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	t.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	u.hkirc.net.hk.
