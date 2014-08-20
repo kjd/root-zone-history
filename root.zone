@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014082000 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20140827000000 20140819230000 8230 . SjhzV86Oiys7g/DZUGAGCC8oTf8Pkg/zehuZaGZrLXdHK/y0hwWYFyCOT00PNOY30SL1q7nwMtUKRPatSZCUCGTSWm2Ft3NTTh9M3G3ahpEe45Pnx1AKBUov8rtsv0IkTAQPkKrolmtCXPOob0Qa+SwNSO27F8GWmjNo+fq4Yyk=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2014082001 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20140827000000 20140819230000 8230 . RhBv3xoCDRyMVwycD3+tqztBb5gxk4Mzd00KniKNUDhU/mpMZl3hsSbFfimATMtKUbNsdIZrrQzHLzxYG3paUT4t4loeGwh5Um2u072Rr1vZB/fjk1Fp12wDU7kHk3AxUbKRfbtqnxyxIbg6N7GDSKaL2AD1LmHbXbJzHllU5AM=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -3191,12 +3191,12 @@ il.			172800	IN	NS	nsb.ns.il.
 il.			172800	IN	NS	nsd.ns.il.
 il.			172800	IN	NS	nse.ns.il.
 il.			172800	IN	NS	nsg.ns.il.
-il.			172800	IN	NS	ildns.huji.ac.il.
+il.			172800	IN	NS	ilns.ilan.net.il.
 il.			172800	IN	NS	lookup.iucc.ac.il.
 il.			172800	IN	NS	sns-pb.isc.org.
-ildns.huji.ac.il.	172800	IN	A	128.139.6.66
 lookup.iucc.ac.il.	172800	IN	A	128.139.34.240
 lookup.iucc.ac.il.	172800	IN	AAAA	2001:bf8:900:6:0:0:808b:22f0
+ilns.ilan.net.il.	172800	IN	A	128.139.35.5
 nsa.ns.il.		172800	IN	A	192.115.210.58
 nsb.ns.il.		172800	IN	A	192.115.210.60
 nsd.ns.il.		172800	IN	A	149.20.56.132
