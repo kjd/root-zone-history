@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2015082401 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20150903170000 20150824160000 1518 . B8Xq7lsNuXNGz966efSrUGgbEjekL/UPosJ0U49tdKn0SoRqeLbtywD01548I051Yd9PApHnfjm/sRCnwtQCmLR+BIuBGZnfK/PKTxpEAw3Yopah1+E/gai2W24FkKxdd8KZg0Kz2V0VwoLfyR54+hBJRNkv4I7pWeNJOXmQK6c=
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2015082402 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20150903170000 20150824160000 1518 . O/gQldxeFeAm6J2uc+ruFDaScHHRlg9sIbyK/BFtJDvM50fuuClgRT5N8GUQppDcbJzFqhyvyfz2VnsEVlCcD/DKm+GNVjTHlqBmL9fxEef0UHr5T34gamMmh8gnOSdVkoF8Lbp+2A6Ys108bIut+C9HNuTE2LcdhdaTAfh6B54=
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -12776,8 +12776,21 @@ xn--d1alf.		172800	IN	NS	d.ext.nic.cz.
 xn--d1alf.		172800	IN	NS	ns2.arnes.si.
 xn--d1alf.		172800	IN	NS	tld1.marnet.mk.
 xn--d1alf.		172800	IN	NS	dns-mk.univie.ac.at.
-xn--d1alf.		86400	IN	NSEC	xn--estv75g. NS RRSIG NSEC
-xn--d1alf.		86400	IN	RRSIG	NSEC 8 1 86400 20150903170000 20150824160000 1518 . HxB9HkyjbQjJMHDmbERnd2/1adyXICDB3FKa4RUnmUrvFFPQDs3uce+jgRUTsGnVbR7y4v2/vyUtqL1nKnysnHMkHnvcidjw8n+pPaLTuPhv3qlud/8rDfUSdO2CNn733lAN6vPKTJihgaudjq1FgL7/ZcQcsEIN92KL2woGFrI=
+xn--d1alf.		86400	IN	NSEC	xn--efvy88h. NS RRSIG NSEC
+xn--d1alf.		86400	IN	RRSIG	NSEC 8 1 86400 20150903170000 20150824160000 1518 . KB9zuqoxyw3R8qBBLT2fobwAmOjkzxVrbGKeSzgzOasFNaWtlBTnVIeSLYiSZ+FkhD3DvRK2Xp8mwKDx7mk3nZply3HHdtI8GJn8aK3n5py0/6EpYRwF3SUR2Ffovu6Z9RY7++MZza5HRGFbfwCSES2dhyiQ47HMm5E/4hdO580=
+xn--efvy88h.		172800	IN	NS	a.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	b.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	c.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	d.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	e.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	f.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	g.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	i.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	j.zdnscloud.com.
+XN--EFVY88H.		86400	IN	DS	40607 8 2 BDF65E62FA858EAE3FDE4E40F736422619A90F68AB5A115EED5BC565EE542C3F
+XN--EFVY88H.		86400	IN	RRSIG	DS 8 1 86400 20150903170000 20150824160000 1518 . OUWQSN69vyHWSqnN39isgy6Jpyp/1iSh/2fMBUpwowyRG2xp/8RByCPPt9FND6dgeKxIbNCBPaitmPzSPsspMzdzFwb0Fa9fxAmHcikZklNIoCWfrghdIr6Wn21FbxZX4NTvdp5J9aabWBYCY50weVWnWyG+2xJsWcUxG/N5sck=
+xn--efvy88h.		86400	IN	NSEC	xn--estv75g. NS DS RRSIG NSEC
+xn--efvy88h.		86400	IN	RRSIG	NSEC 8 1 86400 20150903170000 20150824160000 1518 . oyYtd6avRiA11jd4cum/YcdBQHOyaA6H8MrNV3E2JZ+GDrNzP05V4ytqkWEQgiiqpjorsDGyHlneZ1if76XwldLbbclbgyqwvuiz749ouzyYvH83QZllwrF/yrELjgDMKTaJVPqSi95t4K3Pi7nRK5SptYpTvoLAeI4C9D+GK5Q=
 xn--estv75g.		172800	IN	NS	a0.nic.xn--estv75g.
 xn--estv75g.		172800	IN	NS	a2.nic.xn--estv75g.
 xn--estv75g.		172800	IN	NS	b0.nic.xn--estv75g.
